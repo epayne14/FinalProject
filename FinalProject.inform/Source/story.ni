@@ -137,6 +137,7 @@ There seems to be a wrench that someone dropped underneath one of the more obese
 [Keys]
 
 The Exit Key is a thing. The key unlocks the Cobwebbed door. The description of the Exit Key is "A silver key that unlocks the door to the exit."
+The wrench is in the Circus room. The description of the wrench is "A tool someone seemed to have lost."
 
 [Items]
 

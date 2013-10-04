@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Skein rootNode="node-0x1be39b0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x18819410" />
+  <activeNode nodeId="node-0x1be39b0" />
   <item nodeId="node-0x1be39b0">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
@@ -22,7 +22,7 @@ The floor, ceiling, and walls are all black. A booming voice sounds from a speak
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="195">NO</temporary>
+    <temporary score="196">NO</temporary>
     <children>
       <child nodeId="node-0x1375a6d0" />
       <child nodeId="node-0xd88fca0" />
@@ -746,33 +746,6 @@ All you see is darkness. You need something to light the pathway, but you can te
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="55">YES</temporary>
-    <children>
-      <child nodeId="node-0x11929cb0" />
-    </children>
-  </item>
-  <item nodeId="node-0x11929cb0">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
-Exit
-FREEEEDOM! You feel the fresh air blowing through your hair, the sunlight against your skin, and the smell of food coming from the vendors parked across the street. Eventually, you meet up with your friends, and tell them about your awful experiences.
-
- &quot;Weirdest part was when I was in the hall of mirrors. That little girl gave me the creeps for some reason.&quot;
- &quot;What little girl?&quot; your brother looks at you puzzlingly.
- &quot;Yeah, the little girl. Don&apos;t you remember? They have a soundtrack of a little girl giggling in the background, and they must do something with the mirrors so you see her running around, but you only see her hair and the ends of her dress. Freaky.&quot;
- &quot;Dude… there was no soundtrack or speakers in that room. It was just an empty Hall of Mirrors room. Maybe those Circus clowns just got to your head! Hahaha!&quot;
-
- As you and the group begin to walk away from the house, you can&apos;t help but notice a small plaque put in front of the Haunted House Ride.
-
-
--In Loving Memory of Sophia A. Harmon.  1897 - 1908. Resided on the property with her family, before the Harmon Family donated the estate to the theme park.-
-
-
-Could it be…? Nah. Just your imagination…
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="54">YES</temporary>
   </item>
   <item nodeId="node-0x999a500">
     <command xml:space="preserve">e</command>
@@ -783,7 +756,6 @@ Could it be…? Nah. Just your imagination…
     <changed>NO</changed>
     <temporary score="70">YES</temporary>
     <children>
-      <child nodeId="node-0xbdacc00" />
       <child nodeId="node-0xd8f66a0" />
     </children>
   </item>
@@ -1021,199 +993,6 @@ Could it be…? Nah. Just your imagination…
     <changed>YES</changed>
     <temporary score="69">YES</temporary>
   </item>
-  <item nodeId="node-0xbdacc00">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="36">YES</temporary>
-    <children>
-      <child nodeId="node-0xcd1d5b0" />
-    </children>
-  </item>
-  <item nodeId="node-0xcd1d5b0">
-    <command xml:space="preserve">ew</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="36">YES</temporary>
-    <children>
-      <child nodeId="node-0xbdb0380" />
-    </children>
-  </item>
-  <item nodeId="node-0xbdb0380">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
-Living Room
-Victorian furniture create a gloomy scene in this room, reminding you of a horror movie you watched about a murder in the 1800&quot;s. The fireplace lets off an ominous purple glow (obviously done with purple flashlights and the shifting of the light.) There is a large, comfy couch, a sitting chair, a bookcase, a large painting of a grim old man, and a knight in rusty armor holding an axe. The Black Room is to the East, and there is a door to the West.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="36">YES</temporary>
-    <children>
-      <child nodeId="node-0xbdb3930" />
-    </children>
-  </item>
-  <item nodeId="node-0xbdb3930">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
-Caged Rabid Animal Room
-As you open the door letting off a horrifying creak, you see animatronic rats scurrying out of the corner of your eye. This doesn&apos;t bother you that much, until you see what is in the room. Large cages with robot animals that have fake foam oozing from their jowls. When you step close to one of the cages, a sensor goes off, and the animals leap against the wall of their cage, growling and chomping at you. It looks like one of the cages is unlocked…
-
-The Living Room is in the East, and the Next Room is in the West.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="36">YES</temporary>
-    <children>
-      <child nodeId="node-0xbdaeb60" />
-    </children>
-  </item>
-  <item nodeId="node-0xbdaeb60">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
-Circus Room
-Great. A room devoted to the Circus. You&apos;ve always hated the Circus, especially clowns. Large robotic clowns loom over you and a demonic low-voiced laughter rings through the room as a waltzing, repetitive circus song plays in the background. There is another podium at the entrance where a worker dressed as a ringmaster is supposed to welcome the guests.
-
-The Cage Room is to the East, and there is a sliding door to the North of the room.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="36">YES</temporary>
-    <children>
-      <child nodeId="node-0xcd36ea0" />
-    </children>
-  </item>
-  <item nodeId="node-0xcd36ea0">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="36">YES</temporary>
-    <children>
-      <child nodeId="node-0xda04ed0" />
-    </children>
-  </item>
-  <item nodeId="node-0xda04ed0">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="36">YES</temporary>
-    <children>
-      <child nodeId="node-0xcd286e0" />
-    </children>
-  </item>
-  <item nodeId="node-0xcd286e0">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-Graveyard Room
-A large, very open room with the ceiling decorated to look like nighttime. The floor is littered with tombstones, but a large tombstone with a skeleton hugging the base of it really sticks out to you. The soundtrack to this room is howling wind and a wolf howling in the background.
-
-The Circus Room is in the South. There is a door to the West that looks like it was decorated to not stand out. A door with a large mirror in the front is to the East. A room with what looks like fog coming out from under the door is to the North.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="36">YES</temporary>
-    <children>
-      <child nodeId="node-0x1bd6a00" />
-    </children>
-  </item>
-  <item nodeId="node-0x1bd6a00">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-Meat Locker
-Large sacks of what looks like cow meat hang from the ceiling on metal hooks. Obviously, their plastic, but it still gives you the creeps being wrapped in the cloudy plastic. Usually, a worker dawning a butcher&apos;s outfit chases the visitors around towards the exit, but the fog is so thick, you can&apos;t see it.
- The Graveyard is South.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="36">YES</temporary>
-    <children>
-      <child nodeId="node-0xda00f30" />
-    </children>
-  </item>
-  <item nodeId="node-0xda00f30">
-    <command xml:space="preserve">n</command>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="36">YES</temporary>
-    <children>
-      <child nodeId="node-0xdaece60" />
-    </children>
-  </item>
-  <item nodeId="node-0xdaece60">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="36">YES</temporary>
-    <children>
-      <child nodeId="node-0x1190e860" />
-    </children>
-  </item>
-  <item nodeId="node-0x1190e860">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="36">YES</temporary>
-    <children>
-      <child nodeId="node-0xcd14b10" />
-    </children>
-  </item>
-  <item nodeId="node-0xcd14b10">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
-Narrow Hall of Terror
-All you see is darkness. You need something to light the pathway, but you can tell the room is very narrow. The Meat Locker is West.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="36">YES</temporary>
-    <children>
-      <child nodeId="node-0x1bd6c80" />
-    </children>
-  </item>
-  <item nodeId="node-0x1bd6c80">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
-Exit
-FREEEEDOM! You feel the fresh air blowing through your hair, the sunlight against your skin, and the smell of food coming from the vendors parked across the street. Eventually, you meet up with your friends, and tell them about your awful experiences.
-
- &quot;Weirdest part was when I was in the hall of mirrors. That little girl gave me the creeps for some reason.&quot; &quot;What little girl?&quot; your brother looks at you puzzlingly. &quot;Yeah, the little girl. Don&apos;t you remember? They have a soundtrack of a little girl giggling in the background, and they must do something with the mirrors so you see her running around, but you only see her hair and the ends of her dress. Freaky.&quot; &quot;Dude… there was no soundtrack or speakers in that room. It was just an empty Hall of Mirrors room. Maybe those Circus clowns just got to your head! Hahaha!&quot;
-
- As you and the group begin to walk away from the house, you can&apos;t help but notice a small plaque put in front of the Haunted House Ride.
-
-
--In Loving Memory of Sophia A. Harmon.  1897 - 1908. Resided on the property with her family, before the Harmon Family donated the estate to the theme park.-
-
-
-Could it be…? Nah. Just your imagination…
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="36">YES</temporary>
-  </item>
   <item nodeId="node-0xd88fca0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
@@ -1226,7 +1005,7 @@ You can see a podium (in which is a flashlight) here.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
+    <changed>NO</changed>
     <temporary score="195">YES</temporary>
     <children>
       <child nodeId="node-0x18819410" />
