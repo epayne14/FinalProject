@@ -1,6 +1,7 @@
 "Haunted House of Hallucinations" by Erika Payne
 Disable take all.
 Use serial comma.
+Use no scoring.
 
 When play begins: say "You got separated from your friends and older brother in a Haunted House Ride at the Local Theme Park. Unfortunately, the staff thought that the last of the guests had left, and all of the doors have been locked. Yet, all of the machines in the house are still strangely working. You fainted from fear at the last ghostly 'surprise,' and you wake up in an unfamiliar room."
 
@@ -137,7 +138,7 @@ There seems to be a wrench that someone dropped underneath one of the more obese
 [Keys]
 
 The Exit Key is a thing. The key unlocks the Cobwebbed door. The description of the Exit Key is "A silver key that unlocks the door to the exit."
-The wrench is in the Circus room. The description of the wrench is "A tool someone seemed to have lost."
+Understand "key to the exit" as exit key.
 
 [Items]
 
@@ -145,9 +146,9 @@ The flashlight is in the podium. The description of the flashlight is "Better ta
 
 [NPC]
 
+Mood is a kind of value. The moods are annoyed and fine. People have a mood. The mood of the Old Electrician is annoyed.
 
-
-The Old Electrician is a man in the Control Panel Room. The description of the old electrician is "An old man wearing a grey jumpsuit cutting and reconnecting wires. Whatever he's doing looks very confusing. [If the old electrician is carrying the exit key] He is carrying the key to the exit."
+The Old Electrician is a man in the Control Panel Room. The description of the old electrician is "An old man wearing a grey jumpsuit cutting and reconnecting wires. Whatever he's doing looks very confusing. [If the old electrician is carrying the exit key] He is carrying the key to the exit. He looks [mood of the old electrician]."
 The old electrician is carrying the exit key.
 
 
