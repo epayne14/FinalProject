@@ -150,7 +150,13 @@ Mood is a kind of value. The moods are annoyed and fine. People have a mood. The
 
 The Old Electrician is a man in the Control Panel Room. The description of the old electrician is "An old man wearing a grey jumpsuit cutting and reconnecting wires. Whatever he's doing looks very confusing. [If the old electrician is carrying the exit key] He is carrying the key to the exit. He looks [mood of the old electrician]."
 The old electrician is carrying the exit key.
-
+Instead of asking the old electrician for the exit key:
+	if the old electrician is annoyed:
+		say "'What are you doing here, the ride’s closed! ... What? They locked you in while closing down? Sorry to hear that, but I can’t help you. I only got the one spare key, and I’m gonna be here for a couple hours. Maybe we can make an exchange though, I seem to be missing some of my tools… Three of them to be exact. I probably dropped them in some of the rooms that came before the graveyard. Try giving a look for them, this old heart of mine couldn’t stand going through that Circus Room again.'";
+	if the old electrician is fine:
+		say "'Thanks a bunch kid! Here’s the key that leads out of the Meat Locker. After the Narrow Hallway, you should be home free to the exit! Just leave the key for me though on the ground in the butcher room so I can get out too.'";
+		move the exit key to player.
+		
 
 
 [Miscellaneous]

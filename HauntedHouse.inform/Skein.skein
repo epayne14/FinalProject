@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Skein rootNode="node-0x1be39b0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x1be39b0" />
+  <activeNode nodeId="node-0xd8faa00" />
   <item nodeId="node-0x1be39b0">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
@@ -22,7 +22,7 @@ The floor, ceiling, and walls are all black. A booming voice sounds from a speak
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="208">NO</temporary>
+    <temporary score="216">NO</temporary>
     <children>
       <child nodeId="node-0x1375a6d0" />
       <child nodeId="node-0xd88fca0" />
@@ -60,7 +60,7 @@ The floor, ceiling, and walls are all black. A booming voice sounds from a speak
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="168">YES</temporary>
+    <temporary score="216">YES</temporary>
     <children>
       <child nodeId="node-0xcd2f020" />
       <child nodeId="node-0x137ad2e0" />
@@ -80,7 +80,7 @@ You can see a Leather Couch, a Sitting Chair, a Bookcase, a Large Painting, a Kn
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="168">YES</temporary>
+    <temporary score="216">YES</temporary>
     <children>
       <child nodeId="node-0x99c2120" />
     </children>
@@ -99,7 +99,7 @@ You can see an Animatronic Rats, a Cages, an Unlocked Cage, and a Broken Robotic
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="168">YES</temporary>
+    <temporary score="216">YES</temporary>
     <children>
       <child nodeId="node-0x1370bb70" />
     </children>
@@ -118,7 +118,7 @@ You can see a Red Podium and a Robot Clowns here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="168">YES</temporary>
+    <temporary score="216">YES</temporary>
     <children>
       <child nodeId="node-0x1bc5ca0" />
     </children>
@@ -137,7 +137,7 @@ You can see a Tombstones, a Large Tombstone, and a Skeleton here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="168">YES</temporary>
+    <temporary score="216">YES</temporary>
     <children>
       <child nodeId="node-0x1198a490" />
     </children>
@@ -156,7 +156,7 @@ You can see a Mini Fridge, an Old TV, an Old Couch, and a Desk here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="168">YES</temporary>
+    <temporary score="216">YES</temporary>
     <children>
       <child nodeId="node-0xcd17d60" />
     </children>
@@ -181,8 +181,8 @@ You can see a Switch for Lighting, a Switch for Fog, a Switch for Soundtracks, a
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="168">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="216">YES</temporary>
     <children>
       <child nodeId="node-0xd8faa00" />
       <child nodeId="node-0x11c24440" />
@@ -310,12 +310,12 @@ You can see a Cobwebbed door, a Cobwebs, and a Robotic Hands here.
   </item>
   <item nodeId="node-0xd8faa00">
     <command xml:space="preserve">x old electrician</command>
-    <result xml:space="preserve">You see nothing special about the Old Electrician.
+    <result xml:space="preserve">An old man wearing a grey jumpsuit cutting and reconnecting wires. Whatever he&apos;s doing looks very confusing.  He is carrying the key to the exit. He looks annoyed.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="168">YES</temporary>
+    <temporary score="215">YES</temporary>
     <children>
       <child nodeId="node-0x17e28330" />
     </children>
