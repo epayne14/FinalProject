@@ -8,16 +8,16 @@ When play begins: say "You got separated from your friends and older brother in 
 
 [Rooms]
 
-The Black Room is a room. It is south of the Entrance to the Ride. "The floor, ceiling, and walls are all black. A booming voice sounds from a speaker coming from the wall saying: ‘How do you escape a room with NO WINDOWS, and NOOOO DOOORS. HA. HA. HA. HA. HA.’
+The Black Room is a room. The Black door is a locked door. The Black door is west of the Black Room and east of the Victorian Living Room. The Second door is a locked door. The Second door is north of the Black room and south of the Entrance to the ride. "The floor, ceiling, and walls are all black. A booming voice sounds from a speaker coming from the wall saying: ‘How do you escape a room with NO WINDOWS, and NOOOO DOOORS. HA. HA. HA. HA. HA.’
 
 
-	Trying to calm yourself down, you notice a square section of the wall in front of you to the West is an off/black color."
+	Trying to calm yourself down, you notice a square section of the wall in front of you to the West is an off black color."
 
 The Entrance to the Ride is a room. "The front door is barricaded from the outside, so you’ll have to find another exit, which should be at the end of the ride. The room is dimly lighted with a podium at the front were a greeter stands to maintain the line. 
 
 South is the first room of the ride."
 
-The Victorian Living Room is a room. It is west of the Black Room. "Victorian furniture create a gloomy scene in this room, reminding you of a horror movie you watched about a murder in the 1800’s. The fireplace lets off an ominous purple glow (obviously done with purple flashlights and the shifting of the light.) There is a large, comfy couch, a sitting chair, a bookcase, a large painting of a grim old man, and a knight in rusty armor holding an axe. 
+The Victorian Living Room is a room. It is east of the caged rabid animal room. "Victorian furniture create a gloomy scene in this room, reminding you of a horror movie you watched about a murder in the 1800’s. The fireplace lets off an ominous purple glow (obviously done with purple flashlights and the shifting of the light.) There is a large, comfy couch, a sitting chair, a bookcase, a large painting of a grim old man, and a knight in rusty armor holding an axe. 
 
 
 The Black Room is to the East, and there is a door to the West."
@@ -90,6 +90,7 @@ An every turn rule:
 
 	[Entrance to the Ride]
 	[a.] The podium is in the Entrance to the Ride. It is fixed in place. The podium is a container. In the podium is a flashlight. The description of the podium is "A normal podium that a greeter will stand at to maintain the lines of the ride. There is a space inside the podium with what looks like some junk in it. Maybe you should check it out."
+	[b] The front door is in the Entrance to the Ride. It is fixed in place. The description of the front door is "The front door to the ride. For some reason, it's barricaded outside. You will have to find another way out."
 	[Victorian Living Room]
 	[a.] The Leather Couch is in the Victorian Living Room. It is fixed in place. The description of the Leather Couch is "A red, leather couch with large cushions that looks very inviting. People dressed as ghosts usually lounge on the couch and jump out at people passing by the room."
 	[b.] The Sitting Chair is in the Victorian Living Room. It is fixed in place. The description of the Sitting Chair is "Looks comfortable, but you need to find a way out!"
@@ -139,6 +140,13 @@ There seems to be a wrench that someone dropped underneath one of the more obese
 
 The Exit Key is a thing. The key unlocks the Cobwebbed door. The description of the Exit Key is "A silver key that unlocks the door to the exit."
 Understand "key to the exit" as exit key.
+The Black Square is in the Black Room. It is fixed in place. The Black square can be pushed. The description of the Black Square is "This square of the room is a bit lighter than the rest of the room."
+Instead pushing the Black square:
+        now the black door is open;
+	say "A door has opened to the west.";
+	now the second door is open;
+	say "Another door has opened in the north."
+
 
 [Items]
 
@@ -158,6 +166,7 @@ Instead of asking the old electrician for the exit key:
 		say "'Thanks a bunch kid! Here’s the key that leads out of the Meat Locker. After the Narrow Hallway, you should be home free to the exit! Just leave the key for me though on the ground in the butcher room so I can get out too.'";
 		move the exit key to player.
 		
+
 
 
 [Miscellaneous]
