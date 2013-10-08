@@ -4296,7 +4296,7 @@ Global lightflag = false;
 ];
 
 
-Constant REQUISITION_STACK_SIZE = 3*63;
+Constant REQUISITION_STACK_SIZE = 3*64;
 Array requisition_stack --> REQUISITION_STACK_SIZE;
 Global requisition_stack_pointer = 0;
 
@@ -9115,11 +9115,11 @@ Constant REL_BLOCK_HEADER ($100*6 + $$1101)*$10000;
 ];
 [ T58 value;
     switch(value) {
-        I138_annoyed: print "annoyed";
-        I139_okay: print "okay";
-        I140_alright: print "alright";
-        I141_pretty_good: print "pretty good";
-        I142_fine: print "fine";
+        I139_annoyed: print "annoyed";
+        I140_okay: print "okay";
+        I141_alright: print "alright";
+        I142_pretty_good: print "pretty good";
+        I143_fine: print "fine";
         default: print "<illegal mood>";
     }
 ];
@@ -9219,7 +9219,7 @@ Constant REL_BLOCK_HEADER ($100*6 + $$1101)*$10000;
         41: return ;
         42: return ;
         43: return I68_didn_t_understand_error;
-        44: return I138_annoyed;
+        44: return I139_annoyed;
         default: return 0;
     }
 ];
@@ -9335,7 +9335,7 @@ Constant IK6_First = nothing;
 Constant IK7_First = nothing;
 Constant IK8_First = selfobj;
 Constant IK9_First = nothing;
-Constant IK10_First = I143_old_electrician;
+Constant IK10_First = I144_old_electrician;
 Constant IK11_First = nothing;
 Constant IK12_First = nothing;
 Constant IK13_First = nothing;
@@ -9441,7 +9441,7 @@ Class K8_person
     with capacity 100
     has ~female
     has ~neuter
-    with p57_mood I138_annoyed
+    with p57_mood I139_annoyed
 ;
 
 Class K10_man 
@@ -9733,7 +9733,7 @@ Object selfobj ""
     with IK2_Count 0
     with IK2_Link I134_black_square
     with IK8_Count 0
-    with IK8_Link I143_old_electrician
+    with IK8_Link I144_old_electrician
     with KD_Count 8
     with name 'yourself' 
     with action_bitmap 0 0 0 0 0 0 
@@ -10192,9 +10192,23 @@ Object -> I120_skeleton ""
     with list_together 0
     has mark_as_thing
     with IK2_Count 21
-    with IK2_Link I121_mini_fridge
+    with IK2_Link I137_wirecutter
     with KD_Count 2
     with name 'skeleton' 
+    with action_bitmap 0 0 0 0 0 0 
+;
+
+Object -> I137_wirecutter ""
+    class K2_thing
+    with short_name "wirecutter"
+    with description SC_13
+    with vector 0
+    with list_together 0
+    has mark_as_thing
+    with IK2_Count 38
+    with IK2_Link I121_mini_fridge
+    with KD_Count 2
+    with name 'wirecutter' 
     with action_bitmap 0 0 0 0 0 0 
 ;
 
@@ -10360,22 +10374,22 @@ Object -> I128_boxes ""
     with list_together 0
     has mark_as_thing
     with IK2_Count 29
-    with IK2_Link I143_old_electrician
+    with IK2_Link I144_old_electrician
     with KD_Count 2
     with name 'boxes' 'box' 
     with parse_name Parse_Name_GV112
     with action_bitmap 0 0 0 0 0 0 
 ;
 
-Object -> I143_old_electrician ""
+Object -> I144_old_electrician ""
     class K10_man
     with short_name "Old Electrician"
     with description text_routine_2
-    with p57_mood I138_annoyed
+    with p57_mood I139_annoyed
     with vector 0
     with list_together 0
     has mark_as_thing
-    with IK2_Count 38
+    with IK2_Count 39
     with IK2_Link I133_exit_key
     with IK8_Count 1
     with IK8_Link nothing
@@ -10553,11 +10567,11 @@ Constant I84_nothing_to_do_error = 17;
 Constant I85_noun_did_not_make_sense_ = 18;
 Constant I86_referred_to_a_determinat = 19;
 Constant I87_i_beg_your_pardon_error = 20;
-Constant I138_annoyed = 1;
-Constant I139_okay = 2;
-Constant I140_alright = 3;
-Constant I141_pretty_good = 4;
-Constant I142_fine = 5;
+Constant I139_annoyed = 1;
+Constant I140_okay = 2;
+Constant I141_alright = 3;
+Constant I142_pretty_good = 4;
+Constant I143_fine = 5;
 Array Global_Vars -->
   (false) ! 7
   (SC_47) ! 24
@@ -10579,8 +10593,8 @@ Array tab_0_2 table $2066 2  (Consult_Grammar_118)  (Consult_Grammar_119)  (Cons
 Array tab_0_3 table $0067 3  (IMMEDIATELY_RESTART_VM_R)  (IMMEDIATELY_RESTORE_SAVED_R)  TABLE_NOVALUE (IMMEDIATELY_QUIT_R)  (IMMEDIATELY_UNDO_R) ;
 Array tab_0_4 table $0068 4  TABLE_NOVALUE TABLE_NOVALUE (V26_amusing_a_victorious_pla)  TABLE_NOVALUE TABLE_NOVALUE;
 Array T1_locale_priorities table  tab_1_0 tab_1_1;
-Array tab_1_0 table $0869 NULL  TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE;
-Array tab_1_1 table $446a 5  TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE;
+Array tab_1_0 table $0869 NULL  TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE;
+Array tab_1_1 table $446a 5  TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE;
 Array TB_Blanks -> 
   ! For table T0_final_question_options
   $00  ! Column 0
@@ -10590,7 +10604,7 @@ Array TB_Blanks ->
   $1b  ! Column 4
   
   ! For table T1_locale_priorities
-  $ff $ff $ff $ff $ff  ! Column 1
+  $ff $ff $ff $ff $ff $01  ! Column 1
   
   ! End of table
   NULL NULL;
@@ -11520,9 +11534,15 @@ self = noun;
 ! ----------------------------------------------------------------------------------------------------
 ! Rules in rulebook: Instead (B21_instead)
 ! ----------------------------------------------------------------------------------------------------
-! Rule 1/2 ! Instead pushing the Black square for the first time:
+! Rule 1/5 ! Instead pushing the Black square for the first time:
 !   >>> I - Number of aspects constrained >>>
-! Rule 2/2 ! Instead of asking the old electrician for the exit key:
+! Rule 2/5 ! Instead of asking the old electrician for the exit key:
+!   === which is equally specific with ===
+! Rule 3/5 ! Instead of giving the wrench to the old electrician:
+!   === which is equally specific with ===
+! Rule 4/5 ! Instead of giving the wirecutter to the old electrician:
+!   === which is equally specific with ===
+! Rule 5/5 ! Instead of giving the screwdriver to the old electrician:
 ! ----------------------------------------------------------------------------------------------------
 ! No specific request
 ! Instead pushing the Black square for the first time:
@@ -11550,12 +11570,12 @@ self = noun;
 ! No specific request
 ! Instead of asking the old electrician for the exit key:
 [ R_743 ;
-   if ((action ==##AskFor) &&  (actor==player) && ((noun == I143_old_electrician) && (true)) && ((second == I133_exit_key) && (true))) { ! Runs only when pattern matches
+   if ((action ==##AskFor) &&  (actor==player) && ((noun == I144_old_electrician) && (true)) && ((second == I133_exit_key) && (true))) { ! Runs only when pattern matches
 self = noun;
    if (debug_rules) DB_Rule(R_743, 743);
       ! phrase 1
       ! [1: if the old electrician is annoyed begin]
-       if ((((Adj_75_t1_v9(I143_old_electrician)))))  {
+       if ((((Adj_75_t1_v9(I144_old_electrician)))))  {
          ! phrase 2
          ! [2: say ~'What are you doing here, the ride's closed! ... What? They locked you in while closing down? Sorry to hear that, but I can't help you. I only got the one spare key, and I'm gonna be here for a couple hours. Maybe we can make an exchange though, I seem to be missing some of my tools[unicode 8230] Three of them to be exact. I probably dropped them in some of the rooms that came before the graveyard. Try giving a look for them, this old heart of mine couldn't stand going through that Circus Room again.'~]
          say__p=1;ParaContent();  print (PrintText) SC_57; ParaContent();  #ifdef TARGET_ZCODE; @push self; self = 8230; @print_unicode self; @pull self;
@@ -11566,7 +11586,7 @@ self = noun;
 
       ! phrase 4
       ! [4: if the old electrician is fine begin]
-       if ((((Adj_79_t1_v9(I143_old_electrician)))))  {
+       if ((((Adj_79_t1_v9(I144_old_electrician)))))  {
          ! phrase 5
          ! [5: say ~'Thanks a bunch kid! Here's the key that leads out of the Meat Locker. After the Narrow Hallway, you should be home free to the exit! Just leave the key for me though on the ground in the butcher room so I can get out too.'~]
          say__p=1;ParaContent();  print (PrintText) SC_59;  new_line; .L_Say7; .L_SayX7;
@@ -11580,6 +11600,48 @@ self = noun;
       RulebookFails(); rtrue;
    } ! Runs only when pattern matches
    else if (debug_rules > 1) DB_Rule(R_743, 743, true);
+   rfalse;
+];
+! No specific request
+! Instead of giving the wrench to the old electrician:
+[ R_744 ;
+   if ((action ==##Give) &&  (actor==player) && ((noun == I135_wrench) && (true)) && ((second == I144_old_electrician) && (true))) { ! Runs only when pattern matches
+self = noun;
+   if (debug_rules) DB_Rule(R_744, 744);
+      ! phrase 1
+      ! [1: now the old electrician is alright]
+       (Adj_77_t2_v9(I144_old_electrician)); 
+      RulebookFails(); rtrue;
+   } ! Runs only when pattern matches
+   else if (debug_rules > 1) DB_Rule(R_744, 744, true);
+   rfalse;
+];
+! No specific request
+! Instead of giving the wirecutter to the old electrician:
+[ R_745 ;
+   if ((action ==##Give) &&  (actor==player) && ((noun == I137_wirecutter) && (true)) && ((second == I144_old_electrician) && (true))) { ! Runs only when pattern matches
+self = noun;
+   if (debug_rules) DB_Rule(R_745, 745);
+      ! phrase 1
+      ! [1: now the old electrician is okay]
+       (Adj_76_t2_v9(I144_old_electrician)); 
+      RulebookFails(); rtrue;
+   } ! Runs only when pattern matches
+   else if (debug_rules > 1) DB_Rule(R_745, 745, true);
+   rfalse;
+];
+! No specific request
+! Instead of giving the screwdriver to the old electrician:
+[ R_746 ;
+   if ((action ==##Give) &&  (actor==player) && ((noun == I136_screwdriver) && (true)) && ((second == I144_old_electrician) && (true))) { ! Runs only when pattern matches
+self = noun;
+   if (debug_rules) DB_Rule(R_746, 746);
+      ! phrase 1
+      ! [1: now the old electrician is pretty good]
+       (Adj_78_t2_v9(I144_old_electrician)); 
+      RulebookFails(); rtrue;
+   } ! Runs only when pattern matches
+   else if (debug_rules > 1) DB_Rule(R_746, 746, true);
    rfalse;
 ];
 ! ----------------------------------------------------------------------------------------------------
@@ -19822,7 +19884,7 @@ Array B17_visibility --> R_35 NULL; ! 1 rule(s)
 Constant B18_persuasion = EMPTY_RULEBOOK;
 Constant B19_unsuccessful_attempt_by = EMPTY_RULEBOOK;
 Constant B20_before = EMPTY_RULEBOOK;
-Array B21_instead --> R_742 R_743 NULL; ! 2 rule(s)
+Array B21_instead --> R_742 R_743 R_744 R_745 R_746 NULL; ! 5 rule(s)
 Constant B22_check = EMPTY_RULEBOOK;
 Constant B23_carry_out = EMPTY_RULEBOOK;
 Constant B24_after = EMPTY_RULEBOOK;
@@ -20432,28 +20494,28 @@ Constant BR_261 = R_296;
 Constant BR_262 = R_297;
 Constant BR_263 = R_298;
 Constant BR_264 = R_299;
-Constant BR_695 = R_8;
-Constant BR_701 = R_9;
-Constant BR_702 = R_10;
-Constant BR_703 = R_11;
-Constant BR_704 = R_12;
-Constant BR_712 = R_16;
-Constant BR_713 = R_17;
-Constant BR_715 = R_18;
-Constant BR_718 = R_21;
-Constant BR_719 = R_19;
-Constant BR_720 = R_20;
-Constant BR_724 = R_22;
-Constant BR_728 = R_23;
-Constant BR_734 = R_35;
-Constant BR_736 = R_59;
-Constant BR_737 = R_60;
-Constant BR_739 = R_61;
-Constant BR_744 = R_69;
-Constant BR_745 = R_68;
-Constant BR_747 = R_70;
-Constant BR_748 = R_91;
-Constant BR_749 = R_148;
+Constant BR_698 = R_8;
+Constant BR_704 = R_9;
+Constant BR_705 = R_10;
+Constant BR_706 = R_11;
+Constant BR_707 = R_12;
+Constant BR_715 = R_16;
+Constant BR_716 = R_17;
+Constant BR_718 = R_18;
+Constant BR_721 = R_21;
+Constant BR_722 = R_19;
+Constant BR_723 = R_20;
+Constant BR_727 = R_22;
+Constant BR_731 = R_23;
+Constant BR_737 = R_35;
+Constant BR_739 = R_59;
+Constant BR_740 = R_60;
+Constant BR_742 = R_61;
+Constant BR_747 = R_69;
+Constant BR_748 = R_68;
+Constant BR_750 = R_70;
+Constant BR_751 = R_91;
+Constant BR_752 = R_148;
 
 
 
@@ -22876,7 +22938,7 @@ Array FWMatrix --> NUM_ROOMS*NUM_ROOMS;
 ];
 #ENDIF;
 
-Constant MAX_ROUTE_LENGTH = 63 + 32;
+Constant MAX_ROUTE_LENGTH = 64 + 32;
 
 [ RelationRouteTo relation from to count  handler;
 	if (count) {
@@ -24357,81 +24419,84 @@ Array RulebookNames -->
 		if (R == R_741) { print "An every turn rule"; return; } ! 692, case 2
 		if (R == R_742) { print "Instead pushing the Black square for the first time"; return; } ! 693, case 2
 		if (R == R_743) { print "Instead of asking the old electrician for the exit key"; return; } ! 694, case 2
-		if (R == R_8) { print "start in the correct scenes rule"; return; } ! 695, case 1
-		if (R == POSITION_PLAYER_IN_MODEL_R) { print "position player in model world rule"; return; } ! 696, case 1
-		if (R == UPDATE_CHRONOLOGICAL_RECORDS_R) { print "update chronological records rule"; return; } ! 697, case 1
-		if (R == SEED_RANDOM_NUMBER_GENERATOR_R) { print "seed random number generator rule"; return; } ! 698, case 1
-		if (R == VIRTUAL_MACHINE_STARTUP_R) { print "virtual machine startup rule"; return; } ! 699, case 1
-		if (R == INITIALISE_MEMORY_R) { print "initialise memory rule"; return; } ! 700, case 1
-		if (R == R_9) { print "when play begins stage rule"; return; } ! 701, case 1
-		if (R == R_10) { print "fix baseline scoring rule"; return; } ! 702, case 1
-		if (R == R_11) { print "display banner rule"; return; } ! 703, case 1
-		if (R == R_12) { print "initial room description rule"; return; } ! 704, case 1
-		if (R == GENERATE_ACTION_R) { print "generate action rule"; return; } ! 705, case 1
-		if (R == PARSE_COMMAND_R) { print "parse command rule"; return; } ! 706, case 1
-		if (R == TIMED_EVENTS_R) { print "timed events rule"; return; } ! 707, case 1
-		if (R == ADVANCE_TIME_R) { print "advance time rule"; return; } ! 708, case 1
-		if (R == UPDATE_CHRONOLOGICAL_RECORDS_R) { print "update chronological records rule"; return; } ! 709, case 1
-		if (R == ADJUST_LIGHT_R) { print "adjust light rule"; return; } ! 710, case 1
-		if (R == NOTE_OBJECT_ACQUISITIONS_R) { print "note object acquisitions rule"; return; } ! 711, case 1
-		if (R == R_16) { print "notify score changes rule"; return; } ! 712, case 1
-		if (R == R_17) { print "when play ends stage rule"; return; } ! 713, case 1
-		if (R == RESURRECT_PLAYER_IF_ASKED_R) { print "resurrect player if asked rule"; return; } ! 714, case 1
-		if (R == R_18) { print "print player's obituary rule"; return; } ! 715, case 1
-		if (R == ASK_FINAL_QUESTION_R) { print "ask the final question rule"; return; } ! 716, case 1
-		if (R == DetectSceneChange) { print "scene change machinery rule"; return; } ! 717, case 1
-		if (R == R_21) { print "before stage rule"; return; } ! 718, case 1
-		if (R == R_19) { print "set pronouns from items from multiple object lists rule"; return; } ! 719, case 1
-		if (R == R_20) { print "announce items from multiple object lists rule"; return; } ! 720, case 1
-		if (R == BASIC_VISIBILITY_R) { print "basic visibility rule"; return; } ! 721, case 1
-		if (R == BASIC_ACCESSIBILITY_R) { print "basic accessibility rule"; return; } ! 722, case 1
-		if (R == CARRYING_REQUIREMENTS_R) { print "carrying requirements rule"; return; } ! 723, case 1
-		if (R == R_22) { print "instead stage rule"; return; } ! 724, case 1
-		if (R == REQUESTED_ACTIONS_REQUIRE_R) { print "requested actions require persuasion rule"; return; } ! 725, case 1
-		if (R == CARRY_OUT_REQUESTED_ACTIONS_R) { print "carry out requested actions rule"; return; } ! 726, case 1
-		if (R == DESCEND_TO_SPECIFIC_ACTION_R) { print "descend to specific action-processing rule"; return; } ! 727, case 1
-		if (R == R_23) { print "end action-processing in success rule"; return; } ! 728, case 1
-		if (R == WORK_OUT_DETAILS_OF_SPECIFIC_R) { print "work out details of specific action rule"; return; } ! 729, case 1
-		if (R == ACCESS_THROUGH_BARRIERS_R) { print "access through barriers rule"; return; } ! 730, case 1
-		if (R == CANT_REACH_INSIDE_ROOMS_R) { print "can't reach inside rooms rule"; return; } ! 731, case 1
-		if (R == CANT_REACH_INSIDE_CLOSED_R) { print "can't reach inside closed containers rule"; return; } ! 732, case 1
-		if (R == CANT_REACH_OUTSIDE_CLOSED_R) { print "can't reach outside closed containers rule"; return; } ! 733, case 1
-		if (R == R_35) { print "can't act in the dark rule"; return; } ! 734, case 1
-		if (R == STANDARD_NAME_PRINTING_R) { print "standard name printing rule"; return; } ! 735, case 1
-		if (R == R_59) { print "standard printing the plural name rule"; return; } ! 736, case 1
-		if (R == R_60) { print "standard printing a number of something rule"; return; } ! 737, case 1
-		if (R == STANDARD_CONTENTS_LISTING_R) { print "standard contents listing rule"; return; } ! 738, case 1
-		if (R == R_61) { print "look around once light available rule"; return; } ! 739, case 1
-		if (R == ENABLE_GLULX_ACCEL_R) { print "enable Glulx acceleration rule"; return; } ! 740, case 1
-		if (R == PRINT_OBITUARY_HEADLINE_R) { print "print obituary headline rule"; return; } ! 741, case 1
-		if (R == PRINT_FINAL_SCORE_R) { print "print final score rule"; return; } ! 742, case 1
-		if (R == DISPLAY_FINAL_STATUS_LINE_R) { print "display final status line rule"; return; } ! 743, case 1
-		if (R == R_69) { print "print the final question rule"; return; } ! 744, case 1
-		if (R == R_68) { print "print the final prompt rule"; return; } ! 745, case 1
-		if (R == READ_FINAL_ANSWER_R) { print "read the final answer rule"; return; } ! 746, case 1
-		if (R == R_70) { print "standard respond to final question rule"; return; } ! 747, case 1
-		if (R == R_91) { print "can't take component parts rule"; return; } ! 748, case 1
-		if (R == R_148) { print "find what to enter rule"; return; } ! 749, case 1
-		if (R == QUIT_THE_GAME_R) { print "quit the game rule"; return; } ! 750, case 1
-		if (R == SAVE_THE_GAME_R) { print "save the game rule"; return; } ! 751, case 1
-		if (R == RESTORE_THE_GAME_R) { print "restore the game rule"; return; } ! 752, case 1
-		if (R == RESTART_THE_GAME_R) { print "restart the game rule"; return; } ! 753, case 1
-		if (R == VERIFY_THE_STORY_FILE_R) { print "verify the story file rule"; return; } ! 754, case 1
-		if (R == SWITCH_TRANSCRIPT_ON_R) { print "switch the story transcript on rule"; return; } ! 755, case 1
-		if (R == SWITCH_TRANSCRIPT_OFF_R) { print "switch the story transcript off rule"; return; } ! 756, case 1
-		if (R == ANNOUNCE_STORY_FILE_VERSION_R) { print "announce the story file version rule"; return; } ! 757, case 1
-		if (R == ANNOUNCE_SCORE_R) { print "announce the score rule"; return; } ! 758, case 1
-		if (R == PREFER_ABBREVIATED_R) { print "prefer abbreviated room descriptions rule"; return; } ! 759, case 1
-		if (R == REP_PREFER_ABBREVIATED_R) { print "standard report preferring abbreviated room descriptions rule"; return; } ! 760, case 1
-		if (R == PREFER_UNABBREVIATED_R) { print "prefer unabbreviated room descriptions rule"; return; } ! 761, case 1
-		if (R == REP_PREFER_UNABBREVIATED_R) { print "standard report preferring unabbreviated room descriptions rule"; return; } ! 762, case 1
-		if (R == PREFER_SOMETIMES_ABBREVIATED_R) { print "prefer sometimes abbreviated room descriptions rule"; return; } ! 763, case 1
-		if (R == REP_PREFER_SOMETIMES_ABBR_R) { print "standard report preferring sometimes abbreviated room descriptions rule"; return; } ! 764, case 1
-		if (R == SWITCH_SCORE_NOTIFY_ON_R) { print "switch score notification on rule"; return; } ! 765, case 1
-		if (R == REP_SWITCH_NOTIFY_ON_R) { print "standard report switching score notification on rule"; return; } ! 766, case 1
-		if (R == SWITCH_SCORE_NOTIFY_OFF_R) { print "switch score notification off rule"; return; } ! 767, case 1
-		if (R == REP_SWITCH_NOTIFY_OFF_R) { print "standard report switching score notification off rule"; return; } ! 768, case 1
-		if (R == ANNOUNCE_PRONOUN_MEANINGS_R) { print "announce the pronoun meanings rule"; return; } ! 769, case 1
+		if (R == R_744) { print "Instead of giving the wrench to the old electrician"; return; } ! 695, case 2
+		if (R == R_745) { print "Instead of giving the wirecutter to the old electrician"; return; } ! 696, case 2
+		if (R == R_746) { print "Instead of giving the screwdriver to the old electrician"; return; } ! 697, case 2
+		if (R == R_8) { print "start in the correct scenes rule"; return; } ! 698, case 1
+		if (R == POSITION_PLAYER_IN_MODEL_R) { print "position player in model world rule"; return; } ! 699, case 1
+		if (R == UPDATE_CHRONOLOGICAL_RECORDS_R) { print "update chronological records rule"; return; } ! 700, case 1
+		if (R == SEED_RANDOM_NUMBER_GENERATOR_R) { print "seed random number generator rule"; return; } ! 701, case 1
+		if (R == VIRTUAL_MACHINE_STARTUP_R) { print "virtual machine startup rule"; return; } ! 702, case 1
+		if (R == INITIALISE_MEMORY_R) { print "initialise memory rule"; return; } ! 703, case 1
+		if (R == R_9) { print "when play begins stage rule"; return; } ! 704, case 1
+		if (R == R_10) { print "fix baseline scoring rule"; return; } ! 705, case 1
+		if (R == R_11) { print "display banner rule"; return; } ! 706, case 1
+		if (R == R_12) { print "initial room description rule"; return; } ! 707, case 1
+		if (R == GENERATE_ACTION_R) { print "generate action rule"; return; } ! 708, case 1
+		if (R == PARSE_COMMAND_R) { print "parse command rule"; return; } ! 709, case 1
+		if (R == TIMED_EVENTS_R) { print "timed events rule"; return; } ! 710, case 1
+		if (R == ADVANCE_TIME_R) { print "advance time rule"; return; } ! 711, case 1
+		if (R == UPDATE_CHRONOLOGICAL_RECORDS_R) { print "update chronological records rule"; return; } ! 712, case 1
+		if (R == ADJUST_LIGHT_R) { print "adjust light rule"; return; } ! 713, case 1
+		if (R == NOTE_OBJECT_ACQUISITIONS_R) { print "note object acquisitions rule"; return; } ! 714, case 1
+		if (R == R_16) { print "notify score changes rule"; return; } ! 715, case 1
+		if (R == R_17) { print "when play ends stage rule"; return; } ! 716, case 1
+		if (R == RESURRECT_PLAYER_IF_ASKED_R) { print "resurrect player if asked rule"; return; } ! 717, case 1
+		if (R == R_18) { print "print player's obituary rule"; return; } ! 718, case 1
+		if (R == ASK_FINAL_QUESTION_R) { print "ask the final question rule"; return; } ! 719, case 1
+		if (R == DetectSceneChange) { print "scene change machinery rule"; return; } ! 720, case 1
+		if (R == R_21) { print "before stage rule"; return; } ! 721, case 1
+		if (R == R_19) { print "set pronouns from items from multiple object lists rule"; return; } ! 722, case 1
+		if (R == R_20) { print "announce items from multiple object lists rule"; return; } ! 723, case 1
+		if (R == BASIC_VISIBILITY_R) { print "basic visibility rule"; return; } ! 724, case 1
+		if (R == BASIC_ACCESSIBILITY_R) { print "basic accessibility rule"; return; } ! 725, case 1
+		if (R == CARRYING_REQUIREMENTS_R) { print "carrying requirements rule"; return; } ! 726, case 1
+		if (R == R_22) { print "instead stage rule"; return; } ! 727, case 1
+		if (R == REQUESTED_ACTIONS_REQUIRE_R) { print "requested actions require persuasion rule"; return; } ! 728, case 1
+		if (R == CARRY_OUT_REQUESTED_ACTIONS_R) { print "carry out requested actions rule"; return; } ! 729, case 1
+		if (R == DESCEND_TO_SPECIFIC_ACTION_R) { print "descend to specific action-processing rule"; return; } ! 730, case 1
+		if (R == R_23) { print "end action-processing in success rule"; return; } ! 731, case 1
+		if (R == WORK_OUT_DETAILS_OF_SPECIFIC_R) { print "work out details of specific action rule"; return; } ! 732, case 1
+		if (R == ACCESS_THROUGH_BARRIERS_R) { print "access through barriers rule"; return; } ! 733, case 1
+		if (R == CANT_REACH_INSIDE_ROOMS_R) { print "can't reach inside rooms rule"; return; } ! 734, case 1
+		if (R == CANT_REACH_INSIDE_CLOSED_R) { print "can't reach inside closed containers rule"; return; } ! 735, case 1
+		if (R == CANT_REACH_OUTSIDE_CLOSED_R) { print "can't reach outside closed containers rule"; return; } ! 736, case 1
+		if (R == R_35) { print "can't act in the dark rule"; return; } ! 737, case 1
+		if (R == STANDARD_NAME_PRINTING_R) { print "standard name printing rule"; return; } ! 738, case 1
+		if (R == R_59) { print "standard printing the plural name rule"; return; } ! 739, case 1
+		if (R == R_60) { print "standard printing a number of something rule"; return; } ! 740, case 1
+		if (R == STANDARD_CONTENTS_LISTING_R) { print "standard contents listing rule"; return; } ! 741, case 1
+		if (R == R_61) { print "look around once light available rule"; return; } ! 742, case 1
+		if (R == ENABLE_GLULX_ACCEL_R) { print "enable Glulx acceleration rule"; return; } ! 743, case 1
+		if (R == PRINT_OBITUARY_HEADLINE_R) { print "print obituary headline rule"; return; } ! 744, case 1
+		if (R == PRINT_FINAL_SCORE_R) { print "print final score rule"; return; } ! 745, case 1
+		if (R == DISPLAY_FINAL_STATUS_LINE_R) { print "display final status line rule"; return; } ! 746, case 1
+		if (R == R_69) { print "print the final question rule"; return; } ! 747, case 1
+		if (R == R_68) { print "print the final prompt rule"; return; } ! 748, case 1
+		if (R == READ_FINAL_ANSWER_R) { print "read the final answer rule"; return; } ! 749, case 1
+		if (R == R_70) { print "standard respond to final question rule"; return; } ! 750, case 1
+		if (R == R_91) { print "can't take component parts rule"; return; } ! 751, case 1
+		if (R == R_148) { print "find what to enter rule"; return; } ! 752, case 1
+		if (R == QUIT_THE_GAME_R) { print "quit the game rule"; return; } ! 753, case 1
+		if (R == SAVE_THE_GAME_R) { print "save the game rule"; return; } ! 754, case 1
+		if (R == RESTORE_THE_GAME_R) { print "restore the game rule"; return; } ! 755, case 1
+		if (R == RESTART_THE_GAME_R) { print "restart the game rule"; return; } ! 756, case 1
+		if (R == VERIFY_THE_STORY_FILE_R) { print "verify the story file rule"; return; } ! 757, case 1
+		if (R == SWITCH_TRANSCRIPT_ON_R) { print "switch the story transcript on rule"; return; } ! 758, case 1
+		if (R == SWITCH_TRANSCRIPT_OFF_R) { print "switch the story transcript off rule"; return; } ! 759, case 1
+		if (R == ANNOUNCE_STORY_FILE_VERSION_R) { print "announce the story file version rule"; return; } ! 760, case 1
+		if (R == ANNOUNCE_SCORE_R) { print "announce the score rule"; return; } ! 761, case 1
+		if (R == PREFER_ABBREVIATED_R) { print "prefer abbreviated room descriptions rule"; return; } ! 762, case 1
+		if (R == REP_PREFER_ABBREVIATED_R) { print "standard report preferring abbreviated room descriptions rule"; return; } ! 763, case 1
+		if (R == PREFER_UNABBREVIATED_R) { print "prefer unabbreviated room descriptions rule"; return; } ! 764, case 1
+		if (R == REP_PREFER_UNABBREVIATED_R) { print "standard report preferring unabbreviated room descriptions rule"; return; } ! 765, case 1
+		if (R == PREFER_SOMETIMES_ABBREVIATED_R) { print "prefer sometimes abbreviated room descriptions rule"; return; } ! 766, case 1
+		if (R == REP_PREFER_SOMETIMES_ABBR_R) { print "standard report preferring sometimes abbreviated room descriptions rule"; return; } ! 767, case 1
+		if (R == SWITCH_SCORE_NOTIFY_ON_R) { print "switch score notification on rule"; return; } ! 768, case 1
+		if (R == REP_SWITCH_NOTIFY_ON_R) { print "standard report switching score notification on rule"; return; } ! 769, case 1
+		if (R == SWITCH_SCORE_NOTIFY_OFF_R) { print "switch score notification off rule"; return; } ! 770, case 1
+		if (R == REP_SWITCH_NOTIFY_OFF_R) { print "standard report switching score notification off rule"; return; } ! 771, case 1
+		if (R == ANNOUNCE_PRONOUN_MEANINGS_R) { print "announce the pronoun meanings rule"; return; } ! 772, case 1
 
 		print "(nameless rule at address ", R, ")";
 	}
@@ -26664,8 +26729,8 @@ say__p=1;ParaContent();  print (PrintText) SC_79; ParaContent();  #ifdef TARGET_
 
 [ text_routine_2;
 say__p=1;ParaContent();  print (PrintText) SC_81; 
-	if (~~((((I143_old_electrician == CarrierOf(I133_exit_key)))))) jump L_Say48;
-		ParaContent();  print (PrintText) SC_82; ParaContent(); @push self;  print (T58) GProperty(9, self=I143_old_electrician,p57_mood); @pull self; ParaContent();  print (PrintText) SC_75;  .L_Say48; .L_SayX48;
+	if (~~((((I144_old_electrician == CarrierOf(I133_exit_key)))))) jump L_Say48;
+		ParaContent();  print (PrintText) SC_82; ParaContent(); @push self;  print (T58) GProperty(9, self=I144_old_electrician,p57_mood); @pull self; ParaContent();  print (PrintText) SC_75;  .L_Say48; .L_SayX48;
     rtrue;
 ];
 

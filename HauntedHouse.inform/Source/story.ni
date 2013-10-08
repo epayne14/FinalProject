@@ -186,6 +186,7 @@ Understand "square" as black square.
 The flashlight is in the podium. The description of the flashlight is "Better take it. In a place like this, it might be helpful for later."
 The wrench is in the circus room. The description of the wrench is "A metal tool. Looks like somebody lost it in here."
 The screwdriver is in the victorian living room. The description of the screwdriver is "A metal tool. Looks like somebody lost it in here."
+The wirecutter is in the graveyard room. The description of the wirecutter is "A metal tool. Looks like somebody lost it in here."
 
 [NPC]
 
@@ -199,7 +200,12 @@ Instead of asking the old electrician for the exit key:
 	if the old electrician is fine:
 		say "'Thanks a bunch kid! Here’s the key that leads out of the Meat Locker. After the Narrow Hallway, you should be home free to the exit! Just leave the key for me though on the ground in the butcher room so I can get out too.'";
 		move the exit key to player.
-
+Instead of giving the wrench to the old electrician:
+	now the old electrician is alright.
+Instead of giving the wirecutter to the old electrician:
+	now the old electrician is okay.
+Instead of giving the screwdriver to the old electrician:
+	now the old electrician is pretty good.
 		
 
 
