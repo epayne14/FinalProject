@@ -144,6 +144,7 @@ Understand "key to the exit" as exit key.
 
 The flashlight is in the podium. The description of the flashlight is "Better take it. In a place like this, it might be helpful for later."
 
+
 [NPC]
 
 Mood is a kind of value. The moods are annoyed and fine. People have a mood. The mood of the Old Electrician is annoyed.

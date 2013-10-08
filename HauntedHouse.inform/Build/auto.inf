@@ -29,7 +29,7 @@ Array UUID_ARRAY string "UUID://39482AA2-E19B-4AC2-AF50-D243E94F579D//";
 Constant Story "Haunted House of Hallucinations";
 Constant Headline "An Interactive Fiction";
 Constant Story_Author SC_2;
-Serial "131003";
+Serial "131007";
 
 Default Story 0;
 Default Headline 0;
