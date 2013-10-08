@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Skein rootNode="node-0x1865600" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x1865600" />
+  <activeNode nodeId="node-0xf592e50" />
   <item nodeId="node-0x1865600">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
@@ -15,22 +15,34 @@ An Interactive Fiction by Erika Payne Disable take all
 Release 1 / Serial number 131007 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
 
 Black Room
-The floor, ceiling, and walls are all black. A booming voice sounds from a speaker coming from the wall saying: &quot;How do you escape a room with NO WINDOWS, and NOOOO DOOORS. HA. HA. HA. HA. HA.&quot;
+The floor, ceiling, and walls are all black. A booming voice sounds from a speaker coming from the wall saying: &quot;How do you escape a room with NO WINDOWS, and NOOOO DOOORS. HA. HA. HA. HA. HA.&quot; The door you had just entered is behind you, of course, but it looks locked.
 
  Trying to calm yourself down, you notice a square section of the wall in front of you to the West is an off black color.
 
-You can also see a Black door and a Black Square here.
+You can see a Second door, a Black door, and a Black Square here.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="12">NO</temporary>
+    <temporary score="54">NO</temporary>
     <children>
+      <child nodeId="node-0xf9316d0" />
       <child nodeId="node-0x180a7b0" />
       <child nodeId="node-0x180ab30" />
       <child nodeId="node-0x18651c0" />
       <child nodeId="node-0x1865120" />
+      <child nodeId="node-0x1b9b620" />
     </children>
+  </item>
+  <item nodeId="node-0x1b9b620">
+    <command xml:space="preserve">push black square</command>
+    <result xml:space="preserve">A door has opened to the west.
+Another door has opened in the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="12">YES</temporary>
   </item>
   <item nodeId="node-0x1865120">
     <command xml:space="preserve">x player</command>
@@ -548,12 +560,23 @@ It seems to be locked.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="12">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="15">YES</temporary>
     <children>
       <child nodeId="node-0x180a740" />
       <child nodeId="node-0xc549fc0" />
+      <child nodeId="node-0x11e72e60" />
     </children>
+  </item>
+  <item nodeId="node-0x11e72e60">
+    <command xml:space="preserve">push square</command>
+    <result xml:space="preserve">A door has opened to the west.
+Another door has opened in the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="14">YES</temporary>
   </item>
   <item nodeId="node-0xc549fc0">
     <command xml:space="preserve">w</command>
@@ -575,5 +598,346 @@ In the podium is a flashlight.
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="194">YES</temporary>
+  </item>
+  <item nodeId="node-0xf9316d0">
+    <command xml:space="preserve">push square</command>
+    <result xml:space="preserve">A door has opened to the west.
+Another door has opened in the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="54">YES</temporary>
+    <children>
+      <child nodeId="node-0xc52bad0" />
+      <child nodeId="node-0xf9b5d00" />
+    </children>
+  </item>
+  <item nodeId="node-0xf9b5d00">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Victorian Living Room
+Victorian furniture create a gloomy scene in this room, reminding you of a horror movie you watched about a murder in the 1800&quot;s. The fireplace lets off an ominous purple glow (obviously done with purple flashlights and the shifting of the light.) There is a large, comfy couch, a sitting chair, a bookcase, a large painting of a grim old man, and a knight in rusty armor holding an axe.
+
+
+The Black Room is to the East, and there is a door to the West.
+
+You can see a Black door, a Leather Couch, a Sitting Chair, a Bookcase, a Large Painting, a Knight in Rusty Armor, and a Fireplace here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="54">YES</temporary>
+    <children>
+      <child nodeId="node-0xc5f2810" />
+      <child nodeId="node-0x11e60f00" />
+      <child nodeId="node-0xf93cee0" />
+      <child nodeId="node-0x11e6d220" />
+    </children>
+  </item>
+  <item nodeId="node-0x11e6d220">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Black Room
+The floor, ceiling, and walls are all black. A booming voice sounds from a speaker coming from the wall saying: &quot;How do you escape a room with NO WINDOWS, and NOOOO DOOORS. HA. HA. HA. HA. HA.&quot; The door you had just entered is behind you, of course, but it looks locked.
+
+ Trying to calm yourself down, you notice a square section of the wall in front of you to the West is an off black color.
+
+You can see a Black door, a Second door, and a Black Square here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="30">YES</temporary>
+    <children>
+      <child nodeId="node-0xc541a30" />
+    </children>
+  </item>
+  <item nodeId="node-0xc541a30">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Entrance to the ride
+The front door is barricaded from the outside, so you&apos;ll have to find another exit, which should be at the end of the ride. The room is dimly lighted with a podium at the front were a greeter stands to maintain the line.
+
+South is the first room of the ride.
+
+You can see a Second door, a podium (in which is a flashlight), and a front door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="30">YES</temporary>
+    <children>
+      <child nodeId="node-0xf913f60" />
+    </children>
+  </item>
+  <item nodeId="node-0xf913f60">
+    <command xml:space="preserve">x door</command>
+    <result xml:space="preserve">Which do you mean, the Second door or the front door?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="30">YES</temporary>
+    <children>
+      <child nodeId="node-0x75a6020" />
+    </children>
+  </item>
+  <item nodeId="node-0x75a6020">
+    <command xml:space="preserve">front door</command>
+    <result xml:space="preserve">The front door to the ride. For some reason, it&apos;s barricaded outside. You will have to find another way out.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="29">YES</temporary>
+  </item>
+  <item nodeId="node-0xf93cee0">
+    <command xml:space="preserve">look under bookcase</command>
+    <result xml:space="preserve">You find nothing of interest.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="23">YES</temporary>
+  </item>
+  <item nodeId="node-0x11e60f00">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Caged Rabid Animal Room
+As you open the door letting off a horrifying creak, you see animatronic rats scurrying out of the corner of your eye. This doesn&apos;t bother you that much, until you see what is in the room. Large cages with robot animals that have fake foam oozing from their jowls. When you step close to one of the cages, a sensor goes off, and the animals leap against the wall of their cage, growling and chomping at you. It looks like one of the cages is unlocked…
+
+
+The Living Room is in the East, and the Next Room is in the West.
+
+You can see an Animatronic Rats, a Cages, an Unlocked Cage, and a Broken Robotic Dog here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="54">YES</temporary>
+    <children>
+      <child nodeId="node-0x11e5d170" />
+    </children>
+  </item>
+  <item nodeId="node-0x11e5d170">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Circus Room
+Great. A room devoted to the Circus. You&apos;ve always hated the Circus, especially clowns. Large robotic clowns loom over you and a demonic low-voiced laughter rings through the room as a waltzing, repetitive circus song plays in the background. There is another podium at the entrance where a worker dressed as a ringmaster is supposed to welcome the guests.
+
+
+The Cage Room is to the East, and there is a sliding door to the North of the room.
+
+You can see a Red Podium and a Robot Clowns here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="54">YES</temporary>
+    <children>
+      <child nodeId="node-0x11ee2fd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x11ee2fd0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Graveyard Room
+A large, very open room with the ceiling decorated to look like nighttime. The floor is littered with tombstones, but a large tombstone with a skeleton hugging the base of it really sticks out to you. The soundtrack to this room is howling wind and a wolf howling in the background.
+
+
+The Circus Room is in the South. There is a door to the West that looks like it was decorated to not stand out. A door with a large mirror in the front is to the East. A room with what looks like fog coming out from under the door is to the North.
+
+You can see a Tombstones, a Large Tombstone, and a Skeleton here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="54">YES</temporary>
+    <children>
+      <child nodeId="node-0xf54fd70" />
+    </children>
+  </item>
+  <item nodeId="node-0xf54fd70">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Staff Break Room
+FINALLY. A soundproof room with nothing scary in it. This is obviously a break room for the staff during their downtime. There&apos;s a mini fridge, an old TV, an old couch, and a desk.
+
+
+The entrance to the Graveyard is to the East, and there is a metal door to the North.
+
+You can see a Mini Fridge, an Old TV, an Old Couch, and a Desk here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="54">YES</temporary>
+    <children>
+      <child nodeId="node-0x6961da0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6961da0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Control Panel Room
+An old man is fumbling around with one of the boxes on the wall, cutting wires and reconnecting others. He must be the electrician, maybe he can help you find a way out! This seems to be the Control Panel room that has all the wires and switches causing the electricity to work. Someone must have forgotten to switch off the ride, since lights are flashing next to the switches labeled:
+
+ Lighting
+ Fog
+ Soundtracks
+
+
+You should turn off the fog and soundtracks, but leave the lighting on so you can see.
+
+
+The Staff Break Room is South.
+
+You can see a Switch for Lighting, a Switch for Fog, a Switch for Soundtracks, a Boxes, and an Old Electrician here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="54">YES</temporary>
+    <children>
+      <child nodeId="node-0x11e70770" />
+    </children>
+  </item>
+  <item nodeId="node-0x11e70770">
+    <command xml:space="preserve">x switch</command>
+    <result xml:space="preserve">Which do you mean, the Switch for Lighting, the Switch for Fog, or the Switch for Soundtracks?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="54">YES</temporary>
+    <children>
+      <child nodeId="node-0xf592e50" />
+    </children>
+  </item>
+  <item nodeId="node-0xf592e50">
+    <command xml:space="preserve">lighting</command>
+    <result xml:space="preserve">Controls all the lighting in the ride. I suggest keeping that on.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="53">YES</temporary>
+  </item>
+  <item nodeId="node-0xc5f2810">
+    <command xml:space="preserve">x couch</command>
+    <result xml:space="preserve">A red, leather couch with large cushions that looks very inviting. People dressed as ghosts usually lounge on the couch and jump out at people passing by the room.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">YES</temporary>
+    <children>
+      <child nodeId="node-0x11e73770" />
+    </children>
+  </item>
+  <item nodeId="node-0x11e73770">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+caged rabid animal room
+As you open the door letting off a horrifying creak, you see animatronic rats scurrying out of the corner of your eye. This doesn&apos;t bother you that much, until you see what is in the room. Large cages with robot animals that have fake foam oozing from their jowls. When you step close to one of the cages, a sensor goes off, and the animals leap against the wall of their cage, growling and chomping at you. It looks like one of the cages is unlocked…
+
+
+The Living Room is in the East, and the Next Room is in the West.
+
+You can see an Animatronic Rats, a Cages, an Unlocked Cage, and a Broken Robotic Dog here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">YES</temporary>
+    <children>
+      <child nodeId="node-0xc5089e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc5089e0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Circus Room
+Great. A room devoted to the Circus. You&apos;ve always hated the Circus, especially clowns. Large robotic clowns loom over you and a demonic low-voiced laughter rings through the room as a waltzing, repetitive circus song plays in the background. There is another podium at the entrance where a worker dressed as a ringmaster is supposed to welcome the guests.
+
+
+The Cage Room is to the East, and there is a sliding door to the North of the room.
+
+You can see a Red Podium and a Robot Clowns here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">YES</temporary>
+    <children>
+      <child nodeId="node-0xf555190" />
+    </children>
+  </item>
+  <item nodeId="node-0xf555190">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Graveyard Room
+A large, very open room with the ceiling decorated to look like nighttime. The floor is littered with tombstones, but a large tombstone with a skeleton hugging the base of it really sticks out to you. The soundtrack to this room is howling wind and a wolf howling in the background.
+
+
+The Circus Room is in the South. There is a door to the West that looks like it was decorated to not stand out. A door with a large mirror in the front is to the East. A room with what looks like fog coming out from under the door is to the North.
+
+You can see a Tombstones, a Large Tombstone, and a Skeleton here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">YES</temporary>
+    <children>
+      <child nodeId="node-0xf5c24f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xf5c24f0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Staff Break Room
+FINALLY. A soundproof room with nothing scary in it. This is obviously a break room for the staff during their downtime. There&apos;s a mini fridge, an old TV, an old couch, and a desk.
+
+
+The entrance to the Graveyard is to the East, and there is a metal door to the North.
+
+You can see a Mini Fridge, an Old TV, an Old Couch, and a Desk here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">YES</temporary>
+    <children>
+      <child nodeId="node-0xf938d20" />
+    </children>
+  </item>
+  <item nodeId="node-0xf938d20">
+    <command xml:space="preserve">x couch</command>
+    <result xml:space="preserve">An old, dusty couch that employees can chillax on.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="38">YES</temporary>
+  </item>
+  <item nodeId="node-0xc52bad0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Entrance to the ride
+The front door is barricaded from the outside, so you&apos;ll have to find another exit, which should be at the end of the ride. The room is dimly lighted with a podium at the front were a greeter stands to maintain the line.
+
+South is the first room of the ride.
+
+The floor, ceiling, and walls are all black. A booming voice sounds from a speaker coming from the wall saying: &quot;How do you escape a room with NO WINDOWS, and NOOOO DOOORS. HA. HA. HA. HA. HA.&quot; The door you had just entered is behind you, of course, but it looks locked.
+
+ Trying to calm yourself down, you notice a square section of the wall in front of you to the West is an off black color.
+
+You can also see a podium (in which is a flashlight) and a front door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="20">YES</temporary>
   </item>
 </Skein>
