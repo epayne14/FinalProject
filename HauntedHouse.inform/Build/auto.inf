@@ -4296,7 +4296,7 @@ Global lightflag = false;
 ];
 
 
-Constant REQUISITION_STACK_SIZE = 3*62;
+Constant REQUISITION_STACK_SIZE = 3*63;
 Array requisition_stack --> REQUISITION_STACK_SIZE;
 Global requisition_stack_pointer = 0;
 
@@ -9115,11 +9115,11 @@ Constant REL_BLOCK_HEADER ($100*6 + $$1101)*$10000;
 ];
 [ T58 value;
     switch(value) {
-        I137_annoyed: print "annoyed";
-        I138_okay: print "okay";
-        I139_alright: print "alright";
-        I140_pretty_good: print "pretty good";
-        I141_fine: print "fine";
+        I138_annoyed: print "annoyed";
+        I139_okay: print "okay";
+        I140_alright: print "alright";
+        I141_pretty_good: print "pretty good";
+        I142_fine: print "fine";
         default: print "<illegal mood>";
     }
 ];
@@ -9219,7 +9219,7 @@ Constant REL_BLOCK_HEADER ($100*6 + $$1101)*$10000;
         41: return ;
         42: return ;
         43: return I68_didn_t_understand_error;
-        44: return I137_annoyed;
+        44: return I138_annoyed;
         default: return 0;
     }
 ];
@@ -9335,7 +9335,7 @@ Constant IK6_First = nothing;
 Constant IK7_First = nothing;
 Constant IK8_First = selfobj;
 Constant IK9_First = nothing;
-Constant IK10_First = I142_old_electrician;
+Constant IK10_First = I143_old_electrician;
 Constant IK11_First = nothing;
 Constant IK12_First = nothing;
 Constant IK13_First = nothing;
@@ -9441,7 +9441,7 @@ Class K8_person
     with capacity 100
     has ~female
     has ~neuter
-    with p57_mood I137_annoyed
+    with p57_mood I138_annoyed
 ;
 
 Class K10_man 
@@ -9733,7 +9733,7 @@ Object selfobj ""
     with IK2_Count 0
     with IK2_Link I134_black_square
     with IK8_Count 0
-    with IK8_Link I142_old_electrician
+    with IK8_Link I143_old_electrician
     with KD_Count 8
     with name 'yourself' 
     with action_bitmap 0 0 0 0 0 0 
@@ -9896,10 +9896,24 @@ Object -> I111_fireplace ""
     with list_together 0
     has mark_as_thing
     with IK2_Count 12
-    with IK2_Link I91_second_door
+    with IK2_Link I136_screwdriver
     with KD_Count 2
     with name 'fireplace' 'fire' 
     with parse_name Parse_Name_GV100
+    with action_bitmap 0 0 0 0 0 0 
+;
+
+Object -> I136_screwdriver ""
+    class K2_thing
+    with short_name "screwdriver"
+    with description SC_13
+    with vector 0
+    with list_together 0
+    has mark_as_thing
+    with IK2_Count 37
+    with IK2_Link I91_second_door
+    with KD_Count 2
+    with name 'screwdriver' 
     with action_bitmap 0 0 0 0 0 0 
 ;
 
@@ -9930,7 +9944,7 @@ Object I91_second_door ""
 Object I92_entrance_to_the_ride ""
     class K1_room
     with short_name "Entrance to the ride"
-    with description SC_13
+    with description SC_14
     with vector 0
     with room_index -1
     with list_together 0
@@ -9944,7 +9958,7 @@ Object I92_entrance_to_the_ride ""
 Object -> I103_podium ""
     class K5_container
     with short_name "podium"
-    with description SC_14
+    with description SC_15
     has static
     with vector 0
     with list_together 0
@@ -9961,7 +9975,7 @@ Object -> I103_podium ""
 Object -> -> I104_flashlight ""
     class K2_thing
     with short_name "flashlight"
-    with description SC_15
+    with description SC_16
     with vector 0
     with list_together 0
     has mark_as_thing
@@ -9975,7 +9989,7 @@ Object -> -> I104_flashlight ""
 Object -> I105_front_door ""
     class K2_thing
     with short_name "front door"
-    with description SC_16
+    with description SC_17
     has static
     with vector 0
     with list_together 0
@@ -10005,7 +10019,7 @@ Object I93_caged_rabid_animal_room ""
 Object -> I112_animatronic_rats ""
     class K2_thing
     with short_name "Animatronic Rats"
-    with description SC_17
+    with description SC_18
     has static
     with vector 0
     with list_together 0
@@ -10021,7 +10035,7 @@ Object -> I112_animatronic_rats ""
 Object -> I113_cages ""
     class K2_thing
     with short_name "Cages"
-    with description SC_18
+    with description SC_19
     has static
     with vector 0
     with list_together 0
@@ -10036,7 +10050,7 @@ Object -> I113_cages ""
 Object -> I114_unlocked_cage ""
     class K2_thing
     with short_name "Unlocked Cage"
-    with description SC_19
+    with description SC_20
     has static
     with vector 0
     with list_together 0
@@ -10052,7 +10066,7 @@ Object -> I114_unlocked_cage ""
 Object -> I115_broken_robotic_dog ""
     class K2_thing
     with short_name "Broken Robotic Dog"
-    with description SC_20
+    with description SC_21
     has static
     with vector 0
     with list_together 0
@@ -10068,7 +10082,7 @@ Object -> I115_broken_robotic_dog ""
 Object I94_circus_room ""
     class K1_room
     with short_name "Circus Room"
-    with description SC_21
+    with description SC_22
     with vector 0
     with room_index -1
     with list_together 0
@@ -10082,7 +10096,7 @@ Object I94_circus_room ""
 Object -> I116_red_podium ""
     class K2_thing
     with short_name "Red Podium"
-    with description SC_22
+    with description SC_23
     has static
     with vector 0
     with list_together 0
@@ -10097,7 +10111,7 @@ Object -> I116_red_podium ""
 Object -> I117_robot_clowns ""
     class K2_thing
     with short_name "Robot Clowns"
-    with description SC_23
+    with description SC_24
     has static
     with vector 0
     with list_together 0
@@ -10113,7 +10127,7 @@ Object -> I117_robot_clowns ""
 Object -> I135_wrench ""
     class K2_thing
     with short_name "wrench"
-    with description SC_24
+    with description SC_13
     with vector 0
     with list_together 0
     has mark_as_thing
@@ -10346,22 +10360,22 @@ Object -> I128_boxes ""
     with list_together 0
     has mark_as_thing
     with IK2_Count 29
-    with IK2_Link I142_old_electrician
+    with IK2_Link I143_old_electrician
     with KD_Count 2
     with name 'boxes' 'box' 
     with parse_name Parse_Name_GV112
     with action_bitmap 0 0 0 0 0 0 
 ;
 
-Object -> I142_old_electrician ""
+Object -> I143_old_electrician ""
     class K10_man
     with short_name "Old Electrician"
     with description text_routine_2
-    with p57_mood I137_annoyed
+    with p57_mood I138_annoyed
     with vector 0
     with list_together 0
     has mark_as_thing
-    with IK2_Count 37
+    with IK2_Count 38
     with IK2_Link I133_exit_key
     with IK8_Count 1
     with IK8_Link nothing
@@ -10539,11 +10553,11 @@ Constant I84_nothing_to_do_error = 17;
 Constant I85_noun_did_not_make_sense_ = 18;
 Constant I86_referred_to_a_determinat = 19;
 Constant I87_i_beg_your_pardon_error = 20;
-Constant I137_annoyed = 1;
-Constant I138_okay = 2;
-Constant I139_alright = 3;
-Constant I140_pretty_good = 4;
-Constant I141_fine = 5;
+Constant I138_annoyed = 1;
+Constant I139_okay = 2;
+Constant I140_alright = 3;
+Constant I141_pretty_good = 4;
+Constant I142_fine = 5;
 Array Global_Vars -->
   (false) ! 7
   (SC_47) ! 24
@@ -10565,8 +10579,8 @@ Array tab_0_2 table $2066 2  (Consult_Grammar_118)  (Consult_Grammar_119)  (Cons
 Array tab_0_3 table $0067 3  (IMMEDIATELY_RESTART_VM_R)  (IMMEDIATELY_RESTORE_SAVED_R)  TABLE_NOVALUE (IMMEDIATELY_QUIT_R)  (IMMEDIATELY_UNDO_R) ;
 Array tab_0_4 table $0068 4  TABLE_NOVALUE TABLE_NOVALUE (V26_amusing_a_victorious_pla)  TABLE_NOVALUE TABLE_NOVALUE;
 Array T1_locale_priorities table  tab_1_0 tab_1_1;
-Array tab_1_0 table $0869 NULL  TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE;
-Array tab_1_1 table $446a 5  TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE;
+Array tab_1_0 table $0869 NULL  TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE;
+Array tab_1_1 table $446a 5  TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE;
 Array TB_Blanks -> 
   ! For table T0_final_question_options
   $00  ! Column 0
@@ -10576,7 +10590,7 @@ Array TB_Blanks ->
   $1b  ! Column 4
   
   ! For table T1_locale_priorities
-  $ff $ff $ff $ff $7f  ! Column 1
+  $ff $ff $ff $ff $ff  ! Column 1
   
   ! End of table
   NULL NULL;
@@ -11536,12 +11550,12 @@ self = noun;
 ! No specific request
 ! Instead of asking the old electrician for the exit key:
 [ R_743 ;
-   if ((action ==##AskFor) &&  (actor==player) && ((noun == I142_old_electrician) && (true)) && ((second == I133_exit_key) && (true))) { ! Runs only when pattern matches
+   if ((action ==##AskFor) &&  (actor==player) && ((noun == I143_old_electrician) && (true)) && ((second == I133_exit_key) && (true))) { ! Runs only when pattern matches
 self = noun;
    if (debug_rules) DB_Rule(R_743, 743);
       ! phrase 1
       ! [1: if the old electrician is annoyed begin]
-       if ((((Adj_75_t1_v9(I142_old_electrician)))))  {
+       if ((((Adj_75_t1_v9(I143_old_electrician)))))  {
          ! phrase 2
          ! [2: say ~'What are you doing here, the ride's closed! ... What? They locked you in while closing down? Sorry to hear that, but I can't help you. I only got the one spare key, and I'm gonna be here for a couple hours. Maybe we can make an exchange though, I seem to be missing some of my tools[unicode 8230] Three of them to be exact. I probably dropped them in some of the rooms that came before the graveyard. Try giving a look for them, this old heart of mine couldn't stand going through that Circus Room again.'~]
          say__p=1;ParaContent();  print (PrintText) SC_57; ParaContent();  #ifdef TARGET_ZCODE; @push self; self = 8230; @print_unicode self; @pull self;
@@ -11552,7 +11566,7 @@ self = noun;
 
       ! phrase 4
       ! [4: if the old electrician is fine begin]
-       if ((((Adj_79_t1_v9(I142_old_electrician)))))  {
+       if ((((Adj_79_t1_v9(I143_old_electrician)))))  {
          ! phrase 5
          ! [5: say ~'Thanks a bunch kid! Here's the key that leads out of the Meat Locker. After the Narrow Hallway, you should be home free to the exit! Just leave the key for me though on the ground in the butcher room so I can get out too.'~]
          say__p=1;ParaContent();  print (PrintText) SC_59;  new_line; .L_Say7; .L_SayX7;
@@ -22862,7 +22876,7 @@ Array FWMatrix --> NUM_ROOMS*NUM_ROOMS;
 ];
 #ENDIF;
 
-Constant MAX_ROUTE_LENGTH = 62 + 32;
+Constant MAX_ROUTE_LENGTH = 63 + 32;
 
 [ RelationRouteTo relation from to count  handler;
 	if (count) {
@@ -26650,8 +26664,8 @@ say__p=1;ParaContent();  print (PrintText) SC_79; ParaContent();  #ifdef TARGET_
 
 [ text_routine_2;
 say__p=1;ParaContent();  print (PrintText) SC_81; 
-	if (~~((((I142_old_electrician == CarrierOf(I133_exit_key)))))) jump L_Say48;
-		ParaContent();  print (PrintText) SC_82; ParaContent(); @push self;  print (T58) GProperty(9, self=I142_old_electrician,p57_mood); @pull self; ParaContent();  print (PrintText) SC_75;  .L_Say48; .L_SayX48;
+	if (~~((((I143_old_electrician == CarrierOf(I133_exit_key)))))) jump L_Say48;
+		ParaContent();  print (PrintText) SC_82; ParaContent(); @push self;  print (T58) GProperty(9, self=I143_old_electrician,p57_mood); @pull self; ParaContent();  print (PrintText) SC_75;  .L_Say48; .L_SayX48;
     rtrue;
 ];
 
@@ -29525,15 +29539,15 @@ Constant SC_47 = ">";
 Constant SC_85 = "? Nah. Just your imagination";
 Constant SC_62 = "?";
 Constant SC_39 = "A bunch of confusing wires.";
-Constant SC_19 = "A cage door has been left open at the end of the room, and a broken looking robotic dog is looking down.";
+Constant SC_20 = "A cage door has been left open at the end of the room, and a broken looking robotic dog is looking down.";
 Constant SC_34 = "A desk where management had been keeping their paperwork on. Someone placed a key to the Control Panel Room here.";
 Constant SC_55 = "A door has opened to the west.";
 Constant SC_31 = "A fridge where workers put their lunch when they check in for the morning. But there's no time for snacking right now!";
 Constant SC_10 = "A large bookcase to add effect to the Victorian Scene. A lot of these books look very old. ~Study of the Paranormal,~ ~Introduction to Medical History,~ and ~Exorcisms for Dummies.~ Eh. Sounds boring.";
 Constant SC_27 = "A large fake tombstone. Probably the biggest monster in this room hides behind here. A skeleton is hugging the foot of the tombstone.";
 Constant SC_25 = "A large, very open room with the ceiling decorated to look like nighttime. The floor is littered with tombstones, but a large tombstone with a skeleton hugging the base of it really sticks out to you. The soundtrack to this room is howling wind and a wolf howling in the background.^^^The Circus Room is in the South. There is a door to the West that looks like it was decorated to not stand out. A door with a large mirror in the front is to the East. A room with what looks like fog coming out from under the door is to the North.";
-Constant SC_24 = "A metal tool. Looks like somebody lost it in here.";
-Constant SC_14 = "A normal podium that a greeter will stand at to maintain the lines of the ride. There is a space inside the podium with what looks like some junk in it. Maybe you should check it out.";
+Constant SC_13 = "A metal tool. Looks like somebody lost it in here.";
+Constant SC_15 = "A normal podium that a greeter will stand at to maintain the lines of the ride. There is a space inside the podium with what looks like some junk in it. Maybe you should check it out.";
 Constant SC_11 = "A picture of an old man. There is a label underneath saying: ~Dr. James F. Harmon, 1870 - 1932.~ Interesting prop, wonder where they found it.";
 Constant SC_8 = "A red, leather couch with large cushions that looks very inviting. People dressed as ghosts usually lounge on the couch and jump out at people passing by the room.";
 Constant SC_40 = "A silver key that unlocks the door to the exit.";
@@ -29543,36 +29557,36 @@ Constant SC_35 = "An old man is fumbling around with one of the boxes on the wal
 Constant SC_81 = "An old man wearing a grey jumpsuit cutting and reconnecting wires. Whatever he's doing looks very confusing. ";
 Constant SC_33 = "An old, dusty couch that employees can chillax on.";
 Constant SC_56 = "Another door has opened in the north.";
-Constant SC_22 = "Another podium, this time matching the color scheme of the room. Usually, a worker dressed as a clown ringmaster stands here to guide the guests to the exit.^	There seems to be a button on the surface of the podium.";
+Constant SC_23 = "Another podium, this time matching the color scheme of the room. Usually, a worker dressed as a clown ringmaster stands here to guide the guests to the exit.^	There seems to be a button on the surface of the podium.";
 Constant SC_79 = "As you open the door letting off a horrifying creak, you see animatronic rats scurrying out of the corner of your eye. This doesn't bother you that much, until you see what is in the room. Large cages with robot animals that have fake foam oozing from their jowls. When you step close to one of the cages, a sensor goes off, and the animals leap against the wall of their cage, growling and chomping at you. It looks like one of the cages is unlocked";
-Constant SC_15 = "Better take it. In a place like this, it might be helpful for later.";
+Constant SC_16 = "Better take it. In a place like this, it might be helpful for later.";
 Constant SC_36 = "Controls all the lighting in the ride. I suggest keeping that on.";
 Constant SC_37 = "Controls the fog in the ride.";
 Constant SC_38 = "Controls the soundtracks in all rooms.";
 Constant SC_2 = "Erika Payne Disable take all";
 Constant SC_30 = "FINALLY. A soundproof room with nothing scary in it. This is obviously a break room for the staff during their downtime. There's a mini fridge, an old TV, an old couch, and a desk.^^^The entrance to the Graveyard is to the East, and there is a metal door to the North.";
 Constant SC_83 = "FREEEEDOM! You feel the fresh air blowing through your hair, the sunlight against your skin, and the smell of food coming from the vendors parked across the street. Eventually, you meet up with your friends, and tell them about your awful experiences.^^	~Weirdest part was when I was in the hall of mirrors. That little girl gave me the creeps for some reason.~^	~What little girl?~ your brother looks at you puzzlingly.^	~Yeah, the little girl. Don't you remember? They have a soundtrack of a little girl giggling in the background, and they must do something with the mirrors so you see her running around, but you only see her hair and the ends of her dress. Freaky.~^	~Dude";
-Constant SC_21 = "Great. A room devoted to the Circus. You've always hated the Circus, especially clowns. Large robotic clowns loom over you and a demonic low-voiced laughter rings through the room as a waltzing, repetitive circus song plays in the background. There is another podium at the entrance where a worker dressed as a ringmaster is supposed to welcome the guests.^^^The Cage Room is to the East, and there is a sliding door to the North of the room.";
+Constant SC_22 = "Great. A room devoted to the Circus. You've always hated the Circus, especially clowns. Large robotic clowns loom over you and a demonic low-voiced laughter rings through the room as a waltzing, repetitive circus song plays in the background. There is another podium at the entrance where a worker dressed as a ringmaster is supposed to welcome the guests.^^^The Cage Room is to the East, and there is a sliding door to the North of the room.";
 Constant SC_68 = "In ";
 Constant SC_46 = "It looks like their trying to grab at you.";
 Constant SC_26 = "Just a bunch of plastic props. Workers in werewolf or skeleton costumes sometimes pop out from the larger ones.";
 Constant SC_28 = "Just a normal skeleton. It seems to be holding wire cutters in it's ivory left hand.";
 Constant SC_42 = "Just added obstacles to the ride so visitors have a little rougher time to leave the room.";
-Constant SC_23 = "Large clown faces loom over you waving their gloved hands and bearing their sharp teeth. I thought these guys were supposed to be funny.^^^There seems to be a wrench that someone dropped underneath one of the more obese clowns.";
-Constant SC_18 = "Large robotic dogs with glowing red eyes glare at you with fake foam coming out of their mouths. If you step too close to the cage, the dogs will jump out at you. Nothing will happen, of course, but it can give you quite a fright!";
+Constant SC_24 = "Large clown faces loom over you waving their gloved hands and bearing their sharp teeth. I thought these guys were supposed to be funny.^^^There seems to be a wrench that someone dropped underneath one of the more obese clowns.";
+Constant SC_19 = "Large robotic dogs with glowing red eyes glare at you with fake foam coming out of their mouths. If you step too close to the cage, the dogs will jump out at you. Nothing will happen, of course, but it can give you quite a fright!";
 Constant SC_41 = "Large sacks of what looks like cow meat hang from the ceiling on metal hooks. Obviously, their plastic, but it still gives you the creeps being wrapped in the cloudy plastic. Usually, a worker dawning a butcher's outfit chases the visitors around towards the exit, but the fog is so thick, you can't see it.^^	The Graveyard is South. There is a large cobwebbed door to the East.";
-Constant SC_17 = "Little robotic rats can be seen scurrying around the edges of the room.";
+Constant SC_18 = "Little robotic rats can be seen scurrying around the edges of the room.";
 Constant SC_9 = "Looks comfortable, but you need to find a way out!";
 Constant SC_70 = "On ";
 Constant SC_51 = "QUIT";
 Constant SC_48 = "RESTART";
 Constant SC_49 = "RESTORE a saved game";
 Constant SC_12 = "Rusty Armor put into a pose of a man holding an axe. How menacing.";
-Constant SC_20 = "Someone must have been trying to fix him earlier, because most of the wiring has been ripped apart. You can see a pair of batteries sticking out from the jowls. Those probably power the red eyes.";
+Constant SC_21 = "Someone must have been trying to fix him earlier, because most of the wiring has been ripped apart. You can see a pair of batteries sticking out from the jowls. Those probably power the red eyes.";
 Constant SC_77 = "The fake fireplace still lets off an ominous glow of purples. It's like you can see faces in it";
 Constant SC_5 = "The floor, ceiling, and walls are all black. A booming voice sounds from a speaker coming from the wall saying: ~How do you escape a room with NO WINDOWS, and NOOOO DOOORS. HA. HA. HA. HA. HA.~ The door you had just entered is behind you, of course, but it looks locked.^^	Trying to calm yourself down, you notice a square section of the wall in front of you to the West is an off black color.";
-Constant SC_13 = "The front door is barricaded from the outside, so you'll have to find another exit, which should be at the end of the ride. The room is dimly lighted with a podium at the front were a greeter stands to maintain the line.^^South is the first room of the ride.";
-Constant SC_16 = "The front door to the ride. For some reason, it's barricaded outside. You will have to find another way out.";
+Constant SC_14 = "The front door is barricaded from the outside, so you'll have to find another exit, which should be at the end of the ride. The room is dimly lighted with a podium at the front were a greeter stands to maintain the line.^^South is the first room of the ride.";
+Constant SC_17 = "The front door to the ride. For some reason, it's barricaded outside. You will have to find another way out.";
 Constant SC_29 = "There is no repetitive music playing, but this time, you hear giggling that sounds like it's coming from a little girl. You feel like you can almost see a little girl darting between the mirrors, as if the lace of her dress and her long black hair trailing behind her disappears from every corner. The workers must use some kind of trick with the mirrors.^^	The entrance to the Graveyard is to the West.";
 Constant SC_6 = "This square of the room is a bit lighter than the rest of the room.";
 Constant SC_52 = "UNDO the last command";

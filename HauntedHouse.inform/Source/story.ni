@@ -185,6 +185,7 @@ Understand "square" as black square.
 
 The flashlight is in the podium. The description of the flashlight is "Better take it. In a place like this, it might be helpful for later."
 The wrench is in the circus room. The description of the wrench is "A metal tool. Looks like somebody lost it in here."
+The screwdriver is in the victorian living room. The description of the screwdriver is "A metal tool. Looks like somebody lost it in here."
 
 [NPC]
 

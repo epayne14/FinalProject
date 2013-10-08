@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Skein rootNode="node-0x1865600" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0xf592e50" />
+  <activeNode nodeId="node-0x11e5d170" />
   <item nodeId="node-0x1865600">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
@@ -24,7 +24,7 @@ You can see a Second door, a Black door, and a Black Square here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="54">NO</temporary>
+    <temporary score="58">NO</temporary>
     <children>
       <child nodeId="node-0xf9316d0" />
       <child nodeId="node-0x180a7b0" />
@@ -607,7 +607,7 @@ Another door has opened in the north.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="54">YES</temporary>
+    <temporary score="58">YES</temporary>
     <children>
       <child nodeId="node-0xc52bad0" />
       <child nodeId="node-0xf9b5d00" />
@@ -627,7 +627,7 @@ You can see a Black door, a Leather Couch, a Sitting Chair, a Bookcase, a Large 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="54">YES</temporary>
+    <temporary score="58">YES</temporary>
     <children>
       <child nodeId="node-0xc5f2810" />
       <child nodeId="node-0x11e60f00" />
@@ -714,8 +714,8 @@ You can see an Animatronic Rats, a Cages, an Unlocked Cage, and a Broken Robotic
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="54">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="58">YES</temporary>
     <children>
       <child nodeId="node-0x11e5d170" />
     </children>
@@ -729,12 +729,12 @@ Great. A room devoted to the Circus. You&apos;ve always hated the Circus, especi
 
 The Cage Room is to the East, and there is a sliding door to the North of the room.
 
-You can see a Red Podium and a Robot Clowns here.
+You can see a Red Podium, a Robot Clowns, and a wrench here.
 
 &gt;</result>
     <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="54">YES</temporary>
+    <changed>YES</changed>
+    <temporary score="57">YES</temporary>
     <children>
       <child nodeId="node-0x11ee2fd0" />
     </children>
