@@ -1,14 +1,14 @@
 "Haunted House of Hallucinations" by Erika Payne
 Disable take all.
 Use serial comma.
-Use no scoring.
+The maximum score is 6.
 
 When play begins: say "You got separated from your friends and older brother in a Haunted House Ride at the Local Theme Park. Unfortunately, the staff thought that the last of the guests had left, and all of the doors have been locked. Yet, all of the machines in the house are still strangely working. You fainted from fear at the last ghostly 'surprise,' and you wake up in an unfamiliar room."
 
 
 [Rooms]
 
-The Black Room is a room. "The floor, ceiling, and walls are all black. A booming voice sounds from a speaker coming from the wall saying: ‘How do you escape a room with NO WINDOWS, and NOOOO DOOORS. HA. HA. HA. HA. HA.’ The door you had just entered is behind you, of course, but it looks locked.
+The Black Room is a room. "The floor, ceiling, and walls are all black. A booming voice sounds from a speaker coming from the wall saying: ‘How do you escape a room with NO WINDOWS, and NOOOO DOOORS. HA. HA. HA. HA. HA.’
 
 
 	Trying to calm yourself down, you notice a square section of the wall in front of you is an off black color."
@@ -185,13 +185,19 @@ Understand "square" as black square.
 
 The flashlight is in the podium. The description of the flashlight is "Better take it. In a place like this, it might be helpful for later."
 The wrench is in the circus room. The description of the wrench is "A metal tool. Looks like somebody lost it in here."
+After taking the wrench for the first time:
+	Increase the score by 1.
 The screwdriver is in the victorian living room. The description of the screwdriver is "A metal tool. Looks like somebody lost it in here."
+After taking the screwdriver for the first time:
+	Increase the score by 1.
 The wirecutter is in the graveyard room. The description of the wirecutter is "A metal tool. Looks like somebody lost it in here."
+After taking the wirecutter for the first time:
+	Increase the score by 1.
 The batteries is a thing in the caged rabid animal room. The description of the batteries is "May come in handy."
 
 [NPC]
 
-Mood is a kind of value. The moods are annoyed, okay, alright, pretty good, and fine. People have a mood. The mood of the Old Electrician is annoyed.
+Mood is a kind of value. The moods are annoyed and fine. People have a mood. The mood of the Old Electrician is annoyed.
 
 The Old Electrician is a man in the Control Panel Room. The description of the old electrician is "An old man wearing a grey jumpsuit cutting and reconnecting wires. Whatever he's doing looks very confusing. [If the old electrician is carrying the exit key] He is carrying the key to the exit. He looks [mood of the old electrician]."
 The old electrician is carrying the exit key.
@@ -203,15 +209,20 @@ Instead of asking the old electrician for the exit key:
 		move the exit key to player.
 Instead of giving the wrench to the old electrician:
 	move the wrench to the old electrician;
+	Increase the score by 1;
 	say "Thanks kid!"
 Instead of giving the wirecutter to the old electrician:
 	move the wirecutter to the old electrician;
+	Increase the score by 1;
 	say "Thanks kid!"
 Instead of giving the screwdriver to the old electrician:
 	move the screwdriver to the old electrician;
+	Increase the score by 1;
 	say "Thanks kid!"
 
-
+An every turn rule:
+	If the score is 6,
+	Now the old electrician is fine.
 
 [Miscellaneous]
 
