@@ -11,11 +11,11 @@ When play begins: say "You got separated from your friends and older brother in 
 The Black Room is a room. "The floor, ceiling, and walls are all black. A booming voice sounds from a speaker coming from the wall saying: ‘How do you escape a room with NO WINDOWS, and NOOOO DOOORS. HA. HA. HA. HA. HA.’ The door you had just entered is behind you, of course, but it looks locked.
 
 
-	Trying to calm yourself down, you notice a square section of the wall in front of you to the West is an off black color."
+	Trying to calm yourself down, you notice a square section of the wall in front of you is an off black color."
 
 
-The Black door is a locked door. The Black door is west of the Black Room and east of the Victorian Living Room. 
-The Second door is a locked door. The Second door is north of the Black room and south of the Entrance to the ride. 
+The Black door is a locked door. The Black door is west of the Black Room and east of the Victorian Living Room. The black door is scenery.
+The Second door is a locked door. The Second door is north of the Black room and south of the Entrance to the ride. The second door is scenery.
 
 
 The Entrance to the Ride is a room. "The front door is barricaded from the outside, so you’ll have to find another exit, which should be at the end of the ride. The room is dimly lighted with a podium at the front were a greeter stands to maintain the line. 
@@ -94,75 +94,75 @@ An every turn rule:
 [Decor Descriptions]
 
 	[Entrance to the Ride]
-	[a.] The podium is in the Entrance to the Ride. It is fixed in place. The podium is a container. In the podium is a flashlight. The description of the podium is "A normal podium that a greeter will stand at to maintain the lines of the ride. There is a space inside the podium with what looks like some junk in it. Maybe you should check it out."
-	[b] The front door is in the Entrance to the Ride. It is fixed in place. The description of the front door is "The front door to the ride. For some reason, it's barricaded outside. You will have to find another way out."
+	[a.] The podium is scenery in the Entrance to the Ride. It is fixed in place. The podium is a container. In the podium is a flashlight. The description of the podium is "A normal podium that a greeter will stand at to maintain the lines of the ride. There is a space inside the podium with what looks like some junk in it."
+	[b] The front door is scenery in the Entrance to the Ride. It is fixed in place. The description of the front door is "The front door to the ride. For some reason, it's barricaded outside. You will have to find another way out."
 		Understand "door" as front door.
 	[Victorian Living Room]
-	[a.] The Leather Couch is in the Victorian Living Room. It is fixed in place. The description of the Leather Couch is "A red, leather couch with large cushions that looks very inviting. People dressed as ghosts usually lounge on the couch and jump out at people passing by the room."
+	[a.] The Leather Couch is scenery in the Victorian Living Room. It is fixed in place. The description of the Leather Couch is "A red, leather couch with large cushions that looks very inviting. People dressed as ghosts usually lounge on the couch and jump out at people passing by the room."
 		Understand "couch" as leather couch.
-	[b.] The Sitting Chair is in the Victorian Living Room. It is fixed in place. The description of the Sitting Chair is "Looks comfortable, but you need to find a way out!"
+	[b.] The Sitting Chair is scenery in the Victorian Living Room. It is fixed in place. The description of the Sitting Chair is "Looks comfortable, but you need to find a way out!"
 		Understand "chair" as sitting chair.
-	[c.] The Bookcase is in the Victorian Living Room. It is fixed in place. The description of the Bookcase is "A large bookcase to add effect to the Victorian Scene. A lot of these books look very old. ‘Study of the Paranormal,’ ‘Introduction to Medical History,’ and ‘Exorcisms for Dummies.’ Eh. Sounds boring."
-	[d.] The Large Painting is in the Victorian Living Room. It is fixed in place. The description of the Large Painting is "A picture of an old man. There is a label underneath saying: ‘Dr. James F. Harmon, 1870 - 1932.’ Interesting prop, wonder where they found it."
+	[c.] The Bookcase is scenery in the Victorian Living Room. It is fixed in place. The description of the Bookcase is "A large bookcase to add effect to the Victorian Scene. A lot of these books look very old. ‘Study of the Paranormal,’ ‘Introduction to Medical History,’ and ‘Exorcisms for Dummies.’ Eh. Sounds boring."
+	[d.] The Large Painting is scenery in the Victorian Living Room. It is fixed in place. The description of the Large Painting is "A picture of an old man. There is a label underneath saying: ‘Dr. James F. Harmon, 1870 - 1932.’ Interesting prop, wonder where they found it."
 		Understand "Painting" as large painting.
-	[e.] The Knight in Rusty Armor is in the Victorian Living Room. It is fixed in place. The description of the Knight in Rusty Armor is "Rusty Armor put into a pose of a man holding an axe. How menacing."
+	[e.] The Knight in Rusty Armor is scenery in the Victorian Living Room. It is fixed in place. The description of the Knight in Rusty Armor is "Rusty Armor put into a pose of a man holding an axe. How menacing."
 		Understand "Knight" as Knight in rusty armor.
-	[f.] The Fireplace is in the Victorian Living Room. It is fixed in place. The description of the Fireplace is "The fake fireplace still lets off an ominous glow of purples. It’s like you can see faces in it… Weird."
+	[f.] The Fireplace is scenery in the Victorian Living Room. It is fixed in place. The description of the Fireplace is "The fake fireplace still lets off an ominous glow of purples. It’s like you can see faces in it… Weird."
 		Understand "fire" as fireplace.
 	[Caged Rabid Animal Room]
-	[a.] The Animatronic Rats is in the Caged Rabid Animal Room. It is fixed in place. The description of the Animatronic Rats is "Little robotic rats can be seen scurrying around the edges of the room."
+	[a.] The Animatronic Rats is scenery in the Caged Rabid Animal Room. It is fixed in place. The description of the Animatronic Rats is "Little robotic rats can be seen scurrying around the edges of the room."
 		Understand "rats" as animatronic rats.
-	[b.] The Cages is in the Caged Rabid Animal Room. It is fixed in place. The description of the Cages is "Large robotic dogs with glowing red eyes glare at you with fake foam coming out of their mouths. If you step too close to the cage, the dogs will jump out at you. Nothing will happen, of course, but it can give you quite a fright!"
+	[b.] The Cages is scenery in the Caged Rabid Animal Room. It is fixed in place. The description of the Cages is "Large robotic dogs with glowing red eyes glare at you with fake foam coming out of their mouths. If you step too close to the cage, the dogs will jump out at you. Nothing will happen, of course, but it can give you quite a fright!"
 	[c.] The Unlocked Cage is in the Caged Rabid Animal Room. It is fixed in place. The description of the Unlocked Cage is "A cage door has been left open at the end of the room, and a broken looking robotic dog is looking down."
 		Understand "cage" as unlocked cage.
-	[d.] The Broken Robotic Dog is in the Caged Rabid Animal Room. It is fixed in place. The description of the Broken Robotic Dog is "Someone must have been trying to fix him earlier, because most of the wiring has been ripped apart. You can see a pair of batteries sticking out from the jowls. Those probably power the red eyes."
+	[d.] The Broken Robotic Dog is scenery in the Caged Rabid Animal Room. It is fixed in place. The description of the Broken Robotic Dog is "Someone must have been trying to fix him earlier, because most of the wiring has been ripped apart. You can see a pair of batteries sticking out from the jowls. Those probably power the red eyes."
 		Understand "dog" as broken robotic dog.
 		Understand "robotic dog" as broken robotic dog.
 	[The Circus Room]
-	[a.] The Red Podium is in the Circus Room. It is fixed in place. The description of the Red Podium is "Another podium, this time matching the color scheme of the room. Usually, a worker dressed as a clown ringmaster stands here to guide the guests to the exit.
+	[a.] The Red Podium is scenery in the Circus Room. It is fixed in place. The description of the Red Podium is "Another podium, this time matching the color scheme of the room. Usually, a worker dressed as a clown ringmaster stands here to guide the guests to the exit.
 
 	There seems to be a button on the surface of the podium."
-	[b.] The Robot Clowns is in the Circus Room. It is fixed in place. The description of the Robot Clowns is "Large clown faces loom over you waving their gloved hands and bearing their sharp teeth. I thought these guys were supposed to be funny.
+	[b.] The Robot Clowns is scenery in the Circus Room. It is fixed in place. The description of the Robot Clowns is "Large clown faces loom over you waving their gloved hands and bearing their sharp teeth. I thought these guys were supposed to be funny.
 
 
 There seems to be a wrench that someone dropped underneath one of the more obese clowns."
 		Understand "clowns" as robot clowns.
 		Understand "clown" as robot clowns.
 	[The Graveyard Room]
-	[a.] The Tombstones is in the Graveyard Room. It is fixed in place. The description of the Tombstones is "Just a bunch of plastic props. Workers in werewolf or skeleton costumes sometimes pop out from the larger ones."
-	[b.] The Large Tombstone is in the Graveyard Room. It is fixed in place. The description of the Large Tombstone is "A large fake tombstone. Probably the biggest monster in this room hides behind here. A skeleton is hugging the foot of the tombstone."
+	[a.] The Tombstones is scenery in the Graveyard Room. It is fixed in place. The description of the Tombstones is "Just a bunch of plastic props. Workers in werewolf or skeleton costumes sometimes pop out from the larger ones."
+	[b.] The Large Tombstone is scenery in the Graveyard Room. It is fixed in place. The description of the Large Tombstone is "A large fake tombstone. Probably the biggest monster in this room hides behind here. A skeleton is hugging the foot of the tombstone."
 		Understand "tombstone" as large tombstone.
 		Understand "headstone" as large tombstone.
-	[c.] The Skeleton is in the Graveyard Room. It is fixed in place. The description of the Skeleton is "Just a normal skeleton. It seems to be holding wire cutters in it’s ivory left hand."
+	[c.] The Skeleton is scenery in the Graveyard Room. It is fixed in place. The description of the Skeleton is "Just a normal skeleton. It seems to be holding wire cutters in it’s ivory left hand."
 	[The Staff Break Room]
-	[a] The Mini Fridge is in the Staff Break Room. It is fixed in place. The description of the mini fridge is "A fridge where workers put their lunch when they check in for the morning. But there’s no time for snacking right now!"
+	[a] The Mini Fridge is scenery in the Staff Break Room. It is fixed in place. The description of the mini fridge is "A fridge where workers put their lunch when they check in for the morning. But there’s no time for snacking right now!"
 		Understand "fridge" as mini fridge.
-	[b.] The Old TV is in the Staff Break Room. It is fixed in place. The description of the Old TV is "Watching some TV would be nice right now, but you have no time for that!"
+	[b.] The Old TV is scenery in the Staff Break Room. It is fixed in place. The description of the Old TV is "Watching some TV would be nice right now, but you have no time for that!"
 		Understand "TV" as Old Tv.
 		Understand "Television" as old tv.
-	[c.] The Old Couch is in the Staff Break Room. It is fixed in place. The description of the Old Couch is "An old, dusty couch that employees can chillax on."
+	[c.] The Old Couch is scenery in the Staff Break Room. It is fixed in place. The description of the Old Couch is "An old, dusty couch that employees can chillax on."
 		Understand "couch" as old couch.
-	[d.] The Desk is in the Staff Break Room. It is fixed in place. The description of the Desk is "A desk where management had been keeping their paperwork on. Someone placed a key to the Control Panel Room here."
+	[d.] The Desk is scenery in the Staff Break Room. It is fixed in place. The description of the Desk is "A desk where management had been keeping their paperwork on. Someone placed a key to the Control Panel Room here."
 	[Control Panel Room]
-	[a.] The Switch for Lighting is in the Control Panel Room. It is fixed in place. The description of the Switch for Lighting is "Controls all the lighting in the ride. I suggest keeping that on."
+	[a.] The Switch for Lighting is scenery in the Control Panel Room. It is fixed in place. The description of the Switch for Lighting is "Controls all the lighting in the ride. I suggest keeping that on."
 		Understand "switch" as switch for lighting.
 		Understand "lighting" as switch for lighting.
-	[b.] The Switch for Fog is in the Control Panel Room. It is fixed in place. The description of the Switch for Fog is "Controls the fog in the ride."
+	[b.] The Switch for Fog is scenery in the Control Panel Room. It is fixed in place. The description of the Switch for Fog is "Controls the fog in the ride."
 		Understand "switch" as switch for fog.
 		Understand "fog" as switch for fog.
-	[c.] The Switch for Soundtracks is in the Control Panel Room. It is fixed in place. The description of the Switch for Soundtracks is "Controls the soundtracks in all rooms."
+	[c.] The Switch for Soundtracks is scenery in the Control Panel Room. It is fixed in place. The description of the Switch for Soundtracks is "Controls the soundtracks in all rooms."
 		Understand "switch" as switch for soundtracks.
 		Understand "soundtracks" as switch for soundtracks.
-	[d.] The Boxes is in the Control Panel Room. It is fixed in place. The description of the Boxes is "A bunch of confusing wires."
+	[d.] The Boxes is scenery in the Control Panel Room. It is fixed in place. The description of the Boxes is "A bunch of confusing wires."
 		Understand "box" as boxes.
 	[Meat Locker]
-	[a.] The Cow Meat is in the Meat Locker. It is fixed in place. The description of the Cow Meat is "Just added obstacles to the ride so visitors have a little rougher time to leave the room."
+	[a.] The Cow Meat is scenery in the Meat Locker. It is fixed in place. The description of the Cow Meat is "Just added obstacles to the ride so visitors have a little rougher time to leave the room."
 		Understand "meat" as cow meat.
-	[b.] The Metal Hooks is in the Meat Locker. It is fixed in place. The description of the Metal Hooks is "Used to hold up the cow meat."
+	[b.] The Metal Hooks is scenery in the Meat Locker. It is fixed in place. The description of the Metal Hooks is "Used to hold up the cow meat."
 		Understand "hooks" as metal hooks.
 	[Narrow Hall of Terror]
-	[a.] The Cobwebs is in the Narrow Hall of Terror. It is fixed in place. The description of the Cobwebs is "Adds some scary effect to the room."
-	[b.] The Robotic Hands is in the Narrow Hall of Terror. It is fixed in place. The description of the Robotic Hands is "It looks like their trying to grab at you."
+	[a.] The Cobwebs is scenery in the Narrow Hall of Terror. It is fixed in place. The description of the Cobwebs is "Adds some scary effect to the room."
+	[b.] The Robotic Hands is scenery in the Narrow Hall of Terror. It is fixed in place. The description of the Robotic Hands is "It looks like their trying to grab at you."
 		Understand "hands" as robotic hands.
 
 [Doors]
@@ -171,9 +171,9 @@ There seems to be a wrench that someone dropped underneath one of the more obese
 
 [Keys]
 
-The Exit Key is a thing. The key unlocks the Cobwebbed door. The description of the Exit Key is "A silver key that unlocks the door to the exit."
+The Exit Key is a thing. The key unlocks the Cobwebbed door. The description of the Exit Key is "A silver key that unlocks the door to the exit." The old electrician holds the exit key.
 Understand "key to the exit" as exit key.
-The Black Square is in the Black Room. It is fixed in place. The Black square can be pushed. The description of the Black Square is "This square of the room is a bit lighter than the rest of the room."
+The Black Square is scenery in the Black Room. It is fixed in place. The Black square can be pushed. The description of the Black Square is "This square of the room is a bit lighter than the rest of the room."
 Instead pushing the Black square for the first time:
 	now the black door is open;
 	say "A door has opened to the west.";
@@ -187,6 +187,7 @@ The flashlight is in the podium. The description of the flashlight is "Better ta
 The wrench is in the circus room. The description of the wrench is "A metal tool. Looks like somebody lost it in here."
 The screwdriver is in the victorian living room. The description of the screwdriver is "A metal tool. Looks like somebody lost it in here."
 The wirecutter is in the graveyard room. The description of the wirecutter is "A metal tool. Looks like somebody lost it in here."
+The batteries is a thing in the caged rabid animal room. The description of the batteries is "May come in handy."
 
 [NPC]
 
@@ -201,12 +202,14 @@ Instead of asking the old electrician for the exit key:
 		say "'Thanks a bunch kid! Here’s the key that leads out of the Meat Locker. After the Narrow Hallway, you should be home free to the exit! Just leave the key for me though on the ground in the butcher room so I can get out too.'";
 		move the exit key to player.
 Instead of giving the wrench to the old electrician:
-	now the old electrician is alright.
+	move the wrench to the old electrician;
+	say "Thanks kid!"
 Instead of giving the wirecutter to the old electrician:
-	now the old electrician is okay.
+	move the wirecutter to the old electrician;
+	say "Thanks kid!"
 Instead of giving the screwdriver to the old electrician:
-	now the old electrician is pretty good.
-		
+	move the screwdriver to the old electrician;
+	say "Thanks kid!"
 
 
 
