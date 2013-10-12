@@ -41,7 +41,12 @@ The Circus Room is in the South. There is a door to the West that looks like it 
 The Hall of Mirrors is a room. It is east of the Graveyard Room. "There is no repetitive music playing, but this time, you hear giggling that sounds like it’s coming from a little girl. You feel like you can almost see a little girl darting between the mirrors, as if the lace of her dress and her long black hair trailing behind her disappears from every corner. The workers must use some kind of trick with the mirrors.
 
 
+
 	The entrance to the Graveyard is to the West."
+	
+Every turn when a random chance of 1 in 15 succeeds:
+	Say "You see a shadow of a little girl running out of the corner of your eye."
+
 The Staff Break Room is a room. It is west of the Graveyard Room. "FINALLY. A soundproof room with nothing scary in it. This is obviously a break room for the staff during their downtime. There’s a mini fridge, an old TV, an old couch, and a desk.
 	
 	
@@ -60,10 +65,7 @@ You should turn off the fog and soundtracks, but leave the lighting on so you ca
 
 
 The Staff Break Room is South."
-The Meat Locker is a room. It is north of the Graveyard Room. "Large sacks of what looks like cow meat hang from the ceiling on metal hooks. Obviously, their plastic, but it still gives you the creeps being wrapped in the cloudy plastic. Usually, a worker dawning a butcher’s outfit chases the visitors around towards the exit, but the fog is so thick, you can’t see it.
-
-
-	The Graveyard is South. There is a large cobwebbed door to the East."
+The Meat Locker is a room. It is north of the Graveyard Room. "It's too foggy to really see anything. There might be a door to the east. You just entered from the graveyard in the south."
 
 The Narrow Hall of Terror is a room. The Narrow Hall of Terror is east of the Cobwebbed door. The Cobwebbed door is a locked door. The cobwebbed door is east of the Meat Locker and west of the Narrow Hall of Terror. The description of the Narrow Hall of Terror is "All you see is darkness. You need something to light the pathway, but you can tell the room is very narrow." 
 
@@ -144,13 +146,13 @@ There seems to be a wrench that someone dropped underneath one of the more obese
 		Understand "couch" as old couch.
 	[d.] The Desk is scenery in the Staff Break Room. It is fixed in place. The description of the Desk is "A desk where management had been keeping their paperwork on. Someone placed a key to the Control Panel Room here."
 	[Control Panel Room]
-	[a.] The Switch for Lighting is scenery in the Control Panel Room. It is fixed in place. The description of the Switch for Lighting is "Controls all the lighting in the ride. I suggest keeping that on."
+	[a.] The Switch for Lighting is scenery in the Control Panel Room. The switch for lighting can be switched off. It is fixed in place. The description of the Switch for Lighting is "Controls all the lighting in the ride. I suggest keeping that on."
 		Understand "switch" as switch for lighting.
 		Understand "lighting" as switch for lighting.
-	[b.] The Switch for Fog is scenery in the Control Panel Room. It is fixed in place. The description of the Switch for Fog is "Controls the fog in the ride."
+	[b.] The Switch for Fog is scenery in the Control Panel Room. The switch for fog can be switched off. It is fixed in place. The description of the Switch for Fog is "Controls the fog in the ride."
 		Understand "switch" as switch for fog.
 		Understand "fog" as switch for fog.
-	[c.] The Switch for Soundtracks is scenery in the Control Panel Room. It is fixed in place. The description of the Switch for Soundtracks is "Controls the soundtracks in all rooms."
+	[c.] The Switch for Soundtracks is scenery in the Control Panel Room. The switch for fog can be turned off. It is fixed in place. The description of the Switch for Soundtracks is "Controls the soundtracks in all rooms."
 		Understand "switch" as switch for soundtracks.
 		Understand "soundtracks" as switch for soundtracks.
 	[d.] The Boxes is scenery in the Control Panel Room. It is fixed in place. The description of the Boxes is "A bunch of confusing wires."
@@ -164,10 +166,6 @@ There seems to be a wrench that someone dropped underneath one of the more obese
 	[a.] The Cobwebs is scenery in the Narrow Hall of Terror. It is fixed in place. The description of the Cobwebs is "Adds some scary effect to the room."
 	[b.] The Robotic Hands is scenery in the Narrow Hall of Terror. It is fixed in place. The description of the Robotic Hands is "It looks like their trying to grab at you."
 		Understand "hands" as robotic hands.
-
-[Doors]
-
-
 
 [Keys]
 
@@ -197,32 +195,53 @@ The batteries is a thing in the caged rabid animal room. The description of the 
 
 [NPC]
 
-Mood is a kind of value. The moods are annoyed and fine. People have a mood. The mood of the Old Electrician is annoyed.
+Talking to is an action applying to one visible thing and requiring light.
+Understand "Talk to [something]" as talking.
 
-The Old Electrician is a man in the Control Panel Room. The description of the old electrician is "An old man wearing a grey jumpsuit cutting and reconnecting wires. Whatever he's doing looks very confusing. [If the old electrician is carrying the exit key] He is carrying the key to the exit. He looks [mood of the old electrician]."
+The Old Electrician is a man in the Control Panel Room. The description of the old electrician is "An old man wearing a grey jumpsuit cutting and reconnecting wires. Whatever he's doing looks very confusing. [If the old electrician is carrying the exit key] He is carrying the key to the exit."
 The old electrician is carrying the exit key.
+Understand "electrician" as old electrician.
+Understand "old man" as old electrician.
+Understand "man" as old electrician.
 Instead of asking the old electrician for the exit key:
-	if the old electrician is annoyed:
-		say "'What are you doing here, the ride’s closed! ... What? They locked you in while closing down? Sorry to hear that, but I can’t help you. I only got the one spare key, and I’m gonna be here for a couple hours. Maybe we can make an exchange though, I seem to be missing some of my tools… Three of them to be exact. I probably dropped them in some of the rooms that came before the graveyard. Try giving a look for them, this old heart of mine couldn’t stand going through that Circus Room again.'";
-	if the old electrician is fine:
-		say "'Thanks a bunch kid! Here’s the key that leads out of the Meat Locker. After the Narrow Hallway, you should be home free to the exit! Just leave the key for me though on the ground in the butcher room so I can get out too.'";
-		move the exit key to player.
-Instead of giving the wrench to the old electrician:
+		say "'I only got the one spare key, and I’m gonna be here for a couple hours. Maybe we can make an exchange though, I seem to be missing some of my tools… Three of them to be exact. I probably dropped them in some of the rooms that came before the graveyard. Try giving a look for them, this old heart of mine couldn’t stand going through that Circus Room again.'"
+Before talking to the old electrician:
+		say "'What are you doing here, the ride’s closed! ... What? They locked you in while closing down? Sorry to hear that, but I can’t help you. I only got the one spare key, and I’m gonna be here for a couple hours. Maybe we can make an exchange though, I seem to be missing some of my tools… Three of them to be exact. I probably dropped them in some of the rooms that came before the graveyard. Try giving a look for them, this old heart of mine couldn’t stand going through that Circus Room again.'"
+Before talking to an object that is not the old electrician: 
+	say "I don't see why you're talking to that."
+Instead of giving the wrench to the old electrician for the first time:
 	move the wrench to the old electrician;
 	Increase the score by 1;
 	say "Thanks kid!"
-Instead of giving the wirecutter to the old electrician:
+Instead of giving the wirecutter to the old electrician for the first time:
 	move the wirecutter to the old electrician;
 	Increase the score by 1;
 	say "Thanks kid!"
-Instead of giving the screwdriver to the old electrician:
+Instead of giving the screwdriver to the old electrician for the first time:
 	move the screwdriver to the old electrician;
 	Increase the score by 1;
 	say "Thanks kid!"
 
+Before switching off the switch for lighting:
+	say "I don't think that's a good idea."
+	
+Before switching off the switch for fog:
+	Change the description of meat locker to "Large sacks of what looks like cow meat hang from the ceiling on metal hooks. Obviously, their plastic, but it still gives you the creeps being wrapped in the cloudy plastic. Usually, a worker dawning a butcher’s outfit chases the visitors around towards the exit, but the fog is so thick, you can’t see it.
+
+
+	The Graveyard is South. There is a large cobwebbed door to the East."
+	
+Before switching off the switch for soundtracks:
+	Change the description of the circus room to "Large, robotic clowns loom over you as you walk by. There is another podium at the entrance where a worker dressed as a ringmaster is supposed to welcome the guests. The Cage Room is to the East, and there is a sliding door to the North of the room.
+	
+
+	The room is now silent."
+	
+	
 An every turn rule:
-	If the score is 6,
-	Now the old electrician is fine.
+	If the old electrician is carrying wrench and the old electrician is carrying the wirecutter and the old electrician is carrying the screwdriver,
+	say "'Thanks a bunch kid! Here’s the key that leads out of the Meat Locker. After the Narrow Hallway, you should be home free to the exit! Just leave the key for me though on the ground in the butcher room so I can get out too.'";
+	move the exit key to player.
 
 [Miscellaneous]
 
