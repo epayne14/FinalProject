@@ -43,7 +43,7 @@ The Hall of Mirrors is a room. It is east of the Graveyard Room. "There is no re
 
 
 	The entrance to the Graveyard is to the West."
-	
+
 
 The Staff Break Room is a room. It is west of the Graveyard Room. "FINALLY. A soundproof room with nothing scary in it. This is obviously a break room for the staff during their downtime. There’s a mini fridge, an old TV, an old couch, and a desk.
 	
@@ -210,15 +210,15 @@ Before talking to an object that is not the old electrician:
 Instead of giving the wrench to the old electrician for the first time:
 	move the wrench to the old electrician;
 	Increase the score by 1;
-	say "Thanks kid!"
+	say "Thanks!"
 Instead of giving the wirecutter to the old electrician for the first time:
 	move the wirecutter to the old electrician;
 	Increase the score by 1;
-	say "Thanks kid!"
+	say "Thanks!"
 Instead of giving the screwdriver to the old electrician for the first time:
 	move the screwdriver to the old electrician;
 	Increase the score by 1;
-	say "Thanks kid!"
+	say "Thanks!"
 
 Instead of pushing the Button for lighting:
 	say "I don't think that's a good idea."
@@ -254,6 +254,11 @@ An every turn rule:
 
 The description of player is "You got locked inside one of the scariest rides in the theme park and got seperated from your older brother and friends. Your feeling pretty freaked out right now."
 
-Every turn when a random chance of 1 in 15 succeeds:
-	Say "A shadow of a little girl running out of the corner of your eye."
+Every turn when a random chance of 1 in 4 succeeds:
+	Change the description of the Knight in Rusty Armor to "It looks like he's almost breathing…"
+
+Every turn when a random chance of 1 in 20 succeeds:
+	Say "You see a shadow of a little girl running out of the corner of your eye."
+
+
 
