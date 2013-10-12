@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Skein rootNode="node-0x18b6d50" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x103933f0" />
+  <activeNode nodeId="node-0x14a7f080" />
   <item nodeId="node-0x18b6d50">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
@@ -22,12 +22,11 @@ The floor, ceiling, and walls are all black. A booming voice sounds from a speak
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="248">NO</temporary>
+    <temporary score="306">NO</temporary>
     <children>
       <child nodeId="node-0x10517050" />
       <child nodeId="node-0x6c31d80" />
       <child nodeId="node-0xbe129b0" />
-      <child nodeId="node-0x6c30490" />
       <child nodeId="node-0x6c2fa40" />
     </children>
   </item>
@@ -306,222 +305,6 @@ You can see a Cobwebbed door, a Cobwebs, and a Robotic Hands here.
     <changed>YES</changed>
     <temporary score="167">YES</temporary>
   </item>
-  <item nodeId="node-0x6c30490">
-    <command xml:space="preserve">x square</command>
-    <result xml:space="preserve">This square of the room is a bit lighter than the rest of the room.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="91">YES</temporary>
-    <children>
-      <child nodeId="node-0x6c30500" />
-    </children>
-  </item>
-  <item nodeId="node-0x6c30500">
-    <command xml:space="preserve">push square</command>
-    <result xml:space="preserve">A door has opened to the west.
-Another door has opened in the north.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="91">YES</temporary>
-    <children>
-      <child nodeId="node-0x6c30570" />
-    </children>
-  </item>
-  <item nodeId="node-0x6c30570">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
-Victorian Living Room
-Victorian furniture create a gloomy scene in this room, reminding you of a horror movie you watched about a murder in the 1800&quot;s. The fireplace lets off an ominous purple glow (obviously done with purple flashlights and the shifting of the light.) There is a large, comfy couch, a sitting chair, a bookcase, a large painting of a grim old man, and a knight in rusty armor holding an axe.
-
-
-The Black Room is to the East, and there is a door to the West.
-
-You can see a screwdriver here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="91">YES</temporary>
-    <children>
-      <child nodeId="node-0x6c305e0" />
-    </children>
-  </item>
-  <item nodeId="node-0x6c305e0">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
-Caged Rabid Animal Room
-As you open the door letting off a horrifying creak, you see animatronic rats scurrying out of the corner of your eye. This doesn&apos;t bother you that much, until you see what is in the room. Large cages with robot animals that have fake foam oozing from their jowls. When you step close to one of the cages, a sensor goes off, and the animals leap against the wall of their cage, growling and chomping at you. It looks like one of the cages is unlocked…ﹲ
-
-
-The Living Room is in the East, and the Next Room is in the West.
-
-You can see an Unlocked Cage and a batteries here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="91">YES</temporary>
-    <children>
-      <child nodeId="node-0x6c30650" />
-    </children>
-  </item>
-  <item nodeId="node-0x6c30650">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
-Circus Room
-Great. A room devoted to the Circus. You&apos;ve always hated the Circus, especially clowns. Large robotic clowns loom over you and a demonic low-voiced laughter rings through the room as a waltzing, repetitive circus song plays in the background. There is another podium at the entrance where a worker dressed as a ringmaster is supposed to welcome the guests.
-
-
-The Cage Room is to the East, and there is a sliding door to the North of the room.
-
-You can see a wrench here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="91">YES</temporary>
-    <children>
-      <child nodeId="node-0x6c306c0" />
-    </children>
-  </item>
-  <item nodeId="node-0x6c306c0">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-Graveyard Room
-A large, very open room with the ceiling decorated to look like nighttime. The floor is littered with tombstones, but a large tombstone with a skeleton hugging the base of it really sticks out to you. The soundtrack to this room is howling wind and a wolf howling in the background.
-
-
-The Circus Room is in the South. There is a door to the West that looks like it was decorated to not stand out. A door with a large mirror in the front is to the East. A room with what looks like fog coming out from under the door is to the North.
-
-You can see a wirecutter here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="91">YES</temporary>
-    <children>
-      <child nodeId="node-0x6c30730" />
-    </children>
-  </item>
-  <item nodeId="node-0x6c30730">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-Meat Locker
-Large sacks of what looks like cow meat hang from the ceiling on metal hooks. Obviously, their plastic, but it still gives you the creeps being wrapped in the cloudy plastic. Usually, a worker dawning a butcher&apos;s outfit chases the visitors around towards the exit, but the fog is so thick, you can&apos;t see it.
-
- The Graveyard is South. There is a large cobwebbed door to the East.
-
-You can see a Cobwebbed door here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="91">YES</temporary>
-    <children>
-      <child nodeId="node-0x6c307a0" />
-    </children>
-  </item>
-  <item nodeId="node-0x6c307a0">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">(first opening the Cobwebbed door)
-It seems to be locked.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="91">YES</temporary>
-    <children>
-      <child nodeId="node-0x6c30810" />
-    </children>
-  </item>
-  <item nodeId="node-0x6c30810">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">(first opening the Cobwebbed door)
-It seems to be locked.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="91">YES</temporary>
-    <children>
-      <child nodeId="node-0x6c30880" />
-    </children>
-  </item>
-  <item nodeId="node-0x6c30880">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="91">YES</temporary>
-    <children>
-      <child nodeId="node-0x6c308f0" />
-    </children>
-  </item>
-  <item nodeId="node-0x6c308f0">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
-Graveyard Room
-A large, very open room with the ceiling decorated to look like nighttime. The floor is littered with tombstones, but a large tombstone with a skeleton hugging the base of it really sticks out to you. The soundtrack to this room is howling wind and a wolf howling in the background.
-
-
-The Circus Room is in the South. There is a door to the West that looks like it was decorated to not stand out. A door with a large mirror in the front is to the East. A room with what looks like fog coming out from under the door is to the North.
-
-You can see a wirecutter here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="91">YES</temporary>
-    <children>
-      <child nodeId="node-0x6c30960" />
-    </children>
-  </item>
-  <item nodeId="node-0x6c30960">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
-Staff Break Room
-FINALLY. A soundproof room with nothing scary in it. This is obviously a break room for the staff during their downtime. There&apos;s a mini fridge, an old TV, an old couch, and a desk.
-
-
-The entrance to the Graveyard is to the East, and there is a metal door to the North.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="91">YES</temporary>
-    <children>
-      <child nodeId="node-0x6c309d0" />
-    </children>
-  </item>
-  <item nodeId="node-0x6c309d0">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-Control Panel Room
-An old man is fumbling around with one of the boxes on the wall, cutting wires and reconnecting others. He must be the electrician, maybe he can help you find a way out! This seems to be the Control Panel room that has all the wires and switches causing the electricity to work. Someone must have forgotten to switch off the ride, since lights are flashing next to the switches labeled:
-
- Lighting
- Fog
- Soundtracks
-
-
-You should turn off the fog and soundtracks, but leave the lighting on so you can see.
-
-
-The Staff Break Room is South.
-
-You can see an old electrician here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="90">YES</temporary>
-  </item>
   <item nodeId="node-0xbe129b0">
     <command xml:space="preserve">push square</command>
     <result xml:space="preserve">A door has opened to the west.
@@ -530,7 +313,7 @@ Another door has opened in the north.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="248">YES</temporary>
+    <temporary score="306">YES</temporary>
     <children>
       <child nodeId="node-0x6c6cdf0" />
     </children>
@@ -546,12 +329,10 @@ The Black Room is to the East, and there is a door to the West.
 
 You can see a screwdriver here.
 
-You see a shadow of a little girl running out of the corner of your eye.
-
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="248">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="306">YES</temporary>
     <children>
       <child nodeId="node-0xbe65160" />
       <child nodeId="node-0x182b4d0" />
@@ -988,69 +769,7 @@ You can see an old electrician here.
       <child nodeId="node-0x14a19f80" />
       <child nodeId="node-0x1052a260" />
       <child nodeId="node-0x14a37530" />
-      <child nodeId="node-0x6ccdf10" />
     </children>
-  </item>
-  <item nodeId="node-0x6ccdf10">
-    <command xml:space="preserve">x old electrician</command>
-    <result xml:space="preserve">An old man wearing a grey jumpsuit cutting and reconnecting wires. Whatever he&apos;s doing looks very confusing.  He is carrying the key to the exit. He looks annoyed.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="87">YES</temporary>
-    <children>
-      <child nodeId="node-0x1053c610" />
-    </children>
-  </item>
-  <item nodeId="node-0x1053c610">
-    <command xml:space="preserve">ask for key</command>
-    <result xml:space="preserve">You can only do that to something animate.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="87">YES</temporary>
-    <children>
-      <child nodeId="node-0xbe59ef0" />
-    </children>
-  </item>
-  <item nodeId="node-0xbe59ef0">
-    <command xml:space="preserve">ask electrician for key</command>
-    <result xml:space="preserve">&quot;What are you doing here, the ride&apos;s closed! ... What? They locked you in while closing down? Sorry to hear that, but I can&apos;t help you. I only got the one spare key, and I&apos;m gonna be here for a couple hours. Maybe we can make an exchange though, I seem to be missing some of my tools… Three of them to be exact. I probably dropped them in some of the rooms that came before the graveyard. Try giving a look for them, this old heart of mine couldn&apos;t stand going through that Circus Room again.&quot;
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="87">YES</temporary>
-    <children>
-      <child nodeId="node-0x1059d6c0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1059d6c0">
-    <command xml:space="preserve">give electrician wrench</command>
-    <result xml:space="preserve">Thanks kid!
-
-[Your score has just gone up by one point.]
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="87">YES</temporary>
-    <children>
-      <child nodeId="node-0xccd3140" />
-    </children>
-  </item>
-  <item nodeId="node-0xccd3140">
-    <command xml:space="preserve">give electrician the wirecutter</command>
-    <result xml:space="preserve">Thanks kid!
-
-[Your score has just gone up by one point.]
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="87">YES</temporary>
   </item>
   <item nodeId="node-0x14a37530">
     <command xml:space="preserve">give electrician wrench</command>
@@ -1362,9 +1081,10 @@ You can see an Unlocked Cage and a batteries here.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="199">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="306">YES</temporary>
     <children>
+      <child nodeId="node-0x103e7680" />
       <child nodeId="node-0x8c36600" />
     </children>
   </item>
@@ -1482,6 +1202,510 @@ You can see an old electrician here.
     <changed>YES</changed>
     <temporary score="198">YES</temporary>
   </item>
+  <item nodeId="node-0x103e7680">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Circus Room
+Great. A room devoted to the Circus. You&apos;ve always hated the Circus, especially clowns. Large robotic clowns loom over you and a demonic low-voiced laughter rings through the room as a waltzing, repetitive circus song plays in the background. There is another podium at the entrance where a worker dressed as a ringmaster is supposed to welcome the guests.
+
+
+The Cage Room is to the East, and there is a sliding door to the North of the room.
+
+You can see a wrench here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="306">YES</temporary>
+    <children>
+      <child nodeId="node-0x14a991c0" />
+      <child nodeId="node-0x139b8fc0" />
+    </children>
+  </item>
+  <item nodeId="node-0x139b8fc0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="306">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b51d30" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b51d30">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Graveyard Room
+A large, very open room with the ceiling decorated to look like nighttime. The floor is littered with tombstones, but a large tombstone with a skeleton hugging the base of it really sticks out to you. The soundtrack to this room is howling wind and a wolf howling in the background.
+
+
+The Circus Room is in the South. There is a door to the West that looks like it was decorated to not stand out. A door with a large mirror in the front is to the East. A room with what looks like fog coming out from under the door is to the North.
+
+You can see a wirecutter here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="306">YES</temporary>
+    <children>
+      <child nodeId="node-0xccccfd0" />
+    </children>
+  </item>
+  <item nodeId="node-0xccccfd0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Staff Break Room
+FINALLY. A soundproof room with nothing scary in it. This is obviously a break room for the staff during their downtime. There&apos;s a mini fridge, an old TV, an old couch, and a desk.
+
+
+The entrance to the Graveyard is to the East, and there is a metal door to the North.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="306">YES</temporary>
+    <children>
+      <child nodeId="node-0x1393af50" />
+    </children>
+  </item>
+  <item nodeId="node-0x1393af50">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Graveyard Room
+A large, very open room with the ceiling decorated to look like nighttime. The floor is littered with tombstones, but a large tombstone with a skeleton hugging the base of it really sticks out to you. The soundtrack to this room is howling wind and a wolf howling in the background.
+
+
+The Circus Room is in the South. There is a door to the West that looks like it was decorated to not stand out. A door with a large mirror in the front is to the East. A room with what looks like fog coming out from under the door is to the North.
+
+You can see a wirecutter here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="306">YES</temporary>
+    <children>
+      <child nodeId="node-0x103733b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x103733b0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Staff Break Room
+FINALLY. A soundproof room with nothing scary in it. This is obviously a break room for the staff during their downtime. There&apos;s a mini fridge, an old TV, an old couch, and a desk.
+
+
+The entrance to the Graveyard is to the East, and there is a metal door to the North.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="306">YES</temporary>
+    <children>
+      <child nodeId="node-0x13e56e50" />
+    </children>
+  </item>
+  <item nodeId="node-0x13e56e50">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Control Panel Room
+An old man is fumbling around with one of the boxes on the wall, cutting wires and reconnecting others. He must be the electrician, maybe he can help you find a way out! This seems to be the Control Panel room that has all the wires and switches causing the electricity to work. Someone must have forgotten to switch off the ride, since lights are flashing next to the switches labeled:
+
+ Lighting
+ Fog
+ Soundtracks
+
+
+You should turn off the fog and soundtracks, but leave the lighting on so you can see.
+
+
+The Staff Break Room is South.
+
+You can see an old electrician here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="306">YES</temporary>
+    <children>
+      <child nodeId="node-0x14aa68b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x14aa68b0">
+    <command xml:space="preserve">push soundtracks</command>
+    <result xml:space="preserve">You hear a clicking noise. It seems quieter outside, something must have happened.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="306">YES</temporary>
+    <children>
+      <child nodeId="node-0x14a9bba0" />
+    </children>
+  </item>
+  <item nodeId="node-0x14a9bba0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Staff Break Room
+FINALLY. A soundproof room with nothing scary in it. This is obviously a break room for the staff during their downtime. There&apos;s a mini fridge, an old TV, an old couch, and a desk.
+
+
+The entrance to the Graveyard is to the East, and there is a metal door to the North.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="306">YES</temporary>
+    <children>
+      <child nodeId="node-0x14a7f080" />
+    </children>
+  </item>
+  <item nodeId="node-0x14a7f080">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Graveyard Room
+A large, very open room with the ceiling decorated to look like nighttime. The floor is littered with tombstones, but a large tombstone with a skeleton hugging the base of it really sticks out to you. The Circus Room is in the South. There is a door to the West that looks like it was decorated to not stand out. A door with a large mirror in the front is to the East.
+ The room is silent.
+
+You can see a wirecutter here.
+
+You see a shadow of a little girl running out of the corner of your eye.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="305">YES</temporary>
+  </item>
+  <item nodeId="node-0x14a991c0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Graveyard Room
+A large, very open room with the ceiling decorated to look like nighttime. The floor is littered with tombstones, but a large tombstone with a skeleton hugging the base of it really sticks out to you. The soundtrack to this room is howling wind and a wolf howling in the background.
+
+
+The Circus Room is in the South. There is a door to the West that looks like it was decorated to not stand out. A door with a large mirror in the front is to the East. A room with what looks like fog coming out from under the door is to the North.
+
+You can see a wirecutter here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="293">YES</temporary>
+    <children>
+      <child nodeId="node-0x105e7bc0" />
+      <child nodeId="node-0x1395fea0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1395fea0">
+    <command xml:space="preserve">wn</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="276">YES</temporary>
+    <children>
+      <child nodeId="node-0x6cce990" />
+    </children>
+  </item>
+  <item nodeId="node-0x6cce990">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Staff Break Room
+FINALLY. A soundproof room with nothing scary in it. This is obviously a break room for the staff during their downtime. There&apos;s a mini fridge, an old TV, an old couch, and a desk.
+
+
+The entrance to the Graveyard is to the East, and there is a metal door to the North.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="276">YES</temporary>
+    <children>
+      <child nodeId="node-0xcdd4260" />
+    </children>
+  </item>
+  <item nodeId="node-0xcdd4260">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Control Panel Room
+An old man is fumbling around with one of the boxes on the wall, cutting wires and reconnecting others. He must be the electrician, maybe he can help you find a way out! This seems to be the Control Panel room that has all the wires and switches causing the electricity to work. Someone must have forgotten to switch off the ride, since lights are flashing next to the switches labeled:
+
+ Lighting
+ Fog
+ Soundtracks
+
+
+You should turn off the fog and soundtracks, but leave the lighting on so you can see.
+
+
+The Staff Break Room is South.
+
+You can see an old electrician here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="276">YES</temporary>
+    <children>
+      <child nodeId="node-0x1399c210" />
+    </children>
+  </item>
+  <item nodeId="node-0x1399c210">
+    <command xml:space="preserve">push lighting</command>
+    <result xml:space="preserve">I don&apos;t think that&apos;s a good idea.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="276">YES</temporary>
+    <children>
+      <child nodeId="node-0x139cd610" />
+    </children>
+  </item>
+  <item nodeId="node-0x139cd610">
+    <command xml:space="preserve">push fog</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="276">YES</temporary>
+    <children>
+      <child nodeId="node-0x10308690" />
+    </children>
+  </item>
+  <item nodeId="node-0x10308690">
+    <command xml:space="preserve">push button for fog</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="275">YES</temporary>
+  </item>
+  <item nodeId="node-0x105e7bc0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Staff Break Room
+FINALLY. A soundproof room with nothing scary in it. This is obviously a break room for the staff during their downtime. There&apos;s a mini fridge, an old TV, an old couch, and a desk.
+
+
+The entrance to the Graveyard is to the East, and there is a metal door to the North.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="293">YES</temporary>
+    <children>
+      <child nodeId="node-0x103929a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x103929a0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Control Panel Room
+An old man is fumbling around with one of the boxes on the wall, cutting wires and reconnecting others. He must be the electrician, maybe he can help you find a way out! This seems to be the Control Panel room that has all the wires and switches causing the electricity to work. Someone must have forgotten to switch off the ride, since lights are flashing next to the switches labeled:
+
+ Lighting
+ Fog
+ Soundtracks
+
+
+You should turn off the fog and soundtracks, but leave the lighting on so you can see.
+
+
+The Staff Break Room is South.
+
+You can see an old electrician here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="293">YES</temporary>
+    <children>
+      <child nodeId="node-0x14aa66f0" />
+      <child nodeId="node-0xccbf870" />
+      <child nodeId="node-0x139403b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x139403b0">
+    <command xml:space="preserve">push lighting</command>
+    <result xml:space="preserve">I don&apos;t think that&apos;s a good idea.
+
+It is fixed in place.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="265">YES</temporary>
+    <children>
+      <child nodeId="node-0x1394b980" />
+    </children>
+  </item>
+  <item nodeId="node-0x1394b980">
+    <command xml:space="preserve">push fog</command>
+    <result xml:space="preserve">It is fixed in place.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="264">YES</temporary>
+  </item>
+  <item nodeId="node-0xccbf870">
+    <command xml:space="preserve">push button for lighting</command>
+    <result xml:space="preserve">I don&apos;t think that&apos;s a good idea.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="293">YES</temporary>
+    <children>
+      <child nodeId="node-0x13e2fec0" />
+    </children>
+  </item>
+  <item nodeId="node-0x13e2fec0">
+    <command xml:space="preserve">push button for fog</command>
+    <result xml:space="preserve">You hear a clicking noise. Something must have happened.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="293">YES</temporary>
+    <children>
+      <child nodeId="node-0x139753c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x139753c0">
+    <command xml:space="preserve">push button for fog</command>
+    <result xml:space="preserve">You hear a clicking noise. Something must have happened.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="293">YES</temporary>
+    <children>
+      <child nodeId="node-0x1397f030" />
+    </children>
+  </item>
+  <item nodeId="node-0x1397f030">
+    <command xml:space="preserve">push button for soundtracks</command>
+    <result xml:space="preserve">You hear a clicking noise. It seems quieter outside, something must have happened.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="293">YES</temporary>
+    <children>
+      <child nodeId="node-0x139ca4d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x139ca4d0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Staff Break Room
+FINALLY. A soundproof room with nothing scary in it. This is obviously a break room for the staff during their downtime. There&apos;s a mini fridge, an old TV, an old couch, and a desk.
+
+
+The entrance to the Graveyard is to the East, and there is a metal door to the North.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="293">YES</temporary>
+    <children>
+      <child nodeId="node-0xcc9bed0" />
+    </children>
+  </item>
+  <item nodeId="node-0xcc9bed0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="293">YES</temporary>
+    <children>
+      <child nodeId="node-0x1054b910" />
+    </children>
+  </item>
+  <item nodeId="node-0x1054b910">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Graveyard Room
+A large, very open room with the ceiling decorated to look like nighttime. The floor is littered with tombstones, but a large tombstone with a skeleton hugging the base of it really sticks out to you. The soundtrack to this room is howling wind and a wolf howling in the background.
+
+
+The Circus Room is in the South. There is a door to the West that looks like it was decorated to not stand out. A door with a large mirror in the front is to the East. A room with what looks like fog coming out from under the door is to the North.
+
+You can see a wirecutter here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="293">YES</temporary>
+    <children>
+      <child nodeId="node-0x105fb1d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x105fb1d0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Meat Locker
+Large sacks of what looks like cow meat hang from the ceiling on metal hooks. Obviously, their plastic, but it still gives you the creeps being wrapped in the cloudy plastic. Usually, a worker dawning a butcher&apos;s outfit chases the visitors around towards the exit, but the fog is so thick, you can&apos;t see it.
+
+ The Graveyard is South. There is a large cobwebbed door to the East.
+
+You can see a Cobwebbed door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="293">YES</temporary>
+    <children>
+      <child nodeId="node-0x13947a70" />
+    </children>
+  </item>
+  <item nodeId="node-0x13947a70">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Graveyard Room
+A large, very open room with the ceiling decorated to look like nighttime. The floor is littered with tombstones, but a large tombstone with a skeleton hugging the base of it really sticks out to you. The soundtrack to this room is howling wind and a wolf howling in the background.
+
+
+The Circus Room is in the South. There is a door to the West that looks like it was decorated to not stand out. A door with a large mirror in the front is to the East. A room with what looks like fog coming out from under the door is to the North.
+
+You can see a wirecutter here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="293">YES</temporary>
+    <children>
+      <child nodeId="node-0x13e421a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x13e421a0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Circus Room
+Large, robotic clowns loom over you as you walk by. There is another podium at the entrance where a worker dressed as a ringmaster is supposed to welcome the guests. The Cage Room is to the East, and there is a sliding door to the North of the room.
+
+ The room is now silent.
+
+You can see a wrench here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="292">YES</temporary>
+  </item>
+  <item nodeId="node-0x14aa66f0">
+    <command xml:space="preserve">pull lever for fog</command>
+    <result xml:space="preserve">It is fixed in place.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="255">YES</temporary>
+  </item>
   <item nodeId="node-0x6c31d80">
     <command xml:space="preserve">x player</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
@@ -1545,189 +1769,7 @@ You can see a screwdriver here.
     <temporary score="130">YES</temporary>
     <children>
       <child nodeId="node-0x8cd68c0" />
-      <child nodeId="node-0x104b1490" />
     </children>
-  </item>
-  <item nodeId="node-0x104b1490">
-    <command xml:space="preserve">talk to couch</command>
-    <result xml:space="preserve">I only understood you as far as wanting to talk to.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="113">YES</temporary>
-    <children>
-      <child nodeId="node-0x10339360" />
-    </children>
-  </item>
-  <item nodeId="node-0x10339360">
-    <command xml:space="preserve">talk to screwdriver</command>
-    <result xml:space="preserve">I only understood you as far as wanting to talk to.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="113">YES</temporary>
-    <children>
-      <child nodeId="node-0x6c14d50" />
-    </children>
-  </item>
-  <item nodeId="node-0x6c14d50">
-    <command xml:space="preserve">take screwdriver</command>
-    <result xml:space="preserve">[Your score has just gone up by one point.]
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="113">YES</temporary>
-    <children>
-      <child nodeId="node-0x103c9c40" />
-    </children>
-  </item>
-  <item nodeId="node-0x103c9c40">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
-Caged Rabid Animal Room
-As you open the door letting off a horrifying creak, you see animatronic rats scurrying out of the corner of your eye. This doesn&apos;t bother you that much, until you see what is in the room. Large cages with robot animals that have fake foam oozing from their jowls. When you step close to one of the cages, a sensor goes off, and the animals leap against the wall of their cage, growling and chomping at you. It looks like one of the cages is unlocked…
-
-
-The Living Room is in the East, and the Next Room is in the West.
-
-You can see an Unlocked Cage and a batteries here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="113">YES</temporary>
-    <children>
-      <child nodeId="node-0x6c9e530" />
-    </children>
-  </item>
-  <item nodeId="node-0x6c9e530">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
-Circus Room
-Great. A room devoted to the Circus. You&apos;ve always hated the Circus, especially clowns. Large robotic clowns loom over you and a demonic low-voiced laughter rings through the room as a waltzing, repetitive circus song plays in the background. There is another podium at the entrance where a worker dressed as a ringmaster is supposed to welcome the guests.
-
-
-The Cage Room is to the East, and there is a sliding door to the North of the room.
-
-You can see a wrench here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="113">YES</temporary>
-    <children>
-      <child nodeId="node-0x1048c860" />
-    </children>
-  </item>
-  <item nodeId="node-0x1048c860">
-    <command xml:space="preserve">take wrench</command>
-    <result xml:space="preserve">[Your score has just gone up by one point.]
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="113">YES</temporary>
-    <children>
-      <child nodeId="node-0xccf4e40" />
-    </children>
-  </item>
-  <item nodeId="node-0xccf4e40">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="113">YES</temporary>
-    <children>
-      <child nodeId="node-0x10574eb0" />
-    </children>
-  </item>
-  <item nodeId="node-0x10574eb0">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-Graveyard Room
-A large, very open room with the ceiling decorated to look like nighttime. The floor is littered with tombstones, but a large tombstone with a skeleton hugging the base of it really sticks out to you. The soundtrack to this room is howling wind and a wolf howling in the background.
-
-
-The Circus Room is in the South. There is a door to the West that looks like it was decorated to not stand out. A door with a large mirror in the front is to the East. A room with what looks like fog coming out from under the door is to the North.
-
-You can see a wirecutter here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="113">YES</temporary>
-    <children>
-      <child nodeId="node-0x103d7260" />
-    </children>
-  </item>
-  <item nodeId="node-0x103d7260">
-    <command xml:space="preserve">take wirecutter</command>
-    <result xml:space="preserve">[Your score has just gone up by one point.]
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="113">YES</temporary>
-    <children>
-      <child nodeId="node-0x103d70e0" />
-    </children>
-  </item>
-  <item nodeId="node-0x103d70e0">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
-Staff Break Room
-FINALLY. A soundproof room with nothing scary in it. This is obviously a break room for the staff during their downtime. There&apos;s a mini fridge, an old TV, an old couch, and a desk.
-
-
-The entrance to the Graveyard is to the East, and there is a metal door to the North.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="113">YES</temporary>
-    <children>
-      <child nodeId="node-0xcdce050" />
-    </children>
-  </item>
-  <item nodeId="node-0xcdce050">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-Control Panel Room
-An old man is fumbling around with one of the boxes on the wall, cutting wires and reconnecting others. He must be the electrician, maybe he can help you find a way out! This seems to be the Control Panel room that has all the wires and switches causing the electricity to work. Someone must have forgotten to switch off the ride, since lights are flashing next to the switches labeled:
-
- Lighting
- Fog
- Soundtracks
-
-
-You should turn off the fog and soundtracks, but leave the lighting on so you can see.
-
-
-The Staff Break Room is South.
-
-You can see an old electrician here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="113">YES</temporary>
-    <children>
-      <child nodeId="node-0x103a89e0" />
-    </children>
-  </item>
-  <item nodeId="node-0x103a89e0">
-    <command xml:space="preserve">talk to old electrician</command>
-    <result xml:space="preserve">I only understood you as far as wanting to talk to.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="112">YES</temporary>
   </item>
   <item nodeId="node-0x8cd68c0">
     <command xml:space="preserve">take screwdriver</command>
@@ -1937,19 +1979,5 @@ You can see an old electrician here.
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="130">YES</temporary>
-    <children>
-      <child nodeId="node-0x105bfc00" />
-    </children>
-  </item>
-  <item nodeId="node-0x105bfc00">
-    <command xml:space="preserve">give electrician the screwdriver</command>
-    <result xml:space="preserve">Thanks kid!
-
-[Your score has just gone up by one point.]
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="129">YES</temporary>
   </item>
 </Skein>

@@ -44,8 +44,6 @@ The Hall of Mirrors is a room. It is east of the Graveyard Room. "There is no re
 
 	The entrance to the Graveyard is to the West."
 	
-Every turn when a random chance of 1 in 15 succeeds:
-	Say "You see a shadow of a little girl running out of the corner of your eye."
 
 The Staff Break Room is a room. It is west of the Graveyard Room. "FINALLY. A soundproof room with nothing scary in it. This is obviously a break room for the staff during their downtime. There’s a mini fridge, an old TV, an old couch, and a desk.
 	
@@ -146,15 +144,15 @@ There seems to be a wrench that someone dropped underneath one of the more obese
 		Understand "couch" as old couch.
 	[d.] The Desk is scenery in the Staff Break Room. It is fixed in place. The description of the Desk is "A desk where management had been keeping their paperwork on. Someone placed a key to the Control Panel Room here."
 	[Control Panel Room]
-	[a.] The Switch for Lighting is scenery in the Control Panel Room. The switch for lighting can be switched off. It is fixed in place. The description of the Switch for Lighting is "Controls all the lighting in the ride. I suggest keeping that on."
-		Understand "switch" as switch for lighting.
-		Understand "lighting" as switch for lighting.
-	[b.] The Switch for Fog is scenery in the Control Panel Room. The switch for fog can be switched off. It is fixed in place. The description of the Switch for Fog is "Controls the fog in the ride."
-		Understand "switch" as switch for fog.
-		Understand "fog" as switch for fog.
-	[c.] The Switch for Soundtracks is scenery in the Control Panel Room. The switch for fog can be turned off. It is fixed in place. The description of the Switch for Soundtracks is "Controls the soundtracks in all rooms."
-		Understand "switch" as switch for soundtracks.
-		Understand "soundtracks" as switch for soundtracks.
+	[a.] The Button for Lighting is scenery in the Control Panel Room. The Button for lighting can be pushed. The description of the Switch for Lighting is "Controls all the lighting in the ride. I suggest keeping that on."
+		Understand "Button" as Button for lighting.
+		Understand "lighting" as Button for lighting.
+	[b.] The Button for Fog is scenery in the Control Panel Room. The Button for fog can be pushed. The description of the Switch for Fog is "Controls the fog in the ride."
+		Understand "Button" as Button for fog.
+		Understand "fog" as Button for fog.
+	[c.] The Button for Soundtracks is scenery in the Control Panel Room. The Button for fog can be pushed. The description of the Switch for Soundtracks is "Controls the soundtracks in all rooms."
+		Understand "Button" as Button for soundtracks.
+		Understand "soundtracks" as Button for soundtracks.
 	[d.] The Boxes is scenery in the Control Panel Room. It is fixed in place. The description of the Boxes is "A bunch of confusing wires."
 		Understand "box" as boxes.
 	[Meat Locker]
@@ -222,21 +220,26 @@ Instead of giving the screwdriver to the old electrician for the first time:
 	Increase the score by 1;
 	say "Thanks kid!"
 
-Before switching off the switch for lighting:
+Instead of pushing the Button for lighting:
 	say "I don't think that's a good idea."
 	
-Before switching off the switch for fog:
+Instead of pushing the Button for fog:
 	Change the description of meat locker to "Large sacks of what looks like cow meat hang from the ceiling on metal hooks. Obviously, their plastic, but it still gives you the creeps being wrapped in the cloudy plastic. Usually, a worker dawning a butcher’s outfit chases the visitors around towards the exit, but the fog is so thick, you can’t see it.
 
 
-	The Graveyard is South. There is a large cobwebbed door to the East."
+	The Graveyard is South. There is a large cobwebbed door to the East.";
+	Say "You hear a clicking noise. Something must have happened."
 	
-Before switching off the switch for soundtracks:
+Instead of pushing the Button for soundtracks:
 	Change the description of the circus room to "Large, robotic clowns loom over you as you walk by. There is another podium at the entrance where a worker dressed as a ringmaster is supposed to welcome the guests. The Cage Room is to the East, and there is a sliding door to the North of the room.
 	
 
-	The room is now silent."
+	The room is now silent.";
+	Change the description of the graveyard room to "A large, very open room with the ceiling decorated to look like nighttime. The floor is littered with tombstones, but a large tombstone with a skeleton hugging the base of it really sticks out to you. The Circus Room is in the South. There is a door to the West that looks like it was decorated to not stand out. A door with a large mirror in the front is to the East.
 	
+	The room is silent.";
+	Say "You hear a clicking noise. It seems quieter outside, something must have happened."
+
 	
 An every turn rule:
 	If the old electrician is carrying wrench and the old electrician is carrying the wirecutter and the old electrician is carrying the screwdriver,
@@ -251,5 +254,6 @@ An every turn rule:
 
 The description of player is "You got locked inside one of the scariest rides in the theme park and got seperated from your older brother and friends. Your feeling pretty freaked out right now."
 
-
+Every turn when a random chance of 1 in 15 succeeds:
+	Say "A shadow of a little girl running out of the corner of your eye."
 
