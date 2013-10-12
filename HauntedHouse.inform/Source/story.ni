@@ -243,6 +243,10 @@ An every turn rule:
 	say "'Thanks a bunch kid! Here’s the key that leads out of the Meat Locker. After the Narrow Hallway, you should be home free to the exit! Just leave the key for me though on the ground in the butcher room so I can get out too.'";
 	move the exit key to player.
 
+An every turn rule:
+	If the old electrician is carrying wrench and the old electrician is carrying the wirecutter and the old electrician is carrying the screwdriver,
+	remove wrench from play.
+
 [Miscellaneous]
 
 The description of player is "You got locked inside one of the scariest rides in the theme park and got seperated from your older brother and friends. Your feeling pretty freaked out right now."
