@@ -37,7 +37,10 @@ It looks like one of the cages is unlocked…
 
 The Living Room is in the East, and the Next Room is in the West."
 
-The Circus Room is a room. It is west of the Caged Rabid Animal Room. "Great. A room devoted to the Circus. You’ve always hated the Circus, especially clowns. Large robotic clowns loom over you and a demonic low-voiced laughter rings through the room as a waltzing, repetitive circus song plays in the background. There is another podium at the entrance where a worker dressed as a ringmaster is supposed to welcome the guests.
+The Circus Room is a room. It is west of the Caged Rabid Animal Room. "Great. A room devoted to the Circus. You’ve always hated the Circus, especially clowns. 
+
+
+Large robotic clowns loom over you and a demonic low-voiced laughter rings through the room as a waltzing, repetitive circus song plays in the background. There is another podium at the entrance where a worker dressed as a ringmaster is supposed to welcome the guests.
 
 
 The Cage Room is to the East."
@@ -59,7 +62,11 @@ The Staff Break Room is a room. It is west of the Graveyard Room. "FINALLY. A so
 	
 	
 The entrance to the Graveyard is to the East, and there is a metal door to the North."
-The Control Panel Room is a room. It is north of the Staff Break Room. "An old man is fumbling around with one of the boxes on the wall, cutting wires and reconnecting others. He must be the electrician, maybe he can help you find a way out! Try talking to him!!! 
+
+
+The Metal Door is a locked door. The Metal Door is north of the Staff Break Room and south of the Control Panel Room. The Metal Door is scenery.
+
+The Control Panel Room is a room. "An old man is fumbling around with one of the boxes on the wall, cutting wires and reconnecting others. He must be the electrician, maybe he can help you find a way out! Try talking to him!!! 
 
 This seems to be the Control Panel room that has all the wires and buttons causing the electricity to work. Someone must have forgotten to switch off the ride, since lights are flashing next to the buttons labeled:
 
@@ -167,7 +174,7 @@ There seems to be a wrench that someone dropped underneath one of the more obese
 		Understand "Television" as old tv.
 	[c.] The Old Couch is scenery in the Staff Break Room. It is fixed in place. The description of the Old Couch is "An old, dusty couch that employees can chillax on."
 		Understand "couch" as old couch.
-	[d.] The Desk is scenery in the Staff Break Room. It is fixed in place. The description of the Desk is "A desk where management had been keeping their paperwork on. Someone placed a key to the Control Panel Room here."
+	[d.] The Desk is scenery in the Staff Break Room. The Desk is a container. In the Desk is the Control Panel Room Key. The description of the Desk is "A desk where management had been keeping their paperwork on. Someone placed a key to the Control Panel Room here."
 	[Control Panel Room]
 	[a.] The Button for Lighting is scenery in the Control Panel Room. The Button for lighting can be pushed. The description of the Switch for Lighting is "Controls all the lighting in the ride. I suggest keeping that on."
 		Understand "Button" as Button for lighting.
@@ -202,6 +209,8 @@ Instead pushing the Black square for the first time:
 	say "Another door has opened in the north.";
 	Change the description of the black room to "A room where the ceiling, walls, and floor are all painted black. The entrance to the next room is West, the entrance to the Haunted House is North."
 Understand "square" as black square.
+
+The Control Panel Room Key is a thing. The Control Panel Room Key unlocks the Metal door. The description of the Control Panel Room Key is "An old key that unlocks the control panel room." The Control Panel Room Key is in the Desk.
 
 [Items]
 

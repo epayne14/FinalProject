@@ -4295,7 +4295,7 @@ Global lightflag = false;
 ];
 
 
-Constant REQUISITION_STACK_SIZE = 3*71;
+Constant REQUISITION_STACK_SIZE = 3*73;
 Array requisition_stack --> REQUISITION_STACK_SIZE;
 Global requisition_stack_pointer = 0;
 
@@ -8735,7 +8735,7 @@ Array property_metadata -->
     ! offset 143: property p54_recurring
     "recurring" NULL
     ! offset 145: property p56_pushed
-    "pushed" I119_red_button I127_button_for_lighting I129_button_for_fog I140_black_square NULL
+    "pushed" I120_red_button I129_button_for_lighting I131_button_for_fog I142_black_square NULL
     ! offset 151: property vector
     "<nameless>" NULL
     ! offset 153: property room_index
@@ -9299,12 +9299,12 @@ Constant IK1_First = I88_black_room;
 Constant IK2_First = selfobj;
 Constant IK3_First = I46_north;
 Constant IK4_First = I89_black_door;
-Constant IK5_First = I104_podium;
+Constant IK5_First = I105_podium;
 Constant IK6_First = nothing;
 Constant IK7_First = nothing;
 Constant IK8_First = selfobj;
 Constant IK9_First = nothing;
-Constant IK10_First = I139_old_electrician;
+Constant IK10_First = I141_old_electrician;
 Constant IK11_First = nothing;
 Constant IK12_First = nothing;
 Constant IK13_First = nothing;
@@ -9331,12 +9331,12 @@ Array Map_Storage -->
  0 0 0 0 0 0 I90_victorian_living_room I94_circus_room 0 0 0 0 ! Exits from: I93_caged_rabid_animal_room
  I95_sliding_door 0 0 0 0 0 I93_caged_rabid_animal_room 0 0 0 0 0 ! Exits from: I94_circus_room
  I97_meat_locker 0 0 I95_sliding_door 0 0 I98_hall_of_mirrors I99_staff_break_room 0 0 0 0 ! Exits from: I96_graveyard_room
- 0 0 0 I96_graveyard_room 0 0 I102_cobwebbed_door 0 0 0 0 0 ! Exits from: I97_meat_locker
+ 0 0 0 I96_graveyard_room 0 0 I103_cobwebbed_door 0 0 0 0 0 ! Exits from: I97_meat_locker
  0 0 0 0 0 0 0 I96_graveyard_room 0 0 0 0 ! Exits from: I98_hall_of_mirrors
- I100_control_panel_room 0 0 0 0 0 I96_graveyard_room 0 0 0 0 0 ! Exits from: I99_staff_break_room
- 0 0 0 I99_staff_break_room 0 0 0 0 0 0 0 0 ! Exits from: I100_control_panel_room
- 0 0 0 0 0 0 I103_exit I102_cobwebbed_door 0 0 0 0 ! Exits from: I101_narrow_hall_of_terror
- 0 0 0 0 0 0 0 I101_narrow_hall_of_terror 0 0 0 0 ! Exits from: I103_exit
+ I100_metal_door 0 0 0 0 0 I96_graveyard_room 0 0 0 0 0 ! Exits from: I99_staff_break_room
+ 0 0 0 I100_metal_door 0 0 0 0 0 0 0 0 ! Exits from: I101_control_panel_room
+ 0 0 0 0 0 0 I104_exit I103_cobwebbed_door 0 0 0 0 ! Exits from: I102_narrow_hall_of_terror
+ 0 0 0 0 0 0 0 I102_narrow_hall_of_terror 0 0 0 0 ! Exits from: I104_exit
 ;
 
 Class VPH_Class;
@@ -9699,9 +9699,9 @@ Object selfobj ""
     with cap_short_name "Yourself"
     has mark_as_thing
     with IK2_Count 0
-    with IK2_Link I140_black_square
+    with IK2_Link I142_black_square
     with IK8_Count 0
-    with IK8_Link I139_old_electrician
+    with IK8_Link I141_old_electrician
     with KD_Count 8
     with name 'yourself' 
     with action_bitmap 0 0 0 0 0 0 
@@ -9721,7 +9721,7 @@ Object I88_black_room ""
     with name 'black' 'room' 
 ;
 
-Object -> I140_black_square ""
+Object -> I142_black_square ""
     class K2_thing
     with short_name "Black Square"
     with description SC_6
@@ -9730,7 +9730,7 @@ Object -> I140_black_square ""
     with vector 0
     with list_together 0
     has mark_as_thing
-    with IK2_Count 41
+    with IK2_Count 43
     with IK2_Link I89_black_door
     with KD_Count 2
     with name 'black' 'square' 'square' 
@@ -9756,7 +9756,7 @@ Object I89_black_door ""
     with list_together 0
     has mark_as_thing
     with IK2_Count 1
-    with IK2_Link I107_leather_couch
+    with IK2_Link I108_leather_couch
     with IK4_Count 0
     with IK4_Link I91_second_door
     with KD_Count 4
@@ -9778,7 +9778,7 @@ Object I90_victorian_living_room ""
     with name 'victorian' 'living' 'room' 
 ;
 
-Object -> I107_leather_couch ""
+Object -> I108_leather_couch ""
     class K2_thing
     with short_name "Leather Couch"
     with description SC_8
@@ -9787,15 +9787,15 @@ Object -> I107_leather_couch ""
     with vector 0
     with list_together 0
     has mark_as_thing
-    with IK2_Count 8
-    with IK2_Link I108_sitting_chair
+    with IK2_Count 9
+    with IK2_Link I109_sitting_chair
     with KD_Count 2
     with name 'leather' 'couch' 'couch' 
     with parse_name Parse_Name_GV96
     with action_bitmap 0 0 0 0 0 0 
 ;
 
-Object -> I108_sitting_chair ""
+Object -> I109_sitting_chair ""
     class K2_thing
     with short_name "Sitting Chair"
     with description SC_9
@@ -9804,15 +9804,15 @@ Object -> I108_sitting_chair ""
     with vector 0
     with list_together 0
     has mark_as_thing
-    with IK2_Count 9
-    with IK2_Link I109_bookcase
+    with IK2_Count 10
+    with IK2_Link I110_bookcase
     with KD_Count 2
     with name 'sitting' 'chair' 'chair' 
     with parse_name Parse_Name_GV97
     with action_bitmap 0 0 0 0 0 0 
 ;
 
-Object -> I109_bookcase ""
+Object -> I110_bookcase ""
     class K2_thing
     with short_name "Bookcase"
     with description SC_10
@@ -9821,14 +9821,14 @@ Object -> I109_bookcase ""
     with vector 0
     with list_together 0
     has mark_as_thing
-    with IK2_Count 10
-    with IK2_Link I110_large_painting
+    with IK2_Count 11
+    with IK2_Link I111_large_painting
     with KD_Count 2
     with name 'bookcase' 
     with action_bitmap 0 0 0 0 0 0 
 ;
 
-Object -> I110_large_painting ""
+Object -> I111_large_painting ""
     class K2_thing
     with short_name "Large Painting"
     with description SC_11
@@ -9837,15 +9837,15 @@ Object -> I110_large_painting ""
     with vector 0
     with list_together 0
     has mark_as_thing
-    with IK2_Count 11
-    with IK2_Link I111_knight_in_rusty_armor
+    with IK2_Count 12
+    with IK2_Link I112_knight_in_rusty_armor
     with KD_Count 2
     with name 'large' 'painting' 'painting' 
     with parse_name Parse_Name_GV98
     with action_bitmap 0 0 0 0 0 0 
 ;
 
-Object -> I111_knight_in_rusty_armor ""
+Object -> I112_knight_in_rusty_armor ""
     class K2_thing
     with short_name "Knight in Rusty Armor"
     with description SC_12
@@ -9854,15 +9854,15 @@ Object -> I111_knight_in_rusty_armor ""
     with vector 0
     with list_together 0
     has mark_as_thing
-    with IK2_Count 12
-    with IK2_Link I112_fireplace
+    with IK2_Count 13
+    with IK2_Link I113_fireplace
     with KD_Count 2
     with name 'knight' 'in' 'rusty' 'armor' 'knight' 
     with parse_name Parse_Name_GV99
     with action_bitmap 0 0 0 0 0 0 
 ;
 
-Object -> I112_fireplace ""
+Object -> I113_fireplace ""
     class K2_thing
     with short_name "Fireplace"
     with description text_routine_0
@@ -9871,15 +9871,15 @@ Object -> I112_fireplace ""
     with vector 0
     with list_together 0
     has mark_as_thing
-    with IK2_Count 13
-    with IK2_Link I142_screwdriver
+    with IK2_Count 14
+    with IK2_Link I144_screwdriver
     with KD_Count 2
     with name 'fireplace' 'fire' 
     with parse_name Parse_Name_GV100
     with action_bitmap 0 0 0 0 0 0 
 ;
 
-Object -> I142_screwdriver ""
+Object -> I144_screwdriver ""
     class K2_thing
     with short_name "screwdriver"
     with description SC_13
@@ -9887,7 +9887,7 @@ Object -> I142_screwdriver ""
     with vector 0
     with list_together 0
     has mark_as_thing
-    with IK2_Count 43
+    with IK2_Count 45
     with IK2_Link I91_second_door
     with KD_Count 2
     with name 'screwdriver' 
@@ -9911,7 +9911,7 @@ Object I91_second_door ""
     with list_together 0
     has mark_as_thing
     with IK2_Count 2
-    with IK2_Link I104_podium
+    with IK2_Link I105_podium
     with IK4_Count 1
     with IK4_Link I95_sliding_door
     with KD_Count 4
@@ -9933,7 +9933,7 @@ Object I92_entrance_to_the_ride ""
     with name 'entrance' 'to' 'the' 'ride' 
 ;
 
-Object -> I104_podium ""
+Object -> I105_podium ""
     class K5_container
     with short_name "podium"
     with description SC_15
@@ -9942,30 +9942,30 @@ Object -> I104_podium ""
     with vector 0
     with list_together 0
     has mark_as_thing
-    with IK2_Count 5
-    with IK2_Link I105_flashlight
+    with IK2_Count 6
+    with IK2_Link I106_flashlight
     with IK5_Count 0
-    with IK5_Link nothing
+    with IK5_Link I127_desk
     with KD_Count 5
     with name 'podium' 
     with action_bitmap 0 0 0 0 0 0 
 ;
 
-Object -> -> I105_flashlight ""
+Object -> -> I106_flashlight ""
     class K2_thing
     with short_name "flashlight"
     with description SC_16
     with vector 0
     with list_together 0
     has mark_as_thing
-    with IK2_Count 6
-    with IK2_Link I106_front_door
+    with IK2_Count 7
+    with IK2_Link I107_front_door
     with KD_Count 2
     with name 'flashlight' 
     with action_bitmap 0 0 0 0 0 0 
 ;
 
-Object -> I106_front_door ""
+Object -> I107_front_door ""
     class K2_thing
     with short_name "front door"
     with description SC_17
@@ -9974,8 +9974,8 @@ Object -> I106_front_door ""
     with vector 0
     with list_together 0
     has mark_as_thing
-    with IK2_Count 7
-    with IK2_Link I113_animatronic_rats
+    with IK2_Count 8
+    with IK2_Link I114_animatronic_rats
     with KD_Count 2
     with name 'front' 'door' 'door' 
     with parse_name Parse_Name_GV95
@@ -9996,7 +9996,7 @@ Object I93_caged_rabid_animal_room ""
     with name 'caged' 'rabid' 'animal' 'room' 
 ;
 
-Object -> I113_animatronic_rats ""
+Object -> I114_animatronic_rats ""
     class K2_thing
     with short_name "Animatronic Rats"
     with description SC_18
@@ -10005,15 +10005,15 @@ Object -> I113_animatronic_rats ""
     with vector 0
     with list_together 0
     has mark_as_thing
-    with IK2_Count 14
-    with IK2_Link I114_cages
+    with IK2_Count 15
+    with IK2_Link I115_cages
     with KD_Count 2
     with name 'animatronic' 'rats' 'rats' 
     with parse_name Parse_Name_GV101
     with action_bitmap 0 0 0 0 0 0 
 ;
 
-Object -> I114_cages ""
+Object -> I115_cages ""
     class K2_thing
     with short_name "Cages"
     with description SC_19
@@ -10022,14 +10022,14 @@ Object -> I114_cages ""
     with vector 0
     with list_together 0
     has mark_as_thing
-    with IK2_Count 15
-    with IK2_Link I115_unlocked_cage
+    with IK2_Count 16
+    with IK2_Link I116_unlocked_cage
     with KD_Count 2
     with name 'cages' 
     with action_bitmap 0 0 0 0 0 0 
 ;
 
-Object -> I115_unlocked_cage ""
+Object -> I116_unlocked_cage ""
     class K2_thing
     with short_name "Unlocked Cage"
     with description SC_20
@@ -10038,15 +10038,15 @@ Object -> I115_unlocked_cage ""
     with vector 0
     with list_together 0
     has mark_as_thing
-    with IK2_Count 16
-    with IK2_Link I116_broken_robotic_dog
+    with IK2_Count 17
+    with IK2_Link I117_broken_robotic_dog
     with KD_Count 2
     with name 'unlocked' 'cage' 'cage' 
     with parse_name Parse_Name_GV102
     with action_bitmap 0 0 0 0 0 0 
 ;
 
-Object -> I116_broken_robotic_dog ""
+Object -> I117_broken_robotic_dog ""
     class K2_thing
     with short_name "Broken Robotic Dog"
     with description SC_21
@@ -10055,15 +10055,15 @@ Object -> I116_broken_robotic_dog ""
     with vector 0
     with list_together 0
     has mark_as_thing
-    with IK2_Count 17
-    with IK2_Link I144_batteries
+    with IK2_Count 18
+    with IK2_Link I146_batteries
     with KD_Count 2
     with name 'broken' 'robotic' 'dog' 'dog' 
     with parse_name Parse_Name_GV103
     with action_bitmap 0 0 0 0 0 0 
 ;
 
-Object -> I144_batteries ""
+Object -> I146_batteries ""
     class K2_thing
     with short_name "batteries"
     with description SC_22
@@ -10071,8 +10071,8 @@ Object -> I144_batteries ""
     with vector 0
     with list_together 0
     has mark_as_thing
-    with IK2_Count 45
-    with IK2_Link I117_red_podium
+    with IK2_Count 47
+    with IK2_Link I118_red_podium
     with KD_Count 2
     with name 'batteries' 
     with action_bitmap 0 0 0 0 0 0 
@@ -10092,7 +10092,7 @@ Object I94_circus_room ""
     with name 'circus' 'room' 
 ;
 
-Object -> I117_red_podium ""
+Object -> I118_red_podium ""
     class K2_thing
     with short_name "Red Podium"
     with description SC_24
@@ -10101,14 +10101,14 @@ Object -> I117_red_podium ""
     with vector 0
     with list_together 0
     has mark_as_thing
-    with IK2_Count 18
-    with IK2_Link I118_robot_clowns
+    with IK2_Count 19
+    with IK2_Link I119_robot_clowns
     with KD_Count 2
     with name 'red' 'podium' 
     with action_bitmap 0 0 0 0 0 0 
 ;
 
-Object -> I118_robot_clowns ""
+Object -> I119_robot_clowns ""
     class K2_thing
     with short_name "Robot Clowns"
     with description SC_25
@@ -10117,15 +10117,15 @@ Object -> I118_robot_clowns ""
     with vector 0
     with list_together 0
     has mark_as_thing
-    with IK2_Count 19
-    with IK2_Link I119_red_button
+    with IK2_Count 20
+    with IK2_Link I120_red_button
     with KD_Count 2
     with name 'robot' 'clowns' 'clowns' 'clown' 
     with parse_name Parse_Name_GV104
     with action_bitmap 0 0 0 0 0 0 
 ;
 
-Object -> I119_red_button ""
+Object -> I120_red_button ""
     class K2_thing
     with short_name "Red Button"
     with description SC_26
@@ -10134,8 +10134,8 @@ Object -> I119_red_button ""
     with vector 0
     with list_together 0
     has mark_as_thing
-    with IK2_Count 20
-    with IK2_Link I141_wrench
+    with IK2_Count 21
+    with IK2_Link I143_wrench
     with KD_Count 2
     with name 'red' 'button' 'button' 
     with parse_name Parse_Name_GV105
@@ -10143,7 +10143,7 @@ Object -> I119_red_button ""
     has ~p56_pushed
 ;
 
-Object -> I141_wrench ""
+Object -> I143_wrench ""
     class K2_thing
     with short_name "wrench"
     with description SC_13
@@ -10151,7 +10151,7 @@ Object -> I141_wrench ""
     with vector 0
     with list_together 0
     has mark_as_thing
-    with IK2_Count 42
+    with IK2_Count 44
     with IK2_Link I95_sliding_door
     with KD_Count 2
     with name 'wrench' 
@@ -10175,9 +10175,9 @@ Object I95_sliding_door ""
     with list_together 0
     has mark_as_thing
     with IK2_Count 3
-    with IK2_Link I120_tombstones
+    with IK2_Link I121_tombstones
     with IK4_Count 2
-    with IK4_Link I102_cobwebbed_door
+    with IK4_Link I100_metal_door
     with KD_Count 4
     with name 'sliding' 'door' 
     with action_bitmap 0 0 0 0 0 0 
@@ -10197,7 +10197,7 @@ Object I96_graveyard_room ""
     with name 'graveyard' 'room' 
 ;
 
-Object -> I120_tombstones ""
+Object -> I121_tombstones ""
     class K2_thing
     with short_name "Tombstones"
     with description SC_28
@@ -10206,14 +10206,14 @@ Object -> I120_tombstones ""
     with vector 0
     with list_together 0
     has mark_as_thing
-    with IK2_Count 21
-    with IK2_Link I121_large_tombstone
+    with IK2_Count 22
+    with IK2_Link I122_large_tombstone
     with KD_Count 2
     with name 'tombstones' 
     with action_bitmap 0 0 0 0 0 0 
 ;
 
-Object -> I121_large_tombstone ""
+Object -> I122_large_tombstone ""
     class K2_thing
     with short_name "Large Tombstone"
     with description SC_29
@@ -10222,15 +10222,15 @@ Object -> I121_large_tombstone ""
     with vector 0
     with list_together 0
     has mark_as_thing
-    with IK2_Count 22
-    with IK2_Link I122_skeleton
+    with IK2_Count 23
+    with IK2_Link I123_skeleton
     with KD_Count 2
     with name 'large' 'tombstone' 'tombstone' 'headstone' 
     with parse_name Parse_Name_GV106
     with action_bitmap 0 0 0 0 0 0 
 ;
 
-Object -> I122_skeleton ""
+Object -> I123_skeleton ""
     class K2_thing
     with short_name "Skeleton"
     with description SC_30
@@ -10239,14 +10239,14 @@ Object -> I122_skeleton ""
     with vector 0
     with list_together 0
     has mark_as_thing
-    with IK2_Count 23
-    with IK2_Link I143_wirecutter
+    with IK2_Count 24
+    with IK2_Link I145_wirecutter
     with KD_Count 2
     with name 'skeleton' 
     with action_bitmap 0 0 0 0 0 0 
 ;
 
-Object -> I143_wirecutter ""
+Object -> I145_wirecutter ""
     class K2_thing
     with short_name "wirecutter"
     with description SC_13
@@ -10254,8 +10254,8 @@ Object -> I143_wirecutter ""
     with vector 0
     with list_together 0
     has mark_as_thing
-    with IK2_Count 44
-    with IK2_Link I134_cow_meat
+    with IK2_Count 46
+    with IK2_Link I136_cow_meat
     with KD_Count 2
     with name 'wirecutter' 
     with action_bitmap 0 0 0 0 0 0 
@@ -10275,7 +10275,7 @@ Object I97_meat_locker ""
     with name 'meat' 'locker' 
 ;
 
-Object -> I134_cow_meat ""
+Object -> I136_cow_meat ""
     class K2_thing
     with short_name "Cow Meat"
     with description SC_32
@@ -10284,15 +10284,15 @@ Object -> I134_cow_meat ""
     with vector 0
     with list_together 0
     has mark_as_thing
-    with IK2_Count 35
-    with IK2_Link I135_metal_hooks
+    with IK2_Count 37
+    with IK2_Link I137_metal_hooks
     with KD_Count 2
     with name 'cow' 'meat' 'meat' 
     with parse_name Parse_Name_GV114
     with action_bitmap 0 0 0 0 0 0 
 ;
 
-Object -> I135_metal_hooks ""
+Object -> I137_metal_hooks ""
     class K2_thing
     with short_name "Metal Hooks"
     with description SC_33
@@ -10301,8 +10301,8 @@ Object -> I135_metal_hooks ""
     with vector 0
     with list_together 0
     has mark_as_thing
-    with IK2_Count 36
-    with IK2_Link I123_mini_fridge
+    with IK2_Count 38
+    with IK2_Link I124_mini_fridge
     with KD_Count 2
     with name 'metal' 'hooks' 'hooks' 
     with parse_name Parse_Name_GV115
@@ -10332,12 +10332,12 @@ Object I99_staff_break_room ""
     with list_together 0
     has mark_as_room
     with IK1_Count 8
-    with IK1_Link I100_control_panel_room
+    with IK1_Link I101_control_panel_room
     with KD_Count 1
     with name 'staff' 'break' 'room' 
 ;
 
-Object -> I123_mini_fridge ""
+Object -> I124_mini_fridge ""
     class K2_thing
     with short_name "Mini Fridge"
     with description SC_36
@@ -10346,15 +10346,15 @@ Object -> I123_mini_fridge ""
     with vector 0
     with list_together 0
     has mark_as_thing
-    with IK2_Count 24
-    with IK2_Link I124_old_tv
+    with IK2_Count 25
+    with IK2_Link I125_old_tv
     with KD_Count 2
     with name 'mini' 'fridge' 'fridge' 
     with parse_name Parse_Name_GV107
     with action_bitmap 0 0 0 0 0 0 
 ;
 
-Object -> I124_old_tv ""
+Object -> I125_old_tv ""
     class K2_thing
     with short_name "Old TV"
     with description SC_37
@@ -10363,15 +10363,15 @@ Object -> I124_old_tv ""
     with vector 0
     with list_together 0
     has mark_as_thing
-    with IK2_Count 25
-    with IK2_Link I125_old_couch
+    with IK2_Count 26
+    with IK2_Link I126_old_couch
     with KD_Count 2
     with name 'old' 'tv' 'tv' 'television' 
     with parse_name Parse_Name_GV108
     with action_bitmap 0 0 0 0 0 0 
 ;
 
-Object -> I125_old_couch ""
+Object -> I126_old_couch ""
     class K2_thing
     with short_name "Old Couch"
     with description SC_38
@@ -10380,16 +10380,16 @@ Object -> I125_old_couch ""
     with vector 0
     with list_together 0
     has mark_as_thing
-    with IK2_Count 26
-    with IK2_Link I126_desk
+    with IK2_Count 27
+    with IK2_Link I127_desk
     with KD_Count 2
     with name 'old' 'couch' 'couch' 
     with parse_name Parse_Name_GV109
     with action_bitmap 0 0 0 0 0 0 
 ;
 
-Object -> I126_desk ""
-    class K2_thing
+Object -> I127_desk ""
+    class K5_container
     with short_name "Desk"
     with description SC_39
     has static
@@ -10397,28 +10397,70 @@ Object -> I126_desk ""
     with vector 0
     with list_together 0
     has mark_as_thing
-    with IK2_Count 27
-    with IK2_Link I127_button_for_lighting
-    with KD_Count 2
+    with IK2_Count 28
+    with IK2_Link I128_control_panel_room_key
+    with IK5_Count 1
+    with IK5_Link nothing
+    with KD_Count 5
     with name 'desk' 
     with action_bitmap 0 0 0 0 0 0 
 ;
 
-Object I100_control_panel_room ""
+Object -> -> I128_control_panel_room_key ""
+    class K2_thing
+    with short_name "Control Panel Room Key"
+    with description SC_40
+    with vector 0
+    with list_together 0
+    has mark_as_thing
+    with IK2_Count 29
+    with IK2_Link I100_metal_door
+    with KD_Count 2
+    with name 'control' 'panel' 'room' 'key' 
+    with action_bitmap 0 0 0 0 0 0 
+;
+
+Object I100_metal_door ""
+    class K4_door
+    with short_name "Metal Door"
+    with with_key I128_control_panel_room_key
+    has scenery
+    has lockable
+    has locked
+    with vector 0
+    with door_dir [ loc; loc = location;
+            if (loc == thedark) loc = real_location;
+            if (loc == I101_control_panel_room) return I49_south; return I46_north; ],
+    with door_to [ loc; loc = location;
+            if (loc == thedark) loc = real_location;
+            if (loc == I101_control_panel_room) return I99_staff_break_room; return I101_control_panel_room; ],
+    with found_in I101_control_panel_room I99_staff_break_room
+    with list_together 0
+    has mark_as_thing
+    with IK2_Count 4
+    with IK2_Link I129_button_for_lighting
+    with IK4_Count 3
+    with IK4_Link I103_cobwebbed_door
+    with KD_Count 4
+    with name 'metal' 'door' 
+    with action_bitmap 0 0 0 0 0 0 
+;
+
+Object I101_control_panel_room ""
     class K1_room
     with short_name "Control Panel Room"
-    with description SC_40
+    with description SC_41
     with vector 0
     with room_index -1
     with list_together 0
     has mark_as_room
     with IK1_Count 9
-    with IK1_Link I101_narrow_hall_of_terror
+    with IK1_Link I102_narrow_hall_of_terror
     with KD_Count 1
     with name 'control' 'panel' 'room' 
 ;
 
-Object -> I127_button_for_lighting ""
+Object -> I129_button_for_lighting ""
     class K2_thing
     with short_name "Button for Lighting"
     has static
@@ -10426,8 +10468,8 @@ Object -> I127_button_for_lighting ""
     with vector 0
     with list_together 0
     has mark_as_thing
-    with IK2_Count 28
-    with IK2_Link I129_button_for_fog
+    with IK2_Count 30
+    with IK2_Link I131_button_for_fog
     with KD_Count 2
     with name 'button' 'for' 'lighting' 'button' 'lighting' 
     with parse_name Parse_Name_GV110
@@ -10435,7 +10477,7 @@ Object -> I127_button_for_lighting ""
     has ~p56_pushed
 ;
 
-Object -> I129_button_for_fog ""
+Object -> I131_button_for_fog ""
     class K2_thing
     with short_name "Button for Fog"
     has static
@@ -10443,8 +10485,8 @@ Object -> I129_button_for_fog ""
     with vector 0
     with list_together 0
     has mark_as_thing
-    with IK2_Count 30
-    with IK2_Link I131_button_for_soundtracks
+    with IK2_Count 32
+    with IK2_Link I133_button_for_soundtracks
     with KD_Count 2
     with name 'button' 'for' 'fog' 'button' 'fog' 
     with parse_name Parse_Name_GV111
@@ -10452,7 +10494,7 @@ Object -> I129_button_for_fog ""
     has ~p56_pushed
 ;
 
-Object -> I131_button_for_soundtracks ""
+Object -> I133_button_for_soundtracks ""
     class K2_thing
     with short_name "Button for Soundtracks"
     has static
@@ -10460,40 +10502,40 @@ Object -> I131_button_for_soundtracks ""
     with vector 0
     with list_together 0
     has mark_as_thing
-    with IK2_Count 32
-    with IK2_Link I133_boxes
+    with IK2_Count 34
+    with IK2_Link I135_boxes
     with KD_Count 2
     with name 'button' 'for' 'soundtracks' 'button' 'soundtracks' 
     with parse_name Parse_Name_GV112
     with action_bitmap 0 0 0 0 0 0 
 ;
 
-Object -> I133_boxes ""
+Object -> I135_boxes ""
     class K2_thing
     with short_name "Boxes"
-    with description SC_41
+    with description SC_42
     has static
     has scenery
     with vector 0
     with list_together 0
     has mark_as_thing
-    with IK2_Count 34
-    with IK2_Link I139_old_electrician
+    with IK2_Count 36
+    with IK2_Link I141_old_electrician
     with KD_Count 2
     with name 'boxes' 'box' 
     with parse_name Parse_Name_GV113
     with action_bitmap 0 0 0 0 0 0 
 ;
 
-Object -> I139_old_electrician ""
+Object -> I141_old_electrician ""
     class K10_man
     with short_name "old electrician"
     with description text_routine_2
     with vector 0
     with list_together 0
     has mark_as_thing
-    with IK2_Count 40
-    with IK2_Link I138_exit_key
+    with IK2_Count 42
+    with IK2_Link I140_exit_key
     with IK8_Count 1
     with IK8_Link nothing
     with IK10_Count 0
@@ -10504,96 +10546,96 @@ Object -> I139_old_electrician ""
     with action_bitmap 0 0 0 0 0 0 
 ;
 
-Object -> -> I138_exit_key ""
+Object -> -> I140_exit_key ""
     class K2_thing
     with short_name "Exit Key"
-    with description SC_42
+    with description SC_43
     with vector 0
     with list_together 0
     has mark_as_thing
-    with IK2_Count 39
-    with IK2_Link I136_cobwebs
+    with IK2_Count 41
+    with IK2_Link I138_cobwebs
     with KD_Count 2
     with name 'exit' 'key' 
     with parse_name Parse_Name_GV117
     with action_bitmap 0 0 0 0 0 0 
 ;
 
-Object I101_narrow_hall_of_terror ""
+Object I102_narrow_hall_of_terror ""
     class K1_room
     with short_name "Narrow Hall of Terror"
-    with description SC_43
+    with description SC_44
     has ~light
     with vector 0
     with room_index -1
     with list_together 0
     has mark_as_room
     with IK1_Count 10
-    with IK1_Link I103_exit
+    with IK1_Link I104_exit
     with KD_Count 1
     with name 'narrow' 'hall' 'of' 'terror' 
 ;
 
-Object -> I136_cobwebs ""
+Object -> I138_cobwebs ""
     class K2_thing
     with short_name "Cobwebs"
-    with description SC_44
-    has static
-    has scenery
-    with vector 0
-    with list_together 0
-    has mark_as_thing
-    with IK2_Count 37
-    with IK2_Link I137_robotic_hands
-    with KD_Count 2
-    with name 'cobwebs' 
-    with action_bitmap 0 0 0 0 0 0 
-;
-
-Object -> I137_robotic_hands ""
-    class K2_thing
-    with short_name "Robotic Hands"
     with description SC_45
     has static
     has scenery
     with vector 0
     with list_together 0
     has mark_as_thing
-    with IK2_Count 38
-    with IK2_Link I102_cobwebbed_door
+    with IK2_Count 39
+    with IK2_Link I139_robotic_hands
+    with KD_Count 2
+    with name 'cobwebs' 
+    with action_bitmap 0 0 0 0 0 0 
+;
+
+Object -> I139_robotic_hands ""
+    class K2_thing
+    with short_name "Robotic Hands"
+    with description SC_46
+    has static
+    has scenery
+    with vector 0
+    with list_together 0
+    has mark_as_thing
+    with IK2_Count 40
+    with IK2_Link I103_cobwebbed_door
     with KD_Count 2
     with name 'robotic' 'hands' 'hands' 
     with parse_name Parse_Name_GV116
     with action_bitmap 0 0 0 0 0 0 
 ;
 
-Object I102_cobwebbed_door ""
+Object I103_cobwebbed_door ""
     class K4_door
     with short_name "Cobwebbed door"
-    with with_key I138_exit_key
+    with with_key I140_exit_key
     has concealed
     has lockable
     has locked
     with vector 0
     with door_dir [ loc; loc = location;
             if (loc == thedark) loc = real_location;
-            if (loc == I101_narrow_hall_of_terror) return I53_west; return I52_east; ],
+            if (loc == I102_narrow_hall_of_terror) return I53_west; return I52_east; ],
     with door_to [ loc; loc = location;
             if (loc == thedark) loc = real_location;
-            if (loc == I101_narrow_hall_of_terror) return I97_meat_locker; return I101_narrow_hall_of_terror; ],
-    with found_in I101_narrow_hall_of_terror I97_meat_locker
+            if (loc == I102_narrow_hall_of_terror) return I97_meat_locker; return I102_narrow_hall_of_terror; ],
+    with found_in I102_narrow_hall_of_terror I97_meat_locker
     with list_together 0
     has mark_as_thing
-    with IK2_Count 4
-    with IK2_Link I128_switch_for_lighting
-    with IK4_Count 3
+    with IK2_Count 5
+    with IK2_Link I130_switch_for_lighting
+    with IK4_Count 4
     with IK4_Link nothing
     with KD_Count 4
     with name 'cobwebbed' 'door' 
     with action_bitmap 0 0 0 0 0 0 
 ;
 
-Object I103_exit ""
+Object I104_exit ""
     class K1_room
     with short_name "Exit"
     with description text_routine_3
@@ -10607,57 +10649,57 @@ Object I103_exit ""
     with name 'exit' 
 ;
 
-Object I128_switch_for_lighting ""
+Object I130_switch_for_lighting ""
     class K2_thing
     with short_name "Switch for Lighting"
-    with description SC_46
-    with vector 0
-    with list_together 0
-    has mark_as_thing
-    with IK2_Count 29
-    with IK2_Link I130_switch_for_fog
-    with KD_Count 2
-    with name 'switch' 'for' 'lighting' 
-    with action_bitmap 0 0 0 0 0 0 
-;
-
-Object I130_switch_for_fog ""
-    class K2_thing
-    with short_name "Switch for Fog"
     with description SC_47
     with vector 0
     with list_together 0
     has mark_as_thing
     with IK2_Count 31
-    with IK2_Link I132_switch_for_soundtracks
+    with IK2_Link I132_switch_for_fog
     with KD_Count 2
-    with name 'switch' 'for' 'fog' 
+    with name 'switch' 'for' 'lighting' 
     with action_bitmap 0 0 0 0 0 0 
 ;
 
-Object I132_switch_for_soundtracks ""
+Object I132_switch_for_fog ""
     class K2_thing
-    with short_name "Switch for Soundtracks"
+    with short_name "Switch for Fog"
     with description SC_48
     with vector 0
     with list_together 0
     has mark_as_thing
     with IK2_Count 33
-    with IK2_Link I145_working_flashlight
+    with IK2_Link I134_switch_for_soundtracks
+    with KD_Count 2
+    with name 'switch' 'for' 'fog' 
+    with action_bitmap 0 0 0 0 0 0 
+;
+
+Object I134_switch_for_soundtracks ""
+    class K2_thing
+    with short_name "Switch for Soundtracks"
+    with description SC_49
+    with vector 0
+    with list_together 0
+    has mark_as_thing
+    with IK2_Count 35
+    with IK2_Link I147_working_flashlight
     with KD_Count 2
     with name 'switch' 'for' 'soundtracks' 
     with action_bitmap 0 0 0 0 0 0 
 ;
 
-Object I145_working_flashlight ""
+Object I147_working_flashlight ""
     class K2_thing
     with short_name "Working Flashlight"
-    with description SC_49
+    with description SC_50
     has light
     with vector 0
     with list_together 0
     has mark_as_thing
-    with IK2_Count 46
+    with IK2_Count 48
     with IK2_Link nothing
     with KD_Count 2
     with name 'working' 'flashlight' 
@@ -10688,7 +10730,7 @@ Constant I86_referred_to_a_determinat = 19;
 Constant I87_i_beg_your_pardon_error = 20;
 Array Global_Vars -->
   (false) ! 7
-  (SC_50) ! 24
+  (SC_51) ! 24
   (SC_2) ! 29
   (EMPTY_TEXT_VALUE) ! 30
   (EMPTY_TEXT_VALUE) ! 31
@@ -10701,17 +10743,17 @@ Array Global_Vars -->
 
 
 Array T0_final_question_options table  tab_0_0 tab_0_1 tab_0_2 tab_0_3 tab_0_4;
-Array tab_0_0 table $0064 0  (SC_51)  (SC_52)  (SC_53)  (SC_54)  (SC_55) ;
+Array tab_0_0 table $0064 0  (SC_52)  (SC_53)  (SC_54)  (SC_55)  (SC_56) ;
 Array tab_0_1 table $0465 1  (0)  (0)  (1)  (0)  (0) ;
 Array tab_0_2 table $2066 2  (Consult_Grammar_122)  (Consult_Grammar_123)  (Consult_Grammar_124)  (Consult_Grammar_125)  (Consult_Grammar_126) ;
 Array tab_0_3 table $0067 3  (IMMEDIATELY_RESTART_VM_R)  (IMMEDIATELY_RESTORE_SAVED_R)  TABLE_NOVALUE (IMMEDIATELY_QUIT_R)  (IMMEDIATELY_UNDO_R) ;
 Array tab_0_4 table $0068 4  TABLE_NOVALUE TABLE_NOVALUE (V26_amusing_a_victorious_pla)  TABLE_NOVALUE TABLE_NOVALUE;
 Array T1_locale_priorities table  tab_1_0 tab_1_1;
-Array tab_1_0 table $0869 NULL  TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE;
-Array tab_1_1 table $446a 5  TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE;
+Array tab_1_0 table $0869 NULL  TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE;
+Array tab_1_1 table $446a 5  TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE;
 Array T2_arm_parts table  tab_2_0 tab_2_1;
-Array tab_2_0 table $066b 11  (LIST_CONST_1804) ;
-Array tab_2_1 table $086c NULL  (I145_working_flashlight) ;
+Array tab_2_0 table $066b 12  (LIST_CONST_1880) ;
+Array tab_2_1 table $086c NULL  (I147_working_flashlight) ;
 Array TB_Blanks -> 
   ! For table T0_final_question_options
   $00  ! Column 0
@@ -10721,7 +10763,7 @@ Array TB_Blanks ->
   $1b  ! Column 4
   
   ! For table T1_locale_priorities
-  $ff $ff $ff $ff $ff $ff  ! Column 1
+  $ff $ff $ff $ff $ff $ff $03  ! Column 1
   
   ! For table T2_arm_parts
   $00  ! Column 0
@@ -11274,7 +11316,7 @@ Array ActionHappened --> 0 0 0 0 0 0;
 [ R_740 ;
       ! phrase 1
       ! [1: say ~You got separated from your friends and older brother in a Haunted House Ride at the Local Theme Park. Unfortunately, the staff thought that the last of the guests had left, and all of the doors have been locked. Yet, all of the machines in the house are still strangely working. You fainted from fear at the last ghostly 'surprise,' and you wake up in an unfamiliar room.~]
-      say__p=1;ParaContent();  print (PrintText) SC_56;  new_line; .L_Say1; .L_SayX1;
+      say__p=1;ParaContent();  print (PrintText) SC_57;  new_line; .L_Say1; .L_SayX1;
    rfalse;
 ];
 ! ----------------------------------------------------------------------------------------------------
@@ -11327,7 +11369,7 @@ Array ActionHappened --> 0 0 0 0 0 0;
    if (debug_rules) DB_Rule(R_764, 764);
       ! phrase 1
       ! [1: change the description of the knight in rusty armor to ~Rusty Armor put into a pose of a man holding an axe. How menacing.^^	It looks like he's almost breathing...~]
-       WriteGProperty(9, I111_knight_in_rusty_armor,description,SC_57); 
+       WriteGProperty(9, I112_knight_in_rusty_armor,description,SC_58); 
    } ! Runs only while condition holds
    else if (debug_rules > 1) DB_Rule(R_764, 764, true);
    rfalse;
@@ -11339,7 +11381,7 @@ Array ActionHappened --> 0 0 0 0 0 0;
    if (debug_rules) DB_Rule(R_765, 765);
       ! phrase 1
       ! [1: change the description of the large painting to ~A picture of an old man. There is a label underneath saying: 'Dr. James F. Harmon, 1870 - 1932.' Interesting prop, wonder where they found it.^^	His eyes seem to be following you...~]
-       WriteGProperty(9, I110_large_painting,description,SC_58); 
+       WriteGProperty(9, I111_large_painting,description,SC_59); 
    } ! Runs only while condition holds
    else if (debug_rules > 1) DB_Rule(R_765, 765, true);
    rfalse;
@@ -11351,7 +11393,7 @@ Array ActionHappened --> 0 0 0 0 0 0;
    if (debug_rules) DB_Rule(R_766, 766);
       ! phrase 1
       ! [1: say ~You see a shadow of a little girl running out of the corner of your eye.~]
-      say__p=1;ParaContent();  print (PrintText) SC_59;  new_line; .L_Say3; .L_SayX3;
+      say__p=1;ParaContent();  print (PrintText) SC_60;  new_line; .L_Say3; .L_SayX3;
    } ! Runs only while condition holds
    else if (debug_rules > 1) DB_Rule(R_766, 766, true);
    rfalse;
@@ -11361,7 +11403,7 @@ Array ActionHappened --> 0 0 0 0 0 0;
 [ R_741 ;
       ! phrase 1
       ! [1: if the player is in the exit , end the game in victory]
-       if (((I103_exit == ContainerOf(player)))) {  deadflag=2; story_complete=true;   }
+       if (((I104_exit == ContainerOf(player)))) {  deadflag=2; story_complete=true;   }
    rfalse;
 ];
 ! No specific request
@@ -11369,7 +11411,7 @@ Array ActionHappened --> 0 0 0 0 0 0;
 [ R_760 ;
       ! phrase 1
       ! [1: if the player is carrying the screwdriver for the first time , change the description of the couch to ~A red, leather couch with large cushions that looks very inviting. People dressed as ghosts usually lounge on the couch and jump out at people passing by the room.~]
-       if (TestSinglePastState(0, 0, false, 1) == 1 ) {  WriteGProperty(9, I107_leather_couch,description,SC_60);   }
+       if (TestSinglePastState(0, 0, false, 1) == 1 ) {  WriteGProperty(9, I108_leather_couch,description,SC_61);   }
    rfalse;
 ];
 ! No specific request
@@ -11377,7 +11419,7 @@ Array ActionHappened --> 0 0 0 0 0 0;
 [ R_761 ;
       ! phrase 1
       ! [1: if the player is carrying the batteries for the first time , change the description of the broken robotic dog to ~Someone must have been trying to fix him earlier, because most of the wiring has been ripped apart.Those probably power the red eyes.~]
-       if (TestSinglePastState(0, 1, false, 1) == 1 ) {  WriteGProperty(9, I116_broken_robotic_dog,description,SC_61);   }
+       if (TestSinglePastState(0, 1, false, 1) == 1 ) {  WriteGProperty(9, I117_broken_robotic_dog,description,SC_62);   }
    rfalse;
 ];
 ! No specific request
@@ -11385,10 +11427,10 @@ Array ActionHappened --> 0 0 0 0 0 0;
 [ R_762 ;
       ! phrase 1
       ! [1: if the old electrician is carrying wrench and the old electrician is carrying the wirecutter and the old electrician is carrying the screwdriver , say ~'Thanks a bunch kid! Here's the key that leads out of the Meat Locker. After the Narrow Hallway, you should be home free to the exit! Just leave the key for me though on the ground in the butcher room so I can get out too.'~]
-       if ((((I139_old_electrician == CarrierOf(I141_wrench)))) && ((((I139_old_electrician == CarrierOf(I143_wirecutter)))) && (((I139_old_electrician == CarrierOf(I142_screwdriver)))))) { say__p=1;ParaContent();  print (PrintText) SC_62;  new_line; .L_Say4; .L_SayX4;  }
+       if ((((I141_old_electrician == CarrierOf(I143_wrench)))) && ((((I141_old_electrician == CarrierOf(I145_wirecutter)))) && (((I141_old_electrician == CarrierOf(I144_screwdriver)))))) { say__p=1;ParaContent();  print (PrintText) SC_63;  new_line; .L_Say4; .L_SayX4;  }
       ! phrase 2
       ! [2: move the exit key to player]
-       MoveObject(I138_exit_key, player, 0, false); 
+       MoveObject(I140_exit_key, player, 0, false); 
    rfalse;
 ];
 ! No specific request
@@ -11396,7 +11438,7 @@ Array ActionHappened --> 0 0 0 0 0 0;
 [ R_763 ;
       ! phrase 1
       ! [1: if the old electrician is carrying wrench and the old electrician is carrying the wirecutter and the old electrician is carrying the screwdriver , remove wrench from play]
-       if ((((I139_old_electrician == CarrierOf(I141_wrench)))) && ((((I139_old_electrician == CarrierOf(I143_wirecutter)))) && (((I139_old_electrician == CarrierOf(I142_screwdriver)))))) {  RemoveFromPlay(I141_wrench);   }
+       if ((((I141_old_electrician == CarrierOf(I143_wrench)))) && ((((I141_old_electrician == CarrierOf(I145_wirecutter)))) && (((I141_old_electrician == CarrierOf(I144_screwdriver)))))) {  RemoveFromPlay(I143_wrench);   }
    rfalse;
 ];
 ! ----------------------------------------------------------------------------------------------------
@@ -11432,7 +11474,7 @@ Array ActionHappened --> 0 0 0 0 0 0;
 [ R_20 ;
       ! phrase 1
       ! [1: if the current item from the multiple object list is not nothing , say ~[current item from the multiple object list]: [run paragraph on]~]
-       if (((~~((multiple_object_item == nothing))))) { say__p=1;ParaContent();  print (PrintShortName) multiple_object_item; ParaContent();  print (PrintText) SC_63; ParaContent();  RunParagraphOn();  .L_Say5; .L_SayX5;  }
+       if (((~~((multiple_object_item == nothing))))) { say__p=1;ParaContent();  print (PrintShortName) multiple_object_item; ParaContent();  print (PrintText) SC_64; ParaContent();  RunParagraphOn();  .L_Say5; .L_SayX5;  }
    rfalse;
 ];
 ! No specific request
@@ -11830,12 +11872,12 @@ self = noun;
 ! No specific request
 ! Before talking to an object that is not the old electrician:
 [ R_752 ;
-   if ((action ==##A81_talking_to) &&  (actor==player) && ((true) && (~~((noun == I139_old_electrician))))) { ! Runs only when pattern matches
+   if ((action ==##A81_talking_to) &&  (actor==player) && ((true) && (~~((noun == I141_old_electrician))))) { ! Runs only when pattern matches
 self = noun;
    if (debug_rules) DB_Rule(R_752, 752);
       ! phrase 1
       ! [1: say ~I don't see why you're talking to that.~]
-      say__p=1;ParaContent();  print (PrintText) SC_64;  new_line; .L_Say6; .L_SayX6;
+      say__p=1;ParaContent();  print (PrintText) SC_65;  new_line; .L_Say6; .L_SayX6;
    } ! Runs only when pattern matches
    else if (debug_rules > 1) DB_Rule(R_752, 752, true);
    rfalse;
@@ -11843,13 +11885,13 @@ self = noun;
 ! No specific request
 ! Before talking to the old electrician:
 [ R_751 ;
-   if ((action ==##A81_talking_to) &&  (actor==player) && ((noun == I139_old_electrician) && (true))) { ! Runs only when pattern matches
+   if ((action ==##A81_talking_to) &&  (actor==player) && ((noun == I141_old_electrician) && (true))) { ! Runs only when pattern matches
 self = noun;
    if (debug_rules) DB_Rule(R_751, 751);
       ! phrase 1
       ! [1: say ~'What are you doing here, the ride's closed! ... What? They locked you in while closing down? Sorry to hear that, but I can't help you. I only got the one spare key, and I'm gonna be here for a couple hours. Maybe we can make an exchange though, I seem to be missing some of my tools[unicode 8230] Three of them to be exact. I probably dropped them in some of the rooms that came before the graveyard. Try giving a look for them, this old heart of mine couldn't stand going through that Circus Room again.'~]
-      say__p=1;ParaContent();  print (PrintText) SC_65; ParaContent();  #ifdef TARGET_ZCODE; @push self; self = 8230; @print_unicode self; @pull self;
-	#ifnot; if (unicode_gestalt_ok) glk_put_char_uni(8230); else print "?"; #endif; ParaContent();  print (PrintText) SC_66;  new_line; .L_Say7; .L_SayX7;
+      say__p=1;ParaContent();  print (PrintText) SC_66; ParaContent();  #ifdef TARGET_ZCODE; @push self; self = 8230; @print_unicode self; @pull self;
+	#ifnot; if (unicode_gestalt_ok) glk_put_char_uni(8230); else print "?"; #endif; ParaContent();  print (PrintText) SC_67;  new_line; .L_Say7; .L_SayX7;
    } ! Runs only when pattern matches
    else if (debug_rules > 1) DB_Rule(R_751, 751, true);
    rfalse;
@@ -11885,13 +11927,13 @@ self = noun;
    if (debug_rules) DB_Rule(R_753, 753);
       ! phrase 1
       ! [1: move the wrench to the old electrician]
-       MoveObject(I141_wrench, I139_old_electrician, 0, false); 
+       MoveObject(I143_wrench, I141_old_electrician, 0, false); 
       ! phrase 2
       ! [2: increase the score by 1]
        score = score + 1; 
       ! phrase 3
       ! [3: say ~Thanks!~]
-      say__p=1;ParaContent();  print (PrintText) SC_67;  new_line; .L_Say8; .L_SayX8;
+      say__p=1;ParaContent();  print (PrintText) SC_68;  new_line; .L_Say8; .L_SayX8;
       RulebookFails(); rtrue;
    } ! Runs only when pattern matches
    else if (debug_rules > 1) DB_Rule(R_753, 753, true);
@@ -11905,13 +11947,13 @@ self = noun;
    if (debug_rules) DB_Rule(R_754, 754);
       ! phrase 1
       ! [1: move the wirecutter to the old electrician]
-       MoveObject(I143_wirecutter, I139_old_electrician, 0, false); 
+       MoveObject(I145_wirecutter, I141_old_electrician, 0, false); 
       ! phrase 2
       ! [2: increase the score by 1]
        score = score + 1; 
       ! phrase 3
       ! [3: say ~Thanks!~]
-      say__p=1;ParaContent();  print (PrintText) SC_67;  new_line; .L_Say9; .L_SayX9;
+      say__p=1;ParaContent();  print (PrintText) SC_68;  new_line; .L_Say9; .L_SayX9;
       RulebookFails(); rtrue;
    } ! Runs only when pattern matches
    else if (debug_rules > 1) DB_Rule(R_754, 754, true);
@@ -11925,13 +11967,13 @@ self = noun;
    if (debug_rules) DB_Rule(R_755, 755);
       ! phrase 1
       ! [1: move the screwdriver to the old electrician]
-       MoveObject(I142_screwdriver, I139_old_electrician, 0, false); 
+       MoveObject(I144_screwdriver, I141_old_electrician, 0, false); 
       ! phrase 2
       ! [2: increase the score by 1]
        score = score + 1; 
       ! phrase 3
       ! [3: say ~Thanks!~]
-      say__p=1;ParaContent();  print (PrintText) SC_67;  new_line; .L_Say10; .L_SayX10;
+      say__p=1;ParaContent();  print (PrintText) SC_68;  new_line; .L_Say10; .L_SayX10;
       RulebookFails(); rtrue;
    } ! Runs only when pattern matches
    else if (debug_rules > 1) DB_Rule(R_755, 755, true);
@@ -11948,16 +11990,16 @@ self = noun;
        (Adj_60_t2_v9(I89_black_door)); 
       ! phrase 2
       ! [2: say ~A door has opened to the west.~]
-      say__p=1;ParaContent();  print (PrintText) SC_68;  new_line; .L_Say11; .L_SayX11;
+      say__p=1;ParaContent();  print (PrintText) SC_69;  new_line; .L_Say11; .L_SayX11;
       ! phrase 3
       ! [3: now the second door is open]
        (Adj_60_t2_v9(I91_second_door)); 
       ! phrase 4
       ! [4: say ~Another door has opened in the north.~]
-      say__p=1;ParaContent();  print (PrintText) SC_69;  new_line; .L_Say12; .L_SayX12;
+      say__p=1;ParaContent();  print (PrintText) SC_70;  new_line; .L_Say12; .L_SayX12;
       ! phrase 5
       ! [5: change the description of the black room to ~A room where the ceiling, walls, and floor are all painted black. The entrance to the next room is West, the entrance to the Haunted House is North.~]
-       WriteGProperty(9, I88_black_room,description,SC_70); 
+       WriteGProperty(9, I88_black_room,description,SC_71); 
       RulebookFails(); rtrue;
    } ! Runs only when pattern matches
    else if (debug_rules > 1) DB_Rule(R_742, 742, true);
@@ -11974,7 +12016,7 @@ self = noun;
        (Adj_60_t2_v9(I95_sliding_door)); 
       ! phrase 2
       ! [2: say ~A door slides open in the North.~]
-      say__p=1;ParaContent();  print (PrintText) SC_71;  new_line; .L_Say13; .L_SayX13;
+      say__p=1;ParaContent();  print (PrintText) SC_72;  new_line; .L_Say13; .L_SayX13;
       RulebookFails(); rtrue;
    } ! Runs only when pattern matches
    else if (debug_rules > 1) DB_Rule(R_759, 759, true);
@@ -11983,13 +12025,13 @@ self = noun;
 ! No specific request
 ! Instead of asking the old electrician for the exit key:
 [ R_750 ;
-   if ((action ==##AskFor) &&  (actor==player) && ((noun == I139_old_electrician) && (true)) && ((second == I138_exit_key) && (true))) { ! Runs only when pattern matches
+   if ((action ==##AskFor) &&  (actor==player) && ((noun == I141_old_electrician) && (true)) && ((second == I140_exit_key) && (true))) { ! Runs only when pattern matches
 self = noun;
    if (debug_rules) DB_Rule(R_750, 750);
       ! phrase 1
       ! [1: say ~'I only got the one spare key, and I'm gonna be here for a couple hours. Maybe we can make an exchange though, I seem to be missing some of my tools[unicode 8230] Three of them to be exact. I probably dropped them in some of the rooms that came before the graveyard. Try giving a look for them, this old heart of mine couldn't stand going through that Circus Room again.'~]
-      say__p=1;ParaContent();  print (PrintText) SC_72; ParaContent();  #ifdef TARGET_ZCODE; @push self; self = 8230; @print_unicode self; @pull self;
-	#ifnot; if (unicode_gestalt_ok) glk_put_char_uni(8230); else print "?"; #endif; ParaContent();  print (PrintText) SC_66;  new_line; .L_Say14; .L_SayX14;
+      say__p=1;ParaContent();  print (PrintText) SC_73; ParaContent();  #ifdef TARGET_ZCODE; @push self; self = 8230; @print_unicode self; @pull self;
+	#ifnot; if (unicode_gestalt_ok) glk_put_char_uni(8230); else print "?"; #endif; ParaContent();  print (PrintText) SC_67;  new_line; .L_Say14; .L_SayX14;
       RulebookFails(); rtrue;
    } ! Runs only when pattern matches
    else if (debug_rules > 1) DB_Rule(R_750, 750, true);
@@ -11998,12 +12040,12 @@ self = noun;
 ! No specific request
 ! Instead of pushing the Button for lighting:
 [ R_756 ;
-   if ((action ==##Push) &&  (actor==player) && ((noun == I127_button_for_lighting) && (true))) { ! Runs only when pattern matches
+   if ((action ==##Push) &&  (actor==player) && ((noun == I129_button_for_lighting) && (true))) { ! Runs only when pattern matches
 self = noun;
    if (debug_rules) DB_Rule(R_756, 756);
       ! phrase 1
       ! [1: say ~I don't think that's a good idea.~]
-      say__p=1;ParaContent();  print (PrintText) SC_73;  new_line; .L_Say15; .L_SayX15;
+      say__p=1;ParaContent();  print (PrintText) SC_74;  new_line; .L_Say15; .L_SayX15;
       RulebookFails(); rtrue;
    } ! Runs only when pattern matches
    else if (debug_rules > 1) DB_Rule(R_756, 756, true);
@@ -12012,15 +12054,15 @@ self = noun;
 ! No specific request
 ! Instead of pushing the Button for fog:
 [ R_757 ;
-   if ((action ==##Push) &&  (actor==player) && ((noun == I129_button_for_fog) && (true))) { ! Runs only when pattern matches
+   if ((action ==##Push) &&  (actor==player) && ((noun == I131_button_for_fog) && (true))) { ! Runs only when pattern matches
 self = noun;
    if (debug_rules) DB_Rule(R_757, 757);
       ! phrase 1
       ! [1: change the description of meat locker to ~Large sacks of what looks like cow meat hang from the ceiling on metal hooks. Obviously, their plastic, but it still gives you the creeps being wrapped in the cloudy plastic. Usually, a worker dawning a butcher's outfit chases the visitors around towards the exit, but the fog is so thick, you can't see it.^^	The Graveyard is South.~]
-       WriteGProperty(9, I97_meat_locker,description,SC_74); 
+       WriteGProperty(9, I97_meat_locker,description,SC_75); 
       ! phrase 2
       ! [2: say ~You hear a clicking noise. Something must have happened.~]
-      say__p=1;ParaContent();  print (PrintText) SC_75;  new_line; .L_Say16; .L_SayX16;
+      say__p=1;ParaContent();  print (PrintText) SC_76;  new_line; .L_Say16; .L_SayX16;
       RulebookFails(); rtrue;
    } ! Runs only when pattern matches
    else if (debug_rules > 1) DB_Rule(R_757, 757, true);
@@ -12029,18 +12071,18 @@ self = noun;
 ! No specific request
 ! Instead of pushing the Button for soundtracks:
 [ R_758 ;
-   if ((action ==##Push) &&  (actor==player) && ((noun == I131_button_for_soundtracks) && (true))) { ! Runs only when pattern matches
+   if ((action ==##Push) &&  (actor==player) && ((noun == I133_button_for_soundtracks) && (true))) { ! Runs only when pattern matches
 self = noun;
    if (debug_rules) DB_Rule(R_758, 758);
       ! phrase 1
       ! [1: change the description of the circus room to ~Large, robotic clowns loom over you as you walk by. There is another podium at the entrance where a worker dressed as a ringmaster is supposed to welcome the guests. The Cage Room is to the East, and there is a sliding door to the North of the room.^^	The room is now silent.~]
-       WriteGProperty(9, I94_circus_room,description,SC_76); 
+       WriteGProperty(9, I94_circus_room,description,SC_77); 
       ! phrase 2
       ! [2: change the description of the graveyard room to ~A large, very open room with the ceiling decorated to look like nighttime. The floor is littered with tombstones, but a large tombstone with a skeleton hugging the base of it really sticks out to you. The Circus Room is in the South. There is a door to the West that looks like it was decorated to not stand out. A door with a large mirror in the front is to the East.^	The room is silent.~]
-       WriteGProperty(9, I96_graveyard_room,description,SC_77); 
+       WriteGProperty(9, I96_graveyard_room,description,SC_78); 
       ! phrase 3
       ! [3: say ~You hear a clicking noise. It seems quieter outside, something must have happened.~]
-      say__p=1;ParaContent();  print (PrintText) SC_78;  new_line; .L_Say17; .L_SayX17;
+      say__p=1;ParaContent();  print (PrintText) SC_79;  new_line; .L_Say17; .L_SayX17;
       RulebookFails(); rtrue;
    } ! Runs only when pattern matches
    else if (debug_rules > 1) DB_Rule(R_758, 758, true);
@@ -12104,7 +12146,7 @@ self = noun;
 ! No specific request
 ! After combining the flashlight with batteries:
 [ R_749 ;
-   if ((action ==##A80_combining_it_with) &&  (actor==player) && ((noun == I105_flashlight) && (true)) && ((second == I144_batteries) && (true))) { ! Runs only when pattern matches
+   if ((action ==##A80_combining_it_with) &&  (actor==player) && ((noun == I106_flashlight) && (true)) && ((second == I146_batteries) && (true))) { ! Runs only when pattern matches
 self = noun;
    if (debug_rules) DB_Rule(R_749, 749);
       ! phrase 1
@@ -12199,7 +12241,7 @@ self = noun;
    if (debug_rules) DB_Rule(R_60, 60);
       ! phrase 1
       ! [1: say ~[listing group size in words] ~]
-      say__p=1;ParaContent();  print (number) say__n=(listing_size); ParaContent();  print (PrintText) SC_79;  .L_Say19; .L_SayX19;
+      say__p=1;ParaContent();  print (number) say__n=(listing_size); ParaContent();  print (PrintText) SC_80;  .L_Say19; .L_SayX19;
       ! phrase 2
       ! [2: carry out the printing the plural name activity with the item]
        CarryOutActivity(V1_printing_the_plural_name_, t_0); 
@@ -12412,7 +12454,7 @@ self = noun;
        if (((t_0 < 1))) {  if (ProcessRulebook(IMMEDIATELY_QUIT_R)) rtrue;   }
       ! phrase 10
       ! [10: say ~Would you like to ~]
-      say__p=1;ParaContent();  print (PrintText) SC_80;  .L_Say20; .L_SayX20;
+      say__p=1;ParaContent();  print (PrintText) SC_81;  .L_Say20; .L_SayX20;
       ! phrase 11
       ! [11: repeat through the table of final question options begin]
        @push ct_0; @push ct_1;
@@ -12439,23 +12481,23 @@ self = noun;
                    if (((t_0 == 0)))  {
                      ! phrase 18
                      ! [18: say ~?[line break]~]
-                     say__p=1;ParaContent();  print (PrintText) SC_81; ParaContent();  new_line;  .L_Say22; .L_SayX22;
+                     say__p=1;ParaContent();  print (PrintText) SC_82; ParaContent();  new_line;  .L_Say22; .L_SayX22;
                      ! phrase 19
                      ! [19: otherwise if the named options count is 1]
                       } else if (((t_0 == 1))) { 
                      ! phrase 20
                      ! [20: if the serial comma option is active , say ~,~]
-                      if ((((Adj_22_t1_v15(5))))) { say__p=1;ParaContent();  print (PrintText) SC_82;  .L_Say23; .L_SayX23;  }
+                      if ((((Adj_22_t1_v15(5))))) { say__p=1;ParaContent();  print (PrintText) SC_83;  .L_Say23; .L_SayX23;  }
                      ! phrase 21
                      ! [21: say ~ or ~]
-                     say__p=1;ParaContent();  print (PrintText) SC_83;  .L_Say24; .L_SayX24;
+                     say__p=1;ParaContent();  print (PrintText) SC_84;  .L_Say24; .L_SayX24;
                      ! phrase 22
                      ! [22: otherwise]
                      } else {
 
                      ! phrase 23
                      ! [23: say ~, ~]
-                     say__p=1;ParaContent();  print (PrintText) SC_84;  .L_Say25; .L_SayX25;
+                     say__p=1;ParaContent();  print (PrintText) SC_85;  .L_Say25; .L_SayX25;
                      ! phrase 24
                      ! [24: end if]
                      }
@@ -12484,7 +12526,7 @@ self = noun;
 [ R_68 ;
       ! phrase 1
       ! [1: say ~> [run paragraph on]~]
-      say__p=1;ParaContent();  print (PrintText) SC_85; ParaContent();  RunParagraphOn();  .L_Say26; .L_SayX26;
+      say__p=1;ParaContent();  print (PrintText) SC_86; ParaContent();  RunParagraphOn();  .L_Say26; .L_SayX26;
    rfalse;
 ];
 ! ----------------------------------------------------------------------------------------------------
@@ -12737,40 +12779,40 @@ self = noun;
                 if (((t_0 ofclass K1_room)))  {
                   ! phrase 22
                   ! [22: if the domain is the location , say ~You ~]
-                   if (((t_0 == real_location))) { say__p=1;ParaContent();  print (PrintText) SC_86;  .L_Say27; .L_SayX27;  }
+                   if (((t_0 == real_location))) { say__p=1;ParaContent();  print (PrintText) SC_87;  .L_Say27; .L_SayX27;  }
                   ! phrase 23
                   ! [23: otherwise say ~In [the domain] you ~]
-                   else { say__p=1;ParaContent();  print (PrintText) SC_87; ParaContent();  print (the) t_0; ParaContent();  print (PrintText) SC_88;  .L_Say28; .L_SayX28;  }
+                   else { say__p=1;ParaContent();  print (PrintText) SC_88; ParaContent();  print (the) t_0; ParaContent();  print (PrintText) SC_89;  .L_Say28; .L_SayX28;  }
                   ! phrase 24
                   ! [24: otherwise if the domain is a supporter]
                    } else if (((t_0 ofclass K6_supporter))) { 
                   ! phrase 25
                   ! [25: say ~On [the domain] you ~]
-                  say__p=1;ParaContent();  print (PrintText) SC_89; ParaContent();  print (the) t_0; ParaContent();  print (PrintText) SC_88;  .L_Say29; .L_SayX29;
+                  say__p=1;ParaContent();  print (PrintText) SC_90; ParaContent();  print (the) t_0; ParaContent();  print (PrintText) SC_89;  .L_Say29; .L_SayX29;
                   ! phrase 26
                   ! [26: otherwise if the domain is an animal]
                    } else if (((t_0 ofclass K12_animal))) { 
                   ! phrase 27
                   ! [27: say ~On [the domain] you ~]
-                  say__p=1;ParaContent();  print (PrintText) SC_89; ParaContent();  print (the) t_0; ParaContent();  print (PrintText) SC_88;  .L_Say30; .L_SayX30;
+                  say__p=1;ParaContent();  print (PrintText) SC_90; ParaContent();  print (the) t_0; ParaContent();  print (PrintText) SC_89;  .L_Say30; .L_SayX30;
                   ! phrase 28
                   ! [28: otherwise]
                   } else {
 
                   ! phrase 29
                   ! [29: say ~In [the domain] you ~]
-                  say__p=1;ParaContent();  print (PrintText) SC_87; ParaContent();  print (the) t_0; ParaContent();  print (PrintText) SC_88;  .L_Say31; .L_SayX31;
+                  say__p=1;ParaContent();  print (PrintText) SC_88; ParaContent();  print (the) t_0; ParaContent();  print (PrintText) SC_89;  .L_Say31; .L_SayX31;
                   ! phrase 30
                   ! [30: end if]
                   }
 
                ! phrase 31
                ! [31: say ~can [if the locale paragraph count is greater than 0]also [end if]see ~]
-               say__p=1;ParaContent();  print (PrintText) SC_90; 
+               say__p=1;ParaContent();  print (PrintText) SC_91; 
 	if (~~(((((Global_Vars-->8) > 0))))) jump L_Say32;
-		ParaContent();  print (PrintText) SC_91; 
+		ParaContent();  print (PrintText) SC_92; 
 	.L_Say32; .L_SayX32;
-		ParaContent();  print (PrintText) SC_92;  .L_Say33; .L_SayX33;
+		ParaContent();  print (PrintText) SC_93;  .L_Say33; .L_SayX33;
                ! phrase 32
                ! [32: let the common holder be nothing]
                 t_2 = nothing; 
@@ -12816,10 +12858,10 @@ self = noun;
 		@pull subst__v;  .L_Say34; .L_SayX34;  }
                ! phrase 44
                ! [44: if the domain is the location , say ~ here~]
-                if (((t_0 == real_location))) { say__p=1;ParaContent();  print (PrintText) SC_93;  .L_Say35; .L_SayX35;  }
+                if (((t_0 == real_location))) { say__p=1;ParaContent();  print (PrintText) SC_94;  .L_Say35; .L_SayX35;  }
                ! phrase 45
                ! [45: say ~.[paragraph break]~]
-               say__p=1;ParaContent();  print (PrintText) SC_94; ParaContent();  DivideParagraphPoint(); new_line;  .L_Say36; .L_SayX36;
+               say__p=1;ParaContent();  print (PrintText) SC_95; ParaContent();  DivideParagraphPoint(); new_line;  .L_Say36; .L_SayX36;
                ! phrase 46
                ! [46: unfilter list recursion]
                 list_filter_routine = 0; 
@@ -13080,13 +13122,13 @@ self = noun;
 
                ! phrase 13
                ! [13: say ~On [the item] ~]
-               say__p=1;ParaContent();  print (PrintText) SC_89; ParaContent();  print (the) t_0; ParaContent();  print (PrintText) SC_79;  .L_Say41; .L_SayX41;
+               say__p=1;ParaContent();  print (PrintText) SC_90; ParaContent();  print (the) t_0; ParaContent();  print (PrintText) SC_80;  .L_Say41; .L_SayX41;
                ! phrase 14
                ! [14: list the contents of the item , as a sentence , including contents , giving brief inventory information , tersely , not listing concealed items , prefacing with is/are , listing marked items only]
                 WriteListFrom(child(t_0), 3800); 
                ! phrase 15
                ! [15: say ~.[paragraph break]~]
-               say__p=1;ParaContent();  print (PrintText) SC_94; ParaContent();  DivideParagraphPoint(); new_line;  .L_Say42; .L_SayX42;
+               say__p=1;ParaContent();  print (PrintText) SC_95; ParaContent();  DivideParagraphPoint(); new_line;  .L_Say42; .L_SayX42;
                ! phrase 16
                ! [16: end if]
                }
@@ -13154,13 +13196,13 @@ self = noun;
              (Global_Vars-->8) = (Global_Vars-->8) + 1; 
             ! phrase 11
             ! [11: say ~On [the item] ~]
-            say__p=1;ParaContent();  print (PrintText) SC_89; ParaContent();  print (the) t_0; ParaContent();  print (PrintText) SC_79;  .L_Say43; .L_SayX43;
+            say__p=1;ParaContent();  print (PrintText) SC_90; ParaContent();  print (the) t_0; ParaContent();  print (PrintText) SC_80;  .L_Say43; .L_SayX43;
             ! phrase 12
             ! [12: list the contents of the item , as a sentence , including contents , giving brief inventory information , tersely , not listing concealed items , prefacing with is/are , listing marked items only]
              WriteListFrom(child(t_0), 3800); 
             ! phrase 13
             ! [13: say ~.[paragraph break]~]
-            say__p=1;ParaContent();  print (PrintText) SC_94; ParaContent();  DivideParagraphPoint(); new_line;  .L_Say44; .L_SayX44;
+            say__p=1;ParaContent();  print (PrintText) SC_95; ParaContent();  DivideParagraphPoint(); new_line;  .L_Say44; .L_SayX44;
             ! phrase 14
             ! [14: end if]
             }
@@ -13210,7 +13252,7 @@ self = noun;
        GL__M(##Inv,2,noun); 
       ! phrase 2
       ! [2: say ~:[line break]~]
-      say__p=1;ParaContent();  print (PrintText) SC_95; ParaContent();  new_line;  .L_Say45; .L_SayX45;
+      say__p=1;ParaContent();  print (PrintText) SC_96; ParaContent();  new_line;  .L_Say45; .L_SayX45;
       ! phrase 3
       ! [3: list the contents of the player , with newlines , indented , including contents , giving inventory information , with extra indentation]
        WriteListFrom(child(player), 8215); 
@@ -14806,7 +14848,7 @@ self = noun;
           if (((~~(((MStack-->MstVO(20007,3)) == nothing)))))  {
             ! phrase 49
             ! [49: say ~ ~]
-            say__p=1;ParaContent();  print (PrintText) SC_79;  .L_Say46; .L_SayX46;
+            say__p=1;ParaContent();  print (PrintText) SC_80;  .L_Say46; .L_SayX46;
             ! phrase 50
             ! [50: if the vehicle gone by is a supporter , issue actor-based library message going action number 20 for the vehicle gone by]
              if ((((MStack-->MstVO(20007,3)) ofclass K6_supporter))) {  AGL__M(##Go,20,(MStack-->MstVO(20007,3)));   }
@@ -14861,7 +14903,7 @@ self = noun;
              AGL__M(##Go,26,noun); 
             ! phrase 66
             ! [66: say ~.~]
-            say__p=1;ParaContent();  print (PrintText) SC_94;  new_line; .L_Say47; .L_SayX47;
+            say__p=1;ParaContent();  print (PrintText) SC_95;  new_line; .L_Say47; .L_SayX47;
             ! phrase 67
             ! [67: try looking]
              TryAction(0, player, ##Look, 0, 0);; 
@@ -14874,7 +14916,7 @@ self = noun;
 
          ! phrase 70
          ! [70: say ~.~]
-         say__p=1;ParaContent();  print (PrintText) SC_94;  new_line; .L_Say48; .L_SayX48;
+         say__p=1;ParaContent();  print (PrintText) SC_95;  new_line; .L_Say48; .L_SayX48;
          ! phrase 71
          ! [71: end if]
          }
@@ -18392,7 +18434,7 @@ self = noun;
        if ((((MStack-->MstVO(20080,0)) == nothing)))  {
          ! phrase 2
          ! [2: say ~Now why would you do that?~]
-         say__p=1;ParaContent();  print (PrintText) SC_96;  new_line; .L_Say56; .L_SayX56;
+         say__p=1;ParaContent();  print (PrintText) SC_97;  new_line; .L_Say56; .L_SayX56;
          ! phrase 3
          ! [3: stop the action]
           rtrue; 
@@ -18418,7 +18460,7 @@ self = noun;
    if (debug_rules) DB_Rule(R_748, 748);
       ! phrase 1
       ! [1: say ~Looks like this flashlight should start working now!~]
-      say__p=1;ParaContent();  print (PrintText) SC_97;  new_line; .L_Say57; .L_SayX57;
+      say__p=1;ParaContent();  print (PrintText) SC_98;  new_line; .L_Say57; .L_SayX57;
       ! phrase 2
       ! [2: remove the noun from play]
        RemoveFromPlay(noun); 
@@ -23204,7 +23246,7 @@ Constant SLOW_ROUTE_FINDING;
 #endif;
 #endif;
 
-Constant NUM_DOORS = 4;
+Constant NUM_DOORS = 5;
 Constant NUM_ROOMS = 12;
 
 Array DoorRoutingViable -> NUM_DOORS+1;
@@ -23392,7 +23434,7 @@ Array FWMatrix --> NUM_ROOMS*NUM_ROOMS;
 ];
 #ENDIF;
 
-Constant MAX_ROUTE_LENGTH = 71 + 32;
+Constant MAX_ROUTE_LENGTH = 73 + 32;
 
 [ RelationRouteTo relation from to count  handler;
 	if (count) {
@@ -26694,16 +26736,16 @@ if (t_0 ofclass K13_device) {if (na > 0) { na = 0; print "; "; }
     if ((AllowInShowme(on)) && (t_0  has on)) { if (na++ > 0) print ", "; print "switched on"; }
     if ((AllowInShowme(on)) && (t_0  hasnt on)) { if (na++ > 0) print ", "; print "switched off"; }
 }
-if (t_0 == I119_red_button) {if (na > 0) { na = 0; print "; "; }
+if (t_0 == I120_red_button) {if (na > 0) { na = 0; print "; "; }
     if ((AllowInShowme(p56_pushed)) && (t_0  has p56_pushed)) { if (na++ > 0) print ", "; print "pushed"; }
 }
-if (t_0 == I127_button_for_lighting) {if (na > 0) { na = 0; print "; "; }
+if (t_0 == I129_button_for_lighting) {if (na > 0) { na = 0; print "; "; }
     if ((AllowInShowme(p56_pushed)) && (t_0  has p56_pushed)) { if (na++ > 0) print ", "; print "pushed"; }
 }
-if (t_0 == I129_button_for_fog) {if (na > 0) { na = 0; print "; "; }
+if (t_0 == I131_button_for_fog) {if (na > 0) { na = 0; print "; "; }
     if ((AllowInShowme(p56_pushed)) && (t_0  has p56_pushed)) { if (na++ > 0) print ", "; print "pushed"; }
 }
-if (t_0 == I140_black_square) {if (na > 0) { na = 0; print "; "; }
+if (t_0 == I142_black_square) {if (na > 0) { na = 0; print "; "; }
     if ((AllowInShowme(p56_pushed)) && (t_0  has p56_pushed)) { if (na++ > 0) print ", "; print "pushed"; }
 }
 if (t_0) {if (na > 0) { na = 0; print "^"; }
@@ -27076,7 +27118,7 @@ Verb meta 'tree'
 
 [ LITTLE_USED_DO_NOTHING_R; rfalse; ];
 
-Array LIST_CONST_1804 --> 0 9 2 (I144_batteries) (I105_flashlight) ;
+Array LIST_CONST_1880 --> 0 9 2 (I146_batteries) (I106_flashlight) ;
 
 
 
@@ -27206,28 +27248,28 @@ Array LIST_CONST_1804 --> 0 9 2 (I144_batteries) (I105_flashlight) ;
    rfalse;
 ];
 [ text_routine_0;
-say__p=1;ParaContent();  print (PrintText) SC_98; ParaContent();  #ifdef TARGET_ZCODE; @push self; self = 8230; @print_unicode self; @pull self;
-	#ifnot; if (unicode_gestalt_ok) glk_put_char_uni(8230); else print "?"; #endif; ParaContent();  print (PrintText) SC_99;  .L_Say58; .L_SayX58;
+say__p=1;ParaContent();  print (PrintText) SC_99; ParaContent();  #ifdef TARGET_ZCODE; @push self; self = 8230; @print_unicode self; @pull self;
+	#ifnot; if (unicode_gestalt_ok) glk_put_char_uni(8230); else print "?"; #endif; ParaContent();  print (PrintText) SC_100;  .L_Say58; .L_SayX58;
     rtrue;
 ];
 
 [ text_routine_1;
-say__p=1;ParaContent();  print (PrintText) SC_100; ParaContent();  #ifdef TARGET_ZCODE; @push self; self = 8230; @print_unicode self; @pull self;
-	#ifnot; if (unicode_gestalt_ok) glk_put_char_uni(8230); else print "?"; #endif; ParaContent();  print (PrintText) SC_101;  .L_Say59; .L_SayX59;
+say__p=1;ParaContent();  print (PrintText) SC_101; ParaContent();  #ifdef TARGET_ZCODE; @push self; self = 8230; @print_unicode self; @pull self;
+	#ifnot; if (unicode_gestalt_ok) glk_put_char_uni(8230); else print "?"; #endif; ParaContent();  print (PrintText) SC_102;  .L_Say59; .L_SayX59;
     rtrue;
 ];
 
 [ text_routine_2;
-say__p=1;ParaContent();  print (PrintText) SC_102; 
-	if (~~((((I139_old_electrician == CarrierOf(I138_exit_key)))))) jump L_Say60;
-		ParaContent();  print (PrintText) SC_103;  .L_Say60; .L_SayX60;
+say__p=1;ParaContent();  print (PrintText) SC_103; 
+	if (~~((((I141_old_electrician == CarrierOf(I140_exit_key)))))) jump L_Say60;
+		ParaContent();  print (PrintText) SC_104;  .L_Say60; .L_SayX60;
     rtrue;
 ];
 
 [ text_routine_3;
-say__p=1;ParaContent();  print (PrintText) SC_104; ParaContent();  #ifdef TARGET_ZCODE; @push self; self = 8230; @print_unicode self; @pull self;
-	#ifnot; if (unicode_gestalt_ok) glk_put_char_uni(8230); else print "?"; #endif; ParaContent();  print (PrintText) SC_105; ParaContent();  #ifdef TARGET_ZCODE; @push self; self = 8230; @print_unicode self; @pull self;
+say__p=1;ParaContent();  print (PrintText) SC_105; ParaContent();  #ifdef TARGET_ZCODE; @push self; self = 8230; @print_unicode self; @pull self;
 	#ifnot; if (unicode_gestalt_ok) glk_put_char_uni(8230); else print "?"; #endif; ParaContent();  print (PrintText) SC_106; ParaContent();  #ifdef TARGET_ZCODE; @push self; self = 8230; @print_unicode self; @pull self;
+	#ifnot; if (unicode_gestalt_ok) glk_put_char_uni(8230); else print "?"; #endif; ParaContent();  print (PrintText) SC_107; ParaContent();  #ifdef TARGET_ZCODE; @push self; self = 8230; @print_unicode self; @pull self;
 	#ifnot; if (unicode_gestalt_ok) glk_put_char_uni(8230); else print "?"; #endif;  .L_Say61; .L_SayX61;
     rtrue;
 ];
@@ -27252,35 +27294,35 @@ say__p=1;ParaContent();  print (PrintText) SC_104; ParaContent();  #ifdef TARGET
 ];
 
 [ PAPR_0 ;
-if ((action ==##Give) &&  (actor==player) && ((noun == I141_wrench) && (true)) && ((second == I139_old_electrician) && (true))) rtrue;
+if ((action ==##Give) &&  (actor==player) && ((noun == I143_wrench) && (true)) && ((second == I141_old_electrician) && (true))) rtrue;
     rfalse;
 ];
 [ PAPR_1 ;
-if ((action ==##Give) &&  (actor==player) && ((noun == I143_wirecutter) && (true)) && ((second == I139_old_electrician) && (true))) rtrue;
+if ((action ==##Give) &&  (actor==player) && ((noun == I145_wirecutter) && (true)) && ((second == I141_old_electrician) && (true))) rtrue;
     rfalse;
 ];
 [ PAPR_2 ;
-if ((action ==##Give) &&  (actor==player) && ((noun == I142_screwdriver) && (true)) && ((second == I139_old_electrician) && (true))) rtrue;
+if ((action ==##Give) &&  (actor==player) && ((noun == I144_screwdriver) && (true)) && ((second == I141_old_electrician) && (true))) rtrue;
     rfalse;
 ];
 [ PAPR_3 ;
-if ((action ==##Push) &&  (actor==player) && ((noun == I140_black_square) && (true))) rtrue;
+if ((action ==##Push) &&  (actor==player) && ((noun == I142_black_square) && (true))) rtrue;
     rfalse;
 ];
 [ PAPR_4 ;
-if ((action ==##Push) &&  (actor==player) && ((noun == I119_red_button) && (true))) rtrue;
+if ((action ==##Push) &&  (actor==player) && ((noun == I120_red_button) && (true))) rtrue;
     rfalse;
 ];
 [ PAPR_5 ;
-if ((action ==##Take) &&  (actor==player) && ((noun == I141_wrench) && (true))) rtrue;
+if ((action ==##Take) &&  (actor==player) && ((noun == I143_wrench) && (true))) rtrue;
     rfalse;
 ];
 [ PAPR_6 ;
-if ((action ==##Take) &&  (actor==player) && ((noun == I142_screwdriver) && (true))) rtrue;
+if ((action ==##Take) &&  (actor==player) && ((noun == I144_screwdriver) && (true))) rtrue;
     rfalse;
 ];
 [ PAPR_7 ;
-if ((action ==##Take) &&  (actor==player) && ((noun == I143_wirecutter) && (true))) rtrue;
+if ((action ==##Take) &&  (actor==player) && ((noun == I145_wirecutter) && (true))) rtrue;
     rfalse;
 ];
 Array PastActionsI6Routines --> PAPR_0 PAPR_1 PAPR_2 PAPR_3 PAPR_4 PAPR_5 PAPR_6 PAPR_7 0 0;
@@ -27302,8 +27344,8 @@ Constant NO_PAST_TENSE_ACTIONS 8;
 I7BASPL = blockv_sp;
 blockv_sp = blockv_sp + 16;
 switch(pt) {
-    0: new = (((player == CarrierOf(I142_screwdriver))));
-    1: new = (((player == CarrierOf(I144_batteries))));
+    0: new = (((player == CarrierOf(I144_screwdriver))));
+    1: new = (((player == CarrierOf(I146_batteries))));
     default: print "*** No such past tense condition ***^"; new = false;
 }
 blockv_sp = blockv_sp - 16;
@@ -30212,66 +30254,67 @@ ArgumentTypeFailed(filename, line);
 
 
 Array ConstantListPointers --> 
-LIST_CONST_1804  0 0;
+LIST_CONST_1880  0 0;
 
-Constant SC_79 = " ";
-Constant SC_103 = " He is carrying the key to the exit.";
-Constant SC_66 = " Three of them to be exact. I probably dropped them in some of the rooms that came before the graveyard. Try giving a look for them, this old heart of mine couldn't stand going through that Circus Room again.~";
-Constant SC_99 = " Weird.";
-Constant SC_93 = " here";
-Constant SC_83 = " or ";
-Constant SC_105 = " there was no soundtrack or speakers in that room. It was just an empty Hall of Mirrors room. Maybe those Circus clowns just got to your head! Hahaha!~^^	As you and the group begin to walk away from the house, you can't help but notice a small plaque put in front of the Haunted House Ride.^^^-In Loving Memory of Sophia A. Harmon.  1897 - 1908. Resided on the property with her family, before the Harmon Family donated the estate to the theme park.-^^^Could it be";
-Constant SC_88 = " you ";
-Constant SC_72 = "~I only got the one spare key, and I'm gonna be here for a couple hours. Maybe we can make an exchange though, I seem to be missing some of my tools";
-Constant SC_62 = "~Thanks a bunch kid! Here's the key that leads out of the Meat Locker. After the Narrow Hallway, you should be home free to the exit! Just leave the key for me though on the ground in the butcher room so I can get out too.~";
-Constant SC_65 = "~What are you doing here, the ride's closed! ... What? They locked you in while closing down? Sorry to hear that, but I can't help you. I only got the one spare key, and I'm gonna be here for a couple hours. Maybe we can make an exchange though, I seem to be missing some of my tools";
-Constant SC_84 = ", ";
-Constant SC_82 = ",";
-Constant SC_94 = ".";
-Constant SC_63 = ": ";
-Constant SC_95 = ":";
-Constant SC_85 = "> ";
-Constant SC_50 = ">";
-Constant SC_106 = "? Nah. Just your imagination";
-Constant SC_81 = "?";
-Constant SC_41 = "A bunch of confusing wires.";
+Constant SC_80 = " ";
+Constant SC_104 = " He is carrying the key to the exit.";
+Constant SC_67 = " Three of them to be exact. I probably dropped them in some of the rooms that came before the graveyard. Try giving a look for them, this old heart of mine couldn't stand going through that Circus Room again.~";
+Constant SC_100 = " Weird.";
+Constant SC_94 = " here";
+Constant SC_84 = " or ";
+Constant SC_106 = " there was no soundtrack or speakers in that room. It was just an empty Hall of Mirrors room. Maybe those Circus clowns just got to your head! Hahaha!~^^	As you and the group begin to walk away from the house, you can't help but notice a small plaque put in front of the Haunted House Ride.^^^-In Loving Memory of Sophia A. Harmon.  1897 - 1908. Resided on the property with her family, before the Harmon Family donated the estate to the theme park.-^^^Could it be";
+Constant SC_89 = " you ";
+Constant SC_73 = "~I only got the one spare key, and I'm gonna be here for a couple hours. Maybe we can make an exchange though, I seem to be missing some of my tools";
+Constant SC_63 = "~Thanks a bunch kid! Here's the key that leads out of the Meat Locker. After the Narrow Hallway, you should be home free to the exit! Just leave the key for me though on the ground in the butcher room so I can get out too.~";
+Constant SC_66 = "~What are you doing here, the ride's closed! ... What? They locked you in while closing down? Sorry to hear that, but I can't help you. I only got the one spare key, and I'm gonna be here for a couple hours. Maybe we can make an exchange though, I seem to be missing some of my tools";
+Constant SC_85 = ", ";
+Constant SC_83 = ",";
+Constant SC_95 = ".";
+Constant SC_64 = ": ";
+Constant SC_96 = ":";
+Constant SC_86 = "> ";
+Constant SC_51 = ">";
+Constant SC_107 = "? Nah. Just your imagination";
+Constant SC_82 = "?";
+Constant SC_42 = "A bunch of confusing wires.";
 Constant SC_20 = "A cage door has been left open at the end of the room, and a broken looking robotic dog is looking down.";
 Constant SC_39 = "A desk where management had been keeping their paperwork on. Someone placed a key to the Control Panel Room here.";
-Constant SC_68 = "A door has opened to the west.";
-Constant SC_71 = "A door slides open in the North.";
+Constant SC_69 = "A door has opened to the west.";
+Constant SC_72 = "A door slides open in the North.";
 Constant SC_36 = "A fridge where workers put their lunch when they check in for the morning. But there's no time for snacking right now!";
 Constant SC_10 = "A large bookcase to add effect to the Victorian Scene. A lot of these books look very old. ~Study of the Paranormal,~ ~Introduction to Medical History,~ and ~Exorcisms for Dummies.~ Eh. Sounds boring.";
 Constant SC_29 = "A large fake tombstone. Probably the biggest monster in this room hides behind here. An ominous skeleton is hugging the foot of the tombstone.";
-Constant SC_77 = "A large, very open room with the ceiling decorated to look like nighttime. The floor is littered with tombstones, but a large tombstone with a skeleton hugging the base of it really sticks out to you. The Circus Room is in the South. There is a door to the West that looks like it was decorated to not stand out. A door with a large mirror in the front is to the East.^	The room is silent.";
+Constant SC_78 = "A large, very open room with the ceiling decorated to look like nighttime. The floor is littered with tombstones, but a large tombstone with a skeleton hugging the base of it really sticks out to you. The Circus Room is in the South. There is a door to the West that looks like it was decorated to not stand out. A door with a large mirror in the front is to the East.^	The room is silent.";
 Constant SC_27 = "A large, very open room with the ceiling decorated to look like nighttime. The floor is littered with tombstones, but a large tombstone with a skeleton hugging the base of it really sticks out to you. The soundtrack to this room is howling wind and a wolf howling in the background.^^^The Circus Room is in the South. There is a door to the West that looks like it was decorated to not stand out. A door with a large mirror in the front is to the East. A room with what looks like fog coming out from under the door is to the North.";
 Constant SC_13 = "A metal tool. Looks like somebody lost it in here.";
 Constant SC_15 = "A normal podium that a greeter will stand at to maintain the lines of the ride. There is a space inside the podium with what looks like some junk in it.";
 Constant SC_11 = "A picture of an old man. There is a label underneath saying: ~Dr. James F. Harmon, 1870 - 1932.~ Interesting prop, wonder where they found it.";
-Constant SC_58 = "A picture of an old man. There is a label underneath saying: ~Dr. James F. Harmon, 1870 - 1932.~ Interesting prop, wonder where they found it.^^	His eyes seem to be following you...";
-Constant SC_60 = "A red, leather couch with large cushions that looks very inviting. People dressed as ghosts usually lounge on the couch and jump out at people passing by the room.";
+Constant SC_59 = "A picture of an old man. There is a label underneath saying: ~Dr. James F. Harmon, 1870 - 1932.~ Interesting prop, wonder where they found it.^^	His eyes seem to be following you...";
+Constant SC_61 = "A red, leather couch with large cushions that looks very inviting. People dressed as ghosts usually lounge on the couch and jump out at people passing by the room.";
 Constant SC_8 = "A red, leather couch with large cushions that looks very inviting. People dressed as ghosts usually lounge on the couch and jump out at people passing by the room.^^	Someone seems to have dropped a screwdriver on the couch.";
-Constant SC_70 = "A room where the ceiling, walls, and floor are all painted black. The entrance to the next room is West, the entrance to the Haunted House is North.";
-Constant SC_42 = "A silver key that unlocks the door to the exit.";
-Constant SC_44 = "Adds some scary effect to the room.";
-Constant SC_40 = "An old man is fumbling around with one of the boxes on the wall, cutting wires and reconnecting others. He must be the electrician, maybe he can help you find a way out! Try talking to him!!!^^This seems to be the Control Panel room that has all the wires and buttons causing the electricity to work. Someone must have forgotten to switch off the ride, since lights are flashing next to the buttons labeled:^^	Lighting^	Fog^	Soundtracks^^^You should press the fog and soundtracks buttons, but leave the lighting on so you can see.^^^The Staff Break Room is South.";
-Constant SC_102 = "An old man wearing a grey jumpsuit cutting and reconnecting wires. Whatever he's doing looks very confusing. ";
+Constant SC_71 = "A room where the ceiling, walls, and floor are all painted black. The entrance to the next room is West, the entrance to the Haunted House is North.";
+Constant SC_43 = "A silver key that unlocks the door to the exit.";
+Constant SC_45 = "Adds some scary effect to the room.";
+Constant SC_40 = "An old key that unlocks the control panel room.";
+Constant SC_41 = "An old man is fumbling around with one of the boxes on the wall, cutting wires and reconnecting others. He must be the electrician, maybe he can help you find a way out! Try talking to him!!!^^This seems to be the Control Panel room that has all the wires and buttons causing the electricity to work. Someone must have forgotten to switch off the ride, since lights are flashing next to the buttons labeled:^^	Lighting^	Fog^	Soundtracks^^^You should press the fog and soundtracks buttons, but leave the lighting on so you can see.^^^The Staff Break Room is South.";
+Constant SC_103 = "An old man wearing a grey jumpsuit cutting and reconnecting wires. Whatever he's doing looks very confusing. ";
 Constant SC_38 = "An old, dusty couch that employees can chillax on.";
-Constant SC_69 = "Another door has opened in the north.";
+Constant SC_70 = "Another door has opened in the north.";
 Constant SC_24 = "Another podium, this time matching the color scheme of the room. Usually, a worker dressed as a clown ringmaster stands here to guide the guests to the exit.^^	There seems to be a red button on the surface of the podium.";
-Constant SC_100 = "As you open the door letting off a horrifying creak, you see animatronic rats scurrying out of the corner of your eye. This doesn't bother you that much, until you see what is in the room. Large cages with robot animals that have fake foam oozing from their jowls. When you step close to one of the cages, a sensor goes off, and the animals leap against the wall of their cage, growling and chomping at you.^^^It looks like one of the cages is unlocked";
+Constant SC_101 = "As you open the door letting off a horrifying creak, you see animatronic rats scurrying out of the corner of your eye. This doesn't bother you that much, until you see what is in the room. Large cages with robot animals that have fake foam oozing from their jowls. When you step close to one of the cages, a sensor goes off, and the animals leap against the wall of their cage, growling and chomping at you.^^^It looks like one of the cages is unlocked";
 Constant SC_16 = "Better take it. In a place like this, it might be helpful for later. But it seems it has no batteries...";
-Constant SC_46 = "Controls all the lighting in the ride. I suggest keeping that on.";
-Constant SC_47 = "Controls the fog in the ride.";
-Constant SC_48 = "Controls the soundtracks in all rooms.";
+Constant SC_47 = "Controls all the lighting in the ride. I suggest keeping that on.";
+Constant SC_48 = "Controls the fog in the ride.";
+Constant SC_49 = "Controls the soundtracks in all rooms.";
 Constant SC_2 = "Erika Payne Disable take all";
 Constant SC_35 = "FINALLY. A soundproof room with nothing scary in it. This is obviously a break room for the staff during their downtime. There's a mini fridge, an old TV, an old couch, and a desk.^^^The entrance to the Graveyard is to the East, and there is a metal door to the North.";
-Constant SC_104 = "FREEEEDOM! You feel the fresh air blowing through your hair, the sunlight against your skin, and the smell of food coming from the vendors parked across the street. Eventually, you meet up with your friends, and tell them about your awful experiences.^^	~Weirdest part was when I was in the hall of mirrors. That little girl gave me the creeps for some reason.~^	~What little girl?~ your brother looks at you puzzlingly.^	~Yeah, the little girl. Don't you remember? They have a soundtrack of a little girl giggling in the background, and they must do something with the mirrors so you see her running around, but you only see her hair and the ends of her dress. Freaky.~^	~Dude";
-Constant SC_43 = "Finally you can see! You see a long, narrow hallway before you, filled with cobwebs and ghosts popping from the ceiling. A couple of robotic hands sticking out from the walls look like they're trying to grab you.^^	The Meat Locker is West, but you see a Black Door to the East. Could this be the exit?.";
-Constant SC_23 = "Great. A room devoted to the Circus. You've always hated the Circus, especially clowns. Large robotic clowns loom over you and a demonic low-voiced laughter rings through the room as a waltzing, repetitive circus song plays in the background. There is another podium at the entrance where a worker dressed as a ringmaster is supposed to welcome the guests.^^^The Cage Room is to the East.";
-Constant SC_64 = "I don't see why you're talking to that.";
-Constant SC_73 = "I don't think that's a good idea.";
-Constant SC_87 = "In ";
-Constant SC_45 = "It looks like their trying to grab at you.";
+Constant SC_105 = "FREEEEDOM! You feel the fresh air blowing through your hair, the sunlight against your skin, and the smell of food coming from the vendors parked across the street. Eventually, you meet up with your friends, and tell them about your awful experiences.^^	~Weirdest part was when I was in the hall of mirrors. That little girl gave me the creeps for some reason.~^	~What little girl?~ your brother looks at you puzzlingly.^	~Yeah, the little girl. Don't you remember? They have a soundtrack of a little girl giggling in the background, and they must do something with the mirrors so you see her running around, but you only see her hair and the ends of her dress. Freaky.~^	~Dude";
+Constant SC_44 = "Finally you can see! You see a long, narrow hallway before you, filled with cobwebs and ghosts popping from the ceiling. A couple of robotic hands sticking out from the walls look like they're trying to grab you.^^	The Meat Locker is West, but you see a Black Door to the East. Could this be the exit?.";
+Constant SC_23 = "Great. A room devoted to the Circus. You've always hated the Circus, especially clowns.^^^Large robotic clowns loom over you and a demonic low-voiced laughter rings through the room as a waltzing, repetitive circus song plays in the background. There is another podium at the entrance where a worker dressed as a ringmaster is supposed to welcome the guests.^^^The Cage Room is to the East.";
+Constant SC_65 = "I don't see why you're talking to that.";
+Constant SC_74 = "I don't think that's a good idea.";
+Constant SC_88 = "In ";
+Constant SC_46 = "It looks like their trying to grab at you.";
 Constant SC_26 = "It must open the locked door.";
 Constant SC_31 = "It's too foggy to really see anything. There might be a door to the east. You just entered from the graveyard in the south.";
 Constant SC_28 = "Just a bunch of plastic props. Workers in werewolf or skeleton costumes sometimes pop out from the larger ones.";
@@ -30279,46 +30322,46 @@ Constant SC_30 = "Just a normal skeleton. It seems to be holding a wirecutter in
 Constant SC_32 = "Just added obstacles to the ride so visitors have a little rougher time to leave the room.";
 Constant SC_25 = "Large clown faces loom over you waving their gloved hands and bearing their sharp teeth. I thought these guys were supposed to be funny.^^^There seems to be a wrench that someone dropped underneath one of the more obese clowns.";
 Constant SC_19 = "Large robotic dogs with glowing red eyes glare at you with fake foam coming out of their mouths. If you step too close to the cage, the dogs will jump out at you. Nothing will happen, of course, but it can give you quite a fright!";
-Constant SC_74 = "Large sacks of what looks like cow meat hang from the ceiling on metal hooks. Obviously, their plastic, but it still gives you the creeps being wrapped in the cloudy plastic. Usually, a worker dawning a butcher's outfit chases the visitors around towards the exit, but the fog is so thick, you can't see it.^^	The Graveyard is South.";
-Constant SC_76 = "Large, robotic clowns loom over you as you walk by. There is another podium at the entrance where a worker dressed as a ringmaster is supposed to welcome the guests. The Cage Room is to the East, and there is a sliding door to the North of the room.^^	The room is now silent.";
+Constant SC_75 = "Large sacks of what looks like cow meat hang from the ceiling on metal hooks. Obviously, their plastic, but it still gives you the creeps being wrapped in the cloudy plastic. Usually, a worker dawning a butcher's outfit chases the visitors around towards the exit, but the fog is so thick, you can't see it.^^	The Graveyard is South.";
+Constant SC_77 = "Large, robotic clowns loom over you as you walk by. There is another podium at the entrance where a worker dressed as a ringmaster is supposed to welcome the guests. The Cage Room is to the East, and there is a sliding door to the North of the room.^^	The room is now silent.";
 Constant SC_18 = "Little robotic rats can be seen scurrying around the edges of the room.";
 Constant SC_9 = "Looks comfortable, but you need to find a way out!";
-Constant SC_97 = "Looks like this flashlight should start working now!";
+Constant SC_98 = "Looks like this flashlight should start working now!";
 Constant SC_22 = "May come in handy.";
-Constant SC_96 = "Now why would you do that?";
-Constant SC_89 = "On ";
-Constant SC_54 = "QUIT";
-Constant SC_51 = "RESTART";
-Constant SC_52 = "RESTORE a saved game";
+Constant SC_97 = "Now why would you do that?";
+Constant SC_90 = "On ";
+Constant SC_55 = "QUIT";
+Constant SC_52 = "RESTART";
+Constant SC_53 = "RESTORE a saved game";
 Constant SC_12 = "Rusty Armor put into a pose of a man holding an axe. How menacing.";
-Constant SC_57 = "Rusty Armor put into a pose of a man holding an axe. How menacing.^^	It looks like he's almost breathing...";
+Constant SC_58 = "Rusty Armor put into a pose of a man holding an axe. How menacing.^^	It looks like he's almost breathing...";
 Constant SC_21 = "Someone must have been trying to fix him earlier, because most of the wiring has been ripped apart. Those probably power the red eyes.^^	You can see a pair of batteries sticking out from the jowls. ";
-Constant SC_61 = "Someone must have been trying to fix him earlier, because most of the wiring has been ripped apart.Those probably power the red eyes.";
-Constant SC_67 = "Thanks!";
-Constant SC_98 = "The fake fireplace still lets off an ominous glow of purples. It's like you can see faces in it";
-Constant SC_49 = "The flashlight can now be turned on. May come in handy.";
+Constant SC_62 = "Someone must have been trying to fix him earlier, because most of the wiring has been ripped apart.Those probably power the red eyes.";
+Constant SC_68 = "Thanks!";
+Constant SC_99 = "The fake fireplace still lets off an ominous glow of purples. It's like you can see faces in it";
+Constant SC_50 = "The flashlight can now be turned on. May come in handy.";
 Constant SC_5 = "The floor, ceiling, and walls are all black. A booming voice sounds from a speaker coming from the wall saying: ~How do you escape a room with NO WINDOWS, and NOOOO DOOORS. HA. HA. HA. HA. HA.~^^	Trying to calm yourself down, you notice a square section of the wall in front of you is an off black color.";
 Constant SC_14 = "The front door is barricaded from the outside, so you'll have to find another exit, which should be at the end of the ride. The room is dimly lighted with a podium at the front were a greeter stands to maintain the line.^^South is the first room of the ride.";
 Constant SC_17 = "The front door to the ride. For some reason, it's barricaded outside. You will have to find another way out.";
 Constant SC_34 = "There is no repetitive music playing, but this time, you hear giggling that sounds like it's coming from a little girl. You feel like you can almost see a little girl darting between the mirrors, as if the lace of her dress and her long black hair trailing behind her disappears from every corner. The workers must use some kind of trick with the mirrors.^^^	The entrance to the Graveyard is to the West.";
 Constant SC_6 = "This square of the room is a bit lighter than the rest of the room.";
-Constant SC_55 = "UNDO the last command";
+Constant SC_56 = "UNDO the last command";
 Constant SC_33 = "Used to hold up the cow meat.";
 Constant SC_7 = "Victorian furniture create a gloomy scene in this room, reminding you of a horror movie you watched about a murder in the 1800~s. The fireplace lets off an ominous purple glow (obviously done with purple flashlights and the shifting of the light.)^^^There is a large, comfy couch, a sitting chair, a bookcase, a large painting of a grim old man, and a knight in rusty armor holding an axe.^^^The Black Room is to the East, and there is a door to the West.";
 Constant SC_37 = "Watching some TV would be nice right now, but you have no time for that!";
-Constant SC_80 = "Would you like to ";
-Constant SC_86 = "You ";
+Constant SC_81 = "Would you like to ";
+Constant SC_87 = "You ";
 Constant SC_4 = "You got locked inside one of the scariest rides in the theme park and got seperated from your older brother and friends. Your feeling pretty freaked out right now.";
-Constant SC_56 = "You got separated from your friends and older brother in a Haunted House Ride at the Local Theme Park. Unfortunately, the staff thought that the last of the guests had left, and all of the doors have been locked. Yet, all of the machines in the house are still strangely working. You fainted from fear at the last ghostly ~surprise,~ and you wake up in an unfamiliar room.";
-Constant SC_78 = "You hear a clicking noise. It seems quieter outside, something must have happened.";
-Constant SC_75 = "You hear a clicking noise. Something must have happened.";
-Constant SC_59 = "You see a shadow of a little girl running out of the corner of your eye.";
-Constant SC_91 = "also ";
-Constant SC_90 = "can ";
-Constant SC_92 = "see ";
-Constant SC_53 = "see some suggestions for AMUSING things to do";
+Constant SC_57 = "You got separated from your friends and older brother in a Haunted House Ride at the Local Theme Park. Unfortunately, the staff thought that the last of the guests had left, and all of the doors have been locked. Yet, all of the machines in the house are still strangely working. You fainted from fear at the last ghostly ~surprise,~ and you wake up in an unfamiliar room.";
+Constant SC_79 = "You hear a clicking noise. It seems quieter outside, something must have happened.";
+Constant SC_76 = "You hear a clicking noise. Something must have happened.";
+Constant SC_60 = "You see a shadow of a little girl running out of the corner of your eye.";
+Constant SC_92 = "also ";
+Constant SC_91 = "can ";
+Constant SC_93 = "see ";
+Constant SC_54 = "see some suggestions for AMUSING things to do";
 Constant SC_3 = "the";
-Constant SC_101 = "^^^The Living Room is in the East, and the Next Room is in the West.";
+Constant SC_102 = "^^^The Living Room is in the East, and the Next Room is in the West.";
 
 #ifndef p0_specification; Constant p0_specification = 0; #endif;
 #ifndef p1_indefinite_appearance_tex; Constant p1_indefinite_appearance_tex = 0; #endif;
