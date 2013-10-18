@@ -70,7 +70,10 @@ You should press the fog and soundtracks buttons, but leave the lighting on so y
 The Staff Break Room is South."
 The Meat Locker is a room. It is north of the Graveyard Room. "It's too foggy to really see anything. There might be a door to the east. You just entered from the graveyard in the south."
 
-The Narrow Hall of Terror is a room. The Narrow Hall of Terror is east of the Cobwebbed door. The Cobwebbed door is a locked door. The cobwebbed door is east of the Meat Locker and west of the Narrow Hall of Terror. The description of the Narrow Hall of Terror is "All you see is darkness. You need something to light the pathway, but you can tell the room is very narrow." 
+The Narrow Hall of Terror is a dark room. The Narrow Hall of Terror is east of the Cobwebbed door. The cobwebbed door is undescribed. The Cobwebbed door is a locked door. The cobwebbed door is east of the Meat Locker and west of the Narrow Hall of Terror. The description of the Narrow Hall of Terror is "Finally you can see! You see a long, narrow hallway before you, filled with cobwebs and ghosts popping from the ceiling. A couple of robotic hands sticking out from the walls look like they're trying to grab you.
+
+
+	The Meat Locker is West, but you see a Black Door to the East. Could this be the exit?." 
 
 The Exit is a room. It is east of the Narrow Hall of Terror. "FREEEEDOM! You feel the fresh air blowing through your hair, the sunlight against your skin, and the smell of food coming from the vendors parked across the street. Eventually, you meet up with your friends, and tell them about your awful experiences.
 
@@ -191,7 +194,7 @@ Understand "square" as black square.
 
 [Items]
 
-The flashlight is in the podium. The description of the flashlight is "Better take it. In a place like this, it might be helpful for later."
+The flashlight is in the podium. The description of the flashlight is "Better take it. In a place like this, it might be helpful for later. But it seems it has no batteries..."
 The wrench is in the circus room. The wrench is undescribed. The description of the wrench is "A metal tool. Looks like somebody lost it in here."
 After taking the wrench for the first time:
 	Increase the score by 1.
@@ -202,8 +205,40 @@ The wirecutter is in the graveyard room. The wirecutter is undescribed. The desc
 After taking the wirecutter for the first time:
 	Increase the score by 1.
 The batteries is a thing in the caged rabid animal room. The batteries is undescribed. The description of the batteries is "May come in handy."
+The Working Flashlight is an object. The working flashlight can be turned on. The description of the working flashlight is "The flashlight can now be turned on. May come in handy." The working flashlight is lit.
 
-The flashlight can be combine with 
+
+
+Understand "combine [something] with [something]" as combining it with.
+Combining it with is an action applying to two things.
+Check combining it with:
+	if Contraption is nothing:
+		say "Now why would you do that?";
+		stop the action.
+		
+The combining it with action has an object called the Contraption.
+
+Setting action variables for combining something with something: 
+	let X be a list of objects;
+	add the noun to X;
+	add the second noun to X;
+	sort X; 
+	repeat through the Table of Arm Parts: 
+		let Y be the parts list entry; 
+		sort Y; 
+		if X is Y: 
+			now the Contraption is the results entry.
+
+Carry out combining it with: 
+	say "Looks like this flashlight should start working now!";
+	remove the noun from play;
+	remove the second noun from play;
+	move the Contraption to the player.
+	
+Table of Arm Parts
+Parts List	Results
+{Batteries, Flashlight}	Working Flashlight
+
 
 [NPC]
 
@@ -241,7 +276,7 @@ Instead of pushing the Button for fog:
 	Change the description of meat locker to "Large sacks of what looks like cow meat hang from the ceiling on metal hooks. Obviously, their plastic, but it still gives you the creeps being wrapped in the cloudy plastic. Usually, a worker dawning a butcher’s outfit chases the visitors around towards the exit, but the fog is so thick, you can’t see it.
 
 
-	The Graveyard is South. There is a large cobwebbed door to the East.";
+	The Graveyard is South.";
 	Say "You hear a clicking noise. Something must have happened."
 	
 Instead of pushing the Button for soundtracks:
