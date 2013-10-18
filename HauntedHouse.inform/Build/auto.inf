@@ -8602,57 +8602,56 @@ Constant p47_locked = locked;
 Constant p49_female = female;
 Constant p51_neuter = neuter;
 Constant p52_switched_on = on;
-Constant p58 = vector;
-Constant p59 = room_index;
-Constant p60 = door_dir;
-Constant p61 = door_to;
-Constant p62 = found_in;
-Constant p63 = absent;
-Constant p64 = list_together;
-Constant p65 = cap_short_name;
-Constant p66 = mark_as_room;
-Constant p67 = mark_as_thing;
-Constant p68 = component_parent;
-Constant p69 = component_child;
-Constant p70 = component_sibling;
-Constant p71 = regional_found_in;
-Constant p72 = IK1_Count;
-Constant p73 = IK1_Link;
-Constant p74 = IK2_Count;
-Constant p75 = IK2_Link;
-Constant p76 = IK3_Count;
-Constant p77 = IK3_Link;
-Constant p78 = IK4_Count;
-Constant p79 = IK4_Link;
-Constant p80 = IK5_Count;
-Constant p81 = IK5_Link;
-Constant p82 = IK6_Count;
-Constant p83 = IK6_Link;
-Constant p84 = IK7_Count;
-Constant p85 = IK7_Link;
-Constant p86 = IK8_Count;
-Constant p87 = IK8_Link;
-Constant p88 = IK9_Count;
-Constant p89 = IK9_Link;
-Constant p90 = IK10_Count;
-Constant p91 = IK10_Link;
-Constant p92 = IK11_Count;
-Constant p93 = IK11_Link;
-Constant p94 = IK12_Count;
-Constant p95 = IK12_Link;
-Constant p96 = IK13_Count;
-Constant p97 = IK13_Link;
-Constant p98 = IK14_Count;
-Constant p99 = IK14_Link;
-Constant p100 = IK15_Count;
-Constant p101 = IK15_Link;
-Constant p102 = KD_Count;
-Constant p103 = name;
-Constant p104 = parse_name;
-Constant p105 = action_bitmap;
+Constant p57 = vector;
+Constant p58 = room_index;
+Constant p59 = door_dir;
+Constant p60 = door_to;
+Constant p61 = found_in;
+Constant p62 = absent;
+Constant p63 = list_together;
+Constant p64 = cap_short_name;
+Constant p65 = mark_as_room;
+Constant p66 = mark_as_thing;
+Constant p67 = component_parent;
+Constant p68 = component_child;
+Constant p69 = component_sibling;
+Constant p70 = regional_found_in;
+Constant p71 = IK1_Count;
+Constant p72 = IK1_Link;
+Constant p73 = IK2_Count;
+Constant p74 = IK2_Link;
+Constant p75 = IK3_Count;
+Constant p76 = IK3_Link;
+Constant p77 = IK4_Count;
+Constant p78 = IK4_Link;
+Constant p79 = IK5_Count;
+Constant p80 = IK5_Link;
+Constant p81 = IK6_Count;
+Constant p82 = IK6_Link;
+Constant p83 = IK7_Count;
+Constant p84 = IK7_Link;
+Constant p85 = IK8_Count;
+Constant p86 = IK8_Link;
+Constant p87 = IK9_Count;
+Constant p88 = IK9_Link;
+Constant p89 = IK10_Count;
+Constant p90 = IK10_Link;
+Constant p91 = IK11_Count;
+Constant p92 = IK11_Link;
+Constant p93 = IK12_Count;
+Constant p94 = IK12_Link;
+Constant p95 = IK13_Count;
+Constant p96 = IK13_Link;
+Constant p97 = IK14_Count;
+Constant p98 = IK14_Link;
+Constant p99 = IK15_Count;
+Constant p100 = IK15_Link;
+Constant p101 = KD_Count;
+Constant p102 = name;
+Constant p103 = parse_name;
+Constant p104 = action_bitmap;
 
 Attribute p56_pushed;
-Attribute p57_turned_on;
 Constant FBNA_PROP_NUMBER = p54_recurring;
 Object property_numberspace_forcer
     with p54_recurring false
@@ -8737,109 +8736,107 @@ Array property_metadata -->
     "recurring" NULL
     ! offset 145: property p56_pushed
     "pushed" I125_button_for_lighting I127_button_for_fog I138_black_square NULL
-    ! offset 150: property p57_turned_on
-    "turned on" I143_working_flashlight NULL
-    ! offset 153: property vector
+    ! offset 150: property vector
     "<nameless>" NULL
-    ! offset 155: property room_index
+    ! offset 152: property room_index
     "<nameless>" NULL
-    ! offset 157: property door_dir
+    ! offset 154: property door_dir
     "<nameless>" NULL
-    ! offset 159: property door_to
+    ! offset 156: property door_to
     "<nameless>" K4_door NULL
-    ! offset 162: property found_in
+    ! offset 159: property found_in
     "<nameless>" NULL
-    ! offset 164: property absent
+    ! offset 161: property absent
     "<nameless>" NULL
-    ! offset 166: property list_together
+    ! offset 163: property list_together
     "<nameless>" NULL
-    ! offset 168: property cap_short_name
+    ! offset 165: property cap_short_name
     "<nameless>" NULL
-    ! offset 170: property mark_as_room
+    ! offset 167: property mark_as_room
     "<nameless>" NULL
-    ! offset 172: property mark_as_thing
+    ! offset 169: property mark_as_thing
     "<nameless>" NULL
-    ! offset 174: property component_parent
+    ! offset 171: property component_parent
     "<nameless>" NULL
-    ! offset 176: property component_child
+    ! offset 173: property component_child
     "<nameless>" NULL
-    ! offset 178: property component_sibling
+    ! offset 175: property component_sibling
     "<nameless>" NULL
-    ! offset 180: property regional_found_in
+    ! offset 177: property regional_found_in
     "<nameless>" NULL
-    ! offset 182: property IK1_Count
+    ! offset 179: property IK1_Count
     "<nameless>" NULL
-    ! offset 184: property IK1_Link
+    ! offset 181: property IK1_Link
     "<nameless>" NULL
-    ! offset 186: property IK2_Count
+    ! offset 183: property IK2_Count
     "<nameless>" NULL
-    ! offset 188: property IK2_Link
+    ! offset 185: property IK2_Link
     "<nameless>" NULL
-    ! offset 190: property IK3_Count
+    ! offset 187: property IK3_Count
     "<nameless>" NULL
-    ! offset 192: property IK3_Link
+    ! offset 189: property IK3_Link
     "<nameless>" NULL
-    ! offset 194: property IK4_Count
+    ! offset 191: property IK4_Count
     "<nameless>" NULL
-    ! offset 196: property IK4_Link
+    ! offset 193: property IK4_Link
     "<nameless>" NULL
-    ! offset 198: property IK5_Count
+    ! offset 195: property IK5_Count
     "<nameless>" NULL
-    ! offset 200: property IK5_Link
+    ! offset 197: property IK5_Link
     "<nameless>" NULL
-    ! offset 202: property IK6_Count
+    ! offset 199: property IK6_Count
     "<nameless>" NULL
-    ! offset 204: property IK6_Link
+    ! offset 201: property IK6_Link
     "<nameless>" NULL
-    ! offset 206: property IK7_Count
+    ! offset 203: property IK7_Count
     "<nameless>" NULL
-    ! offset 208: property IK7_Link
+    ! offset 205: property IK7_Link
     "<nameless>" NULL
-    ! offset 210: property IK8_Count
+    ! offset 207: property IK8_Count
     "<nameless>" NULL
-    ! offset 212: property IK8_Link
+    ! offset 209: property IK8_Link
     "<nameless>" NULL
-    ! offset 214: property IK9_Count
+    ! offset 211: property IK9_Count
     "<nameless>" NULL
-    ! offset 216: property IK9_Link
+    ! offset 213: property IK9_Link
     "<nameless>" NULL
-    ! offset 218: property IK10_Count
+    ! offset 215: property IK10_Count
     "<nameless>" NULL
-    ! offset 220: property IK10_Link
+    ! offset 217: property IK10_Link
     "<nameless>" NULL
-    ! offset 222: property IK11_Count
+    ! offset 219: property IK11_Count
     "<nameless>" NULL
-    ! offset 224: property IK11_Link
+    ! offset 221: property IK11_Link
     "<nameless>" NULL
-    ! offset 226: property IK12_Count
+    ! offset 223: property IK12_Count
     "<nameless>" NULL
-    ! offset 228: property IK12_Link
+    ! offset 225: property IK12_Link
     "<nameless>" NULL
-    ! offset 230: property IK13_Count
+    ! offset 227: property IK13_Count
     "<nameless>" NULL
-    ! offset 232: property IK13_Link
+    ! offset 229: property IK13_Link
     "<nameless>" NULL
-    ! offset 234: property IK14_Count
+    ! offset 231: property IK14_Count
     "<nameless>" NULL
-    ! offset 236: property IK14_Link
+    ! offset 233: property IK14_Link
     "<nameless>" NULL
-    ! offset 238: property IK15_Count
+    ! offset 235: property IK15_Count
     "<nameless>" NULL
-    ! offset 240: property IK15_Link
+    ! offset 237: property IK15_Link
     "<nameless>" NULL
-    ! offset 242: property KD_Count
+    ! offset 239: property KD_Count
     "<nameless>" NULL
-    ! offset 244: property name
+    ! offset 241: property name
     "<nameless>" NULL
-    ! offset 246: property parse_name
+    ! offset 243: property parse_name
     "<nameless>" NULL
-    ! offset 248: property action_bitmap
+    ! offset 245: property action_bitmap
     "<nameless>" NULL
 ;
 
 Constant attributed_property_offsets_SIZE 48;
 Array attributed_property_offsets --> attributed_property_offsets_SIZE;
-Constant valued_property_offsets_SIZE (100 + 106 + INDIV_PROP_START-48);
+Constant valued_property_offsets_SIZE (100 + 105 + INDIV_PROP_START-48);
 Array valued_property_offsets --> valued_property_offsets_SIZE;
 
 [ CreatePropertyOffsets i;
@@ -8884,55 +8881,54 @@ Array valued_property_offsets --> valued_property_offsets_SIZE;
     attributed_property_offsets-->on = 140;
     valued_property_offsets-->p54_recurring = 143;
     attributed_property_offsets-->p56_pushed = 145;
-    attributed_property_offsets-->p57_turned_on = 150;
-    valued_property_offsets-->vector = 153;
-    valued_property_offsets-->room_index = 155;
-    valued_property_offsets-->door_dir = 157;
-    valued_property_offsets-->door_to = 159;
-    valued_property_offsets-->found_in = 162;
-    attributed_property_offsets-->absent = 164;
-    valued_property_offsets-->list_together = 166;
-    valued_property_offsets-->cap_short_name = 168;
-    attributed_property_offsets-->mark_as_room = 170;
-    attributed_property_offsets-->mark_as_thing = 172;
-    valued_property_offsets-->component_parent = 174;
-    valued_property_offsets-->component_child = 176;
-    valued_property_offsets-->component_sibling = 178;
-    valued_property_offsets-->regional_found_in = 180;
-    valued_property_offsets-->IK1_Count = 182;
-    valued_property_offsets-->IK1_Link = 184;
-    valued_property_offsets-->IK2_Count = 186;
-    valued_property_offsets-->IK2_Link = 188;
-    valued_property_offsets-->IK3_Count = 190;
-    valued_property_offsets-->IK3_Link = 192;
-    valued_property_offsets-->IK4_Count = 194;
-    valued_property_offsets-->IK4_Link = 196;
-    valued_property_offsets-->IK5_Count = 198;
-    valued_property_offsets-->IK5_Link = 200;
-    valued_property_offsets-->IK6_Count = 202;
-    valued_property_offsets-->IK6_Link = 204;
-    valued_property_offsets-->IK7_Count = 206;
-    valued_property_offsets-->IK7_Link = 208;
-    valued_property_offsets-->IK8_Count = 210;
-    valued_property_offsets-->IK8_Link = 212;
-    valued_property_offsets-->IK9_Count = 214;
-    valued_property_offsets-->IK9_Link = 216;
-    valued_property_offsets-->IK10_Count = 218;
-    valued_property_offsets-->IK10_Link = 220;
-    valued_property_offsets-->IK11_Count = 222;
-    valued_property_offsets-->IK11_Link = 224;
-    valued_property_offsets-->IK12_Count = 226;
-    valued_property_offsets-->IK12_Link = 228;
-    valued_property_offsets-->IK13_Count = 230;
-    valued_property_offsets-->IK13_Link = 232;
-    valued_property_offsets-->IK14_Count = 234;
-    valued_property_offsets-->IK14_Link = 236;
-    valued_property_offsets-->IK15_Count = 238;
-    valued_property_offsets-->IK15_Link = 240;
-    valued_property_offsets-->KD_Count = 242;
-    valued_property_offsets-->name = 244;
-    valued_property_offsets-->parse_name = 246;
-    valued_property_offsets-->action_bitmap = 248;
+    valued_property_offsets-->vector = 150;
+    valued_property_offsets-->room_index = 152;
+    valued_property_offsets-->door_dir = 154;
+    valued_property_offsets-->door_to = 156;
+    valued_property_offsets-->found_in = 159;
+    attributed_property_offsets-->absent = 161;
+    valued_property_offsets-->list_together = 163;
+    valued_property_offsets-->cap_short_name = 165;
+    attributed_property_offsets-->mark_as_room = 167;
+    attributed_property_offsets-->mark_as_thing = 169;
+    valued_property_offsets-->component_parent = 171;
+    valued_property_offsets-->component_child = 173;
+    valued_property_offsets-->component_sibling = 175;
+    valued_property_offsets-->regional_found_in = 177;
+    valued_property_offsets-->IK1_Count = 179;
+    valued_property_offsets-->IK1_Link = 181;
+    valued_property_offsets-->IK2_Count = 183;
+    valued_property_offsets-->IK2_Link = 185;
+    valued_property_offsets-->IK3_Count = 187;
+    valued_property_offsets-->IK3_Link = 189;
+    valued_property_offsets-->IK4_Count = 191;
+    valued_property_offsets-->IK4_Link = 193;
+    valued_property_offsets-->IK5_Count = 195;
+    valued_property_offsets-->IK5_Link = 197;
+    valued_property_offsets-->IK6_Count = 199;
+    valued_property_offsets-->IK6_Link = 201;
+    valued_property_offsets-->IK7_Count = 203;
+    valued_property_offsets-->IK7_Link = 205;
+    valued_property_offsets-->IK8_Count = 207;
+    valued_property_offsets-->IK8_Link = 209;
+    valued_property_offsets-->IK9_Count = 211;
+    valued_property_offsets-->IK9_Link = 213;
+    valued_property_offsets-->IK10_Count = 215;
+    valued_property_offsets-->IK10_Link = 217;
+    valued_property_offsets-->IK11_Count = 219;
+    valued_property_offsets-->IK11_Link = 221;
+    valued_property_offsets-->IK12_Count = 223;
+    valued_property_offsets-->IK12_Link = 225;
+    valued_property_offsets-->IK13_Count = 227;
+    valued_property_offsets-->IK13_Link = 229;
+    valued_property_offsets-->IK14_Count = 231;
+    valued_property_offsets-->IK14_Link = 233;
+    valued_property_offsets-->IK15_Count = 235;
+    valued_property_offsets-->IK15_Link = 237;
+    valued_property_offsets-->KD_Count = 239;
+    valued_property_offsets-->name = 241;
+    valued_property_offsets-->parse_name = 243;
+    valued_property_offsets-->action_bitmap = 245;
 ];
 
 
@@ -10623,7 +10619,6 @@ Object I143_working_flashlight ""
     with KD_Count 2
     with name 'working' 'flashlight' 
     with action_bitmap 0 0 0 0 0 0 
-    has ~p57_turned_on
 ;
 
 Constant I65_figure_of_cover = 1;
@@ -10672,7 +10667,7 @@ Array T1_locale_priorities table  tab_1_0 tab_1_1;
 Array tab_1_0 table $0869 NULL  TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE;
 Array tab_1_1 table $446a 5  TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE;
 Array T2_arm_parts table  tab_2_0 tab_2_1;
-Array tab_2_0 table $066b 11  (LIST_CONST_1732) ;
+Array tab_2_0 table $066b 11  (LIST_CONST_1733) ;
 Array tab_2_1 table $086c NULL  (I143_working_flashlight) ;
 Array TB_Blanks -> 
   ! For table T0_final_question_options
@@ -11284,38 +11279,38 @@ Array ActionHappened --> 0 0 0 0 0 0;
 ! ----------------------------------------------------------------------------------------------------
 ! No specific request
 ! Every turn when a random chance of 1 in 3 succeeds:
-[ R_762 ;
-   if ((((( (GenerateRandomNumber(1, 3) <= 1) ))))) { ! Runs only while condition holds
-   if (debug_rules) DB_Rule(R_762, 762);
-      ! phrase 1
-      ! [1: change the description of the knight in rusty armor to ~Rusty Armor put into a pose of a man holding an axe. How menacing.^^	It looks like he's almost breathing...~]
-       WriteGProperty(9, I110_knight_in_rusty_armor,description,SC_56); 
-   } ! Runs only while condition holds
-   else if (debug_rules > 1) DB_Rule(R_762, 762, true);
-   rfalse;
-];
-! No specific request
-! Every turn when a random chance of 1 in 3 succeeds:
 [ R_763 ;
    if ((((( (GenerateRandomNumber(1, 3) <= 1) ))))) { ! Runs only while condition holds
    if (debug_rules) DB_Rule(R_763, 763);
       ! phrase 1
-      ! [1: change the description of the large painting to ~A picture of an old man. There is a label underneath saying: 'Dr. James F. Harmon, 1870 - 1932.' Interesting prop, wonder where they found it.^^	His eyes seem to be following you...~]
-       WriteGProperty(9, I109_large_painting,description,SC_57); 
+      ! [1: change the description of the knight in rusty armor to ~Rusty Armor put into a pose of a man holding an axe. How menacing.^^	It looks like he's almost breathing...~]
+       WriteGProperty(9, I110_knight_in_rusty_armor,description,SC_56); 
    } ! Runs only while condition holds
    else if (debug_rules > 1) DB_Rule(R_763, 763, true);
    rfalse;
 ];
 ! No specific request
-! Every turn when a random chance of 1 in 20 succeeds:
+! Every turn when a random chance of 1 in 3 succeeds:
 [ R_764 ;
-   if ((((( (GenerateRandomNumber(1, 20) <= 1) ))))) { ! Runs only while condition holds
+   if ((((( (GenerateRandomNumber(1, 3) <= 1) ))))) { ! Runs only while condition holds
    if (debug_rules) DB_Rule(R_764, 764);
+      ! phrase 1
+      ! [1: change the description of the large painting to ~A picture of an old man. There is a label underneath saying: 'Dr. James F. Harmon, 1870 - 1932.' Interesting prop, wonder where they found it.^^	His eyes seem to be following you...~]
+       WriteGProperty(9, I109_large_painting,description,SC_57); 
+   } ! Runs only while condition holds
+   else if (debug_rules > 1) DB_Rule(R_764, 764, true);
+   rfalse;
+];
+! No specific request
+! Every turn when a random chance of 1 in 20 succeeds:
+[ R_765 ;
+   if ((((( (GenerateRandomNumber(1, 20) <= 1) ))))) { ! Runs only while condition holds
+   if (debug_rules) DB_Rule(R_765, 765);
       ! phrase 1
       ! [1: say ~You see a shadow of a little girl running out of the corner of your eye.~]
       say__p=1;ParaContent();  print (PrintText) SC_58;  new_line; .L_Say3; .L_SayX3;
    } ! Runs only while condition holds
-   else if (debug_rules > 1) DB_Rule(R_764, 764, true);
+   else if (debug_rules > 1) DB_Rule(R_765, 765, true);
    rfalse;
 ];
 ! No specific request
@@ -11328,7 +11323,7 @@ Array ActionHappened --> 0 0 0 0 0 0;
 ];
 ! No specific request
 ! An every turn rule:
-[ R_758 ;
+[ R_759 ;
       ! phrase 1
       ! [1: if the player is carrying the screwdriver for the first time , change the description of the couch to ~A red, leather couch with large cushions that looks very inviting. People dressed as ghosts usually lounge on the couch and jump out at people passing by the room.~]
        if (TestSinglePastState(0, 0, false, 1) == 1 ) {  WriteGProperty(9, I106_leather_couch,description,SC_59);   }
@@ -11336,7 +11331,7 @@ Array ActionHappened --> 0 0 0 0 0 0;
 ];
 ! No specific request
 ! An every turn rule:
-[ R_759 ;
+[ R_760 ;
       ! phrase 1
       ! [1: if the player is carrying the batteries for the first time , change the description of the broken robotic dog to ~Someone must have been trying to fix him earlier, because most of the wiring has been ripped apart.Those probably power the red eyes.~]
        if (TestSinglePastState(0, 1, false, 1) == 1 ) {  WriteGProperty(9, I115_broken_robotic_dog,description,SC_60);   }
@@ -11344,7 +11339,7 @@ Array ActionHappened --> 0 0 0 0 0 0;
 ];
 ! No specific request
 ! An every turn rule:
-[ R_760 ;
+[ R_761 ;
       ! phrase 1
       ! [1: if the old electrician is carrying wrench and the old electrician is carrying the wirecutter and the old electrician is carrying the screwdriver , say ~'Thanks a bunch kid! Here's the key that leads out of the Meat Locker. After the Narrow Hallway, you should be home free to the exit! Just leave the key for me though on the ground in the butcher room so I can get out too.'~]
        if ((((I137_old_electrician == CarrierOf(I139_wrench)))) && ((((I137_old_electrician == CarrierOf(I141_wirecutter)))) && (((I137_old_electrician == CarrierOf(I140_screwdriver)))))) { say__p=1;ParaContent();  print (PrintText) SC_61;  new_line; .L_Say4; .L_SayX4;  }
@@ -11355,7 +11350,7 @@ Array ActionHappened --> 0 0 0 0 0 0;
 ];
 ! No specific request
 ! An every turn rule:
-[ R_761 ;
+[ R_762 ;
       ! phrase 1
       ! [1: if the old electrician is carrying wrench and the old electrician is carrying the wirecutter and the old electrician is carrying the screwdriver , remove wrench from play]
        if ((((I137_old_electrician == CarrierOf(I139_wrench)))) && ((((I137_old_electrician == CarrierOf(I141_wirecutter)))) && (((I137_old_electrician == CarrierOf(I140_screwdriver)))))) {  RemoveFromPlay(I139_wrench);   }
@@ -11791,29 +11786,29 @@ self = noun;
 ! ----------------------------------------------------------------------------------------------------
 ! No specific request
 ! Before talking to an object that is not the old electrician:
-[ R_751 ;
+[ R_752 ;
    if ((action ==##A81_talking_to) &&  (actor==player) && ((true) && (~~((noun == I137_old_electrician))))) { ! Runs only when pattern matches
 self = noun;
-   if (debug_rules) DB_Rule(R_751, 751);
+   if (debug_rules) DB_Rule(R_752, 752);
       ! phrase 1
       ! [1: say ~I don't see why you're talking to that.~]
       say__p=1;ParaContent();  print (PrintText) SC_63;  new_line; .L_Say6; .L_SayX6;
    } ! Runs only when pattern matches
-   else if (debug_rules > 1) DB_Rule(R_751, 751, true);
+   else if (debug_rules > 1) DB_Rule(R_752, 752, true);
    rfalse;
 ];
 ! No specific request
 ! Before talking to the old electrician:
-[ R_750 ;
+[ R_751 ;
    if ((action ==##A81_talking_to) &&  (actor==player) && ((noun == I137_old_electrician) && (true))) { ! Runs only when pattern matches
 self = noun;
-   if (debug_rules) DB_Rule(R_750, 750);
+   if (debug_rules) DB_Rule(R_751, 751);
       ! phrase 1
       ! [1: say ~'What are you doing here, the ride's closed! ... What? They locked you in while closing down? Sorry to hear that, but I can't help you. I only got the one spare key, and I'm gonna be here for a couple hours. Maybe we can make an exchange though, I seem to be missing some of my tools[unicode 8230] Three of them to be exact. I probably dropped them in some of the rooms that came before the graveyard. Try giving a look for them, this old heart of mine couldn't stand going through that Circus Room again.'~]
       say__p=1;ParaContent();  print (PrintText) SC_64; ParaContent();  #ifdef TARGET_ZCODE; @push self; self = 8230; @print_unicode self; @pull self;
 	#ifnot; if (unicode_gestalt_ok) glk_put_char_uni(8230); else print "?"; #endif; ParaContent();  print (PrintText) SC_65;  new_line; .L_Say7; .L_SayX7;
    } ! Runs only when pattern matches
-   else if (debug_rules > 1) DB_Rule(R_750, 750, true);
+   else if (debug_rules > 1) DB_Rule(R_751, 751, true);
    rfalse;
 ];
 ! ----------------------------------------------------------------------------------------------------
@@ -11839,10 +11834,10 @@ self = noun;
 ! ----------------------------------------------------------------------------------------------------
 ! No specific request
 ! Instead of giving the wrench to the old electrician for the first time:
-[ R_752 ;
+[ R_753 ;
    if ((PAPR_0() && (((TimesActionHasHappened-->0) == 1) && (ActionCurrentlyHappeningFlag->0)))) { ! Runs only when pattern matches
 self = noun;
-   if (debug_rules) DB_Rule(R_752, 752);
+   if (debug_rules) DB_Rule(R_753, 753);
       ! phrase 1
       ! [1: move the wrench to the old electrician]
        MoveObject(I139_wrench, I137_old_electrician, 0, false); 
@@ -11854,15 +11849,15 @@ self = noun;
       say__p=1;ParaContent();  print (PrintText) SC_66;  new_line; .L_Say8; .L_SayX8;
       RulebookFails(); rtrue;
    } ! Runs only when pattern matches
-   else if (debug_rules > 1) DB_Rule(R_752, 752, true);
+   else if (debug_rules > 1) DB_Rule(R_753, 753, true);
    rfalse;
 ];
 ! No specific request
 ! Instead of giving the wirecutter to the old electrician for the first time:
-[ R_753 ;
+[ R_754 ;
    if ((PAPR_1() && (((TimesActionHasHappened-->1) == 1) && (ActionCurrentlyHappeningFlag->1)))) { ! Runs only when pattern matches
 self = noun;
-   if (debug_rules) DB_Rule(R_753, 753);
+   if (debug_rules) DB_Rule(R_754, 754);
       ! phrase 1
       ! [1: move the wirecutter to the old electrician]
        MoveObject(I141_wirecutter, I137_old_electrician, 0, false); 
@@ -11874,15 +11869,15 @@ self = noun;
       say__p=1;ParaContent();  print (PrintText) SC_66;  new_line; .L_Say9; .L_SayX9;
       RulebookFails(); rtrue;
    } ! Runs only when pattern matches
-   else if (debug_rules > 1) DB_Rule(R_753, 753, true);
+   else if (debug_rules > 1) DB_Rule(R_754, 754, true);
    rfalse;
 ];
 ! No specific request
 ! Instead of giving the screwdriver to the old electrician for the first time:
-[ R_754 ;
+[ R_755 ;
    if ((PAPR_2() && (((TimesActionHasHappened-->2) == 1) && (ActionCurrentlyHappeningFlag->2)))) { ! Runs only when pattern matches
 self = noun;
-   if (debug_rules) DB_Rule(R_754, 754);
+   if (debug_rules) DB_Rule(R_755, 755);
       ! phrase 1
       ! [1: move the screwdriver to the old electrician]
        MoveObject(I140_screwdriver, I137_old_electrician, 0, false); 
@@ -11894,7 +11889,7 @@ self = noun;
       say__p=1;ParaContent();  print (PrintText) SC_66;  new_line; .L_Say10; .L_SayX10;
       RulebookFails(); rtrue;
    } ! Runs only when pattern matches
-   else if (debug_rules > 1) DB_Rule(R_754, 754, true);
+   else if (debug_rules > 1) DB_Rule(R_755, 755, true);
    rfalse;
 ];
 ! No specific request
@@ -11915,6 +11910,9 @@ self = noun;
       ! phrase 4
       ! [4: say ~Another door has opened in the north.~]
       say__p=1;ParaContent();  print (PrintText) SC_68;  new_line; .L_Say12; .L_SayX12;
+      ! phrase 5
+      ! [5: change the description of the black room to ~A room where the ceiling, walls, and floor are all painted black. The entrance to the next room is West, the entrance to the Haunted House is North.~]
+       WriteGProperty(9, I88_black_room,description,SC_69); 
       RulebookFails(); rtrue;
    } ! Runs only when pattern matches
    else if (debug_rules > 1) DB_Rule(R_742, 742, true);
@@ -11922,68 +11920,68 @@ self = noun;
 ];
 ! No specific request
 ! Instead of asking the old electrician for the exit key:
-[ R_749 ;
+[ R_750 ;
    if ((action ==##AskFor) &&  (actor==player) && ((noun == I137_old_electrician) && (true)) && ((second == I136_exit_key) && (true))) { ! Runs only when pattern matches
 self = noun;
-   if (debug_rules) DB_Rule(R_749, 749);
+   if (debug_rules) DB_Rule(R_750, 750);
       ! phrase 1
       ! [1: say ~'I only got the one spare key, and I'm gonna be here for a couple hours. Maybe we can make an exchange though, I seem to be missing some of my tools[unicode 8230] Three of them to be exact. I probably dropped them in some of the rooms that came before the graveyard. Try giving a look for them, this old heart of mine couldn't stand going through that Circus Room again.'~]
-      say__p=1;ParaContent();  print (PrintText) SC_69; ParaContent();  #ifdef TARGET_ZCODE; @push self; self = 8230; @print_unicode self; @pull self;
+      say__p=1;ParaContent();  print (PrintText) SC_70; ParaContent();  #ifdef TARGET_ZCODE; @push self; self = 8230; @print_unicode self; @pull self;
 	#ifnot; if (unicode_gestalt_ok) glk_put_char_uni(8230); else print "?"; #endif; ParaContent();  print (PrintText) SC_65;  new_line; .L_Say13; .L_SayX13;
       RulebookFails(); rtrue;
    } ! Runs only when pattern matches
-   else if (debug_rules > 1) DB_Rule(R_749, 749, true);
+   else if (debug_rules > 1) DB_Rule(R_750, 750, true);
    rfalse;
 ];
 ! No specific request
 ! Instead of pushing the Button for lighting:
-[ R_755 ;
-   if ((action ==##Push) &&  (actor==player) && ((noun == I125_button_for_lighting) && (true))) { ! Runs only when pattern matches
-self = noun;
-   if (debug_rules) DB_Rule(R_755, 755);
-      ! phrase 1
-      ! [1: say ~I don't think that's a good idea.~]
-      say__p=1;ParaContent();  print (PrintText) SC_70;  new_line; .L_Say14; .L_SayX14;
-      RulebookFails(); rtrue;
-   } ! Runs only when pattern matches
-   else if (debug_rules > 1) DB_Rule(R_755, 755, true);
-   rfalse;
-];
-! No specific request
-! Instead of pushing the Button for fog:
 [ R_756 ;
-   if ((action ==##Push) &&  (actor==player) && ((noun == I127_button_for_fog) && (true))) { ! Runs only when pattern matches
+   if ((action ==##Push) &&  (actor==player) && ((noun == I125_button_for_lighting) && (true))) { ! Runs only when pattern matches
 self = noun;
    if (debug_rules) DB_Rule(R_756, 756);
       ! phrase 1
-      ! [1: change the description of meat locker to ~Large sacks of what looks like cow meat hang from the ceiling on metal hooks. Obviously, their plastic, but it still gives you the creeps being wrapped in the cloudy plastic. Usually, a worker dawning a butcher's outfit chases the visitors around towards the exit, but the fog is so thick, you can't see it.^^	The Graveyard is South.~]
-       WriteGProperty(9, I99_meat_locker,description,SC_71); 
-      ! phrase 2
-      ! [2: say ~You hear a clicking noise. Something must have happened.~]
-      say__p=1;ParaContent();  print (PrintText) SC_72;  new_line; .L_Say15; .L_SayX15;
+      ! [1: say ~I don't think that's a good idea.~]
+      say__p=1;ParaContent();  print (PrintText) SC_71;  new_line; .L_Say14; .L_SayX14;
       RulebookFails(); rtrue;
    } ! Runs only when pattern matches
    else if (debug_rules > 1) DB_Rule(R_756, 756, true);
    rfalse;
 ];
 ! No specific request
-! Instead of pushing the Button for soundtracks:
+! Instead of pushing the Button for fog:
 [ R_757 ;
-   if ((action ==##Push) &&  (actor==player) && ((noun == I129_button_for_soundtracks) && (true))) { ! Runs only when pattern matches
+   if ((action ==##Push) &&  (actor==player) && ((noun == I127_button_for_fog) && (true))) { ! Runs only when pattern matches
 self = noun;
    if (debug_rules) DB_Rule(R_757, 757);
       ! phrase 1
-      ! [1: change the description of the circus room to ~Large, robotic clowns loom over you as you walk by. There is another podium at the entrance where a worker dressed as a ringmaster is supposed to welcome the guests. The Cage Room is to the East, and there is a sliding door to the North of the room.^^	The room is now silent.~]
-       WriteGProperty(9, I94_circus_room,description,SC_73); 
+      ! [1: change the description of meat locker to ~Large sacks of what looks like cow meat hang from the ceiling on metal hooks. Obviously, their plastic, but it still gives you the creeps being wrapped in the cloudy plastic. Usually, a worker dawning a butcher's outfit chases the visitors around towards the exit, but the fog is so thick, you can't see it.^^	The Graveyard is South.~]
+       WriteGProperty(9, I99_meat_locker,description,SC_72); 
       ! phrase 2
-      ! [2: change the description of the graveyard room to ~A large, very open room with the ceiling decorated to look like nighttime. The floor is littered with tombstones, but a large tombstone with a skeleton hugging the base of it really sticks out to you. The Circus Room is in the South. There is a door to the West that looks like it was decorated to not stand out. A door with a large mirror in the front is to the East.^	The room is silent.~]
-       WriteGProperty(9, I95_graveyard_room,description,SC_74); 
-      ! phrase 3
-      ! [3: say ~You hear a clicking noise. It seems quieter outside, something must have happened.~]
-      say__p=1;ParaContent();  print (PrintText) SC_75;  new_line; .L_Say16; .L_SayX16;
+      ! [2: say ~You hear a clicking noise. Something must have happened.~]
+      say__p=1;ParaContent();  print (PrintText) SC_73;  new_line; .L_Say15; .L_SayX15;
       RulebookFails(); rtrue;
    } ! Runs only when pattern matches
    else if (debug_rules > 1) DB_Rule(R_757, 757, true);
+   rfalse;
+];
+! No specific request
+! Instead of pushing the Button for soundtracks:
+[ R_758 ;
+   if ((action ==##Push) &&  (actor==player) && ((noun == I129_button_for_soundtracks) && (true))) { ! Runs only when pattern matches
+self = noun;
+   if (debug_rules) DB_Rule(R_758, 758);
+      ! phrase 1
+      ! [1: change the description of the circus room to ~Large, robotic clowns loom over you as you walk by. There is another podium at the entrance where a worker dressed as a ringmaster is supposed to welcome the guests. The Cage Room is to the East, and there is a sliding door to the North of the room.^^	The room is now silent.~]
+       WriteGProperty(9, I94_circus_room,description,SC_74); 
+      ! phrase 2
+      ! [2: change the description of the graveyard room to ~A large, very open room with the ceiling decorated to look like nighttime. The floor is littered with tombstones, but a large tombstone with a skeleton hugging the base of it really sticks out to you. The Circus Room is in the South. There is a door to the West that looks like it was decorated to not stand out. A door with a large mirror in the front is to the East.^	The room is silent.~]
+       WriteGProperty(9, I95_graveyard_room,description,SC_75); 
+      ! phrase 3
+      ! [3: say ~You hear a clicking noise. It seems quieter outside, something must have happened.~]
+      say__p=1;ParaContent();  print (PrintText) SC_76;  new_line; .L_Say16; .L_SayX16;
+      RulebookFails(); rtrue;
+   } ! Runs only when pattern matches
+   else if (debug_rules > 1) DB_Rule(R_758, 758, true);
    rfalse;
 ];
 ! ----------------------------------------------------------------------------------------------------
@@ -11991,11 +11989,13 @@ self = noun;
 ! ----------------------------------------------------------------------------------------------------
 ! Rules in rulebook: After (B24_after)
 ! ----------------------------------------------------------------------------------------------------
-! Rule 1/3 ! After taking the wrench for the first time:
+! Rule 1/4 ! After taking the wrench for the first time:
 !   === which is equally specific with ===
-! Rule 2/3 ! After taking the screwdriver for the first time:
+! Rule 2/4 ! After taking the screwdriver for the first time:
 !   === which is equally specific with ===
-! Rule 3/3 ! After taking the wirecutter for the first time:
+! Rule 3/4 ! After taking the wirecutter for the first time:
+!   >>> I - Number of aspects constrained >>>
+! Rule 4/4 ! After combining the flashlight with batteries:
 ! ----------------------------------------------------------------------------------------------------
 ! No specific request
 ! After taking the wrench for the first time:
@@ -12037,6 +12037,20 @@ self = noun;
       RulebookSucceeds(); rtrue;
    } ! Runs only when pattern matches
    else if (debug_rules > 1) DB_Rule(R_745, 745, true);
+   rfalse;
+];
+! No specific request
+! After combining the flashlight with batteries:
+[ R_749 ;
+   if ((action ==##A80_combining_it_with) &&  (actor==player) && ((noun == I104_flashlight) && (true)) && ((second == I142_batteries) && (true))) { ! Runs only when pattern matches
+self = noun;
+   if (debug_rules) DB_Rule(R_749, 749);
+      ! phrase 1
+      ! [1: increase score by 1]
+       score = score + 1; 
+      RulebookSucceeds(); rtrue;
+   } ! Runs only when pattern matches
+   else if (debug_rules > 1) DB_Rule(R_749, 749, true);
    rfalse;
 ];
 ! ----------------------------------------------------------------------------------------------------
@@ -12123,7 +12137,7 @@ self = noun;
    if (debug_rules) DB_Rule(R_60, 60);
       ! phrase 1
       ! [1: say ~[listing group size in words] ~]
-      say__p=1;ParaContent();  print (number) say__n=(listing_size); ParaContent();  print (PrintText) SC_76;  .L_Say18; .L_SayX18;
+      say__p=1;ParaContent();  print (number) say__n=(listing_size); ParaContent();  print (PrintText) SC_77;  .L_Say18; .L_SayX18;
       ! phrase 2
       ! [2: carry out the printing the plural name activity with the item]
        CarryOutActivity(V1_printing_the_plural_name_, t_0); 
@@ -12336,7 +12350,7 @@ self = noun;
        if (((t_0 < 1))) {  if (ProcessRulebook(IMMEDIATELY_QUIT_R)) rtrue;   }
       ! phrase 10
       ! [10: say ~Would you like to ~]
-      say__p=1;ParaContent();  print (PrintText) SC_77;  .L_Say19; .L_SayX19;
+      say__p=1;ParaContent();  print (PrintText) SC_78;  .L_Say19; .L_SayX19;
       ! phrase 11
       ! [11: repeat through the table of final question options begin]
        @push ct_0; @push ct_1;
@@ -12363,23 +12377,23 @@ self = noun;
                    if (((t_0 == 0)))  {
                      ! phrase 18
                      ! [18: say ~?[line break]~]
-                     say__p=1;ParaContent();  print (PrintText) SC_78; ParaContent();  new_line;  .L_Say21; .L_SayX21;
+                     say__p=1;ParaContent();  print (PrintText) SC_79; ParaContent();  new_line;  .L_Say21; .L_SayX21;
                      ! phrase 19
                      ! [19: otherwise if the named options count is 1]
                       } else if (((t_0 == 1))) { 
                      ! phrase 20
                      ! [20: if the serial comma option is active , say ~,~]
-                      if ((((Adj_22_t1_v15(5))))) { say__p=1;ParaContent();  print (PrintText) SC_79;  .L_Say22; .L_SayX22;  }
+                      if ((((Adj_22_t1_v15(5))))) { say__p=1;ParaContent();  print (PrintText) SC_80;  .L_Say22; .L_SayX22;  }
                      ! phrase 21
                      ! [21: say ~ or ~]
-                     say__p=1;ParaContent();  print (PrintText) SC_80;  .L_Say23; .L_SayX23;
+                     say__p=1;ParaContent();  print (PrintText) SC_81;  .L_Say23; .L_SayX23;
                      ! phrase 22
                      ! [22: otherwise]
                      } else {
 
                      ! phrase 23
                      ! [23: say ~, ~]
-                     say__p=1;ParaContent();  print (PrintText) SC_81;  .L_Say24; .L_SayX24;
+                     say__p=1;ParaContent();  print (PrintText) SC_82;  .L_Say24; .L_SayX24;
                      ! phrase 24
                      ! [24: end if]
                      }
@@ -12408,7 +12422,7 @@ self = noun;
 [ R_68 ;
       ! phrase 1
       ! [1: say ~> [run paragraph on]~]
-      say__p=1;ParaContent();  print (PrintText) SC_82; ParaContent();  RunParagraphOn();  .L_Say25; .L_SayX25;
+      say__p=1;ParaContent();  print (PrintText) SC_83; ParaContent();  RunParagraphOn();  .L_Say25; .L_SayX25;
    rfalse;
 ];
 ! ----------------------------------------------------------------------------------------------------
@@ -12661,40 +12675,40 @@ self = noun;
                 if (((t_0 ofclass K1_room)))  {
                   ! phrase 22
                   ! [22: if the domain is the location , say ~You ~]
-                   if (((t_0 == real_location))) { say__p=1;ParaContent();  print (PrintText) SC_83;  .L_Say26; .L_SayX26;  }
+                   if (((t_0 == real_location))) { say__p=1;ParaContent();  print (PrintText) SC_84;  .L_Say26; .L_SayX26;  }
                   ! phrase 23
                   ! [23: otherwise say ~In [the domain] you ~]
-                   else { say__p=1;ParaContent();  print (PrintText) SC_84; ParaContent();  print (the) t_0; ParaContent();  print (PrintText) SC_85;  .L_Say27; .L_SayX27;  }
+                   else { say__p=1;ParaContent();  print (PrintText) SC_85; ParaContent();  print (the) t_0; ParaContent();  print (PrintText) SC_86;  .L_Say27; .L_SayX27;  }
                   ! phrase 24
                   ! [24: otherwise if the domain is a supporter]
                    } else if (((t_0 ofclass K6_supporter))) { 
                   ! phrase 25
                   ! [25: say ~On [the domain] you ~]
-                  say__p=1;ParaContent();  print (PrintText) SC_86; ParaContent();  print (the) t_0; ParaContent();  print (PrintText) SC_85;  .L_Say28; .L_SayX28;
+                  say__p=1;ParaContent();  print (PrintText) SC_87; ParaContent();  print (the) t_0; ParaContent();  print (PrintText) SC_86;  .L_Say28; .L_SayX28;
                   ! phrase 26
                   ! [26: otherwise if the domain is an animal]
                    } else if (((t_0 ofclass K12_animal))) { 
                   ! phrase 27
                   ! [27: say ~On [the domain] you ~]
-                  say__p=1;ParaContent();  print (PrintText) SC_86; ParaContent();  print (the) t_0; ParaContent();  print (PrintText) SC_85;  .L_Say29; .L_SayX29;
+                  say__p=1;ParaContent();  print (PrintText) SC_87; ParaContent();  print (the) t_0; ParaContent();  print (PrintText) SC_86;  .L_Say29; .L_SayX29;
                   ! phrase 28
                   ! [28: otherwise]
                   } else {
 
                   ! phrase 29
                   ! [29: say ~In [the domain] you ~]
-                  say__p=1;ParaContent();  print (PrintText) SC_84; ParaContent();  print (the) t_0; ParaContent();  print (PrintText) SC_85;  .L_Say30; .L_SayX30;
+                  say__p=1;ParaContent();  print (PrintText) SC_85; ParaContent();  print (the) t_0; ParaContent();  print (PrintText) SC_86;  .L_Say30; .L_SayX30;
                   ! phrase 30
                   ! [30: end if]
                   }
 
                ! phrase 31
                ! [31: say ~can [if the locale paragraph count is greater than 0]also [end if]see ~]
-               say__p=1;ParaContent();  print (PrintText) SC_87; 
+               say__p=1;ParaContent();  print (PrintText) SC_88; 
 	if (~~(((((Global_Vars-->8) > 0))))) jump L_Say31;
-		ParaContent();  print (PrintText) SC_88; 
+		ParaContent();  print (PrintText) SC_89; 
 	.L_Say31; .L_SayX31;
-		ParaContent();  print (PrintText) SC_89;  .L_Say32; .L_SayX32;
+		ParaContent();  print (PrintText) SC_90;  .L_Say32; .L_SayX32;
                ! phrase 32
                ! [32: let the common holder be nothing]
                 t_2 = nothing; 
@@ -12740,10 +12754,10 @@ self = noun;
 		@pull subst__v;  .L_Say33; .L_SayX33;  }
                ! phrase 44
                ! [44: if the domain is the location , say ~ here~]
-                if (((t_0 == real_location))) { say__p=1;ParaContent();  print (PrintText) SC_90;  .L_Say34; .L_SayX34;  }
+                if (((t_0 == real_location))) { say__p=1;ParaContent();  print (PrintText) SC_91;  .L_Say34; .L_SayX34;  }
                ! phrase 45
                ! [45: say ~.[paragraph break]~]
-               say__p=1;ParaContent();  print (PrintText) SC_91; ParaContent();  DivideParagraphPoint(); new_line;  .L_Say35; .L_SayX35;
+               say__p=1;ParaContent();  print (PrintText) SC_92; ParaContent();  DivideParagraphPoint(); new_line;  .L_Say35; .L_SayX35;
                ! phrase 46
                ! [46: unfilter list recursion]
                 list_filter_routine = 0; 
@@ -13004,13 +13018,13 @@ self = noun;
 
                ! phrase 13
                ! [13: say ~On [the item] ~]
-               say__p=1;ParaContent();  print (PrintText) SC_86; ParaContent();  print (the) t_0; ParaContent();  print (PrintText) SC_76;  .L_Say40; .L_SayX40;
+               say__p=1;ParaContent();  print (PrintText) SC_87; ParaContent();  print (the) t_0; ParaContent();  print (PrintText) SC_77;  .L_Say40; .L_SayX40;
                ! phrase 14
                ! [14: list the contents of the item , as a sentence , including contents , giving brief inventory information , tersely , not listing concealed items , prefacing with is/are , listing marked items only]
                 WriteListFrom(child(t_0), 3800); 
                ! phrase 15
                ! [15: say ~.[paragraph break]~]
-               say__p=1;ParaContent();  print (PrintText) SC_91; ParaContent();  DivideParagraphPoint(); new_line;  .L_Say41; .L_SayX41;
+               say__p=1;ParaContent();  print (PrintText) SC_92; ParaContent();  DivideParagraphPoint(); new_line;  .L_Say41; .L_SayX41;
                ! phrase 16
                ! [16: end if]
                }
@@ -13078,13 +13092,13 @@ self = noun;
              (Global_Vars-->8) = (Global_Vars-->8) + 1; 
             ! phrase 11
             ! [11: say ~On [the item] ~]
-            say__p=1;ParaContent();  print (PrintText) SC_86; ParaContent();  print (the) t_0; ParaContent();  print (PrintText) SC_76;  .L_Say42; .L_SayX42;
+            say__p=1;ParaContent();  print (PrintText) SC_87; ParaContent();  print (the) t_0; ParaContent();  print (PrintText) SC_77;  .L_Say42; .L_SayX42;
             ! phrase 12
             ! [12: list the contents of the item , as a sentence , including contents , giving brief inventory information , tersely , not listing concealed items , prefacing with is/are , listing marked items only]
              WriteListFrom(child(t_0), 3800); 
             ! phrase 13
             ! [13: say ~.[paragraph break]~]
-            say__p=1;ParaContent();  print (PrintText) SC_91; ParaContent();  DivideParagraphPoint(); new_line;  .L_Say43; .L_SayX43;
+            say__p=1;ParaContent();  print (PrintText) SC_92; ParaContent();  DivideParagraphPoint(); new_line;  .L_Say43; .L_SayX43;
             ! phrase 14
             ! [14: end if]
             }
@@ -13134,7 +13148,7 @@ self = noun;
        GL__M(##Inv,2,noun); 
       ! phrase 2
       ! [2: say ~:[line break]~]
-      say__p=1;ParaContent();  print (PrintText) SC_92; ParaContent();  new_line;  .L_Say44; .L_SayX44;
+      say__p=1;ParaContent();  print (PrintText) SC_93; ParaContent();  new_line;  .L_Say44; .L_SayX44;
       ! phrase 3
       ! [3: list the contents of the player , with newlines , indented , including contents , giving inventory information , with extra indentation]
        WriteListFrom(child(player), 8215); 
@@ -14730,7 +14744,7 @@ self = noun;
           if (((~~(((MStack-->MstVO(20007,3)) == nothing)))))  {
             ! phrase 49
             ! [49: say ~ ~]
-            say__p=1;ParaContent();  print (PrintText) SC_76;  .L_Say45; .L_SayX45;
+            say__p=1;ParaContent();  print (PrintText) SC_77;  .L_Say45; .L_SayX45;
             ! phrase 50
             ! [50: if the vehicle gone by is a supporter , issue actor-based library message going action number 20 for the vehicle gone by]
              if ((((MStack-->MstVO(20007,3)) ofclass K6_supporter))) {  AGL__M(##Go,20,(MStack-->MstVO(20007,3)));   }
@@ -14785,7 +14799,7 @@ self = noun;
              AGL__M(##Go,26,noun); 
             ! phrase 66
             ! [66: say ~.~]
-            say__p=1;ParaContent();  print (PrintText) SC_91;  new_line; .L_Say46; .L_SayX46;
+            say__p=1;ParaContent();  print (PrintText) SC_92;  new_line; .L_Say46; .L_SayX46;
             ! phrase 67
             ! [67: try looking]
              TryAction(0, player, ##Look, 0, 0);; 
@@ -14798,7 +14812,7 @@ self = noun;
 
          ! phrase 70
          ! [70: say ~.~]
-         say__p=1;ParaContent();  print (PrintText) SC_91;  new_line; .L_Say47; .L_SayX47;
+         say__p=1;ParaContent();  print (PrintText) SC_92;  new_line; .L_Say47; .L_SayX47;
          ! phrase 71
          ! [71: end if]
          }
@@ -18316,7 +18330,7 @@ self = noun;
        if ((((MStack-->MstVO(20080,0)) == nothing)))  {
          ! phrase 2
          ! [2: say ~Now why would you do that?~]
-         say__p=1;ParaContent();  print (PrintText) SC_93;  new_line; .L_Say55; .L_SayX55;
+         say__p=1;ParaContent();  print (PrintText) SC_94;  new_line; .L_Say55; .L_SayX55;
          ! phrase 3
          ! [3: stop the action]
           rtrue; 
@@ -18342,7 +18356,7 @@ self = noun;
    if (debug_rules) DB_Rule(R_748, 748);
       ! phrase 1
       ! [1: say ~Looks like this flashlight should start working now!~]
-      say__p=1;ParaContent();  print (PrintText) SC_94;  new_line; .L_Say56; .L_SayX56;
+      say__p=1;ParaContent();  print (PrintText) SC_95;  new_line; .L_Say56; .L_SayX56;
       ! phrase 2
       ! [2: remove the noun from play]
        RemoveFromPlay(noun); 
@@ -19289,15 +19303,7 @@ return (GProperty(SCENE_TY, t_0, p54_recurring) == false);
     rfalse;
 ];
 
-[ Adj_75_t1_v9 ! meaning of "turned on"
-
-    t_0 ! Call parameter 'it' = object
-    ;
-  if (t_0) return (GetEitherOrProperty(t_0, p57_turned_on));
-    rfalse;
-];
-
-[ Adj_76_t1_v9 ! meaning of "<nameless>"
+[ Adj_75_t1_v9 ! meaning of "<nameless>"
 
     t_0 ! Call parameter 'it' = object
     ;
@@ -19305,7 +19311,7 @@ return (GProperty(SCENE_TY, t_0, p54_recurring) == false);
     rfalse;
 ];
 
-[ Adj_77_t1_v9 ! meaning of "<nameless>"
+[ Adj_76_t1_v9 ! meaning of "<nameless>"
 
     t_0 ! Call parameter 'it' = object
     ;
@@ -19313,7 +19319,7 @@ return (GProperty(SCENE_TY, t_0, p54_recurring) == false);
     rfalse;
 ];
 
-[ Adj_78_t1_v9 ! meaning of "<nameless>"
+[ Adj_77_t1_v9 ! meaning of "<nameless>"
 
     t_0 ! Call parameter 'it' = object
     ;
@@ -19753,15 +19759,7 @@ return (WriteGProperty(SCENE_TY, t_0, p54_recurring));
     rfalse;
 ];
 
-[ Adj_75_t2_v9 ! meaning of "turned on"
-
-    t_0 ! Call parameter 'it' = object
-    ;
-  if (t_0) return (SetEitherOrProperty(t_0, p57_turned_on));
-    rfalse;
-];
-
-[ Adj_76_t2_v9 ! meaning of "<nameless>"
+[ Adj_75_t2_v9 ! meaning of "<nameless>"
 
     t_0 ! Call parameter 'it' = object
     ;
@@ -19769,7 +19767,7 @@ return (WriteGProperty(SCENE_TY, t_0, p54_recurring));
     rfalse;
 ];
 
-[ Adj_77_t2_v9 ! meaning of "<nameless>"
+[ Adj_76_t2_v9 ! meaning of "<nameless>"
 
     t_0 ! Call parameter 'it' = object
     ;
@@ -19777,7 +19775,7 @@ return (WriteGProperty(SCENE_TY, t_0, p54_recurring));
     rfalse;
 ];
 
-[ Adj_78_t2_v9 ! meaning of "<nameless>"
+[ Adj_77_t2_v9 ! meaning of "<nameless>"
 
     t_0 ! Call parameter 'it' = object
     ;
@@ -20217,15 +20215,7 @@ return (WriteGProperty(SCENE_TY, t_0, p54_recurring, true));
     rfalse;
 ];
 
-[ Adj_75_t3_v9 ! meaning of "turned on"
-
-    t_0 ! Call parameter 'it' = object
-    ;
-  if (t_0) return (SetEitherOrProperty(t_0, p57_turned_on, true));
-    rfalse;
-];
-
-[ Adj_76_t3_v9 ! meaning of "<nameless>"
+[ Adj_75_t3_v9 ! meaning of "<nameless>"
 
     t_0 ! Call parameter 'it' = object
     ;
@@ -20233,7 +20223,7 @@ return (WriteGProperty(SCENE_TY, t_0, p54_recurring, true));
     rfalse;
 ];
 
-[ Adj_77_t3_v9 ! meaning of "<nameless>"
+[ Adj_76_t3_v9 ! meaning of "<nameless>"
 
     t_0 ! Call parameter 'it' = object
     ;
@@ -20241,7 +20231,7 @@ return (WriteGProperty(SCENE_TY, t_0, p54_recurring, true));
     rfalse;
 ];
 
-[ Adj_78_t3_v9 ! meaning of "<nameless>"
+[ Adj_77_t3_v9 ! meaning of "<nameless>"
 
     t_0 ! Call parameter 'it' = object
     ;
@@ -20268,7 +20258,7 @@ Array B5_when_play_begins --> R_740 NULL; ! 1 rule(s)
 Constant B6_when_play_ends = EMPTY_RULEBOOK;
 Array B7_when_scene_begins --> R_57 NULL; ! 1 rule(s)
 Constant B8_when_scene_ends = EMPTY_RULEBOOK;
-Array B9_every_turn --> R_762 R_763 R_764 R_741 R_758 R_759 R_760 R_761 NULL; ! 8 rule(s)
+Array B9_every_turn --> R_763 R_764 R_765 R_741 R_759 R_760 R_761 R_762 NULL; ! 8 rule(s)
 Array B10_action_processing --> R_20 R_19 R_21 BASIC_VISIBILITY_R BASIC_ACCESSIBILITY_R CARRYING_REQUIREMENTS_R R_22 REQUESTED_ACTIONS_REQUIRE_R CARRY_OUT_REQUESTED_ACTIONS_R DESCEND_TO_SPECIFIC_ACTION_R R_23 NULL; ! 11 rule(s)
 Array B11_setting_action_variables --> R_747 R_137 R_171 R_159 NULL; ! 4 rule(s)
 Array B12_specific_action_processi --> WORK_OUT_DETAILS_OF_SPECIFIC_R R_24 R_25 R_26 R_27 R_28 R_29 R_30 NULL; ! 8 rule(s)
@@ -20279,11 +20269,11 @@ Array B16_reaching_outside --> CANT_REACH_OUTSIDE_CLOSED_R NULL; ! 1 rule(s)
 Array B17_visibility --> R_35 NULL; ! 1 rule(s)
 Constant B18_persuasion = EMPTY_RULEBOOK;
 Constant B19_unsuccessful_attempt_by = EMPTY_RULEBOOK;
-Array B20_before --> R_751 R_750 NULL; ! 2 rule(s)
-Array B21_instead --> R_752 R_753 R_754 R_742 R_749 R_755 R_756 R_757 NULL; ! 8 rule(s)
+Array B20_before --> R_752 R_751 NULL; ! 2 rule(s)
+Array B21_instead --> R_753 R_754 R_755 R_742 R_750 R_756 R_757 R_758 NULL; ! 8 rule(s)
 Constant B22_check = EMPTY_RULEBOOK;
 Constant B23_carry_out = EMPTY_RULEBOOK;
-Array B24_after --> R_743 R_744 R_745 NULL; ! 3 rule(s)
+Array B24_after --> R_743 R_744 R_745 R_749 NULL; ! 4 rule(s)
 Constant B25_report = EMPTY_RULEBOOK;
 Array B26_does_the_player_mean --> R_36 NULL; ! 1 rule(s)
 Constant B27_when_entire_game_begins = EMPTY_RULEBOOK;
@@ -20896,28 +20886,28 @@ Constant BR_261 = R_296;
 Constant BR_262 = R_297;
 Constant BR_263 = R_298;
 Constant BR_264 = R_299;
-Constant BR_722 = R_8;
-Constant BR_728 = R_9;
-Constant BR_729 = R_10;
-Constant BR_730 = R_11;
-Constant BR_731 = R_12;
-Constant BR_739 = R_16;
-Constant BR_740 = R_17;
-Constant BR_742 = R_18;
-Constant BR_745 = R_21;
-Constant BR_746 = R_19;
-Constant BR_747 = R_20;
-Constant BR_751 = R_22;
-Constant BR_755 = R_23;
-Constant BR_761 = R_35;
-Constant BR_763 = R_59;
-Constant BR_764 = R_60;
-Constant BR_766 = R_61;
-Constant BR_771 = R_69;
-Constant BR_772 = R_68;
-Constant BR_774 = R_70;
-Constant BR_775 = R_91;
-Constant BR_776 = R_148;
+Constant BR_723 = R_8;
+Constant BR_729 = R_9;
+Constant BR_730 = R_10;
+Constant BR_731 = R_11;
+Constant BR_732 = R_12;
+Constant BR_740 = R_16;
+Constant BR_741 = R_17;
+Constant BR_743 = R_18;
+Constant BR_746 = R_21;
+Constant BR_747 = R_19;
+Constant BR_748 = R_20;
+Constant BR_752 = R_22;
+Constant BR_756 = R_23;
+Constant BR_762 = R_35;
+Constant BR_764 = R_59;
+Constant BR_765 = R_60;
+Constant BR_767 = R_61;
+Constant BR_772 = R_69;
+Constant BR_773 = R_68;
+Constant BR_775 = R_70;
+Constant BR_776 = R_91;
+Constant BR_777 = R_148;
 
 
 
@@ -24832,97 +24822,98 @@ Array RulebookNames -->
 		if (R == R_746) { print "Check combining it with"; return; } ! 703, case 2
 		if (R == R_747) { print "Setting action variables for combining something with something"; return; } ! 704, case 2
 		if (R == R_748) { print "Carry out combining it with"; return; } ! 705, case 2
-		if (R == R_749) { print "Instead of asking the old electrician for the exit key"; return; } ! 706, case 2
-		if (R == R_750) { print "Before talking to the old electrician"; return; } ! 707, case 2
-		if (R == R_751) { print "Before talking to an object that is not the old electrician"; return; } ! 708, case 2
-		if (R == R_752) { print "Instead of giving the wrench to the old electrician for the first time"; return; } ! 709, case 2
-		if (R == R_753) { print "Instead of giving the wirecutter to the old electrician for the first time"; return; } ! 710, case 2
-		if (R == R_754) { print "Instead of giving the screwdriver to the old electrician for the first time"; return; } ! 711, case 2
-		if (R == R_755) { print "Instead of pushing the Button for lighting"; return; } ! 712, case 2
-		if (R == R_756) { print "Instead of pushing the Button for fog"; return; } ! 713, case 2
-		if (R == R_757) { print "Instead of pushing the Button for soundtracks"; return; } ! 714, case 2
-		if (R == R_758) { print "An every turn rule"; return; } ! 715, case 2
+		if (R == R_749) { print "After combining the flashlight with batteries"; return; } ! 706, case 2
+		if (R == R_750) { print "Instead of asking the old electrician for the exit key"; return; } ! 707, case 2
+		if (R == R_751) { print "Before talking to the old electrician"; return; } ! 708, case 2
+		if (R == R_752) { print "Before talking to an object that is not the old electrician"; return; } ! 709, case 2
+		if (R == R_753) { print "Instead of giving the wrench to the old electrician for the first time"; return; } ! 710, case 2
+		if (R == R_754) { print "Instead of giving the wirecutter to the old electrician for the first time"; return; } ! 711, case 2
+		if (R == R_755) { print "Instead of giving the screwdriver to the old electrician for the first time"; return; } ! 712, case 2
+		if (R == R_756) { print "Instead of pushing the Button for lighting"; return; } ! 713, case 2
+		if (R == R_757) { print "Instead of pushing the Button for fog"; return; } ! 714, case 2
+		if (R == R_758) { print "Instead of pushing the Button for soundtracks"; return; } ! 715, case 2
 		if (R == R_759) { print "An every turn rule"; return; } ! 716, case 2
 		if (R == R_760) { print "An every turn rule"; return; } ! 717, case 2
 		if (R == R_761) { print "An every turn rule"; return; } ! 718, case 2
-		if (R == R_762) { print "Every turn when a random chance of 1 in 3 succeeds"; return; } ! 719, case 2
+		if (R == R_762) { print "An every turn rule"; return; } ! 719, case 2
 		if (R == R_763) { print "Every turn when a random chance of 1 in 3 succeeds"; return; } ! 720, case 2
-		if (R == R_764) { print "Every turn when a random chance of 1 in 20 succeeds"; return; } ! 721, case 2
-		if (R == R_8) { print "start in the correct scenes rule"; return; } ! 722, case 1
-		if (R == POSITION_PLAYER_IN_MODEL_R) { print "position player in model world rule"; return; } ! 723, case 1
-		if (R == UPDATE_CHRONOLOGICAL_RECORDS_R) { print "update chronological records rule"; return; } ! 724, case 1
-		if (R == SEED_RANDOM_NUMBER_GENERATOR_R) { print "seed random number generator rule"; return; } ! 725, case 1
-		if (R == VIRTUAL_MACHINE_STARTUP_R) { print "virtual machine startup rule"; return; } ! 726, case 1
-		if (R == INITIALISE_MEMORY_R) { print "initialise memory rule"; return; } ! 727, case 1
-		if (R == R_9) { print "when play begins stage rule"; return; } ! 728, case 1
-		if (R == R_10) { print "fix baseline scoring rule"; return; } ! 729, case 1
-		if (R == R_11) { print "display banner rule"; return; } ! 730, case 1
-		if (R == R_12) { print "initial room description rule"; return; } ! 731, case 1
-		if (R == GENERATE_ACTION_R) { print "generate action rule"; return; } ! 732, case 1
-		if (R == PARSE_COMMAND_R) { print "parse command rule"; return; } ! 733, case 1
-		if (R == TIMED_EVENTS_R) { print "timed events rule"; return; } ! 734, case 1
-		if (R == ADVANCE_TIME_R) { print "advance time rule"; return; } ! 735, case 1
-		if (R == UPDATE_CHRONOLOGICAL_RECORDS_R) { print "update chronological records rule"; return; } ! 736, case 1
-		if (R == ADJUST_LIGHT_R) { print "adjust light rule"; return; } ! 737, case 1
-		if (R == NOTE_OBJECT_ACQUISITIONS_R) { print "note object acquisitions rule"; return; } ! 738, case 1
-		if (R == R_16) { print "notify score changes rule"; return; } ! 739, case 1
-		if (R == R_17) { print "when play ends stage rule"; return; } ! 740, case 1
-		if (R == RESURRECT_PLAYER_IF_ASKED_R) { print "resurrect player if asked rule"; return; } ! 741, case 1
-		if (R == R_18) { print "print player's obituary rule"; return; } ! 742, case 1
-		if (R == ASK_FINAL_QUESTION_R) { print "ask the final question rule"; return; } ! 743, case 1
-		if (R == DetectSceneChange) { print "scene change machinery rule"; return; } ! 744, case 1
-		if (R == R_21) { print "before stage rule"; return; } ! 745, case 1
-		if (R == R_19) { print "set pronouns from items from multiple object lists rule"; return; } ! 746, case 1
-		if (R == R_20) { print "announce items from multiple object lists rule"; return; } ! 747, case 1
-		if (R == BASIC_VISIBILITY_R) { print "basic visibility rule"; return; } ! 748, case 1
-		if (R == BASIC_ACCESSIBILITY_R) { print "basic accessibility rule"; return; } ! 749, case 1
-		if (R == CARRYING_REQUIREMENTS_R) { print "carrying requirements rule"; return; } ! 750, case 1
-		if (R == R_22) { print "instead stage rule"; return; } ! 751, case 1
-		if (R == REQUESTED_ACTIONS_REQUIRE_R) { print "requested actions require persuasion rule"; return; } ! 752, case 1
-		if (R == CARRY_OUT_REQUESTED_ACTIONS_R) { print "carry out requested actions rule"; return; } ! 753, case 1
-		if (R == DESCEND_TO_SPECIFIC_ACTION_R) { print "descend to specific action-processing rule"; return; } ! 754, case 1
-		if (R == R_23) { print "end action-processing in success rule"; return; } ! 755, case 1
-		if (R == WORK_OUT_DETAILS_OF_SPECIFIC_R) { print "work out details of specific action rule"; return; } ! 756, case 1
-		if (R == ACCESS_THROUGH_BARRIERS_R) { print "access through barriers rule"; return; } ! 757, case 1
-		if (R == CANT_REACH_INSIDE_ROOMS_R) { print "can't reach inside rooms rule"; return; } ! 758, case 1
-		if (R == CANT_REACH_INSIDE_CLOSED_R) { print "can't reach inside closed containers rule"; return; } ! 759, case 1
-		if (R == CANT_REACH_OUTSIDE_CLOSED_R) { print "can't reach outside closed containers rule"; return; } ! 760, case 1
-		if (R == R_35) { print "can't act in the dark rule"; return; } ! 761, case 1
-		if (R == STANDARD_NAME_PRINTING_R) { print "standard name printing rule"; return; } ! 762, case 1
-		if (R == R_59) { print "standard printing the plural name rule"; return; } ! 763, case 1
-		if (R == R_60) { print "standard printing a number of something rule"; return; } ! 764, case 1
-		if (R == STANDARD_CONTENTS_LISTING_R) { print "standard contents listing rule"; return; } ! 765, case 1
-		if (R == R_61) { print "look around once light available rule"; return; } ! 766, case 1
-		if (R == ENABLE_GLULX_ACCEL_R) { print "enable Glulx acceleration rule"; return; } ! 767, case 1
-		if (R == PRINT_OBITUARY_HEADLINE_R) { print "print obituary headline rule"; return; } ! 768, case 1
-		if (R == PRINT_FINAL_SCORE_R) { print "print final score rule"; return; } ! 769, case 1
-		if (R == DISPLAY_FINAL_STATUS_LINE_R) { print "display final status line rule"; return; } ! 770, case 1
-		if (R == R_69) { print "print the final question rule"; return; } ! 771, case 1
-		if (R == R_68) { print "print the final prompt rule"; return; } ! 772, case 1
-		if (R == READ_FINAL_ANSWER_R) { print "read the final answer rule"; return; } ! 773, case 1
-		if (R == R_70) { print "standard respond to final question rule"; return; } ! 774, case 1
-		if (R == R_91) { print "can't take component parts rule"; return; } ! 775, case 1
-		if (R == R_148) { print "find what to enter rule"; return; } ! 776, case 1
-		if (R == QUIT_THE_GAME_R) { print "quit the game rule"; return; } ! 777, case 1
-		if (R == SAVE_THE_GAME_R) { print "save the game rule"; return; } ! 778, case 1
-		if (R == RESTORE_THE_GAME_R) { print "restore the game rule"; return; } ! 779, case 1
-		if (R == RESTART_THE_GAME_R) { print "restart the game rule"; return; } ! 780, case 1
-		if (R == VERIFY_THE_STORY_FILE_R) { print "verify the story file rule"; return; } ! 781, case 1
-		if (R == SWITCH_TRANSCRIPT_ON_R) { print "switch the story transcript on rule"; return; } ! 782, case 1
-		if (R == SWITCH_TRANSCRIPT_OFF_R) { print "switch the story transcript off rule"; return; } ! 783, case 1
-		if (R == ANNOUNCE_STORY_FILE_VERSION_R) { print "announce the story file version rule"; return; } ! 784, case 1
-		if (R == ANNOUNCE_SCORE_R) { print "announce the score rule"; return; } ! 785, case 1
-		if (R == PREFER_ABBREVIATED_R) { print "prefer abbreviated room descriptions rule"; return; } ! 786, case 1
-		if (R == REP_PREFER_ABBREVIATED_R) { print "standard report preferring abbreviated room descriptions rule"; return; } ! 787, case 1
-		if (R == PREFER_UNABBREVIATED_R) { print "prefer unabbreviated room descriptions rule"; return; } ! 788, case 1
-		if (R == REP_PREFER_UNABBREVIATED_R) { print "standard report preferring unabbreviated room descriptions rule"; return; } ! 789, case 1
-		if (R == PREFER_SOMETIMES_ABBREVIATED_R) { print "prefer sometimes abbreviated room descriptions rule"; return; } ! 790, case 1
-		if (R == REP_PREFER_SOMETIMES_ABBR_R) { print "standard report preferring sometimes abbreviated room descriptions rule"; return; } ! 791, case 1
-		if (R == SWITCH_SCORE_NOTIFY_ON_R) { print "switch score notification on rule"; return; } ! 792, case 1
-		if (R == REP_SWITCH_NOTIFY_ON_R) { print "standard report switching score notification on rule"; return; } ! 793, case 1
-		if (R == SWITCH_SCORE_NOTIFY_OFF_R) { print "switch score notification off rule"; return; } ! 794, case 1
-		if (R == REP_SWITCH_NOTIFY_OFF_R) { print "standard report switching score notification off rule"; return; } ! 795, case 1
-		if (R == ANNOUNCE_PRONOUN_MEANINGS_R) { print "announce the pronoun meanings rule"; return; } ! 796, case 1
+		if (R == R_764) { print "Every turn when a random chance of 1 in 3 succeeds"; return; } ! 721, case 2
+		if (R == R_765) { print "Every turn when a random chance of 1 in 20 succeeds"; return; } ! 722, case 2
+		if (R == R_8) { print "start in the correct scenes rule"; return; } ! 723, case 1
+		if (R == POSITION_PLAYER_IN_MODEL_R) { print "position player in model world rule"; return; } ! 724, case 1
+		if (R == UPDATE_CHRONOLOGICAL_RECORDS_R) { print "update chronological records rule"; return; } ! 725, case 1
+		if (R == SEED_RANDOM_NUMBER_GENERATOR_R) { print "seed random number generator rule"; return; } ! 726, case 1
+		if (R == VIRTUAL_MACHINE_STARTUP_R) { print "virtual machine startup rule"; return; } ! 727, case 1
+		if (R == INITIALISE_MEMORY_R) { print "initialise memory rule"; return; } ! 728, case 1
+		if (R == R_9) { print "when play begins stage rule"; return; } ! 729, case 1
+		if (R == R_10) { print "fix baseline scoring rule"; return; } ! 730, case 1
+		if (R == R_11) { print "display banner rule"; return; } ! 731, case 1
+		if (R == R_12) { print "initial room description rule"; return; } ! 732, case 1
+		if (R == GENERATE_ACTION_R) { print "generate action rule"; return; } ! 733, case 1
+		if (R == PARSE_COMMAND_R) { print "parse command rule"; return; } ! 734, case 1
+		if (R == TIMED_EVENTS_R) { print "timed events rule"; return; } ! 735, case 1
+		if (R == ADVANCE_TIME_R) { print "advance time rule"; return; } ! 736, case 1
+		if (R == UPDATE_CHRONOLOGICAL_RECORDS_R) { print "update chronological records rule"; return; } ! 737, case 1
+		if (R == ADJUST_LIGHT_R) { print "adjust light rule"; return; } ! 738, case 1
+		if (R == NOTE_OBJECT_ACQUISITIONS_R) { print "note object acquisitions rule"; return; } ! 739, case 1
+		if (R == R_16) { print "notify score changes rule"; return; } ! 740, case 1
+		if (R == R_17) { print "when play ends stage rule"; return; } ! 741, case 1
+		if (R == RESURRECT_PLAYER_IF_ASKED_R) { print "resurrect player if asked rule"; return; } ! 742, case 1
+		if (R == R_18) { print "print player's obituary rule"; return; } ! 743, case 1
+		if (R == ASK_FINAL_QUESTION_R) { print "ask the final question rule"; return; } ! 744, case 1
+		if (R == DetectSceneChange) { print "scene change machinery rule"; return; } ! 745, case 1
+		if (R == R_21) { print "before stage rule"; return; } ! 746, case 1
+		if (R == R_19) { print "set pronouns from items from multiple object lists rule"; return; } ! 747, case 1
+		if (R == R_20) { print "announce items from multiple object lists rule"; return; } ! 748, case 1
+		if (R == BASIC_VISIBILITY_R) { print "basic visibility rule"; return; } ! 749, case 1
+		if (R == BASIC_ACCESSIBILITY_R) { print "basic accessibility rule"; return; } ! 750, case 1
+		if (R == CARRYING_REQUIREMENTS_R) { print "carrying requirements rule"; return; } ! 751, case 1
+		if (R == R_22) { print "instead stage rule"; return; } ! 752, case 1
+		if (R == REQUESTED_ACTIONS_REQUIRE_R) { print "requested actions require persuasion rule"; return; } ! 753, case 1
+		if (R == CARRY_OUT_REQUESTED_ACTIONS_R) { print "carry out requested actions rule"; return; } ! 754, case 1
+		if (R == DESCEND_TO_SPECIFIC_ACTION_R) { print "descend to specific action-processing rule"; return; } ! 755, case 1
+		if (R == R_23) { print "end action-processing in success rule"; return; } ! 756, case 1
+		if (R == WORK_OUT_DETAILS_OF_SPECIFIC_R) { print "work out details of specific action rule"; return; } ! 757, case 1
+		if (R == ACCESS_THROUGH_BARRIERS_R) { print "access through barriers rule"; return; } ! 758, case 1
+		if (R == CANT_REACH_INSIDE_ROOMS_R) { print "can't reach inside rooms rule"; return; } ! 759, case 1
+		if (R == CANT_REACH_INSIDE_CLOSED_R) { print "can't reach inside closed containers rule"; return; } ! 760, case 1
+		if (R == CANT_REACH_OUTSIDE_CLOSED_R) { print "can't reach outside closed containers rule"; return; } ! 761, case 1
+		if (R == R_35) { print "can't act in the dark rule"; return; } ! 762, case 1
+		if (R == STANDARD_NAME_PRINTING_R) { print "standard name printing rule"; return; } ! 763, case 1
+		if (R == R_59) { print "standard printing the plural name rule"; return; } ! 764, case 1
+		if (R == R_60) { print "standard printing a number of something rule"; return; } ! 765, case 1
+		if (R == STANDARD_CONTENTS_LISTING_R) { print "standard contents listing rule"; return; } ! 766, case 1
+		if (R == R_61) { print "look around once light available rule"; return; } ! 767, case 1
+		if (R == ENABLE_GLULX_ACCEL_R) { print "enable Glulx acceleration rule"; return; } ! 768, case 1
+		if (R == PRINT_OBITUARY_HEADLINE_R) { print "print obituary headline rule"; return; } ! 769, case 1
+		if (R == PRINT_FINAL_SCORE_R) { print "print final score rule"; return; } ! 770, case 1
+		if (R == DISPLAY_FINAL_STATUS_LINE_R) { print "display final status line rule"; return; } ! 771, case 1
+		if (R == R_69) { print "print the final question rule"; return; } ! 772, case 1
+		if (R == R_68) { print "print the final prompt rule"; return; } ! 773, case 1
+		if (R == READ_FINAL_ANSWER_R) { print "read the final answer rule"; return; } ! 774, case 1
+		if (R == R_70) { print "standard respond to final question rule"; return; } ! 775, case 1
+		if (R == R_91) { print "can't take component parts rule"; return; } ! 776, case 1
+		if (R == R_148) { print "find what to enter rule"; return; } ! 777, case 1
+		if (R == QUIT_THE_GAME_R) { print "quit the game rule"; return; } ! 778, case 1
+		if (R == SAVE_THE_GAME_R) { print "save the game rule"; return; } ! 779, case 1
+		if (R == RESTORE_THE_GAME_R) { print "restore the game rule"; return; } ! 780, case 1
+		if (R == RESTART_THE_GAME_R) { print "restart the game rule"; return; } ! 781, case 1
+		if (R == VERIFY_THE_STORY_FILE_R) { print "verify the story file rule"; return; } ! 782, case 1
+		if (R == SWITCH_TRANSCRIPT_ON_R) { print "switch the story transcript on rule"; return; } ! 783, case 1
+		if (R == SWITCH_TRANSCRIPT_OFF_R) { print "switch the story transcript off rule"; return; } ! 784, case 1
+		if (R == ANNOUNCE_STORY_FILE_VERSION_R) { print "announce the story file version rule"; return; } ! 785, case 1
+		if (R == ANNOUNCE_SCORE_R) { print "announce the score rule"; return; } ! 786, case 1
+		if (R == PREFER_ABBREVIATED_R) { print "prefer abbreviated room descriptions rule"; return; } ! 787, case 1
+		if (R == REP_PREFER_ABBREVIATED_R) { print "standard report preferring abbreviated room descriptions rule"; return; } ! 788, case 1
+		if (R == PREFER_UNABBREVIATED_R) { print "prefer unabbreviated room descriptions rule"; return; } ! 789, case 1
+		if (R == REP_PREFER_UNABBREVIATED_R) { print "standard report preferring unabbreviated room descriptions rule"; return; } ! 790, case 1
+		if (R == PREFER_SOMETIMES_ABBREVIATED_R) { print "prefer sometimes abbreviated room descriptions rule"; return; } ! 791, case 1
+		if (R == REP_PREFER_SOMETIMES_ABBR_R) { print "standard report preferring sometimes abbreviated room descriptions rule"; return; } ! 792, case 1
+		if (R == SWITCH_SCORE_NOTIFY_ON_R) { print "switch score notification on rule"; return; } ! 793, case 1
+		if (R == REP_SWITCH_NOTIFY_ON_R) { print "standard report switching score notification on rule"; return; } ! 794, case 1
+		if (R == SWITCH_SCORE_NOTIFY_OFF_R) { print "switch score notification off rule"; return; } ! 795, case 1
+		if (R == REP_SWITCH_NOTIFY_OFF_R) { print "standard report switching score notification off rule"; return; } ! 796, case 1
+		if (R == ANNOUNCE_PRONOUN_MEANINGS_R) { print "announce the pronoun meanings rule"; return; } ! 797, case 1
 
 		print "(nameless rule at address ", R, ")";
 	}
@@ -26649,9 +26640,6 @@ if (t_0 == I127_button_for_fog) {if (na > 0) { na = 0; print "; "; }
 if (t_0 == I138_black_square) {if (na > 0) { na = 0; print "; "; }
     if ((AllowInShowme(p56_pushed)) && (t_0  has p56_pushed)) { if (na++ > 0) print ", "; print "pushed"; }
 }
-if (t_0 == I143_working_flashlight) {if (na > 0) { na = 0; print "; "; }
-    if ((AllowInShowme(p57_turned_on)) && (t_0  has p57_turned_on)) { if (na++ > 0) print ", "; print "turned on"; }
-}
 if (t_0) {if (na > 0) { na = 0; print "^"; }
     print "printed name: "; if (GProperty(OBJECT_TY, t_0, short_name) == EMPTY_TEXT_VALUE) print "none^"; else print "~", (PrintText) GProperty(OBJECT_TY, t_0, short_name), "~", "^";
     print "printed plural name: "; if (GProperty(OBJECT_TY, t_0, plural) == EMPTY_TEXT_VALUE) print "none^"; else print "~", (PrintText) GProperty(OBJECT_TY, t_0, plural), "~", "^";
@@ -27022,7 +27010,7 @@ Verb meta 'tree'
 
 [ LITTLE_USED_DO_NOTHING_R; rfalse; ];
 
-Array LIST_CONST_1732 --> 0 9 2 (I142_batteries) (I104_flashlight) ;
+Array LIST_CONST_1733 --> 0 9 2 (I142_batteries) (I104_flashlight) ;
 
 
 
@@ -27152,28 +27140,28 @@ Array LIST_CONST_1732 --> 0 9 2 (I142_batteries) (I104_flashlight) ;
    rfalse;
 ];
 [ text_routine_0;
-say__p=1;ParaContent();  print (PrintText) SC_95; ParaContent();  #ifdef TARGET_ZCODE; @push self; self = 8230; @print_unicode self; @pull self;
-	#ifnot; if (unicode_gestalt_ok) glk_put_char_uni(8230); else print "?"; #endif; ParaContent();  print (PrintText) SC_96;  .L_Say57; .L_SayX57;
+say__p=1;ParaContent();  print (PrintText) SC_96; ParaContent();  #ifdef TARGET_ZCODE; @push self; self = 8230; @print_unicode self; @pull self;
+	#ifnot; if (unicode_gestalt_ok) glk_put_char_uni(8230); else print "?"; #endif; ParaContent();  print (PrintText) SC_97;  .L_Say57; .L_SayX57;
     rtrue;
 ];
 
 [ text_routine_1;
-say__p=1;ParaContent();  print (PrintText) SC_97; ParaContent();  #ifdef TARGET_ZCODE; @push self; self = 8230; @print_unicode self; @pull self;
-	#ifnot; if (unicode_gestalt_ok) glk_put_char_uni(8230); else print "?"; #endif; ParaContent();  print (PrintText) SC_98;  .L_Say58; .L_SayX58;
+say__p=1;ParaContent();  print (PrintText) SC_98; ParaContent();  #ifdef TARGET_ZCODE; @push self; self = 8230; @print_unicode self; @pull self;
+	#ifnot; if (unicode_gestalt_ok) glk_put_char_uni(8230); else print "?"; #endif; ParaContent();  print (PrintText) SC_99;  .L_Say58; .L_SayX58;
     rtrue;
 ];
 
 [ text_routine_2;
-say__p=1;ParaContent();  print (PrintText) SC_99; 
+say__p=1;ParaContent();  print (PrintText) SC_100; 
 	if (~~((((I137_old_electrician == CarrierOf(I136_exit_key)))))) jump L_Say59;
-		ParaContent();  print (PrintText) SC_100;  .L_Say59; .L_SayX59;
+		ParaContent();  print (PrintText) SC_101;  .L_Say59; .L_SayX59;
     rtrue;
 ];
 
 [ text_routine_3;
-say__p=1;ParaContent();  print (PrintText) SC_101; ParaContent();  #ifdef TARGET_ZCODE; @push self; self = 8230; @print_unicode self; @pull self;
-	#ifnot; if (unicode_gestalt_ok) glk_put_char_uni(8230); else print "?"; #endif; ParaContent();  print (PrintText) SC_102; ParaContent();  #ifdef TARGET_ZCODE; @push self; self = 8230; @print_unicode self; @pull self;
+say__p=1;ParaContent();  print (PrintText) SC_102; ParaContent();  #ifdef TARGET_ZCODE; @push self; self = 8230; @print_unicode self; @pull self;
 	#ifnot; if (unicode_gestalt_ok) glk_put_char_uni(8230); else print "?"; #endif; ParaContent();  print (PrintText) SC_103; ParaContent();  #ifdef TARGET_ZCODE; @push self; self = 8230; @print_unicode self; @pull self;
+	#ifnot; if (unicode_gestalt_ok) glk_put_char_uni(8230); else print "?"; #endif; ParaContent();  print (PrintText) SC_104; ParaContent();  #ifdef TARGET_ZCODE; @push self; self = 8230; @print_unicode self; @pull self;
 	#ifnot; if (unicode_gestalt_ok) glk_put_char_uni(8230); else print "?"; #endif;  .L_Say60; .L_SayX60;
     rtrue;
 ];
@@ -30104,28 +30092,28 @@ ArgumentTypeFailed(filename, line);
 
 
 Array ConstantListPointers --> 
-LIST_CONST_1732  0 0;
+LIST_CONST_1733  0 0;
 
-Constant SC_76 = " ";
-Constant SC_100 = " He is carrying the key to the exit.";
+Constant SC_77 = " ";
+Constant SC_101 = " He is carrying the key to the exit.";
 Constant SC_65 = " Three of them to be exact. I probably dropped them in some of the rooms that came before the graveyard. Try giving a look for them, this old heart of mine couldn't stand going through that Circus Room again.~";
-Constant SC_96 = " Weird.";
-Constant SC_90 = " here";
-Constant SC_80 = " or ";
-Constant SC_102 = " there was no soundtrack or speakers in that room. It was just an empty Hall of Mirrors room. Maybe those Circus clowns just got to your head! Hahaha!~^^	As you and the group begin to walk away from the house, you can't help but notice a small plaque put in front of the Haunted House Ride.^^^-In Loving Memory of Sophia A. Harmon.  1897 - 1908. Resided on the property with her family, before the Harmon Family donated the estate to the theme park.-^^^Could it be";
-Constant SC_85 = " you ";
-Constant SC_69 = "~I only got the one spare key, and I'm gonna be here for a couple hours. Maybe we can make an exchange though, I seem to be missing some of my tools";
+Constant SC_97 = " Weird.";
+Constant SC_91 = " here";
+Constant SC_81 = " or ";
+Constant SC_103 = " there was no soundtrack or speakers in that room. It was just an empty Hall of Mirrors room. Maybe those Circus clowns just got to your head! Hahaha!~^^	As you and the group begin to walk away from the house, you can't help but notice a small plaque put in front of the Haunted House Ride.^^^-In Loving Memory of Sophia A. Harmon.  1897 - 1908. Resided on the property with her family, before the Harmon Family donated the estate to the theme park.-^^^Could it be";
+Constant SC_86 = " you ";
+Constant SC_70 = "~I only got the one spare key, and I'm gonna be here for a couple hours. Maybe we can make an exchange though, I seem to be missing some of my tools";
 Constant SC_61 = "~Thanks a bunch kid! Here's the key that leads out of the Meat Locker. After the Narrow Hallway, you should be home free to the exit! Just leave the key for me though on the ground in the butcher room so I can get out too.~";
 Constant SC_64 = "~What are you doing here, the ride's closed! ... What? They locked you in while closing down? Sorry to hear that, but I can't help you. I only got the one spare key, and I'm gonna be here for a couple hours. Maybe we can make an exchange though, I seem to be missing some of my tools";
-Constant SC_81 = ", ";
-Constant SC_79 = ",";
-Constant SC_91 = ".";
+Constant SC_82 = ", ";
+Constant SC_80 = ",";
+Constant SC_92 = ".";
 Constant SC_62 = ": ";
-Constant SC_92 = ":";
-Constant SC_82 = "> ";
+Constant SC_93 = ":";
+Constant SC_83 = "> ";
 Constant SC_49 = ">";
-Constant SC_103 = "? Nah. Just your imagination";
-Constant SC_78 = "?";
+Constant SC_104 = "? Nah. Just your imagination";
+Constant SC_79 = "?";
 Constant SC_37 = "A bunch of confusing wires.";
 Constant SC_20 = "A cage door has been left open at the end of the room, and a broken looking robotic dog is looking down.";
 Constant SC_35 = "A desk where management had been keeping their paperwork on. Someone placed a key to the Control Panel Room here.";
@@ -30133,7 +30121,7 @@ Constant SC_67 = "A door has opened to the west.";
 Constant SC_32 = "A fridge where workers put their lunch when they check in for the morning. But there's no time for snacking right now!";
 Constant SC_10 = "A large bookcase to add effect to the Victorian Scene. A lot of these books look very old. ~Study of the Paranormal,~ ~Introduction to Medical History,~ and ~Exorcisms for Dummies.~ Eh. Sounds boring.";
 Constant SC_28 = "A large fake tombstone. Probably the biggest monster in this room hides behind here. A skeleton is hugging the foot of the tombstone.";
-Constant SC_74 = "A large, very open room with the ceiling decorated to look like nighttime. The floor is littered with tombstones, but a large tombstone with a skeleton hugging the base of it really sticks out to you. The Circus Room is in the South. There is a door to the West that looks like it was decorated to not stand out. A door with a large mirror in the front is to the East.^	The room is silent.";
+Constant SC_75 = "A large, very open room with the ceiling decorated to look like nighttime. The floor is littered with tombstones, but a large tombstone with a skeleton hugging the base of it really sticks out to you. The Circus Room is in the South. There is a door to the West that looks like it was decorated to not stand out. A door with a large mirror in the front is to the East.^	The room is silent.";
 Constant SC_26 = "A large, very open room with the ceiling decorated to look like nighttime. The floor is littered with tombstones, but a large tombstone with a skeleton hugging the base of it really sticks out to you. The soundtrack to this room is howling wind and a wolf howling in the background.^^^The Circus Room is in the South. There is a door to the West that looks like it was decorated to not stand out. A door with a large mirror in the front is to the East. A room with what looks like fog coming out from under the door is to the North.";
 Constant SC_13 = "A metal tool. Looks like somebody lost it in here.";
 Constant SC_15 = "A normal podium that a greeter will stand at to maintain the lines of the ride. There is a space inside the podium with what looks like some junk in it.";
@@ -30141,26 +30129,27 @@ Constant SC_11 = "A picture of an old man. There is a label underneath saying: ~
 Constant SC_57 = "A picture of an old man. There is a label underneath saying: ~Dr. James F. Harmon, 1870 - 1932.~ Interesting prop, wonder where they found it.^^	His eyes seem to be following you...";
 Constant SC_59 = "A red, leather couch with large cushions that looks very inviting. People dressed as ghosts usually lounge on the couch and jump out at people passing by the room.";
 Constant SC_8 = "A red, leather couch with large cushions that looks very inviting. People dressed as ghosts usually lounge on the couch and jump out at people passing by the room.^^	Someone seems to have dropped a screwdriver on the couch.";
+Constant SC_69 = "A room where the ceiling, walls, and floor are all painted black. The entrance to the next room is West, the entrance to the Haunted House is North.";
 Constant SC_38 = "A silver key that unlocks the door to the exit.";
 Constant SC_43 = "Adds some scary effect to the room.";
 Constant SC_36 = "An old man is fumbling around with one of the boxes on the wall, cutting wires and reconnecting others. He must be the electrician, maybe he can help you find a way out! Try talking to him!!!^^This seems to be the Control Panel room that has all the wires and buttons causing the electricity to work. Someone must have forgotten to switch off the ride, since lights are flashing next to the buttons labeled:^^	Lighting^	Fog^	Soundtracks^^^You should press the fog and soundtracks buttons, but leave the lighting on so you can see.^^^The Staff Break Room is South.";
-Constant SC_99 = "An old man wearing a grey jumpsuit cutting and reconnecting wires. Whatever he's doing looks very confusing. ";
+Constant SC_100 = "An old man wearing a grey jumpsuit cutting and reconnecting wires. Whatever he's doing looks very confusing. ";
 Constant SC_34 = "An old, dusty couch that employees can chillax on.";
 Constant SC_68 = "Another door has opened in the north.";
 Constant SC_24 = "Another podium, this time matching the color scheme of the room. Usually, a worker dressed as a clown ringmaster stands here to guide the guests to the exit.^	There seems to be a button on the surface of the podium.";
-Constant SC_97 = "As you open the door letting off a horrifying creak, you see animatronic rats scurrying out of the corner of your eye. This doesn't bother you that much, until you see what is in the room. Large cages with robot animals that have fake foam oozing from their jowls. When you step close to one of the cages, a sensor goes off, and the animals leap against the wall of their cage, growling and chomping at you.^^^It looks like one of the cages is unlocked";
+Constant SC_98 = "As you open the door letting off a horrifying creak, you see animatronic rats scurrying out of the corner of your eye. This doesn't bother you that much, until you see what is in the room. Large cages with robot animals that have fake foam oozing from their jowls. When you step close to one of the cages, a sensor goes off, and the animals leap against the wall of their cage, growling and chomping at you.^^^It looks like one of the cages is unlocked";
 Constant SC_16 = "Better take it. In a place like this, it might be helpful for later. But it seems it has no batteries...";
 Constant SC_45 = "Controls all the lighting in the ride. I suggest keeping that on.";
 Constant SC_46 = "Controls the fog in the ride.";
 Constant SC_47 = "Controls the soundtracks in all rooms.";
 Constant SC_2 = "Erika Payne Disable take all";
 Constant SC_31 = "FINALLY. A soundproof room with nothing scary in it. This is obviously a break room for the staff during their downtime. There's a mini fridge, an old TV, an old couch, and a desk.^^^The entrance to the Graveyard is to the East, and there is a metal door to the North.";
-Constant SC_101 = "FREEEEDOM! You feel the fresh air blowing through your hair, the sunlight against your skin, and the smell of food coming from the vendors parked across the street. Eventually, you meet up with your friends, and tell them about your awful experiences.^^	~Weirdest part was when I was in the hall of mirrors. That little girl gave me the creeps for some reason.~^	~What little girl?~ your brother looks at you puzzlingly.^	~Yeah, the little girl. Don't you remember? They have a soundtrack of a little girl giggling in the background, and they must do something with the mirrors so you see her running around, but you only see her hair and the ends of her dress. Freaky.~^	~Dude";
+Constant SC_102 = "FREEEEDOM! You feel the fresh air blowing through your hair, the sunlight against your skin, and the smell of food coming from the vendors parked across the street. Eventually, you meet up with your friends, and tell them about your awful experiences.^^	~Weirdest part was when I was in the hall of mirrors. That little girl gave me the creeps for some reason.~^	~What little girl?~ your brother looks at you puzzlingly.^	~Yeah, the little girl. Don't you remember? They have a soundtrack of a little girl giggling in the background, and they must do something with the mirrors so you see her running around, but you only see her hair and the ends of her dress. Freaky.~^	~Dude";
 Constant SC_42 = "Finally you can see! You see a long, narrow hallway before you, filled with cobwebs and ghosts popping from the ceiling. A couple of robotic hands sticking out from the walls look like they're trying to grab you.^^	The Meat Locker is West, but you see a Black Door to the East. Could this be the exit?.";
 Constant SC_23 = "Great. A room devoted to the Circus. You've always hated the Circus, especially clowns. Large robotic clowns loom over you and a demonic low-voiced laughter rings through the room as a waltzing, repetitive circus song plays in the background. There is another podium at the entrance where a worker dressed as a ringmaster is supposed to welcome the guests.^^^The Cage Room is to the East, and there is a sliding door to the North of the room.";
 Constant SC_63 = "I don't see why you're talking to that.";
-Constant SC_70 = "I don't think that's a good idea.";
-Constant SC_84 = "In ";
+Constant SC_71 = "I don't think that's a good idea.";
+Constant SC_85 = "In ";
 Constant SC_44 = "It looks like their trying to grab at you.";
 Constant SC_39 = "It's too foggy to really see anything. There might be a door to the east. You just entered from the graveyard in the south.";
 Constant SC_27 = "Just a bunch of plastic props. Workers in werewolf or skeleton costumes sometimes pop out from the larger ones.";
@@ -30168,14 +30157,14 @@ Constant SC_29 = "Just a normal skeleton. It seems to be holding wire cutters in
 Constant SC_40 = "Just added obstacles to the ride so visitors have a little rougher time to leave the room.";
 Constant SC_25 = "Large clown faces loom over you waving their gloved hands and bearing their sharp teeth. I thought these guys were supposed to be funny.^^^There seems to be a wrench that someone dropped underneath one of the more obese clowns.";
 Constant SC_19 = "Large robotic dogs with glowing red eyes glare at you with fake foam coming out of their mouths. If you step too close to the cage, the dogs will jump out at you. Nothing will happen, of course, but it can give you quite a fright!";
-Constant SC_71 = "Large sacks of what looks like cow meat hang from the ceiling on metal hooks. Obviously, their plastic, but it still gives you the creeps being wrapped in the cloudy plastic. Usually, a worker dawning a butcher's outfit chases the visitors around towards the exit, but the fog is so thick, you can't see it.^^	The Graveyard is South.";
-Constant SC_73 = "Large, robotic clowns loom over you as you walk by. There is another podium at the entrance where a worker dressed as a ringmaster is supposed to welcome the guests. The Cage Room is to the East, and there is a sliding door to the North of the room.^^	The room is now silent.";
+Constant SC_72 = "Large sacks of what looks like cow meat hang from the ceiling on metal hooks. Obviously, their plastic, but it still gives you the creeps being wrapped in the cloudy plastic. Usually, a worker dawning a butcher's outfit chases the visitors around towards the exit, but the fog is so thick, you can't see it.^^	The Graveyard is South.";
+Constant SC_74 = "Large, robotic clowns loom over you as you walk by. There is another podium at the entrance where a worker dressed as a ringmaster is supposed to welcome the guests. The Cage Room is to the East, and there is a sliding door to the North of the room.^^	The room is now silent.";
 Constant SC_18 = "Little robotic rats can be seen scurrying around the edges of the room.";
 Constant SC_9 = "Looks comfortable, but you need to find a way out!";
-Constant SC_94 = "Looks like this flashlight should start working now!";
+Constant SC_95 = "Looks like this flashlight should start working now!";
 Constant SC_22 = "May come in handy.";
-Constant SC_93 = "Now why would you do that?";
-Constant SC_86 = "On ";
+Constant SC_94 = "Now why would you do that?";
+Constant SC_87 = "On ";
 Constant SC_53 = "QUIT";
 Constant SC_50 = "RESTART";
 Constant SC_51 = "RESTORE a saved game";
@@ -30184,7 +30173,7 @@ Constant SC_56 = "Rusty Armor put into a pose of a man holding an axe. How menac
 Constant SC_21 = "Someone must have been trying to fix him earlier, because most of the wiring has been ripped apart. Those probably power the red eyes.^^	You can see a pair of batteries sticking out from the jowls. ";
 Constant SC_60 = "Someone must have been trying to fix him earlier, because most of the wiring has been ripped apart.Those probably power the red eyes.";
 Constant SC_66 = "Thanks!";
-Constant SC_95 = "The fake fireplace still lets off an ominous glow of purples. It's like you can see faces in it";
+Constant SC_96 = "The fake fireplace still lets off an ominous glow of purples. It's like you can see faces in it";
 Constant SC_48 = "The flashlight can now be turned on. May come in handy.";
 Constant SC_5 = "The floor, ceiling, and walls are all black. A booming voice sounds from a speaker coming from the wall saying: ~How do you escape a room with NO WINDOWS, and NOOOO DOOORS. HA. HA. HA. HA. HA.~^^	Trying to calm yourself down, you notice a square section of the wall in front of you is an off black color.";
 Constant SC_14 = "The front door is barricaded from the outside, so you'll have to find another exit, which should be at the end of the ride. The room is dimly lighted with a podium at the front were a greeter stands to maintain the line.^^South is the first room of the ride.";
@@ -30195,19 +30184,19 @@ Constant SC_54 = "UNDO the last command";
 Constant SC_41 = "Used to hold up the cow meat.";
 Constant SC_7 = "Victorian furniture create a gloomy scene in this room, reminding you of a horror movie you watched about a murder in the 1800~s. The fireplace lets off an ominous purple glow (obviously done with purple flashlights and the shifting of the light.) There is a large, comfy couch, a sitting chair, a bookcase, a large painting of a grim old man, and a knight in rusty armor holding an axe.^^^The Black Room is to the East, and there is a door to the West.";
 Constant SC_33 = "Watching some TV would be nice right now, but you have no time for that!";
-Constant SC_77 = "Would you like to ";
-Constant SC_83 = "You ";
+Constant SC_78 = "Would you like to ";
+Constant SC_84 = "You ";
 Constant SC_4 = "You got locked inside one of the scariest rides in the theme park and got seperated from your older brother and friends. Your feeling pretty freaked out right now.";
 Constant SC_55 = "You got separated from your friends and older brother in a Haunted House Ride at the Local Theme Park. Unfortunately, the staff thought that the last of the guests had left, and all of the doors have been locked. Yet, all of the machines in the house are still strangely working. You fainted from fear at the last ghostly ~surprise,~ and you wake up in an unfamiliar room.";
-Constant SC_75 = "You hear a clicking noise. It seems quieter outside, something must have happened.";
-Constant SC_72 = "You hear a clicking noise. Something must have happened.";
+Constant SC_76 = "You hear a clicking noise. It seems quieter outside, something must have happened.";
+Constant SC_73 = "You hear a clicking noise. Something must have happened.";
 Constant SC_58 = "You see a shadow of a little girl running out of the corner of your eye.";
-Constant SC_88 = "also ";
-Constant SC_87 = "can ";
-Constant SC_89 = "see ";
+Constant SC_89 = "also ";
+Constant SC_88 = "can ";
+Constant SC_90 = "see ";
 Constant SC_52 = "see some suggestions for AMUSING things to do";
 Constant SC_3 = "the";
-Constant SC_98 = "^^^The Living Room is in the East, and the Next Room is in the West.";
+Constant SC_99 = "^^^The Living Room is in the East, and the Next Room is in the West.";
 
 #ifndef p0_specification; Constant p0_specification = 0; #endif;
 #ifndef p1_indefinite_appearance_tex; Constant p1_indefinite_appearance_tex = 0; #endif;
@@ -30248,7 +30237,6 @@ Constant SC_98 = "^^^The Living Room is in the East, and the Next Room is in the
 #ifndef on; Constant on = 0; #endif;
 #ifndef p54_recurring; Constant p54_recurring = 0; #endif;
 #ifndef p56_pushed; Constant p56_pushed = 0; #endif;
-#ifndef p57_turned_on; Constant p57_turned_on = 0; #endif;
 #ifndef vector; Constant vector = 0; #endif;
 #ifndef room_index; Constant room_index = 0; #endif;
 #ifndef door_dir; Constant door_dir = 0; #endif;

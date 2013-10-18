@@ -189,7 +189,8 @@ Instead pushing the Black square for the first time:
 	now the black door is open;
 	say "A door has opened to the west.";
 	now the second door is open;
-	say "Another door has opened in the north."
+	say "Another door has opened in the north.";
+	Change the description of the black room to "A room where the ceiling, walls, and floor are all painted black. The entrance to the next room is West, the entrance to the Haunted House is North."
 Understand "square" as black square.
 
 [Items]
@@ -205,9 +206,9 @@ The wirecutter is in the graveyard room. The wirecutter is undescribed. The desc
 After taking the wirecutter for the first time:
 	Increase the score by 1.
 The batteries is a thing in the caged rabid animal room. The batteries is undescribed. The description of the batteries is "May come in handy."
-The Working Flashlight is an object. The working flashlight can be turned on. The description of the working flashlight is "The flashlight can now be turned on. May come in handy." The working flashlight is lit.
+The Working Flashlight is an object. The description of the working flashlight is "The flashlight can now be turned on. May come in handy." The working flashlight is lit.
 
-
+[Combine Stuff]
 
 Understand "combine [something] with [something]" as combining it with.
 Combining it with is an action applying to two things.
@@ -239,6 +240,8 @@ Table of Arm Parts
 Parts List	Results
 {Batteries, Flashlight}	Working Flashlight
 
+After combining the flashlight with batteries:
+	Increase score by 1.
 
 [NPC]
 
@@ -324,7 +327,5 @@ Every turn when a random chance of 1 in 3 succeeds:
 
 Every turn when a random chance of 1 in 20 succeeds:
 	Say "You see a shadow of a little girl running out of the corner of your eye."
-
-
-
+	
 
