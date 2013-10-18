@@ -1,7 +1,7 @@
 "Haunted House of Hallucinations" by Erika Payne
 Disable take all.
 Use serial comma.
-The maximum score is 6.
+The maximum score is 7.
 
 When play begins: say "You got separated from your friends and older brother in a Haunted House Ride at the Local Theme Park. Unfortunately, the staff thought that the last of the guests had left, and all of the doors have been locked. Yet, all of the machines in the house are still strangely working. You fainted from fear at the last ghostly 'surprise,' and you wake up in an unfamiliar room."
 
@@ -26,7 +26,10 @@ The Victorian Living Room is a room. It is east of the Caged Rabid Animal Room. 
 
 
 The Black Room is to the East, and there is a door to the West."
-The Caged Rabid Animal Room is a room. It is west of the Victorian Living Room. "As you open the door letting off a horrifying creak, you see animatronic rats scurrying out of the corner of your eye. This doesn’t bother you that much, until you see what is in the room. Large cages with robot animals that have fake foam oozing from their jowls. When you step close to one of the cages, a sensor goes off, and the animals leap against the wall of their cage, growling and chomping at you. It looks like one of the cages is unlocked…
+The Caged Rabid Animal Room is a room. It is west of the Victorian Living Room. "As you open the door letting off a horrifying creak, you see animatronic rats scurrying out of the corner of your eye. This doesn’t bother you that much, until you see what is in the room. Large cages with robot animals that have fake foam oozing from their jowls. When you step close to one of the cages, a sensor goes off, and the animals leap against the wall of their cage, growling and chomping at you. 
+
+
+It looks like one of the cages is unlocked…
 
 
 The Living Room is in the East, and the Next Room is in the West."
@@ -49,7 +52,9 @@ The Staff Break Room is a room. It is west of the Graveyard Room. "FINALLY. A so
 	
 	
 The entrance to the Graveyard is to the East, and there is a metal door to the North."
-The Control Panel Room is a room. It is north of the Staff Break Room. "An old man is fumbling around with one of the boxes on the wall, cutting wires and reconnecting others. He must be the electrician, maybe he can help you find a way out! This seems to be the Control Panel room that has all the wires and switches causing the electricity to work. Someone must have forgotten to switch off the ride, since lights are flashing next to the switches labeled:
+The Control Panel Room is a room. It is north of the Staff Break Room. "An old man is fumbling around with one of the boxes on the wall, cutting wires and reconnecting others. He must be the electrician, maybe he can help you find a way out! Try talking to him!!! 
+
+This seems to be the Control Panel room that has all the wires and buttons causing the electricity to work. Someone must have forgotten to switch off the ride, since lights are flashing next to the buttons labeled:
 
 
 	Lighting
@@ -59,7 +64,7 @@ The Control Panel Room is a room. It is north of the Staff Break Room. "An old m
 	Soundtracks
 	
 	
-You should turn off the fog and soundtracks, but leave the lighting on so you can see. 
+You should press the fog and soundtracks buttons, but leave the lighting on so you can see. 
 
 
 The Staff Break Room is South."
@@ -98,7 +103,10 @@ An every turn rule:
 	[b] The front door is scenery in the Entrance to the Ride. It is fixed in place. The description of the front door is "The front door to the ride. For some reason, it's barricaded outside. You will have to find another way out."
 		Understand "door" as front door.
 	[Victorian Living Room]
-	[a.] The Leather Couch is scenery in the Victorian Living Room. It is fixed in place. The description of the Leather Couch is "A red, leather couch with large cushions that looks very inviting. People dressed as ghosts usually lounge on the couch and jump out at people passing by the room."
+	[a.] The Leather Couch is scenery in the Victorian Living Room. It is fixed in place. The description of the Leather Couch is "A red, leather couch with large cushions that looks very inviting. People dressed as ghosts usually lounge on the couch and jump out at people passing by the room.
+	
+	
+		Someone seems to have dropped a screwdriver on the couch."
 		Understand "couch" as leather couch.
 	[b.] The Sitting Chair is scenery in the Victorian Living Room. It is fixed in place. The description of the Sitting Chair is "Looks comfortable, but you need to find a way out!"
 		Understand "chair" as sitting chair.
@@ -113,9 +121,13 @@ An every turn rule:
 	[a.] The Animatronic Rats is scenery in the Caged Rabid Animal Room. It is fixed in place. The description of the Animatronic Rats is "Little robotic rats can be seen scurrying around the edges of the room."
 		Understand "rats" as animatronic rats.
 	[b.] The Cages is scenery in the Caged Rabid Animal Room. It is fixed in place. The description of the Cages is "Large robotic dogs with glowing red eyes glare at you with fake foam coming out of their mouths. If you step too close to the cage, the dogs will jump out at you. Nothing will happen, of course, but it can give you quite a fright!"
-	[c.] The Unlocked Cage is in the Caged Rabid Animal Room. It is fixed in place. The description of the Unlocked Cage is "A cage door has been left open at the end of the room, and a broken looking robotic dog is looking down."
+	[c.] The Unlocked Cage is in the Caged Rabid Animal Room. The unlocked cage is undescribed. It is fixed in place. The description of the Unlocked Cage is "A cage door has been left open at the end of the room, and a broken looking robotic dog is looking down."
 		Understand "cage" as unlocked cage.
-	[d.] The Broken Robotic Dog is scenery in the Caged Rabid Animal Room. It is fixed in place. The description of the Broken Robotic Dog is "Someone must have been trying to fix him earlier, because most of the wiring has been ripped apart. You can see a pair of batteries sticking out from the jowls. Those probably power the red eyes."
+	[d.] The Broken Robotic Dog is in the Caged Rabid Animal Room. The broken robotic dog is undescribed. It is fixed in place. The description of the Broken Robotic Dog is "Someone must have been trying to fix him earlier, because most of the wiring has been ripped apart. Those probably power the red eyes.
+	
+	
+	You can see a pair of batteries sticking out from the jowls. "
+	
 		Understand "dog" as broken robotic dog.
 		Understand "robotic dog" as broken robotic dog.
 	[The Circus Room]
@@ -180,16 +192,18 @@ Understand "square" as black square.
 [Items]
 
 The flashlight is in the podium. The description of the flashlight is "Better take it. In a place like this, it might be helpful for later."
-The wrench is in the circus room. The description of the wrench is "A metal tool. Looks like somebody lost it in here."
+The wrench is in the circus room. The wrench is undescribed. The description of the wrench is "A metal tool. Looks like somebody lost it in here."
 After taking the wrench for the first time:
 	Increase the score by 1.
-The screwdriver is in the victorian living room. The description of the screwdriver is "A metal tool. Looks like somebody lost it in here."
+The screwdriver is in the victorian living room. The screwdriver is undescribed. The description of the screwdriver is "A metal tool. Looks like somebody lost it in here."
 After taking the screwdriver for the first time:
 	Increase the score by 1.
-The wirecutter is in the graveyard room. The description of the wirecutter is "A metal tool. Looks like somebody lost it in here."
+The wirecutter is in the graveyard room. The wirecutter is undescribed. The description of the wirecutter is "A metal tool. Looks like somebody lost it in here."
 After taking the wirecutter for the first time:
 	Increase the score by 1.
-The batteries is a thing in the caged rabid animal room. The description of the batteries is "May come in handy."
+The batteries is a thing in the caged rabid animal room. The batteries is undescribed. The description of the batteries is "May come in handy."
+
+The flashlight can be combine with 
 
 [NPC]
 
@@ -240,7 +254,15 @@ Instead of pushing the Button for soundtracks:
 	The room is silent.";
 	Say "You hear a clicking noise. It seems quieter outside, something must have happened."
 
+An every turn rule:
+	If the player is carrying the screwdriver for the first time,
+	change the description of the couch to "A red, leather couch with large cushions that looks very inviting. People dressed as ghosts usually lounge on the couch and jump out at people passing by the room."
 	
+An every turn rule:
+	If the player is carrying the batteries for the first time,
+	change the description of the Broken Robotic Dog to "Someone must have been trying to fix him earlier, because most of the wiring has been ripped apart.Those probably power the red eyes."
+	
+
 An every turn rule:
 	If the old electrician is carrying wrench and the old electrician is carrying the wirecutter and the old electrician is carrying the screwdriver,
 	say "'Thanks a bunch kid! Here’s the key that leads out of the Meat Locker. After the Narrow Hallway, you should be home free to the exit! Just leave the key for me though on the ground in the butcher room so I can get out too.'";
@@ -254,11 +276,20 @@ An every turn rule:
 
 The description of player is "You got locked inside one of the scariest rides in the theme park and got seperated from your older brother and friends. Your feeling pretty freaked out right now."
 
-Every turn when a random chance of 1 in 4 succeeds:
-	Change the description of the Knight in Rusty Armor to "It looks like he's almost breathing…"
+Every turn when a random chance of 1 in 3 succeeds:
+	Change the description of the Knight in Rusty Armor to "Rusty Armor put into a pose of a man holding an axe. How menacing. 
+	
+	
+	It looks like he's almost breathing..."
+Every turn when a random chance of 1 in 3 succeeds:
+	Change the description of the Large Painting to "A picture of an old man. There is a label underneath saying: ‘Dr. James F. Harmon, 1870 - 1932.’ Interesting prop, wonder where they found it.
+	
+	
+	His eyes seem to be following you..." 
 
 Every turn when a random chance of 1 in 20 succeeds:
 	Say "You see a shadow of a little girl running out of the corner of your eye."
+
 
 
 
