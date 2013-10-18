@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0x1bb3220" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x1bce430" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x1bb3220" />
-  <item nodeId="node-0x1bb3220">
+  <activeNode nodeId="node-0x1bce430" />
+  <item nodeId="node-0x1bce430">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
@@ -22,15 +22,15 @@ The floor, ceiling, and walls are all black. A booming voice sounds from a speak
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="335">NO</temporary>
+    <temporary score="86">NO</temporary>
     <children>
-      <child nodeId="node-0x10022fc0" />
-      <child nodeId="node-0x113d1e90" />
-      <child nodeId="node-0x1bb3270" />
-      <child nodeId="node-0x1bae800" />
+      <child nodeId="node-0x6cca980" />
+      <child nodeId="node-0x6cc9aa0" />
+      <child nodeId="node-0x6cc9720" />
+      <child nodeId="node-0x1bce680" />
     </children>
   </item>
-  <item nodeId="node-0x1bae800">
+  <item nodeId="node-0x1bce680">
     <command xml:space="preserve">push square</command>
     <result xml:space="preserve">A door has opened to the west.
 Another door has opened in the north.
@@ -38,14 +38,14 @@ Another door has opened in the north.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="335">YES</temporary>
+    <temporary score="86">YES</temporary>
     <children>
-      <child nodeId="node-0x1ba6fd0" />
-      <child nodeId="node-0x69d0010" />
-      <child nodeId="node-0x18f08f0" />
+      <child nodeId="node-0x6cc7b20" />
+      <child nodeId="node-0x6cc5d50" />
+      <child nodeId="node-0x1bce6d0" />
     </children>
   </item>
-  <item nodeId="node-0x18f08f0">
+  <item nodeId="node-0x1bce6d0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -54,10 +54,10 @@ Another door has opened in the north.
     <changed>NO</changed>
     <temporary score="309">YES</temporary>
     <children>
-      <child nodeId="node-0x6951430" />
+      <child nodeId="node-0x1bce720" />
     </children>
   </item>
-  <item nodeId="node-0x6951430">
+  <item nodeId="node-0x1bce720">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Victorian Living Room
@@ -74,11 +74,11 @@ The Black Room is to the East, and there is a door to the West.
     <changed>NO</changed>
     <temporary score="309">YES</temporary>
     <children>
-      <child nodeId="node-0x1bad840" />
-      <child nodeId="node-0x10e51f00" />
+      <child nodeId="node-0x1bce7e0" />
+      <child nodeId="node-0x1bce770" />
     </children>
   </item>
-  <item nodeId="node-0x10e51f00">
+  <item nodeId="node-0x1bce770">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Black Room
@@ -89,14 +89,14 @@ A room where the ceiling, walls, and floor are all painted black. The entrance t
     <changed>YES</changed>
     <temporary score="254">YES</temporary>
   </item>
-  <item nodeId="node-0x1bad840">
+  <item nodeId="node-0x1bce7e0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Caged Rabid Animal Room
 As you open the door letting off a horrifying creak, you see animatronic rats scurrying out of the corner of your eye. This doesn&apos;t bother you that much, until you see what is in the room. Large cages with robot animals that have fake foam oozing from their jowls. When you step close to one of the cages, a sensor goes off, and the animals leap against the wall of their cage, growling and chomping at you.
 
 
-It looks like one of the cages is unlocked…
+It looks like one of the cages is unlocked…愠楮
 
 
 The Living Room is in the East, and the Next Room is in the West.
@@ -106,10 +106,10 @@ The Living Room is in the East, and the Next Room is in the West.
     <changed>NO</changed>
     <temporary score="309">YES</temporary>
     <children>
-      <child nodeId="node-0x10084fe0" />
+      <child nodeId="node-0x1bce850" />
     </children>
   </item>
-  <item nodeId="node-0x10084fe0">
+  <item nodeId="node-0x1bce850">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Circus Room
@@ -128,11 +128,11 @@ You see a shadow of a little girl running out of the corner of your eye.
     <changed>YES</changed>
     <temporary score="309">YES</temporary>
     <children>
-      <child nodeId="node-0x7455640" />
-      <child nodeId="node-0x10063960" />
+      <child nodeId="node-0x6cc5660" />
+      <child nodeId="node-0x1bceac0" />
     </children>
   </item>
-  <item nodeId="node-0x10063960">
+  <item nodeId="node-0x1bceac0">
     <command xml:space="preserve">push button</command>
     <result xml:space="preserve">A door slides open in the North.
 
@@ -141,10 +141,10 @@ You see a shadow of a little girl running out of the corner of your eye.
     <changed>YES</changed>
     <temporary score="309">YES</temporary>
     <children>
-      <child nodeId="node-0x113e0720" />
+      <child nodeId="node-0x1bceb10" />
     </children>
   </item>
-  <item nodeId="node-0x113e0720">
+  <item nodeId="node-0x1bceb10">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Graveyard Room
@@ -158,10 +158,10 @@ The Circus Room is in the South. There is a door to the West that looks like it 
     <changed>YES</changed>
     <temporary score="309">YES</temporary>
     <children>
-      <child nodeId="node-0x1b0d870" />
+      <child nodeId="node-0x1bceb60" />
     </children>
   </item>
-  <item nodeId="node-0x1b0d870">
+  <item nodeId="node-0x1bceb60">
     <command xml:space="preserve">x tombstone</command>
     <result xml:space="preserve">Which do you mean, the Tombstones or the Large Tombstone?
 
@@ -170,10 +170,10 @@ The Circus Room is in the South. There is a door to the West that looks like it 
     <changed>YES</changed>
     <temporary score="309">YES</temporary>
     <children>
-      <child nodeId="node-0x1139e340" />
+      <child nodeId="node-0x1bcebb0" />
     </children>
   </item>
-  <item nodeId="node-0x1139e340">
+  <item nodeId="node-0x1bcebb0">
     <command xml:space="preserve">large</command>
     <result xml:space="preserve">A large fake tombstone. Probably the biggest monster in this room hides behind here. An ominous skeleton is hugging the foot of the tombstone.
 
@@ -182,10 +182,10 @@ The Circus Room is in the South. There is a door to the West that looks like it 
     <changed>YES</changed>
     <temporary score="309">YES</temporary>
     <children>
-      <child nodeId="node-0x100be9d0" />
+      <child nodeId="node-0x1bcec20" />
     </children>
   </item>
-  <item nodeId="node-0x100be9d0">
+  <item nodeId="node-0x1bcec20">
     <command xml:space="preserve">x skeleton</command>
     <result xml:space="preserve">Just a normal skeleton. It seems to be holding a wirecutter in it&apos;s ivory left hand.
 
@@ -194,10 +194,10 @@ The Circus Room is in the South. There is a door to the West that looks like it 
     <changed>YES</changed>
     <temporary score="309">YES</temporary>
     <children>
-      <child nodeId="node-0x11322a90" />
+      <child nodeId="node-0x6cc55c0" />
     </children>
   </item>
-  <item nodeId="node-0x11322a90">
+  <item nodeId="node-0x6cc55c0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Staff Break Room
@@ -211,10 +211,10 @@ The entrance to the Graveyard is to the East, and there is a metal door to the N
     <changed>YES</changed>
     <temporary score="309">YES</temporary>
     <children>
-      <child nodeId="node-0x10eeff20" />
+      <child nodeId="node-0x6cc5610" />
     </children>
   </item>
-  <item nodeId="node-0x10eeff20">
+  <item nodeId="node-0x6cc5610">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">(first opening the Control Room Door)
 It seems to be locked.
@@ -224,7 +224,7 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="308">YES</temporary>
   </item>
-  <item nodeId="node-0x7455640">
+  <item nodeId="node-0x6cc5660">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -233,11 +233,11 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="267">YES</temporary>
     <children>
-      <child nodeId="node-0xce3e940" />
-      <child nodeId="node-0x18a79fd0" />
+      <child nodeId="node-0x6cc57e0" />
+      <child nodeId="node-0x6cc56b0" />
     </children>
   </item>
-  <item nodeId="node-0x18a79fd0">
+  <item nodeId="node-0x6cc56b0">
     <command xml:space="preserve">x podium</command>
     <result xml:space="preserve">Another podium, this time matching the color scheme of the room. Usually, a worker dressed as a clown ringmaster stands here to guide the guests to the exit.
 
@@ -248,10 +248,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="267">YES</temporary>
     <children>
-      <child nodeId="node-0x13acb6a0" />
+      <child nodeId="node-0x6cc5700" />
     </children>
   </item>
-  <item nodeId="node-0x13acb6a0">
+  <item nodeId="node-0x6cc5700">
     <command xml:space="preserve">push button</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -260,10 +260,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="267">YES</temporary>
     <children>
-      <child nodeId="node-0x13aa1ee0" />
+      <child nodeId="node-0x6cc5770" />
     </children>
   </item>
-  <item nodeId="node-0x13aa1ee0">
+  <item nodeId="node-0x6cc5770">
     <command xml:space="preserve">push red button</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -272,7 +272,7 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="266">YES</temporary>
   </item>
-  <item nodeId="node-0xce3e940">
+  <item nodeId="node-0x6cc57e0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Hall of Mirrors
@@ -286,10 +286,10 @@ There is no repetitive music playing, but this time, you hear giggling that soun
     <changed>YES</changed>
     <temporary score="251">YES</temporary>
     <children>
-      <child nodeId="node-0xce375c0" />
+      <child nodeId="node-0x6cc5850" />
     </children>
   </item>
-  <item nodeId="node-0xce375c0">
+  <item nodeId="node-0x6cc5850">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Graveyard Room
@@ -303,10 +303,10 @@ The Circus Room is in the South. There is a door to the West that looks like it 
     <changed>YES</changed>
     <temporary score="251">YES</temporary>
     <children>
-      <child nodeId="node-0x10e93040" />
+      <child nodeId="node-0x6cc5500" />
     </children>
   </item>
-  <item nodeId="node-0x10e93040">
+  <item nodeId="node-0x6cc5500">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Circus Room
@@ -320,17 +320,17 @@ The Cage Room is to the East, and there is a sliding door to the North of the ro
     <changed>YES</changed>
     <temporary score="251">YES</temporary>
     <children>
-      <child nodeId="node-0xce0e490" />
+      <child nodeId="node-0x6cc5550" />
     </children>
   </item>
-  <item nodeId="node-0xce0e490">
+  <item nodeId="node-0x6cc5550">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Caged Rabid Animal Room
 As you open the door letting off a horrifying creak, you see animatronic rats scurrying out of the corner of your eye. This doesn&apos;t bother you that much, until you see what is in the room. Large cages with robot animals that have fake foam oozing from their jowls. When you step close to one of the cages, a sensor goes off, and the animals leap against the wall of their cage, growling and chomping at you.
 
 
-It looks like one of the cages is unlocked…
+It looks like one of the cages is unlocked…愠楮
 
 
 The Living Room is in the East, and the Next Room is in the West.
@@ -340,10 +340,10 @@ The Living Room is in the East, and the Next Room is in the West.
     <changed>YES</changed>
     <temporary score="251">YES</temporary>
     <children>
-      <child nodeId="node-0x1003f900" />
+      <child nodeId="node-0x6cc5a40" />
     </children>
   </item>
-  <item nodeId="node-0x1003f900">
+  <item nodeId="node-0x6cc5a40">
     <command xml:space="preserve">take batteries</command>
     <result xml:space="preserve">Taken.
 
@@ -352,10 +352,10 @@ The Living Room is in the East, and the Next Room is in the West.
     <changed>YES</changed>
     <temporary score="251">YES</temporary>
     <children>
-      <child nodeId="node-0x1138dd90" />
+      <child nodeId="node-0x6cc5ab0" />
     </children>
   </item>
-  <item nodeId="node-0x1138dd90">
+  <item nodeId="node-0x6cc5ab0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Victorian Living Room
@@ -369,10 +369,10 @@ The Black Room is to the East, and there is a door to the West.
     <changed>YES</changed>
     <temporary score="251">YES</temporary>
     <children>
-      <child nodeId="node-0x10eeb0f0" />
+      <child nodeId="node-0x6cc5b20" />
     </children>
   </item>
-  <item nodeId="node-0x10eeb0f0">
+  <item nodeId="node-0x6cc5b20">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Black Room
@@ -385,10 +385,10 @@ The floor, ceiling, and walls are all black. A booming voice sounds from a speak
     <changed>YES</changed>
     <temporary score="251">YES</temporary>
     <children>
-      <child nodeId="node-0x10e74130" />
+      <child nodeId="node-0x6cc5b90" />
     </children>
   </item>
-  <item nodeId="node-0x10e74130">
+  <item nodeId="node-0x6cc5b90">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Entrance to the ride
@@ -401,10 +401,10 @@ South is the first room of the ride.
     <changed>YES</changed>
     <temporary score="251">YES</temporary>
     <children>
-      <child nodeId="node-0x1bb8250" />
+      <child nodeId="node-0x6cc5c00" />
     </children>
   </item>
-  <item nodeId="node-0x1bb8250">
+  <item nodeId="node-0x6cc5c00">
     <command xml:space="preserve">take flashlight</command>
     <result xml:space="preserve">Taken.
 
@@ -413,10 +413,10 @@ South is the first room of the ride.
     <changed>YES</changed>
     <temporary score="251">YES</temporary>
     <children>
-      <child nodeId="node-0x10e94120" />
+      <child nodeId="node-0x6cc5c70" />
     </children>
   </item>
-  <item nodeId="node-0x10e94120">
+  <item nodeId="node-0x6cc5c70">
     <command xml:space="preserve">combine flashlight</command>
     <result xml:space="preserve">What do you want to combine the flashlight with?
 
@@ -425,10 +425,10 @@ South is the first room of the ride.
     <changed>YES</changed>
     <temporary score="251">YES</temporary>
     <children>
-      <child nodeId="node-0x11bc61d0" />
+      <child nodeId="node-0x6cc5ce0" />
     </children>
   </item>
-  <item nodeId="node-0x11bc61d0">
+  <item nodeId="node-0x6cc5ce0">
     <command xml:space="preserve">batteries</command>
     <result xml:space="preserve">Looks like this flashlight should start working now!
 
@@ -439,7 +439,7 @@ South is the first room of the ride.
     <changed>YES</changed>
     <temporary score="250">YES</temporary>
   </item>
-  <item nodeId="node-0x69d0010">
+  <item nodeId="node-0x6cc5d50">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Entrance to the ride
@@ -452,10 +452,10 @@ South is the first room of the ride.
     <changed>NO</changed>
     <temporary score="162">YES</temporary>
     <children>
-      <child nodeId="node-0xcd3c9a0" />
+      <child nodeId="node-0x6cc5dc0" />
     </children>
   </item>
-  <item nodeId="node-0xcd3c9a0">
+  <item nodeId="node-0x6cc5dc0">
     <command xml:space="preserve">take flashlight</command>
     <result xml:space="preserve">Taken.
 
@@ -464,10 +464,10 @@ South is the first room of the ride.
     <changed>NO</changed>
     <temporary score="162">YES</temporary>
     <children>
-      <child nodeId="node-0x74e3180" />
+      <child nodeId="node-0x6cc5e30" />
     </children>
   </item>
-  <item nodeId="node-0x74e3180">
+  <item nodeId="node-0x6cc5e30">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Black Room
@@ -480,11 +480,11 @@ The floor, ceiling, and walls are all black. A booming voice sounds from a speak
     <changed>YES</changed>
     <temporary score="161">YES</temporary>
     <children>
-      <child nodeId="node-0x1861af0" />
-      <child nodeId="node-0x10e3f1e0" />
+      <child nodeId="node-0x6cc58c0" />
+      <child nodeId="node-0x6cc5ea0" />
     </children>
   </item>
-  <item nodeId="node-0x10e3f1e0">
+  <item nodeId="node-0x6cc5ea0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -493,7 +493,7 @@ The floor, ceiling, and walls are all black. A booming voice sounds from a speak
     <changed>YES</changed>
     <temporary score="157">YES</temporary>
   </item>
-  <item nodeId="node-0x1861af0">
+  <item nodeId="node-0x6cc58c0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Victorian Living Room
@@ -507,17 +507,17 @@ The Black Room is to the East, and there is a door to the West.
     <changed>NO</changed>
     <temporary score="153">YES</temporary>
     <children>
-      <child nodeId="node-0x1ba8740" />
+      <child nodeId="node-0x6cc5930" />
     </children>
   </item>
-  <item nodeId="node-0x1ba8740">
+  <item nodeId="node-0x6cc5930">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Caged Rabid Animal Room
 As you open the door letting off a horrifying creak, you see animatronic rats scurrying out of the corner of your eye. This doesn&apos;t bother you that much, until you see what is in the room. Large cages with robot animals that have fake foam oozing from their jowls. When you step close to one of the cages, a sensor goes off, and the animals leap against the wall of their cage, growling and chomping at you.
 
 
-It looks like one of the cages is unlocked…
+It looks like one of the cages is unlocked…愠楮
 
 
 The Living Room is in the East, and the Next Room is in the West.
@@ -527,11 +527,11 @@ The Living Room is in the East, and the Next Room is in the West.
     <changed>NO</changed>
     <temporary score="153">YES</temporary>
     <children>
-      <child nodeId="node-0x10e844a0" />
-      <child nodeId="node-0x10e84310" />
+      <child nodeId="node-0x6cc6bd0" />
+      <child nodeId="node-0x6cc59a0" />
     </children>
   </item>
-  <item nodeId="node-0x10e84310">
+  <item nodeId="node-0x6cc59a0">
     <command xml:space="preserve">take batteries</command>
     <result xml:space="preserve">Taken.
 
@@ -540,10 +540,10 @@ The Living Room is in the East, and the Next Room is in the West.
     <changed>YES</changed>
     <temporary score="153">YES</temporary>
     <children>
-      <child nodeId="node-0xce22720" />
+      <child nodeId="node-0x6cc6150" />
     </children>
   </item>
-  <item nodeId="node-0xce22720">
+  <item nodeId="node-0x6cc6150">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Circus Room
@@ -557,10 +557,10 @@ The Cage Room is to the East, and there is a sliding door to the North of the ro
     <changed>YES</changed>
     <temporary score="153">YES</temporary>
     <children>
-      <child nodeId="node-0x1134c820" />
+      <child nodeId="node-0x6cc61c0" />
     </children>
   </item>
-  <item nodeId="node-0x1134c820">
+  <item nodeId="node-0x6cc61c0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Graveyard Room
@@ -576,10 +576,10 @@ You see a shadow of a little girl running out of the corner of your eye.
     <changed>YES</changed>
     <temporary score="153">YES</temporary>
     <children>
-      <child nodeId="node-0x10e20c50" />
+      <child nodeId="node-0x6cc6230" />
     </children>
   </item>
-  <item nodeId="node-0x10e20c50">
+  <item nodeId="node-0x6cc6230">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Meat Locker
@@ -592,10 +592,10 @@ You can see a Cobwebbed door here.
     <changed>YES</changed>
     <temporary score="153">YES</temporary>
     <children>
-      <child nodeId="node-0x74e3560" />
+      <child nodeId="node-0x6cc62a0" />
     </children>
   </item>
-  <item nodeId="node-0x74e3560">
+  <item nodeId="node-0x6cc62a0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Graveyard Room
@@ -609,10 +609,10 @@ The Circus Room is in the South. There is a door to the West that looks like it 
     <changed>YES</changed>
     <temporary score="153">YES</temporary>
     <children>
-      <child nodeId="node-0xcd0f180" />
+      <child nodeId="node-0x6cc6310" />
     </children>
   </item>
-  <item nodeId="node-0xcd0f180">
+  <item nodeId="node-0x6cc6310">
     <command xml:space="preserve">take wirecutter</command>
     <result xml:space="preserve">You see a shadow of a little girl running out of the corner of your eye.
 
@@ -623,10 +623,10 @@ The Circus Room is in the South. There is a door to the West that looks like it 
     <changed>YES</changed>
     <temporary score="153">YES</temporary>
     <children>
-      <child nodeId="node-0x18553d0" />
+      <child nodeId="node-0x6cc6380" />
     </children>
   </item>
-  <item nodeId="node-0x18553d0">
+  <item nodeId="node-0x6cc6380">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Circus Room
@@ -640,10 +640,10 @@ The Cage Room is to the East, and there is a sliding door to the North of the ro
     <changed>YES</changed>
     <temporary score="153">YES</temporary>
     <children>
-      <child nodeId="node-0xcd1f430" />
+      <child nodeId="node-0x6cc63f0" />
     </children>
   </item>
-  <item nodeId="node-0xcd1f430">
+  <item nodeId="node-0x6cc63f0">
     <command xml:space="preserve">take wrench</command>
     <result xml:space="preserve">[Your score has just gone up by one point.]
 
@@ -652,17 +652,17 @@ The Cage Room is to the East, and there is a sliding door to the North of the ro
     <changed>YES</changed>
     <temporary score="153">YES</temporary>
     <children>
-      <child nodeId="node-0x11383c80" />
+      <child nodeId="node-0x6cc6460" />
     </children>
   </item>
-  <item nodeId="node-0x11383c80">
+  <item nodeId="node-0x6cc6460">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Caged Rabid Animal Room
 As you open the door letting off a horrifying creak, you see animatronic rats scurrying out of the corner of your eye. This doesn&apos;t bother you that much, until you see what is in the room. Large cages with robot animals that have fake foam oozing from their jowls. When you step close to one of the cages, a sensor goes off, and the animals leap against the wall of their cage, growling and chomping at you.
 
 
-It looks like one of the cages is unlocked…
+It looks like one of the cages is unlocked…愠楮
 
 
 The Living Room is in the East, and the Next Room is in the West.
@@ -672,10 +672,10 @@ The Living Room is in the East, and the Next Room is in the West.
     <changed>YES</changed>
     <temporary score="153">YES</temporary>
     <children>
-      <child nodeId="node-0xce06660" />
+      <child nodeId="node-0x6cc64d0" />
     </children>
   </item>
-  <item nodeId="node-0xce06660">
+  <item nodeId="node-0x6cc64d0">
     <command xml:space="preserve">take screwdriver</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -684,10 +684,10 @@ The Living Room is in the East, and the Next Room is in the West.
     <changed>YES</changed>
     <temporary score="153">YES</temporary>
     <children>
-      <child nodeId="node-0x94cf120" />
+      <child nodeId="node-0x6cc6540" />
     </children>
   </item>
-  <item nodeId="node-0x94cf120">
+  <item nodeId="node-0x6cc6540">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Victorian Living Room
@@ -701,10 +701,10 @@ The Black Room is to the East, and there is a door to the West.
     <changed>YES</changed>
     <temporary score="153">YES</temporary>
     <children>
-      <child nodeId="node-0x1bb7450" />
+      <child nodeId="node-0x6cc65b0" />
     </children>
   </item>
-  <item nodeId="node-0x1bb7450">
+  <item nodeId="node-0x6cc65b0">
     <command xml:space="preserve">take screwdriver</command>
     <result xml:space="preserve">[Your score has just gone up by one point.]
 
@@ -713,17 +713,17 @@ The Black Room is to the East, and there is a door to the West.
     <changed>YES</changed>
     <temporary score="153">YES</temporary>
     <children>
-      <child nodeId="node-0x946e3c0" />
+      <child nodeId="node-0x6cc6620" />
     </children>
   </item>
-  <item nodeId="node-0x946e3c0">
+  <item nodeId="node-0x6cc6620">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Caged Rabid Animal Room
 As you open the door letting off a horrifying creak, you see animatronic rats scurrying out of the corner of your eye. This doesn&apos;t bother you that much, until you see what is in the room. Large cages with robot animals that have fake foam oozing from their jowls. When you step close to one of the cages, a sensor goes off, and the animals leap against the wall of their cage, growling and chomping at you.
 
 
-It looks like one of the cages is unlocked…
+It looks like one of the cages is unlocked…愠楮
 
 
 The Living Room is in the East, and the Next Room is in the West.
@@ -733,10 +733,10 @@ The Living Room is in the East, and the Next Room is in the West.
     <changed>YES</changed>
     <temporary score="153">YES</temporary>
     <children>
-      <child nodeId="node-0x10e808f0" />
+      <child nodeId="node-0x6cc6690" />
     </children>
   </item>
-  <item nodeId="node-0x10e808f0">
+  <item nodeId="node-0x6cc6690">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Circus Room
@@ -750,10 +750,10 @@ The Cage Room is to the East, and there is a sliding door to the North of the ro
     <changed>YES</changed>
     <temporary score="153">YES</temporary>
     <children>
-      <child nodeId="node-0x1137cd60" />
+      <child nodeId="node-0x6cc6700" />
     </children>
   </item>
-  <item nodeId="node-0x1137cd60">
+  <item nodeId="node-0x6cc6700">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Graveyard Room
@@ -767,10 +767,10 @@ The Circus Room is in the South. There is a door to the West that looks like it 
     <changed>YES</changed>
     <temporary score="153">YES</temporary>
     <children>
-      <child nodeId="node-0x11374ca0" />
+      <child nodeId="node-0x6cc6770" />
     </children>
   </item>
-  <item nodeId="node-0x11374ca0">
+  <item nodeId="node-0x6cc6770">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Staff Break Room
@@ -784,10 +784,10 @@ The entrance to the Graveyard is to the East, and there is a metal door to the N
     <changed>YES</changed>
     <temporary score="153">YES</temporary>
     <children>
-      <child nodeId="node-0x1803e50" />
+      <child nodeId="node-0x6cc67e0" />
     </children>
   </item>
-  <item nodeId="node-0x1803e50">
+  <item nodeId="node-0x6cc67e0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Control Panel Room
@@ -812,10 +812,10 @@ You can see an old electrician here.
     <changed>YES</changed>
     <temporary score="153">YES</temporary>
     <children>
-      <child nodeId="node-0x74ef280" />
+      <child nodeId="node-0x6cc6850" />
     </children>
   </item>
-  <item nodeId="node-0x74ef280">
+  <item nodeId="node-0x6cc6850">
     <command xml:space="preserve">give electrician wrench</command>
     <result xml:space="preserve">Thanks!
 
@@ -826,10 +826,10 @@ You can see an old electrician here.
     <changed>YES</changed>
     <temporary score="153">YES</temporary>
     <children>
-      <child nodeId="node-0xcee9dd0" />
+      <child nodeId="node-0x6cc5f10" />
     </children>
   </item>
-  <item nodeId="node-0xcee9dd0">
+  <item nodeId="node-0x6cc5f10">
     <command xml:space="preserve">give electrician screwdriver</command>
     <result xml:space="preserve">Thanks!
 
@@ -840,10 +840,10 @@ You can see an old electrician here.
     <changed>YES</changed>
     <temporary score="153">YES</temporary>
     <children>
-      <child nodeId="node-0xce03e20" />
+      <child nodeId="node-0x6cc5f80" />
     </children>
   </item>
-  <item nodeId="node-0xce03e20">
+  <item nodeId="node-0x6cc5f80">
     <command xml:space="preserve">give electrician wirecutter</command>
     <result xml:space="preserve">Thanks!
 
@@ -856,10 +856,10 @@ You can see an old electrician here.
     <changed>YES</changed>
     <temporary score="153">YES</temporary>
     <children>
-      <child nodeId="node-0x74eeda0" />
+      <child nodeId="node-0x6cc5ff0" />
     </children>
   </item>
-  <item nodeId="node-0x74eeda0">
+  <item nodeId="node-0x6cc5ff0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Staff Break Room
@@ -873,10 +873,10 @@ The entrance to the Graveyard is to the East, and there is a metal door to the N
     <changed>YES</changed>
     <temporary score="153">YES</temporary>
     <children>
-      <child nodeId="node-0x69aa160" />
+      <child nodeId="node-0x6cc6060" />
     </children>
   </item>
-  <item nodeId="node-0x69aa160">
+  <item nodeId="node-0x6cc6060">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Graveyard Room
@@ -890,10 +890,10 @@ The Circus Room is in the South. There is a door to the West that looks like it 
     <changed>YES</changed>
     <temporary score="153">YES</temporary>
     <children>
-      <child nodeId="node-0xce010f0" />
+      <child nodeId="node-0x6cc60d0" />
     </children>
   </item>
-  <item nodeId="node-0xce010f0">
+  <item nodeId="node-0x6cc60d0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Meat Locker
@@ -906,10 +906,10 @@ You can see a Cobwebbed door here.
     <changed>YES</changed>
     <temporary score="153">YES</temporary>
     <children>
-      <child nodeId="node-0x6949fd0" />
+      <child nodeId="node-0x6cc68c0" />
     </children>
   </item>
-  <item nodeId="node-0x6949fd0">
+  <item nodeId="node-0x6cc68c0">
     <command xml:space="preserve">unlock cobwebbed door</command>
     <result xml:space="preserve">What do you want to unlock the Cobwebbed door with?
 
@@ -918,10 +918,10 @@ You can see a Cobwebbed door here.
     <changed>YES</changed>
     <temporary score="153">YES</temporary>
     <children>
-      <child nodeId="node-0x1136e910" />
+      <child nodeId="node-0x6cc6930" />
     </children>
   </item>
-  <item nodeId="node-0x1136e910">
+  <item nodeId="node-0x6cc6930">
     <command xml:space="preserve">key</command>
     <result xml:space="preserve">You unlock the Cobwebbed door.
 
@@ -930,10 +930,10 @@ You can see a Cobwebbed door here.
     <changed>YES</changed>
     <temporary score="153">YES</temporary>
     <children>
-      <child nodeId="node-0x1bad150" />
+      <child nodeId="node-0x6cc69a0" />
     </children>
   </item>
-  <item nodeId="node-0x1bad150">
+  <item nodeId="node-0x6cc69a0">
     <command xml:space="preserve">open door</command>
     <result xml:space="preserve">You open the Cobwebbed door.
 
@@ -942,10 +942,10 @@ You can see a Cobwebbed door here.
     <changed>YES</changed>
     <temporary score="153">YES</temporary>
     <children>
-      <child nodeId="node-0xce059c0" />
+      <child nodeId="node-0x6cc6a10" />
     </children>
   </item>
-  <item nodeId="node-0xce059c0">
+  <item nodeId="node-0x6cc6a10">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Darkness
@@ -956,10 +956,10 @@ It is pitch dark, and you can&apos;t see a thing.
     <changed>YES</changed>
     <temporary score="153">YES</temporary>
     <children>
-      <child nodeId="node-0x10e868e0" />
+      <child nodeId="node-0x6cc6a80" />
     </children>
   </item>
-  <item nodeId="node-0x10e868e0">
+  <item nodeId="node-0x6cc6a80">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   an Exit Key
@@ -971,10 +971,10 @@ It is pitch dark, and you can&apos;t see a thing.
     <changed>YES</changed>
     <temporary score="153">YES</temporary>
     <children>
-      <child nodeId="node-0xce0ef20" />
+      <child nodeId="node-0x6cc6af0" />
     </children>
   </item>
-  <item nodeId="node-0xce0ef20">
+  <item nodeId="node-0x6cc6af0">
     <command xml:space="preserve">combine batteries</command>
     <result xml:space="preserve">What do you want to combine the batteries with?
 
@@ -983,10 +983,10 @@ It is pitch dark, and you can&apos;t see a thing.
     <changed>YES</changed>
     <temporary score="153">YES</temporary>
     <children>
-      <child nodeId="node-0x10e6e190" />
+      <child nodeId="node-0x6cc6b60" />
     </children>
   </item>
-  <item nodeId="node-0x10e6e190">
+  <item nodeId="node-0x6cc6b60">
     <command xml:space="preserve">flashlight</command>
     <result xml:space="preserve">Looks like this flashlight should start working now!
 
@@ -1000,7 +1000,7 @@ You can see a Cobwebbed door here.
     <changed>YES</changed>
     <temporary score="152">YES</temporary>
   </item>
-  <item nodeId="node-0x10e844a0">
+  <item nodeId="node-0x6cc6bd0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Circus Room
@@ -1014,10 +1014,10 @@ The Cage Room is to the East, and there is a sliding door to the North of the ro
     <changed>YES</changed>
     <temporary score="117">YES</temporary>
     <children>
-      <child nodeId="node-0xce00e10" />
+      <child nodeId="node-0x6cc6c40" />
     </children>
   </item>
-  <item nodeId="node-0xce00e10">
+  <item nodeId="node-0x6cc6c40">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Graveyard Room
@@ -1031,10 +1031,10 @@ The Circus Room is in the South. There is a door to the West that looks like it 
     <changed>YES</changed>
     <temporary score="117">YES</temporary>
     <children>
-      <child nodeId="node-0x6934ad0" />
+      <child nodeId="node-0x6cc6cb0" />
     </children>
   </item>
-  <item nodeId="node-0x6934ad0">
+  <item nodeId="node-0x6cc6cb0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Meat Locker
@@ -1047,10 +1047,10 @@ You can see a Cobwebbed door here.
     <changed>YES</changed>
     <temporary score="117">YES</temporary>
     <children>
-      <child nodeId="node-0x10e62bc0" />
+      <child nodeId="node-0x6cc6d20" />
     </children>
   </item>
-  <item nodeId="node-0x10e62bc0">
+  <item nodeId="node-0x6cc6d20">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">(first opening the Cobwebbed door)
 It seems to be locked.
@@ -1060,10 +1060,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="117">YES</temporary>
     <children>
-      <child nodeId="node-0xce42a80" />
+      <child nodeId="node-0x6cc6d90" />
     </children>
   </item>
-  <item nodeId="node-0xce42a80">
+  <item nodeId="node-0x6cc6d90">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Graveyard Room
@@ -1077,10 +1077,10 @@ The Circus Room is in the South. There is a door to the West that looks like it 
     <changed>YES</changed>
     <temporary score="117">YES</temporary>
     <children>
-      <child nodeId="node-0x10e6ef20" />
+      <child nodeId="node-0x6cc6e00" />
     </children>
   </item>
-  <item nodeId="node-0x10e6ef20">
+  <item nodeId="node-0x6cc6e00">
     <command xml:space="preserve">take wirecutter</command>
     <result xml:space="preserve">[Your score has just gone up by one point.]
 
@@ -1089,10 +1089,10 @@ The Circus Room is in the South. There is a door to the West that looks like it 
     <changed>YES</changed>
     <temporary score="117">YES</temporary>
     <children>
-      <child nodeId="node-0xce11f90" />
+      <child nodeId="node-0x6cc6e70" />
     </children>
   </item>
-  <item nodeId="node-0xce11f90">
+  <item nodeId="node-0x6cc6e70">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Circus Room
@@ -1106,10 +1106,10 @@ The Cage Room is to the East, and there is a sliding door to the North of the ro
     <changed>YES</changed>
     <temporary score="117">YES</temporary>
     <children>
-      <child nodeId="node-0x10e6e400" />
+      <child nodeId="node-0x6cc6ee0" />
     </children>
   </item>
-  <item nodeId="node-0x10e6e400">
+  <item nodeId="node-0x6cc6ee0">
     <command xml:space="preserve">take wrench</command>
     <result xml:space="preserve">[Your score has just gone up by one point.]
 
@@ -1118,17 +1118,17 @@ The Cage Room is to the East, and there is a sliding door to the North of the ro
     <changed>YES</changed>
     <temporary score="117">YES</temporary>
     <children>
-      <child nodeId="node-0xce370b0" />
+      <child nodeId="node-0x6cc6f50" />
     </children>
   </item>
-  <item nodeId="node-0xce370b0">
+  <item nodeId="node-0x6cc6f50">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Caged Rabid Animal Room
 As you open the door letting off a horrifying creak, you see animatronic rats scurrying out of the corner of your eye. This doesn&apos;t bother you that much, until you see what is in the room. Large cages with robot animals that have fake foam oozing from their jowls. When you step close to one of the cages, a sensor goes off, and the animals leap against the wall of their cage, growling and chomping at you.
 
 
-It looks like one of the cages is unlocked…
+It looks like one of the cages is unlocked…愠楮
 
 
 The Living Room is in the East, and the Next Room is in the West.
@@ -1138,10 +1138,10 @@ The Living Room is in the East, and the Next Room is in the West.
     <changed>YES</changed>
     <temporary score="117">YES</temporary>
     <children>
-      <child nodeId="node-0xcd3bac0" />
+      <child nodeId="node-0x6cc6fc0" />
     </children>
   </item>
-  <item nodeId="node-0xcd3bac0">
+  <item nodeId="node-0x6cc6fc0">
     <command xml:space="preserve">take screwdriver</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1150,10 +1150,10 @@ The Living Room is in the East, and the Next Room is in the West.
     <changed>YES</changed>
     <temporary score="117">YES</temporary>
     <children>
-      <child nodeId="node-0xcef0fb0" />
+      <child nodeId="node-0x6cc7030" />
     </children>
   </item>
-  <item nodeId="node-0xcef0fb0">
+  <item nodeId="node-0x6cc7030">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -1162,10 +1162,10 @@ The Living Room is in the East, and the Next Room is in the West.
     <changed>YES</changed>
     <temporary score="117">YES</temporary>
     <children>
-      <child nodeId="node-0xcefa030" />
+      <child nodeId="node-0x6cc70a0" />
     </children>
   </item>
-  <item nodeId="node-0xcefa030">
+  <item nodeId="node-0x6cc70a0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Victorian Living Room
@@ -1179,10 +1179,10 @@ The Black Room is to the East, and there is a door to the West.
     <changed>YES</changed>
     <temporary score="117">YES</temporary>
     <children>
-      <child nodeId="node-0x11354010" />
+      <child nodeId="node-0x6cc7110" />
     </children>
   </item>
-  <item nodeId="node-0x11354010">
+  <item nodeId="node-0x6cc7110">
     <command xml:space="preserve">take screwdriver</command>
     <result xml:space="preserve">[Your score has just gone up by one point.]
 
@@ -1191,10 +1191,10 @@ The Black Room is to the East, and there is a door to the West.
     <changed>YES</changed>
     <temporary score="117">YES</temporary>
     <children>
-      <child nodeId="node-0xce0a2b0" />
+      <child nodeId="node-0x6cc7180" />
     </children>
   </item>
-  <item nodeId="node-0xce0a2b0">
+  <item nodeId="node-0x6cc7180">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Black Room
@@ -1207,10 +1207,10 @@ The floor, ceiling, and walls are all black. A booming voice sounds from a speak
     <changed>YES</changed>
     <temporary score="117">YES</temporary>
     <children>
-      <child nodeId="node-0x74d2fa0" />
+      <child nodeId="node-0x6cc71f0" />
     </children>
   </item>
-  <item nodeId="node-0x74d2fa0">
+  <item nodeId="node-0x6cc71f0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -1219,10 +1219,10 @@ The floor, ceiling, and walls are all black. A booming voice sounds from a speak
     <changed>YES</changed>
     <temporary score="117">YES</temporary>
     <children>
-      <child nodeId="node-0xcd4ef60" />
+      <child nodeId="node-0x6cc7260" />
     </children>
   </item>
-  <item nodeId="node-0xcd4ef60">
+  <item nodeId="node-0x6cc7260">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Victorian Living Room
@@ -1236,17 +1236,17 @@ The Black Room is to the East, and there is a door to the West.
     <changed>YES</changed>
     <temporary score="117">YES</temporary>
     <children>
-      <child nodeId="node-0x18cb260" />
+      <child nodeId="node-0x6cc72d0" />
     </children>
   </item>
-  <item nodeId="node-0x18cb260">
+  <item nodeId="node-0x6cc72d0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Caged Rabid Animal Room
 As you open the door letting off a horrifying creak, you see animatronic rats scurrying out of the corner of your eye. This doesn&apos;t bother you that much, until you see what is in the room. Large cages with robot animals that have fake foam oozing from their jowls. When you step close to one of the cages, a sensor goes off, and the animals leap against the wall of their cage, growling and chomping at you.
 
 
-It looks like one of the cages is unlocked…
+It looks like one of the cages is unlocked…愠楮
 
 
 The Living Room is in the East, and the Next Room is in the West.
@@ -1256,10 +1256,10 @@ The Living Room is in the East, and the Next Room is in the West.
     <changed>YES</changed>
     <temporary score="117">YES</temporary>
     <children>
-      <child nodeId="node-0xcd02220" />
+      <child nodeId="node-0x6cc7340" />
     </children>
   </item>
-  <item nodeId="node-0xcd02220">
+  <item nodeId="node-0x6cc7340">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Circus Room
@@ -1273,10 +1273,10 @@ The Cage Room is to the East, and there is a sliding door to the North of the ro
     <changed>YES</changed>
     <temporary score="117">YES</temporary>
     <children>
-      <child nodeId="node-0x10e62de0" />
+      <child nodeId="node-0x6cc73b0" />
     </children>
   </item>
-  <item nodeId="node-0x10e62de0">
+  <item nodeId="node-0x6cc73b0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Graveyard Room
@@ -1290,10 +1290,10 @@ The Circus Room is in the South. There is a door to the West that looks like it 
     <changed>YES</changed>
     <temporary score="117">YES</temporary>
     <children>
-      <child nodeId="node-0x10e77690" />
+      <child nodeId="node-0x6cc7420" />
     </children>
   </item>
-  <item nodeId="node-0x10e77690">
+  <item nodeId="node-0x6cc7420">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Staff Break Room
@@ -1307,10 +1307,10 @@ The entrance to the Graveyard is to the East, and there is a metal door to the N
     <changed>YES</changed>
     <temporary score="117">YES</temporary>
     <children>
-      <child nodeId="node-0x1134a810" />
+      <child nodeId="node-0x6cc7490" />
     </children>
   </item>
-  <item nodeId="node-0x1134a810">
+  <item nodeId="node-0x6cc7490">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Control Panel Room
@@ -1335,10 +1335,10 @@ You can see an old electrician here.
     <changed>YES</changed>
     <temporary score="117">YES</temporary>
     <children>
-      <child nodeId="node-0x10e63f40" />
+      <child nodeId="node-0x6cc7500" />
     </children>
   </item>
-  <item nodeId="node-0x10e63f40">
+  <item nodeId="node-0x6cc7500">
     <command xml:space="preserve">give electrician wrench</command>
     <result xml:space="preserve">Thanks!
 
@@ -1349,10 +1349,10 @@ You can see an old electrician here.
     <changed>YES</changed>
     <temporary score="117">YES</temporary>
     <children>
-      <child nodeId="node-0x7435180" />
+      <child nodeId="node-0x6cc7570" />
     </children>
   </item>
-  <item nodeId="node-0x7435180">
+  <item nodeId="node-0x6cc7570">
     <command xml:space="preserve">give electrician wirecutter</command>
     <result xml:space="preserve">Thanks!
 
@@ -1363,10 +1363,10 @@ You can see an old electrician here.
     <changed>YES</changed>
     <temporary score="117">YES</temporary>
     <children>
-      <child nodeId="node-0xcd19290" />
+      <child nodeId="node-0x6cc75e0" />
     </children>
   </item>
-  <item nodeId="node-0xcd19290">
+  <item nodeId="node-0x6cc75e0">
     <command xml:space="preserve">give electrician screwdriver</command>
     <result xml:space="preserve">Thanks!
 
@@ -1379,10 +1379,10 @@ You can see an old electrician here.
     <changed>YES</changed>
     <temporary score="117">YES</temporary>
     <children>
-      <child nodeId="node-0xcefb180" />
+      <child nodeId="node-0x6cc7650" />
     </children>
   </item>
-  <item nodeId="node-0xcefb180">
+  <item nodeId="node-0x6cc7650">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Staff Break Room
@@ -1396,10 +1396,10 @@ The entrance to the Graveyard is to the East, and there is a metal door to the N
     <changed>YES</changed>
     <temporary score="117">YES</temporary>
     <children>
-      <child nodeId="node-0x10eb0250" />
+      <child nodeId="node-0x6cc76c0" />
     </children>
   </item>
-  <item nodeId="node-0x10eb0250">
+  <item nodeId="node-0x6cc76c0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Graveyard Room
@@ -1413,10 +1413,10 @@ The Circus Room is in the South. There is a door to the West that looks like it 
     <changed>YES</changed>
     <temporary score="117">YES</temporary>
     <children>
-      <child nodeId="node-0x10e86780" />
+      <child nodeId="node-0x6cc7730" />
     </children>
   </item>
-  <item nodeId="node-0x10e86780">
+  <item nodeId="node-0x6cc7730">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Meat Locker
@@ -1429,10 +1429,10 @@ You can see a Cobwebbed door here.
     <changed>YES</changed>
     <temporary score="117">YES</temporary>
     <children>
-      <child nodeId="node-0x1b7c1f0" />
+      <child nodeId="node-0x6cc77a0" />
     </children>
   </item>
-  <item nodeId="node-0x1b7c1f0">
+  <item nodeId="node-0x6cc77a0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">(first opening the Cobwebbed door)
 It seems to be locked.
@@ -1442,10 +1442,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="117">YES</temporary>
     <children>
-      <child nodeId="node-0x10e98690" />
+      <child nodeId="node-0x6cc7810" />
     </children>
   </item>
-  <item nodeId="node-0x10e98690">
+  <item nodeId="node-0x6cc7810">
     <command xml:space="preserve">unlock door</command>
     <result xml:space="preserve">What do you want to unlock the Cobwebbed door with?
 
@@ -1454,10 +1454,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="117">YES</temporary>
     <children>
-      <child nodeId="node-0x10e90ad0" />
+      <child nodeId="node-0x6cc7880" />
     </children>
   </item>
-  <item nodeId="node-0x10e90ad0">
+  <item nodeId="node-0x6cc7880">
     <command xml:space="preserve">exit key</command>
     <result xml:space="preserve">I only understood you as far as wanting to exit.
 
@@ -1466,10 +1466,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="117">YES</temporary>
     <children>
-      <child nodeId="node-0x11353740" />
+      <child nodeId="node-0x6cc78f0" />
     </children>
   </item>
-  <item nodeId="node-0x11353740">
+  <item nodeId="node-0x6cc78f0">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   an Exit Key
@@ -1480,10 +1480,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="117">YES</temporary>
     <children>
-      <child nodeId="node-0x1134a9d0" />
+      <child nodeId="node-0x6cc7960" />
     </children>
   </item>
-  <item nodeId="node-0x1134a9d0">
+  <item nodeId="node-0x6cc7960">
     <command xml:space="preserve">unlock cobwebbed door with key</command>
     <result xml:space="preserve">You unlock the Cobwebbed door.
 
@@ -1492,10 +1492,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="117">YES</temporary>
     <children>
-      <child nodeId="node-0x10e9c4b0" />
+      <child nodeId="node-0x6cc79d0" />
     </children>
   </item>
-  <item nodeId="node-0x10e9c4b0">
+  <item nodeId="node-0x6cc79d0">
     <command xml:space="preserve">open door</command>
     <result xml:space="preserve">You open the Cobwebbed door.
 
@@ -1504,10 +1504,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="117">YES</temporary>
     <children>
-      <child nodeId="node-0x742ba10" />
+      <child nodeId="node-0x6cc7a40" />
     </children>
   </item>
-  <item nodeId="node-0x742ba10">
+  <item nodeId="node-0x6cc7a40">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Darkness
@@ -1520,10 +1520,10 @@ You see a shadow of a little girl running out of the corner of your eye.
     <changed>YES</changed>
     <temporary score="117">YES</temporary>
     <children>
-      <child nodeId="node-0x10e83aa0" />
+      <child nodeId="node-0x6cc7ab0" />
     </children>
   </item>
-  <item nodeId="node-0x10e83aa0">
+  <item nodeId="node-0x6cc7ab0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Exit
@@ -1532,7 +1532,7 @@ FREEEEDOM! You feel the fresh air blowing through your hair, the sunlight agains
  &quot;Weirdest part was when I was in the hall of mirrors. That little girl gave me the creeps for some reason.&quot;
  &quot;What little girl?&quot; your brother looks at you puzzlingly.
  &quot;Yeah, the little girl. Don&apos;t you remember? They have a soundtrack of a little girl giggling in the background, and they must do something with the mirrors so you see her running around, but you only see her hair and the ends of her dress. Freaky.&quot;
- &quot;Dude… there was no soundtrack or speakers in that room. It was just an empty Hall of Mirrors room. Maybe those Circus clowns just got to your head! Hahaha!&quot;
+ &quot;Dude… there was no soundtrack or speakers in that room. It was just an empty Hall of Mirrors room. Maybe those Circus clowns just got to your head! Hahaha!nd&quot;
 
  As you and the group begin to walk away from the house, you can&apos;t help but notice a small plaque put in front of the Haunted House Ride.
 
@@ -1540,7 +1540,7 @@ FREEEEDOM! You feel the fresh air blowing through your hair, the sunlight agains
 -In Loving Memory of Sophia A. Harmon.  1897 - 1908. Resided on the property with her family, before the Harmon Family donated the estate to the theme park.-
 
 
-Could it be…? Nah. Just your imagination…
+Could it be…? Nah. Just your imagination…897 
 
 
 
@@ -1556,7 +1556,7 @@ Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
     <changed>YES</changed>
     <temporary score="116">YES</temporary>
   </item>
-  <item nodeId="node-0x1ba6fd0">
+  <item nodeId="node-0x6cc7b20">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Victorian Living Room
@@ -1568,32 +1568,17 @@ There is a large, comfy couch, a sitting chair, a bookcase, a large painting of 
 
 The Black Room is to the East, and there is a door to the West.
 
-You see a shadow of a little girl running out of the corner of your eye.
-
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="335">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="86">YES</temporary>
     <children>
-      <child nodeId="node-0x6941550" />
-      <child nodeId="node-0x69ec8f0" />
-      <child nodeId="node-0x18a646e0" />
+      <child nodeId="node-0x6cc7b90" />
+      <child nodeId="node-0x6d2ff30" />
+      <child nodeId="node-0x6cc7c00" />
     </children>
   </item>
-  <item nodeId="node-0x18a646e0">
-    <command xml:space="preserve">x painting</command>
-    <result xml:space="preserve">A picture of an old man. There is a label underneath saying: &quot;Dr. James F. Harmon, 1870 - 1932.&quot; Interesting prop, wonder where they found it.
-
- His eyes seem to be following you...
-
-[Your score has just gone up by one point.]
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="334">YES</temporary>
-  </item>
-  <item nodeId="node-0x69ec8f0">
+  <item nodeId="node-0x6cc7c00">
     <command xml:space="preserve">take wrench</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1602,10 +1587,10 @@ You see a shadow of a little girl running out of the corner of your eye.
     <changed>YES</changed>
     <temporary score="200">YES</temporary>
     <children>
-      <child nodeId="node-0x10e88500" />
+      <child nodeId="node-0x6cc7c70" />
     </children>
   </item>
-  <item nodeId="node-0x10e88500">
+  <item nodeId="node-0x6cc7c70">
     <command xml:space="preserve">take screwdriver</command>
     <result xml:space="preserve">[Your score has just gone up by one point.]
 
@@ -1614,17 +1599,17 @@ You see a shadow of a little girl running out of the corner of your eye.
     <changed>YES</changed>
     <temporary score="200">YES</temporary>
     <children>
-      <child nodeId="node-0x94bc280" />
+      <child nodeId="node-0x6cc7ce0" />
     </children>
   </item>
-  <item nodeId="node-0x94bc280">
+  <item nodeId="node-0x6cc7ce0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Caged Rabid Animal Room
 As you open the door letting off a horrifying creak, you see animatronic rats scurrying out of the corner of your eye. This doesn&apos;t bother you that much, until you see what is in the room. Large cages with robot animals that have fake foam oozing from their jowls. When you step close to one of the cages, a sensor goes off, and the animals leap against the wall of their cage, growling and chomping at you.
 
 
-It looks like one of the cages is unlocked…
+It looks like one of the cages is unlocked…愠楮
 
 
 The Living Room is in the East, and the Next Room is in the West.
@@ -1634,10 +1619,10 @@ The Living Room is in the East, and the Next Room is in the West.
     <changed>YES</changed>
     <temporary score="200">YES</temporary>
     <children>
-      <child nodeId="node-0x1843bd0" />
+      <child nodeId="node-0x6cc7d50" />
     </children>
   </item>
-  <item nodeId="node-0x1843bd0">
+  <item nodeId="node-0x6cc7d50">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Circus Room
@@ -1651,10 +1636,10 @@ The Cage Room is to the East, and there is a sliding door to the North of the ro
     <changed>YES</changed>
     <temporary score="200">YES</temporary>
     <children>
-      <child nodeId="node-0x74537c0" />
+      <child nodeId="node-0x6cc7dc0" />
     </children>
   </item>
-  <item nodeId="node-0x74537c0">
+  <item nodeId="node-0x6cc7dc0">
     <command xml:space="preserve">take screwdriver</command>
     <result xml:space="preserve">You already have that.
 
@@ -1663,10 +1648,10 @@ The Cage Room is to the East, and there is a sliding door to the North of the ro
     <changed>YES</changed>
     <temporary score="200">YES</temporary>
     <children>
-      <child nodeId="node-0x10e3dba0" />
+      <child nodeId="node-0x6cc7e30" />
     </children>
   </item>
-  <item nodeId="node-0x10e3dba0">
+  <item nodeId="node-0x6cc7e30">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Graveyard Room
@@ -1680,10 +1665,10 @@ The Circus Room is in the South. There is a door to the West that looks like it 
     <changed>YES</changed>
     <temporary score="200">YES</temporary>
     <children>
-      <child nodeId="node-0xce62ab0" />
+      <child nodeId="node-0x6cc7ea0" />
     </children>
   </item>
-  <item nodeId="node-0xce62ab0">
+  <item nodeId="node-0x6cc7ea0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Circus Room
@@ -1697,10 +1682,10 @@ The Cage Room is to the East, and there is a sliding door to the North of the ro
     <changed>YES</changed>
     <temporary score="200">YES</temporary>
     <children>
-      <child nodeId="node-0xce07e10" />
+      <child nodeId="node-0x6cc7f10" />
     </children>
   </item>
-  <item nodeId="node-0xce07e10">
+  <item nodeId="node-0x6cc7f10">
     <command xml:space="preserve">take wrench</command>
     <result xml:space="preserve">[Your score has just gone up by one point.]
 
@@ -1709,10 +1694,10 @@ The Cage Room is to the East, and there is a sliding door to the North of the ro
     <changed>YES</changed>
     <temporary score="200">YES</temporary>
     <children>
-      <child nodeId="node-0x10e8f470" />
+      <child nodeId="node-0x6cc7f80" />
     </children>
   </item>
-  <item nodeId="node-0x10e8f470">
+  <item nodeId="node-0x6cc7f80">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Graveyard Room
@@ -1726,10 +1711,10 @@ The Circus Room is in the South. There is a door to the West that looks like it 
     <changed>YES</changed>
     <temporary score="200">YES</temporary>
     <children>
-      <child nodeId="node-0x18f04e0" />
+      <child nodeId="node-0x6cc7ff0" />
     </children>
   </item>
-  <item nodeId="node-0x18f04e0">
+  <item nodeId="node-0x6cc7ff0">
     <command xml:space="preserve">take screwdriver</command>
     <result xml:space="preserve">You already have that.
 
@@ -1738,10 +1723,10 @@ The Circus Room is in the South. There is a door to the West that looks like it 
     <changed>YES</changed>
     <temporary score="200">YES</temporary>
     <children>
-      <child nodeId="node-0xcd56dc0" />
+      <child nodeId="node-0x6cc8060" />
     </children>
   </item>
-  <item nodeId="node-0xcd56dc0">
+  <item nodeId="node-0x6cc8060">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Staff Break Room
@@ -1755,10 +1740,10 @@ The entrance to the Graveyard is to the East, and there is a metal door to the N
     <changed>YES</changed>
     <temporary score="200">YES</temporary>
     <children>
-      <child nodeId="node-0x1b13b40" />
+      <child nodeId="node-0x6cc80d0" />
     </children>
   </item>
-  <item nodeId="node-0x1b13b40">
+  <item nodeId="node-0x6cc80d0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Graveyard Room
@@ -1772,10 +1757,10 @@ The Circus Room is in the South. There is a door to the West that looks like it 
     <changed>YES</changed>
     <temporary score="200">YES</temporary>
     <children>
-      <child nodeId="node-0x10e59550" />
+      <child nodeId="node-0x6cc8140" />
     </children>
   </item>
-  <item nodeId="node-0x10e59550">
+  <item nodeId="node-0x6cc8140">
     <command xml:space="preserve">take wirecutter</command>
     <result xml:space="preserve">[Your score has just gone up by one point.]
 
@@ -1784,10 +1769,10 @@ The Circus Room is in the South. There is a door to the West that looks like it 
     <changed>YES</changed>
     <temporary score="200">YES</temporary>
     <children>
-      <child nodeId="node-0x18096f0" />
+      <child nodeId="node-0x6cc81b0" />
     </children>
   </item>
-  <item nodeId="node-0x18096f0">
+  <item nodeId="node-0x6cc81b0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Staff Break Room
@@ -1801,10 +1786,10 @@ The entrance to the Graveyard is to the East, and there is a metal door to the N
     <changed>YES</changed>
     <temporary score="200">YES</temporary>
     <children>
-      <child nodeId="node-0x113682c0" />
+      <child nodeId="node-0x6cc8220" />
     </children>
   </item>
-  <item nodeId="node-0x113682c0">
+  <item nodeId="node-0x6cc8220">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Control Panel Room
@@ -1829,10 +1814,10 @@ You can see an old electrician here.
     <changed>YES</changed>
     <temporary score="200">YES</temporary>
     <children>
-      <child nodeId="node-0xce1a860" />
+      <child nodeId="node-0x6cc8290" />
     </children>
   </item>
-  <item nodeId="node-0xce1a860">
+  <item nodeId="node-0x6cc8290">
     <command xml:space="preserve">give electrician wrench</command>
     <result xml:space="preserve">Thanks!
 
@@ -1843,10 +1828,10 @@ You can see an old electrician here.
     <changed>YES</changed>
     <temporary score="200">YES</temporary>
     <children>
-      <child nodeId="node-0x7454b10" />
+      <child nodeId="node-0x6cc8300" />
     </children>
   </item>
-  <item nodeId="node-0x7454b10">
+  <item nodeId="node-0x6cc8300">
     <command xml:space="preserve">give electrician wirecutter</command>
     <result xml:space="preserve">Thanks!
 
@@ -1857,10 +1842,10 @@ You can see an old electrician here.
     <changed>YES</changed>
     <temporary score="200">YES</temporary>
     <children>
-      <child nodeId="node-0x10e7d330" />
+      <child nodeId="node-0x6cc8370" />
     </children>
   </item>
-  <item nodeId="node-0x10e7d330">
+  <item nodeId="node-0x6cc8370">
     <command xml:space="preserve">give electrician screwdriver</command>
     <result xml:space="preserve">Thanks!
 
@@ -1873,10 +1858,10 @@ You can see an old electrician here.
     <changed>YES</changed>
     <temporary score="200">YES</temporary>
     <children>
-      <child nodeId="node-0x10e639f0" />
+      <child nodeId="node-0x6cc83e0" />
     </children>
   </item>
-  <item nodeId="node-0x10e639f0">
+  <item nodeId="node-0x6cc83e0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Staff Break Room
@@ -1890,10 +1875,10 @@ The entrance to the Graveyard is to the East, and there is a metal door to the N
     <changed>YES</changed>
     <temporary score="200">YES</temporary>
     <children>
-      <child nodeId="node-0x10e59f20" />
+      <child nodeId="node-0x6cc8450" />
     </children>
   </item>
-  <item nodeId="node-0x10e59f20">
+  <item nodeId="node-0x6cc8450">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Graveyard Room
@@ -1907,10 +1892,10 @@ The Circus Room is in the South. There is a door to the West that looks like it 
     <changed>YES</changed>
     <temporary score="200">YES</temporary>
     <children>
-      <child nodeId="node-0xce13d60" />
+      <child nodeId="node-0x6cc84c0" />
     </children>
   </item>
-  <item nodeId="node-0xce13d60">
+  <item nodeId="node-0x6cc84c0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Meat Locker
@@ -1921,10 +1906,10 @@ It&apos;s too foggy to really see anything. There might be a door to the east. Y
     <changed>YES</changed>
     <temporary score="200">YES</temporary>
     <children>
-      <child nodeId="node-0xcefb350" />
+      <child nodeId="node-0x6cc8530" />
     </children>
   </item>
-  <item nodeId="node-0xcefb350">
+  <item nodeId="node-0x6cc8530">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -1933,10 +1918,10 @@ It&apos;s too foggy to really see anything. There might be a door to the east. Y
     <changed>YES</changed>
     <temporary score="200">YES</temporary>
     <children>
-      <child nodeId="node-0xcd22140" />
+      <child nodeId="node-0x6cc85a0" />
     </children>
   </item>
-  <item nodeId="node-0xcd22140">
+  <item nodeId="node-0x6cc85a0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Graveyard Room
@@ -1950,10 +1935,10 @@ The Circus Room is in the South. There is a door to the West that looks like it 
     <changed>YES</changed>
     <temporary score="200">YES</temporary>
     <children>
-      <child nodeId="node-0x10e6a340" />
+      <child nodeId="node-0x6cc8610" />
     </children>
   </item>
-  <item nodeId="node-0x10e6a340">
+  <item nodeId="node-0x6cc8610">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Staff Break Room
@@ -1967,10 +1952,10 @@ The entrance to the Graveyard is to the East, and there is a metal door to the N
     <changed>YES</changed>
     <temporary score="200">YES</temporary>
     <children>
-      <child nodeId="node-0x1135a170" />
+      <child nodeId="node-0x6cc8680" />
     </children>
   </item>
-  <item nodeId="node-0x1135a170">
+  <item nodeId="node-0x6cc8680">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Control Panel Room
@@ -1995,10 +1980,10 @@ You can see an old electrician here.
     <changed>YES</changed>
     <temporary score="200">YES</temporary>
     <children>
-      <child nodeId="node-0x74224a0" />
+      <child nodeId="node-0x6cc86f0" />
     </children>
   </item>
-  <item nodeId="node-0x74224a0">
+  <item nodeId="node-0x6cc86f0">
     <command xml:space="preserve">turn off fog</command>
     <result xml:space="preserve">That&apos;s not something you can switch.
 
@@ -2007,10 +1992,10 @@ You can see an old electrician here.
     <changed>YES</changed>
     <temporary score="200">YES</temporary>
     <children>
-      <child nodeId="node-0xce0e8f0" />
+      <child nodeId="node-0x6cc8760" />
     </children>
   </item>
-  <item nodeId="node-0xce0e8f0">
+  <item nodeId="node-0x6cc8760">
     <command xml:space="preserve">push fog</command>
     <result xml:space="preserve">You hear a clicking noise. Something must have happened.
 
@@ -2019,10 +2004,10 @@ You can see an old electrician here.
     <changed>YES</changed>
     <temporary score="200">YES</temporary>
     <children>
-      <child nodeId="node-0x113b6150" />
+      <child nodeId="node-0x6cc87d0" />
     </children>
   </item>
-  <item nodeId="node-0x113b6150">
+  <item nodeId="node-0x6cc87d0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Staff Break Room
@@ -2036,10 +2021,10 @@ The entrance to the Graveyard is to the East, and there is a metal door to the N
     <changed>YES</changed>
     <temporary score="200">YES</temporary>
     <children>
-      <child nodeId="node-0x10ec03d0" />
+      <child nodeId="node-0x6cc8840" />
     </children>
   </item>
-  <item nodeId="node-0x10ec03d0">
+  <item nodeId="node-0x6cc8840">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Graveyard Room
@@ -2053,10 +2038,10 @@ The Circus Room is in the South. There is a door to the West that looks like it 
     <changed>YES</changed>
     <temporary score="200">YES</temporary>
     <children>
-      <child nodeId="node-0xcd2e620" />
+      <child nodeId="node-0x6cc88b0" />
     </children>
   </item>
-  <item nodeId="node-0xcd2e620">
+  <item nodeId="node-0x6cc88b0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Meat Locker
@@ -2069,10 +2054,10 @@ Large sacks of what looks like cow meat hang from the ceiling on metal hooks. Ob
     <changed>YES</changed>
     <temporary score="200">YES</temporary>
     <children>
-      <child nodeId="node-0x10eacf80" />
+      <child nodeId="node-0x6cc8920" />
     </children>
   </item>
-  <item nodeId="node-0x10eacf80">
+  <item nodeId="node-0x6cc8920">
     <command xml:space="preserve">unlock cobwebbed door</command>
     <result xml:space="preserve">(with the Exit Key)
 You unlock the Cobwebbed door.
@@ -2082,10 +2067,10 @@ You unlock the Cobwebbed door.
     <changed>YES</changed>
     <temporary score="200">YES</temporary>
     <children>
-      <child nodeId="node-0x10eb0ef0" />
+      <child nodeId="node-0x6cc8990" />
     </children>
   </item>
-  <item nodeId="node-0x10eb0ef0">
+  <item nodeId="node-0x6cc8990">
     <command xml:space="preserve">open cobwebbed door</command>
     <result xml:space="preserve">You open the Cobwebbed door.
 
@@ -2094,10 +2079,10 @@ You unlock the Cobwebbed door.
     <changed>YES</changed>
     <temporary score="200">YES</temporary>
     <children>
-      <child nodeId="node-0x10e1ebe0" />
+      <child nodeId="node-0x6cc8a00" />
     </children>
   </item>
-  <item nodeId="node-0x10e1ebe0">
+  <item nodeId="node-0x6cc8a00">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -2106,10 +2091,10 @@ You unlock the Cobwebbed door.
     <changed>YES</changed>
     <temporary score="200">YES</temporary>
     <children>
-      <child nodeId="node-0xce05e20" />
+      <child nodeId="node-0x6cc8a70" />
     </children>
   </item>
-  <item nodeId="node-0xce05e20">
+  <item nodeId="node-0x6cc8a70">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -2120,10 +2105,10 @@ You see a shadow of a little girl running out of the corner of your eye.
     <changed>YES</changed>
     <temporary score="200">YES</temporary>
     <children>
-      <child nodeId="node-0x11365020" />
+      <child nodeId="node-0x6cc8ae0" />
     </children>
   </item>
-  <item nodeId="node-0x11365020">
+  <item nodeId="node-0x6cc8ae0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -2132,10 +2117,10 @@ You see a shadow of a little girl running out of the corner of your eye.
     <changed>YES</changed>
     <temporary score="200">YES</temporary>
     <children>
-      <child nodeId="node-0x113566e0" />
+      <child nodeId="node-0x6cc8b50" />
     </children>
   </item>
-  <item nodeId="node-0x113566e0">
+  <item nodeId="node-0x6cc8b50">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -2144,7 +2129,19 @@ You see a shadow of a little girl running out of the corner of your eye.
     <changed>YES</changed>
     <temporary score="199">YES</temporary>
   </item>
-  <item nodeId="node-0x6941550">
+  <item nodeId="node-0x6d2ff30">
+    <command xml:space="preserve">take screwdriver</command>
+    <result xml:space="preserve">[Your score has just gone up by one point.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="86">YES</temporary>
+    <children>
+      <child nodeId="node-0xc7c14a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc7c14a0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Caged Rabid Animal Room
@@ -2158,13 +2155,13 @@ The Living Room is in the East, and the Next Room is in the West.
 
 &gt;</result>
     <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="332">YES</temporary>
+    <changed>YES</changed>
+    <temporary score="86">YES</temporary>
     <children>
-      <child nodeId="node-0x18a9aaa0" />
+      <child nodeId="node-0x1bb2600" />
     </children>
   </item>
-  <item nodeId="node-0x18a9aaa0">
+  <item nodeId="node-0x1bb2600">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Circus Room
@@ -2179,25 +2176,86 @@ The Cage Room is to the East.
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="332">YES</temporary>
+    <temporary score="86">YES</temporary>
     <children>
-      <child nodeId="node-0x18aac430" />
-      <child nodeId="node-0x10efa5d0" />
+      <child nodeId="node-0x6c7f270" />
     </children>
   </item>
-  <item nodeId="node-0x10efa5d0">
+  <item nodeId="node-0x6c7f270">
+    <command xml:space="preserve">take wrench</command>
+    <result xml:space="preserve">[Your score has just gone up by one point.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="86">YES</temporary>
+    <children>
+      <child nodeId="node-0x6d93bd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6d93bd0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">(first opening the sliding door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="86">YES</temporary>
+    <children>
+      <child nodeId="node-0x1bf7a90" />
+    </children>
+  </item>
+  <item nodeId="node-0x1bf7a90">
+    <command xml:space="preserve">take wirecutter</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="86">YES</temporary>
+    <children>
+      <child nodeId="node-0xfa3d190" />
+    </children>
+  </item>
+  <item nodeId="node-0xfa3d190">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="86">YES</temporary>
+    <children>
+      <child nodeId="node-0x1bc4280" />
+    </children>
+  </item>
+  <item nodeId="node-0x1bc4280">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">(first opening the sliding door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="86">YES</temporary>
+    <children>
+      <child nodeId="node-0x6d820b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6d820b0">
     <command xml:space="preserve">push button</command>
     <result xml:space="preserve">A door slides open in the North.
 
 &gt;</result>
     <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="332">YES</temporary>
+    <changed>YES</changed>
+    <temporary score="86">YES</temporary>
     <children>
-      <child nodeId="node-0x11b8e6f0" />
+      <child nodeId="node-0x1b71360" />
     </children>
   </item>
-  <item nodeId="node-0x11b8e6f0">
+  <item nodeId="node-0x1b71360">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Graveyard Room
@@ -2209,22 +2267,24 @@ The Circus Room is in the South. There is a door to the West that looks like it 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="332">YES</temporary>
+    <temporary score="86">YES</temporary>
     <children>
-      <child nodeId="node-0x10eb9c60" />
-      <child nodeId="node-0x11b63f50" />
+      <child nodeId="node-0x1ba65d0" />
     </children>
   </item>
-  <item nodeId="node-0x11b63f50">
-    <command xml:space="preserve">open door</command>
-    <result xml:space="preserve">It seems to be locked.
+  <item nodeId="node-0x1ba65d0">
+    <command xml:space="preserve">take wirecutter</command>
+    <result xml:space="preserve">[Your score has just gone up by one point.]
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="281">YES</temporary>
+    <temporary score="86">YES</temporary>
+    <children>
+      <child nodeId="node-0x6d32510" />
+    </children>
   </item>
-  <item nodeId="node-0x10eb9c60">
+  <item nodeId="node-0x6d32510">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Hall of Mirrors
@@ -2236,12 +2296,12 @@ There is no repetitive music playing, but this time, you hear giggling that soun
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="332">YES</temporary>
+    <temporary score="86">YES</temporary>
     <children>
-      <child nodeId="node-0x13ac9ee0" />
+      <child nodeId="node-0x6db2200" />
     </children>
   </item>
-  <item nodeId="node-0x13ac9ee0">
+  <item nodeId="node-0x6db2200">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Graveyard Room
@@ -2253,12 +2313,12 @@ The Circus Room is in the South. There is a door to the West that looks like it 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="332">YES</temporary>
+    <temporary score="86">YES</temporary>
     <children>
-      <child nodeId="node-0x10eddb60" />
+      <child nodeId="node-0x6ce95a0" />
     </children>
   </item>
-  <item nodeId="node-0x10eddb60">
+  <item nodeId="node-0x6ce95a0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Staff Break Room
@@ -2270,12 +2330,12 @@ The entrance to the Graveyard is to the East, and there is a metal door to the N
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="332">YES</temporary>
+    <temporary score="86">YES</temporary>
     <children>
-      <child nodeId="node-0x10e28b20" />
+      <child nodeId="node-0xc81aec0" />
     </children>
   </item>
-  <item nodeId="node-0x10e28b20">
+  <item nodeId="node-0xc81aec0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">(first opening the Metal Door)
 It seems to be locked.
@@ -2283,26 +2343,12 @@ It seems to be locked.
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="332">YES</temporary>
+    <temporary score="86">YES</temporary>
     <children>
-      <child nodeId="node-0x11bc5510" />
+      <child nodeId="node-0x6d2ada0" />
     </children>
   </item>
-  <item nodeId="node-0x11bc5510">
-    <command xml:space="preserve">x desk</command>
-    <result xml:space="preserve">A desk where management had been keeping their paperwork on. Someone placed a key to the Control Panel Room here.
-
-In the Desk is a Control Panel Room Key.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="332">YES</temporary>
-    <children>
-      <child nodeId="node-0x13a1fb30" />
-    </children>
-  </item>
-  <item nodeId="node-0x13a1fb30">
+  <item nodeId="node-0x6d2ada0">
     <command xml:space="preserve">take key</command>
     <result xml:space="preserve">(the Control Panel Room Key)
 Taken.
@@ -2310,12 +2356,12 @@ Taken.
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="332">YES</temporary>
+    <temporary score="86">YES</temporary>
     <children>
-      <child nodeId="node-0x100b4ff0" />
+      <child nodeId="node-0x1bf3150" />
     </children>
   </item>
-  <item nodeId="node-0x100b4ff0">
+  <item nodeId="node-0x1bf3150">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">(first opening the Metal Door)
 It seems to be locked.
@@ -2323,123 +2369,39 @@ It seems to be locked.
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="332">YES</temporary>
+    <temporary score="86">YES</temporary>
     <children>
-      <child nodeId="node-0x113e6d70" />
+      <child nodeId="node-0xfa3dde0" />
     </children>
   </item>
-  <item nodeId="node-0x113e6d70">
-    <command xml:space="preserve">unlock door</command>
-    <result xml:space="preserve">What do you want to unlock the Metal Door with?
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="332">YES</temporary>
-    <children>
-      <child nodeId="node-0x13ac54b0" />
-    </children>
-  </item>
-  <item nodeId="node-0x13ac54b0">
-    <command xml:space="preserve">key</command>
+  <item nodeId="node-0xfa3dde0">
+    <command xml:space="preserve">unlock metal door with key</command>
     <result xml:space="preserve">Which do you mean, the Exit Key or the Control Panel Room Key?
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="332">YES</temporary>
+    <temporary score="86">YES</temporary>
     <children>
-      <child nodeId="node-0x18a79730" />
+      <child nodeId="node-0x6d98460" />
     </children>
   </item>
-  <item nodeId="node-0x18a79730">
-    <command xml:space="preserve">exit key</command>
-    <result xml:space="preserve">I only understood you as far as wanting to exit.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="332">YES</temporary>
-    <children>
-      <child nodeId="node-0x74714f0" />
-    </children>
-  </item>
-  <item nodeId="node-0x74714f0">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">(first opening the Metal Door)
-It seems to be locked.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="332">YES</temporary>
-    <children>
-      <child nodeId="node-0x13a0e6a0" />
-    </children>
-  </item>
-  <item nodeId="node-0x13a0e6a0">
+  <item nodeId="node-0x6d98460">
     <command xml:space="preserve">control panel room key</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="332">YES</temporary>
-    <children>
-      <child nodeId="node-0x74d13b0" />
-    </children>
-  </item>
-  <item nodeId="node-0x74d13b0">
-    <command xml:space="preserve">unlock door</command>
-    <result xml:space="preserve">What do you want to unlock the Metal Door with?
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="332">YES</temporary>
-    <children>
-      <child nodeId="node-0xcd02f00" />
-    </children>
-  </item>
-  <item nodeId="node-0xcd02f00">
-    <command xml:space="preserve">control panel key</command>
     <result xml:space="preserve">You unlock the Metal Door.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="332">YES</temporary>
+    <temporary score="86">YES</temporary>
     <children>
-      <child nodeId="node-0x1134c4e0" />
+      <child nodeId="node-0x1bf6c50" />
     </children>
   </item>
-  <item nodeId="node-0x1134c4e0">
-    <command xml:space="preserve">open doo</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="332">YES</temporary>
-    <children>
-      <child nodeId="node-0x113e1f70" />
-    </children>
-  </item>
-  <item nodeId="node-0x113e1f70">
-    <command xml:space="preserve">open door</command>
-    <result xml:space="preserve">You open the Metal Door.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="332">YES</temporary>
-    <children>
-      <child nodeId="node-0x11ba69e0" />
-    </children>
-  </item>
-  <item nodeId="node-0x11ba69e0">
+  <item nodeId="node-0x1bf6c50">
     <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
+    <result xml:space="preserve">(first opening the Metal Door)
+
 Control Panel Room
 An old man is fumbling around with one of the boxes on the wall, cutting wires and reconnecting others. He must be the electrician, maybe he can help you find a way out! Try talking to him!!!
 
@@ -2460,35 +2422,86 @@ You can see an old electrician here.
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="331">YES</temporary>
+    <temporary score="86">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c15f70" />
+    </children>
   </item>
-  <item nodeId="node-0x18aac430">
+  <item nodeId="node-0x6c15f70">
     <command xml:space="preserve">n</command>
-    <result xml:space="preserve">(first opening the sliding door)
-It seems to be locked.
+    <result xml:space="preserve">You can&apos;t go that way.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="297">YES</temporary>
+    <temporary score="86">YES</temporary>
     <children>
-      <child nodeId="node-0x1135ce80" />
+      <child nodeId="node-0xc81fd30" />
     </children>
   </item>
-  <item nodeId="node-0x1135ce80">
-    <command xml:space="preserve">push button</command>
-    <result xml:space="preserve">A door slides open in the North.
+  <item nodeId="node-0xc81fd30">
+    <command xml:space="preserve">give electrician wrench</command>
+    <result xml:space="preserve">Thanks!
+
+[Your score has just gone up by one point.]
 
 &gt;</result>
     <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="297">YES</temporary>
+    <changed>YES</changed>
+    <temporary score="86">YES</temporary>
     <children>
-      <child nodeId="node-0x13a1f710" />
+      <child nodeId="node-0x6d95dd0" />
     </children>
   </item>
-  <item nodeId="node-0x13a1f710">
-    <command xml:space="preserve">n</command>
+  <item nodeId="node-0x6d95dd0">
+    <command xml:space="preserve">give electrician wirecutter</command>
+    <result xml:space="preserve">Thanks!
+
+[Your score has just gone up by one point.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="86">YES</temporary>
+    <children>
+      <child nodeId="node-0x1bf6390" />
+    </children>
+  </item>
+  <item nodeId="node-0x1bf6390">
+    <command xml:space="preserve">give electrician screwdriver</command>
+    <result xml:space="preserve">Thanks!
+
+&quot;Thanks a bunch kid! Here&apos;s the key that leads out of the Meat Locker. After the Narrow Hallway, you should be home free to the exit! Just leave the key for me though on the ground in the butcher room so I can get out too.&quot;
+
+[Your score has just gone up by one point.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="86">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c55cb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c55cb0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Staff Break Room
+FINALLY. A soundproof room with nothing scary in it. This is obviously a break room for the staff during their downtime. There&apos;s a mini fridge, an old TV, an old couch, and a desk.
+
+
+The entrance to the Graveyard is to the East, and there is a metal door to the North.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="86">YES</temporary>
+    <children>
+      <child nodeId="node-0xfa8d3d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xfa8d3d0">
+    <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Graveyard Room
 A large, very open room with the ceiling decorated to look like nighttime. The floor is littered with tombstones, but a large tombstone with a skeleton hugging the base of it really sticks out to you. The soundtrack to this room is howling wind and a wolf howling in the background.
@@ -2499,21 +2512,154 @@ The Circus Room is in the South. There is a door to the West that looks like it 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="296">YES</temporary>
+    <temporary score="86">YES</temporary>
     <children>
-      <child nodeId="node-0x18aac370" />
+      <child nodeId="node-0x6da5ab0" />
     </children>
   </item>
-  <item nodeId="node-0x18aac370">
+  <item nodeId="node-0x6da5ab0">
     <command xml:space="preserve">n</command>
-    <result xml:space="preserve">You can&apos;t go that way.
+    <result xml:space="preserve">
+Meat Locker
+It&apos;s too foggy to really see anything. There might be a door to the east. You just entered from the graveyard in the south.
+
+You can see a Cobwebbed door here.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="274">YES</temporary>
+    <temporary score="86">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b73bd0" />
+    </children>
   </item>
-  <item nodeId="node-0x1bb3270">
+  <item nodeId="node-0x1b73bd0">
+    <command xml:space="preserve">unlock cobwebbed door</command>
+    <result xml:space="preserve">What do you want to unlock the Cobwebbed door with?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="86">YES</temporary>
+    <children>
+      <child nodeId="node-0x6d92840" />
+    </children>
+  </item>
+  <item nodeId="node-0x6d92840">
+    <command xml:space="preserve">exit key</command>
+    <result xml:space="preserve">I only understood you as far as wanting to exit.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="86">YES</temporary>
+    <children>
+      <child nodeId="node-0x1be6820" />
+    </children>
+  </item>
+  <item nodeId="node-0x1be6820">
+    <command xml:space="preserve">key</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="86">YES</temporary>
+    <children>
+      <child nodeId="node-0x1bf31a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1bf31a0">
+    <command xml:space="preserve">unlock cobwebbed door with exit key</command>
+    <result xml:space="preserve">You unlock the Cobwebbed door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="86">YES</temporary>
+    <children>
+      <child nodeId="node-0x10d469b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x10d469b0">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">You open the Cobwebbed door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="86">YES</temporary>
+    <children>
+      <child nodeId="node-0xfa73480" />
+    </children>
+  </item>
+  <item nodeId="node-0xfa73480">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Darkness
+It is pitch dark, and you can&apos;t see a thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="86">YES</temporary>
+    <children>
+      <child nodeId="node-0x6db2c40" />
+    </children>
+  </item>
+  <item nodeId="node-0x6db2c40">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Meat Locker
+It&apos;s too foggy to really see anything. There might be a door to the east. You just entered from the graveyard in the south.
+
+You can see a Cobwebbed door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="86">YES</temporary>
+    <children>
+      <child nodeId="node-0xc714c40" />
+    </children>
+  </item>
+  <item nodeId="node-0xc714c40">
+    <command xml:space="preserve">drop exit key</command>
+    <result xml:space="preserve">[Your score has just gone up by one point.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="86">YES</temporary>
+    <children>
+      <child nodeId="node-0xc71f7e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc71f7e0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Darkness
+It is pitch dark, and you can&apos;t see a thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="86">YES</temporary>
+  </item>
+  <item nodeId="node-0x6cc7b90">
+    <command xml:space="preserve">x painting</command>
+    <result xml:space="preserve">A picture of an old man. There is a label underneath saying: &quot;Dr. James F. Harmon, 1870 - 1932.&quot; Interesting prop, wonder where they found it.
+
+ His eyes seem to be following you...
+
+[Your score has just gone up by one point.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="334">YES</temporary>
+  </item>
+  <item nodeId="node-0x6cc9720">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -2522,10 +2668,10 @@ The Circus Room is in the South. There is a door to the West that looks like it 
     <changed>NO</changed>
     <temporary score="216">YES</temporary>
     <children>
-      <child nodeId="node-0x1bb32c0" />
+      <child nodeId="node-0x6cc9790" />
     </children>
   </item>
-  <item nodeId="node-0x1bb32c0">
+  <item nodeId="node-0x6cc9790">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Victorian Living Room
@@ -2541,10 +2687,10 @@ You can see a Leather Couch, a Sitting Chair, a Bookcase, a Large Painting, a Kn
     <changed>NO</changed>
     <temporary score="216">YES</temporary>
     <children>
-      <child nodeId="node-0x1bb3310" />
+      <child nodeId="node-0x6cc9800" />
     </children>
   </item>
-  <item nodeId="node-0x1bb3310">
+  <item nodeId="node-0x6cc9800">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Caged Rabid Animal Room
@@ -2560,10 +2706,10 @@ You can see an Animatronic Rats, a Cages, an Unlocked Cage, and a Broken Robotic
     <changed>NO</changed>
     <temporary score="216">YES</temporary>
     <children>
-      <child nodeId="node-0x1bb3860" />
+      <child nodeId="node-0x6cc9870" />
     </children>
   </item>
-  <item nodeId="node-0x1bb3860">
+  <item nodeId="node-0x6cc9870">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Circus Room
@@ -2579,10 +2725,10 @@ You can see a Red Podium and a Robot Clowns here.
     <changed>NO</changed>
     <temporary score="216">YES</temporary>
     <children>
-      <child nodeId="node-0x1bb38d0" />
+      <child nodeId="node-0x6cc98e0" />
     </children>
   </item>
-  <item nodeId="node-0x1bb38d0">
+  <item nodeId="node-0x6cc98e0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Graveyard Room
@@ -2598,10 +2744,10 @@ You can see a Tombstones, a Large Tombstone, and a Skeleton here.
     <changed>NO</changed>
     <temporary score="216">YES</temporary>
     <children>
-      <child nodeId="node-0x1bb3940" />
+      <child nodeId="node-0x6cc9950" />
     </children>
   </item>
-  <item nodeId="node-0x1bb3940">
+  <item nodeId="node-0x6cc9950">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Staff Break Room
@@ -2617,10 +2763,10 @@ You can see a Mini Fridge, an Old TV, an Old Couch, and a Desk here.
     <changed>NO</changed>
     <temporary score="216">YES</temporary>
     <children>
-      <child nodeId="node-0x1bb3a30" />
+      <child nodeId="node-0x6cc99c0" />
     </children>
   </item>
-  <item nodeId="node-0x1bb3a30">
+  <item nodeId="node-0x6cc99c0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Control Panel Room
@@ -2643,10 +2789,10 @@ You can see a Switch for Lighting, a Switch for Fog, a Switch for Soundtracks, a
     <changed>NO</changed>
     <temporary score="216">YES</temporary>
     <children>
-      <child nodeId="node-0x1bb3a80" />
+      <child nodeId="node-0x6cc9a30" />
     </children>
   </item>
-  <item nodeId="node-0x1bb3a80">
+  <item nodeId="node-0x6cc9a30">
     <command xml:space="preserve">x old electrician</command>
     <result xml:space="preserve">An old man wearing a grey jumpsuit cutting and reconnecting wires. Whatever he&apos;s doing looks very confusing.  He is carrying the key to the exit. He looks annoyed.
 
@@ -2655,7 +2801,7 @@ You can see a Switch for Lighting, a Switch for Fog, a Switch for Soundtracks, a
     <changed>YES</changed>
     <temporary score="215">YES</temporary>
   </item>
-  <item nodeId="node-0x113d1e90">
+  <item nodeId="node-0x6cc9aa0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">(first opening the Second door)
 It seems to be locked.
@@ -2665,10 +2811,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="234">YES</temporary>
     <children>
-      <child nodeId="node-0x10e14ee0" />
+      <child nodeId="node-0x6cc9b10" />
     </children>
   </item>
-  <item nodeId="node-0x10e14ee0">
+  <item nodeId="node-0x6cc9b10">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -2677,10 +2823,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="234">YES</temporary>
     <children>
-      <child nodeId="node-0x7421eb0" />
+      <child nodeId="node-0x6cc9b80" />
     </children>
   </item>
-  <item nodeId="node-0x7421eb0">
+  <item nodeId="node-0x6cc9b80">
     <command xml:space="preserve">push square</command>
     <result xml:space="preserve">A door has opened to the west.
 Another door has opened in the north.
@@ -2690,10 +2836,10 @@ Another door has opened in the north.
     <changed>YES</changed>
     <temporary score="234">YES</temporary>
     <children>
-      <child nodeId="node-0x1807780" />
+      <child nodeId="node-0x6cc9bf0" />
     </children>
   </item>
-  <item nodeId="node-0x1807780">
+  <item nodeId="node-0x6cc9bf0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Entrance to the ride
@@ -2706,10 +2852,10 @@ South is the first room of the ride.
     <changed>YES</changed>
     <temporary score="234">YES</temporary>
     <children>
-      <child nodeId="node-0x10e64450" />
+      <child nodeId="node-0x6cc9c60" />
     </children>
   </item>
-  <item nodeId="node-0x10e64450">
+  <item nodeId="node-0x6cc9c60">
     <command xml:space="preserve">take flashlight</command>
     <result xml:space="preserve">Taken.
 
@@ -2718,10 +2864,10 @@ South is the first room of the ride.
     <changed>YES</changed>
     <temporary score="234">YES</temporary>
     <children>
-      <child nodeId="node-0xce54170" />
+      <child nodeId="node-0x6cc9cd0" />
     </children>
   </item>
-  <item nodeId="node-0xce54170">
+  <item nodeId="node-0x6cc9cd0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Black Room
@@ -2734,10 +2880,10 @@ The floor, ceiling, and walls are all black. A booming voice sounds from a speak
     <changed>YES</changed>
     <temporary score="234">YES</temporary>
     <children>
-      <child nodeId="node-0x1135a9b0" />
+      <child nodeId="node-0x6cc9d40" />
     </children>
   </item>
-  <item nodeId="node-0x1135a9b0">
+  <item nodeId="node-0x6cc9d40">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Victorian Living Room
@@ -2751,10 +2897,10 @@ The Black Room is to the East, and there is a door to the West.
     <changed>YES</changed>
     <temporary score="234">YES</temporary>
     <children>
-      <child nodeId="node-0xce016c0" />
+      <child nodeId="node-0x6cc9db0" />
     </children>
   </item>
-  <item nodeId="node-0xce016c0">
+  <item nodeId="node-0x6cc9db0">
     <command xml:space="preserve">take wrench</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -2763,10 +2909,10 @@ The Black Room is to the East, and there is a door to the West.
     <changed>YES</changed>
     <temporary score="234">YES</temporary>
     <children>
-      <child nodeId="node-0x7467b20" />
+      <child nodeId="node-0x6cc9e20" />
     </children>
   </item>
-  <item nodeId="node-0x7467b20">
+  <item nodeId="node-0x6cc9e20">
     <command xml:space="preserve">take screwdriver</command>
     <result xml:space="preserve">[Your score has just gone up by one point.]
 
@@ -2775,17 +2921,17 @@ The Black Room is to the East, and there is a door to the West.
     <changed>YES</changed>
     <temporary score="234">YES</temporary>
     <children>
-      <child nodeId="node-0xcd40bb0" />
+      <child nodeId="node-0x6cc9e90" />
     </children>
   </item>
-  <item nodeId="node-0xcd40bb0">
+  <item nodeId="node-0x6cc9e90">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Caged Rabid Animal Room
 As you open the door letting off a horrifying creak, you see animatronic rats scurrying out of the corner of your eye. This doesn&apos;t bother you that much, until you see what is in the room. Large cages with robot animals that have fake foam oozing from their jowls. When you step close to one of the cages, a sensor goes off, and the animals leap against the wall of their cage, growling and chomping at you.
 
 
-It looks like one of the cages is unlocked…
+It looks like one of the cages is unlocked…愠楮
 
 
 The Living Room is in the East, and the Next Room is in the West.
@@ -2795,10 +2941,10 @@ The Living Room is in the East, and the Next Room is in the West.
     <changed>YES</changed>
     <temporary score="234">YES</temporary>
     <children>
-      <child nodeId="node-0x10ea9470" />
+      <child nodeId="node-0x6cc9f00" />
     </children>
   </item>
-  <item nodeId="node-0x10ea9470">
+  <item nodeId="node-0x6cc9f00">
     <command xml:space="preserve">take batteries</command>
     <result xml:space="preserve">Taken.
 
@@ -2807,10 +2953,10 @@ The Living Room is in the East, and the Next Room is in the West.
     <changed>YES</changed>
     <temporary score="234">YES</temporary>
     <children>
-      <child nodeId="node-0x10e35770" />
+      <child nodeId="node-0x6cc9f70" />
     </children>
   </item>
-  <item nodeId="node-0x10e35770">
+  <item nodeId="node-0x6cc9f70">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Circus Room
@@ -2824,10 +2970,10 @@ The Cage Room is to the East, and there is a sliding door to the North of the ro
     <changed>YES</changed>
     <temporary score="234">YES</temporary>
     <children>
-      <child nodeId="node-0x7425570" />
+      <child nodeId="node-0x6cc9fe0" />
     </children>
   </item>
-  <item nodeId="node-0x7425570">
+  <item nodeId="node-0x6cc9fe0">
     <command xml:space="preserve">take wrench</command>
     <result xml:space="preserve">[Your score has just gone up by one point.]
 
@@ -2836,10 +2982,10 @@ The Cage Room is to the East, and there is a sliding door to the North of the ro
     <changed>YES</changed>
     <temporary score="234">YES</temporary>
     <children>
-      <child nodeId="node-0x18dd350" />
+      <child nodeId="node-0x6cca050" />
     </children>
   </item>
-  <item nodeId="node-0x18dd350">
+  <item nodeId="node-0x6cca050">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Graveyard Room
@@ -2853,10 +2999,10 @@ The Circus Room is in the South. There is a door to the West that looks like it 
     <changed>YES</changed>
     <temporary score="234">YES</temporary>
     <children>
-      <child nodeId="node-0x6995940" />
+      <child nodeId="node-0x6cca0c0" />
     </children>
   </item>
-  <item nodeId="node-0x6995940">
+  <item nodeId="node-0x6cca0c0">
     <command xml:space="preserve">take wirecutter</command>
     <result xml:space="preserve">[Your score has just gone up by one point.]
 
@@ -2865,10 +3011,10 @@ The Circus Room is in the South. There is a door to the West that looks like it 
     <changed>YES</changed>
     <temporary score="234">YES</temporary>
     <children>
-      <child nodeId="node-0x10e87410" />
+      <child nodeId="node-0x6cca130" />
     </children>
   </item>
-  <item nodeId="node-0x10e87410">
+  <item nodeId="node-0x6cca130">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Staff Break Room
@@ -2882,10 +3028,10 @@ The entrance to the Graveyard is to the East, and there is a metal door to the N
     <changed>YES</changed>
     <temporary score="234">YES</temporary>
     <children>
-      <child nodeId="node-0x18e49e0" />
+      <child nodeId="node-0x6cca1a0" />
     </children>
   </item>
-  <item nodeId="node-0x18e49e0">
+  <item nodeId="node-0x6cca1a0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Control Panel Room
@@ -2910,10 +3056,10 @@ You can see an old electrician here.
     <changed>YES</changed>
     <temporary score="234">YES</temporary>
     <children>
-      <child nodeId="node-0xcef4680" />
+      <child nodeId="node-0x6cca210" />
     </children>
   </item>
-  <item nodeId="node-0xcef4680">
+  <item nodeId="node-0x6cca210">
     <command xml:space="preserve">press fog</command>
     <result xml:space="preserve">You hear a clicking noise. Something must have happened.
 
@@ -2922,10 +3068,10 @@ You can see an old electrician here.
     <changed>YES</changed>
     <temporary score="234">YES</temporary>
     <children>
-      <child nodeId="node-0xcd5b2a0" />
+      <child nodeId="node-0x6cca280" />
     </children>
   </item>
-  <item nodeId="node-0xcd5b2a0">
+  <item nodeId="node-0x6cca280">
     <command xml:space="preserve">give electrician wrench</command>
     <result xml:space="preserve">Thanks!
 
@@ -2936,10 +3082,10 @@ You can see an old electrician here.
     <changed>YES</changed>
     <temporary score="234">YES</temporary>
     <children>
-      <child nodeId="node-0x10e6f8f0" />
+      <child nodeId="node-0x6cca2f0" />
     </children>
   </item>
-  <item nodeId="node-0x10e6f8f0">
+  <item nodeId="node-0x6cca2f0">
     <command xml:space="preserve">give electrician wirecutter</command>
     <result xml:space="preserve">Thanks!
 
@@ -2950,10 +3096,10 @@ You can see an old electrician here.
     <changed>YES</changed>
     <temporary score="234">YES</temporary>
     <children>
-      <child nodeId="node-0x94b8a00" />
+      <child nodeId="node-0x6cca360" />
     </children>
   </item>
-  <item nodeId="node-0x94b8a00">
+  <item nodeId="node-0x6cca360">
     <command xml:space="preserve">give electrician screwdriver</command>
     <result xml:space="preserve">Thanks!
 
@@ -2966,10 +3112,10 @@ You can see an old electrician here.
     <changed>YES</changed>
     <temporary score="234">YES</temporary>
     <children>
-      <child nodeId="node-0x7443890" />
+      <child nodeId="node-0x6cca3d0" />
     </children>
   </item>
-  <item nodeId="node-0x7443890">
+  <item nodeId="node-0x6cca3d0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Staff Break Room
@@ -2983,10 +3129,10 @@ The entrance to the Graveyard is to the East, and there is a metal door to the N
     <changed>YES</changed>
     <temporary score="234">YES</temporary>
     <children>
-      <child nodeId="node-0x11357640" />
+      <child nodeId="node-0x6cca440" />
     </children>
   </item>
-  <item nodeId="node-0x11357640">
+  <item nodeId="node-0x6cca440">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Graveyard Room
@@ -3000,10 +3146,10 @@ The Circus Room is in the South. There is a door to the West that looks like it 
     <changed>YES</changed>
     <temporary score="234">YES</temporary>
     <children>
-      <child nodeId="node-0x7497a80" />
+      <child nodeId="node-0x6cca4b0" />
     </children>
   </item>
-  <item nodeId="node-0x7497a80">
+  <item nodeId="node-0x6cca4b0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Meat Locker
@@ -3018,10 +3164,10 @@ You can see a Cobwebbed door here.
     <changed>YES</changed>
     <temporary score="234">YES</temporary>
     <children>
-      <child nodeId="node-0x10e48b70" />
+      <child nodeId="node-0x6cca520" />
     </children>
   </item>
-  <item nodeId="node-0x10e48b70">
+  <item nodeId="node-0x6cca520">
     <command xml:space="preserve">unlock cobwebbed door</command>
     <result xml:space="preserve">What do you want to unlock the Cobwebbed door with?
 
@@ -3030,10 +3176,10 @@ You can see a Cobwebbed door here.
     <changed>YES</changed>
     <temporary score="234">YES</temporary>
     <children>
-      <child nodeId="node-0x10e81730" />
+      <child nodeId="node-0x6cca590" />
     </children>
   </item>
-  <item nodeId="node-0x10e81730">
+  <item nodeId="node-0x6cca590">
     <command xml:space="preserve">key</command>
     <result xml:space="preserve">You unlock the Cobwebbed door.
 
@@ -3042,10 +3188,10 @@ You can see a Cobwebbed door here.
     <changed>YES</changed>
     <temporary score="234">YES</temporary>
     <children>
-      <child nodeId="node-0x74f6dd0" />
+      <child nodeId="node-0x6cca600" />
     </children>
   </item>
-  <item nodeId="node-0x74f6dd0">
+  <item nodeId="node-0x6cca600">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">(first opening the Cobwebbed door)
 
@@ -3057,10 +3203,10 @@ It is pitch dark, and you can&apos;t see a thing.
     <changed>YES</changed>
     <temporary score="234">YES</temporary>
     <children>
-      <child nodeId="node-0xce07ac0" />
+      <child nodeId="node-0x6cca670" />
     </children>
   </item>
-  <item nodeId="node-0xce07ac0">
+  <item nodeId="node-0x6cca670">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Meat Locker
@@ -3075,10 +3221,10 @@ You can see a Cobwebbed door here.
     <changed>YES</changed>
     <temporary score="234">YES</temporary>
     <children>
-      <child nodeId="node-0x1138b500" />
+      <child nodeId="node-0x6cca6e0" />
     </children>
   </item>
-  <item nodeId="node-0x1138b500">
+  <item nodeId="node-0x6cca6e0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Darkness
@@ -3089,10 +3235,10 @@ It is pitch dark, and you can&apos;t see a thing.
     <changed>YES</changed>
     <temporary score="234">YES</temporary>
     <children>
-      <child nodeId="node-0x69aa3a0" />
+      <child nodeId="node-0x6cca750" />
     </children>
   </item>
-  <item nodeId="node-0x69aa3a0">
+  <item nodeId="node-0x6cca750">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Exit
@@ -3101,7 +3247,7 @@ FREEEEDOM! You feel the fresh air blowing through your hair, the sunlight agains
  &quot;Weirdest part was when I was in the hall of mirrors. That little girl gave me the creeps for some reason.&quot;
  &quot;What little girl?&quot; your brother looks at you puzzlingly.
  &quot;Yeah, the little girl. Don&apos;t you remember? They have a soundtrack of a little girl giggling in the background, and they must do something with the mirrors so you see her running around, but you only see her hair and the ends of her dress. Freaky.&quot;
- &quot;Dude… there was no soundtrack or speakers in that room. It was just an empty Hall of Mirrors room. Maybe those Circus clowns just got to your head! Hahaha!&quot;
+ &quot;Dude… there was no soundtrack or speakers in that room. It was just an empty Hall of Mirrors room. Maybe those Circus clowns just got to your head! Hahaha!nd&quot;
 
  As you and the group begin to walk away from the house, you can&apos;t help but notice a small plaque put in front of the Haunted House Ride.
 
@@ -3109,7 +3255,7 @@ FREEEEDOM! You feel the fresh air blowing through your hair, the sunlight agains
 -In Loving Memory of Sophia A. Harmon.  1897 - 1908. Resided on the property with her family, before the Harmon Family donated the estate to the theme park.-
 
 
-Could it be…? Nah. Just your imagination…
+Could it be…? Nah. Just your imagination…897 
 
 
 
@@ -3125,10 +3271,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
     <changed>YES</changed>
     <temporary score="234">YES</temporary>
     <children>
-      <child nodeId="node-0xce0ab70" />
+      <child nodeId="node-0x6cca7c0" />
     </children>
   </item>
-  <item nodeId="node-0xce0ab70">
+  <item nodeId="node-0x6cca7c0">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">Please give one of the answers above.
 
@@ -3138,10 +3284,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
     <changed>YES</changed>
     <temporary score="234">YES</temporary>
     <children>
-      <child nodeId="node-0xce11340" />
+      <child nodeId="node-0x6cca830" />
     </children>
   </item>
-  <item nodeId="node-0xce11340">
+  <item nodeId="node-0x6cca830">
     <command xml:space="preserve">undo</command>
     <result xml:space="preserve">Darkness
 [Previous turn undone.]
@@ -3151,10 +3297,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
     <changed>YES</changed>
     <temporary score="234">YES</temporary>
     <children>
-      <child nodeId="node-0x10e87390" />
+      <child nodeId="node-0x6cca8a0" />
     </children>
   </item>
-  <item nodeId="node-0x10e87390">
+  <item nodeId="node-0x6cca8a0">
     <command xml:space="preserve">combine flashlight</command>
     <result xml:space="preserve">What do you want to combine the flashlight with?
 
@@ -3163,10 +3309,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
     <changed>YES</changed>
     <temporary score="234">YES</temporary>
     <children>
-      <child nodeId="node-0x1810360" />
+      <child nodeId="node-0x6cca910" />
     </children>
   </item>
-  <item nodeId="node-0x1810360">
+  <item nodeId="node-0x6cca910">
     <command xml:space="preserve">batteries</command>
     <result xml:space="preserve">Looks like this flashlight should start working now!
 
@@ -3184,7 +3330,7 @@ You can see a Cobwebbed door here.
     <changed>YES</changed>
     <temporary score="233">YES</temporary>
   </item>
-  <item nodeId="node-0x10022fc0">
+  <item nodeId="node-0x6cca980">
     <command xml:space="preserve">push sqaure</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -3193,10 +3339,10 @@ You can see a Cobwebbed door here.
     <changed>YES</changed>
     <temporary score="290">YES</temporary>
     <children>
-      <child nodeId="node-0xce1a9a0" />
+      <child nodeId="node-0x6cca9f0" />
     </children>
   </item>
-  <item nodeId="node-0xce1a9a0">
+  <item nodeId="node-0x6cca9f0">
     <command xml:space="preserve">push square</command>
     <result xml:space="preserve">A door has opened to the west.
 Another door has opened in the north.
@@ -3206,10 +3352,10 @@ Another door has opened in the north.
     <changed>YES</changed>
     <temporary score="290">YES</temporary>
     <children>
-      <child nodeId="node-0xce0ad20" />
+      <child nodeId="node-0x6ccaa60" />
     </children>
   </item>
-  <item nodeId="node-0xce0ad20">
+  <item nodeId="node-0x6ccaa60">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Victorian Living Room
@@ -3226,17 +3372,17 @@ The Black Room is to the East, and there is a door to the West.
     <changed>YES</changed>
     <temporary score="290">YES</temporary>
     <children>
-      <child nodeId="node-0x13ad8630" />
+      <child nodeId="node-0x6ccaad0" />
     </children>
   </item>
-  <item nodeId="node-0x13ad8630">
+  <item nodeId="node-0x6ccaad0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Caged Rabid Animal Room
 As you open the door letting off a horrifying creak, you see animatronic rats scurrying out of the corner of your eye. This doesn&apos;t bother you that much, until you see what is in the room. Large cages with robot animals that have fake foam oozing from their jowls. When you step close to one of the cages, a sensor goes off, and the animals leap against the wall of their cage, growling and chomping at you.
 
 
-It looks like one of the cages is unlocked…
+It looks like one of the cages is unlocked…愠楮
 
 
 The Living Room is in the East, and the Next Room is in the West.
@@ -3248,10 +3394,10 @@ You see a shadow of a little girl running out of the corner of your eye.
     <changed>YES</changed>
     <temporary score="290">YES</temporary>
     <children>
-      <child nodeId="node-0x100cd520" />
+      <child nodeId="node-0x6ccab40" />
     </children>
   </item>
-  <item nodeId="node-0x100cd520">
+  <item nodeId="node-0x6ccab40">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Circus Room
@@ -3265,10 +3411,10 @@ The Cage Room is to the East.
     <changed>YES</changed>
     <temporary score="290">YES</temporary>
     <children>
-      <child nodeId="node-0x100d5580" />
+      <child nodeId="node-0x6ccabb0" />
     </children>
   </item>
-  <item nodeId="node-0x100d5580">
+  <item nodeId="node-0x6ccabb0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -3277,10 +3423,10 @@ The Cage Room is to the East.
     <changed>YES</changed>
     <temporary score="290">YES</temporary>
     <children>
-      <child nodeId="node-0x18a986f0" />
+      <child nodeId="node-0x6ccac20" />
     </children>
   </item>
-  <item nodeId="node-0x18a986f0">
+  <item nodeId="node-0x6ccac20">
     <command xml:space="preserve">push button</command>
     <result xml:space="preserve">A door slides open in the North.
 
@@ -3289,10 +3435,10 @@ The Cage Room is to the East.
     <changed>YES</changed>
     <temporary score="290">YES</temporary>
     <children>
-      <child nodeId="node-0x7447aa0" />
+      <child nodeId="node-0x6ccac90" />
     </children>
   </item>
-  <item nodeId="node-0x7447aa0">
+  <item nodeId="node-0x6ccac90">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">You can&apos;t go that way.
 

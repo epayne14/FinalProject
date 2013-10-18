@@ -1,7 +1,8 @@
 "Haunted House of Hallucinations" by Erika Payne
 Disable take all.
 Use serial comma.
-The maximum score is 10.
+The maximum score is 12.
+Release along with cover art.
 
 When play begins: say "You got separated from your friends and older brother in a Haunted House Ride at the Local Theme Park. Unfortunately, the staff thought that the last of the guests had left, and all of the doors have been locked. Yet, all of the machines in the house are still strangely working. You fainted from fear at the last ghostly 'surprise,' and you wake up in an unfamiliar room."
 
@@ -84,7 +85,7 @@ You should press the fog and soundtracks buttons, but leave the lighting on so y
 The Staff Break Room is South."
 The Meat Locker is a room. It is north of the Graveyard Room. "It's too foggy to really see anything. There might be a door to the east. You just entered from the graveyard in the south."
 
-The Narrow Hall of Terror is a dark room. The Narrow Hall of Terror is east of the Cobwebbed door. The cobwebbed door is undescribed. The Cobwebbed door is a locked door. The cobwebbed door is east of the Meat Locker and west of the Narrow Hall of Terror. The description of the Narrow Hall of Terror is "Finally you can see! You see a long, narrow hallway before you, filled with cobwebs and ghosts popping from the ceiling. A couple of robotic hands sticking out from the walls look like they're trying to grab you.
+The Narrow Hall of Terror is a dark room. The Narrow Hall of Terror is east of the Cobwebbed door. The Cobwebbed door is a locked door. The cobwebbed door is east of the Meat Locker and west of the Narrow Hall of Terror. The description of the Narrow Hall of Terror is "Finally you can see! You see a long, narrow hallway before you, filled with cobwebs and ghosts popping from the ceiling. A couple of robotic hands sticking out from the walls look like they're trying to grab you.
 
 
 	The Meat Locker is West, but you see a Black Door to the East. Could this be the exit?." 
@@ -166,6 +167,9 @@ There seems to be a wrench that someone dropped underneath one of the more obese
 		Understand "tombstone" as large tombstone.
 		Understand "headstone" as large tombstone.
 	[c.] The Skeleton is scenery in the Graveyard Room. It is fixed in place. The description of the Skeleton is "Just a normal skeleton. It seems to be holding a wirecutter in it’s ivory left hand."
+	[Hall of Mirrors]
+	[a.] The Mirror is in the Hall of Mirrors room. It is fixed in place. The description of the Mirror is "A pale little girl in a white dress is standing behind you, but when you turn around, she dissapears. Weird."
+		Understand "Mirrors" as mirrors.
 	[The Staff Break Room]
 	[a] The Mini Fridge is scenery in the Staff Break Room. It is fixed in place. The description of the mini fridge is "A fridge where workers put their lunch when they check in for the morning. But there’s no time for snacking right now!"
 		Understand "fridge" as mini fridge.
@@ -357,4 +361,9 @@ Every turn when a random chance of 1 in 20 succeeds:
 After examining the Large Painting for the first time:
 	increase the score by 1.
 	
+After dropping the Exit Key in the Meat Locker for the first time:
+	increase the score by 1.
+	
+After examining the mirrors for the first time:
+	increase the score by 1.
 

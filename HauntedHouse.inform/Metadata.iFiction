@@ -14,6 +14,11 @@
             <language>en</language>
             <group>Inform</group>
         </bibliographic>
+        <cover>
+            <format>png</format>
+            <height>137</height>
+            <width>226</width>
+        </cover>
         <releases>
             <attached>
                 <release>
@@ -33,6 +38,7 @@
             <serial>131018</serial>
             <release>1</release>
             <compiler>Inform 7 build 6G60</compiler>
+            <coverpicture>1</coverpicture>
         </zcode>
     </story>
 </ifindex>
