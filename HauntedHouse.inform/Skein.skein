@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Skein rootNode="node-0x1bb3220" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x11bc61d0" />
+  <activeNode nodeId="node-0x7447aa0" />
   <item nodeId="node-0x1bb3220">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
@@ -22,10 +22,11 @@ The floor, ceiling, and walls are all black. A booming voice sounds from a speak
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="251">NO</temporary>
+    <temporary score="290">NO</temporary>
     <children>
-      <child nodeId="node-0x1bb3270" />
+      <child nodeId="node-0x10022fc0" />
       <child nodeId="node-0x113d1e90" />
+      <child nodeId="node-0x1bb3270" />
       <child nodeId="node-0x1bae800" />
     </children>
   </item>
@@ -37,7 +38,7 @@ Another door has opened in the north.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="251">YES</temporary>
+    <temporary score="282">YES</temporary>
     <children>
       <child nodeId="node-0x1ba6fd0" />
       <child nodeId="node-0x69d0010" />
@@ -51,7 +52,7 @@ Another door has opened in the north.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="251">YES</temporary>
+    <temporary score="267">YES</temporary>
     <children>
       <child nodeId="node-0x6951430" />
     </children>
@@ -60,7 +61,10 @@ Another door has opened in the north.
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Victorian Living Room
-Victorian furniture create a gloomy scene in this room, reminding you of a horror movie you watched about a murder in the 1800&quot;s. The fireplace lets off an ominous purple glow (obviously done with purple flashlights and the shifting of the light.) There is a large, comfy couch, a sitting chair, a bookcase, a large painting of a grim old man, and a knight in rusty armor holding an axe.
+Victorian furniture create a gloomy scene in this room, reminding you of a horror movie you watched about a murder in the 1800&quot;s. The fireplace lets off an ominous purple glow (obviously done with purple flashlights and the shifting of the light.)
+
+
+There is a large, comfy couch, a sitting chair, a bookcase, a large painting of a grim old man, and a knight in rusty armor holding an axe.
 
 
 The Black Room is to the East, and there is a door to the West.
@@ -68,10 +72,22 @@ The Black Room is to the East, and there is a door to the West.
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="251">YES</temporary>
+    <temporary score="267">YES</temporary>
     <children>
       <child nodeId="node-0x1bad840" />
+      <child nodeId="node-0x10e51f00" />
     </children>
+  </item>
+  <item nodeId="node-0x10e51f00">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Black Room
+A room where the ceiling, walls, and floor are all painted black. The entrance to the next room is West, the entrance to the Haunted House is North.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="254">YES</temporary>
   </item>
   <item nodeId="node-0x1bad840">
     <command xml:space="preserve">w</command>
@@ -88,7 +104,7 @@ The Living Room is in the East, and the Next Room is in the West.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="251">YES</temporary>
+    <temporary score="267">YES</temporary>
     <children>
       <child nodeId="node-0x100a03d0" />
       <child nodeId="node-0x10084fe0" />
@@ -101,32 +117,63 @@ Circus Room
 Great. A room devoted to the Circus. You&apos;ve always hated the Circus, especially clowns. Large robotic clowns loom over you and a demonic low-voiced laughter rings through the room as a waltzing, repetitive circus song plays in the background. There is another podium at the entrance where a worker dressed as a ringmaster is supposed to welcome the guests.
 
 
-The Cage Room is to the East, and there is a sliding door to the North of the room.
+The Cage Room is to the East.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="251">YES</temporary>
+    <temporary score="267">YES</temporary>
     <children>
       <child nodeId="node-0x7455640" />
     </children>
   </item>
   <item nodeId="node-0x7455640">
     <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-Graveyard Room
-A large, very open room with the ceiling decorated to look like nighttime. The floor is littered with tombstones, but a large tombstone with a skeleton hugging the base of it really sticks out to you. The soundtrack to this room is howling wind and a wolf howling in the background.
-
-
-The Circus Room is in the South. There is a door to the West that looks like it was decorated to not stand out. A door with a large mirror in the front is to the East. A room with what looks like fog coming out from under the door is to the North.
+    <result xml:space="preserve">You can&apos;t go that way.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="251">YES</temporary>
+    <temporary score="267">YES</temporary>
     <children>
       <child nodeId="node-0xce3e940" />
+      <child nodeId="node-0x18a79fd0" />
     </children>
+  </item>
+  <item nodeId="node-0x18a79fd0">
+    <command xml:space="preserve">x podium</command>
+    <result xml:space="preserve">Another podium, this time matching the color scheme of the room. Usually, a worker dressed as a clown ringmaster stands here to guide the guests to the exit.
+
+ There seems to be a red button on the surface of the podium.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="267">YES</temporary>
+    <children>
+      <child nodeId="node-0x13acb6a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x13acb6a0">
+    <command xml:space="preserve">push button</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="267">YES</temporary>
+    <children>
+      <child nodeId="node-0x13aa1ee0" />
+    </children>
+  </item>
+  <item nodeId="node-0x13aa1ee0">
+    <command xml:space="preserve">push red button</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="266">YES</temporary>
   </item>
   <item nodeId="node-0xce3e940">
     <command xml:space="preserve">e</command>
@@ -1854,7 +1901,10 @@ You see a shadow of a little girl running out of the corner of your eye.
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Victorian Living Room
-Victorian furniture create a gloomy scene in this room, reminding you of a horror movie you watched about a murder in the 1800&quot;s. The fireplace lets off an ominous purple glow (obviously done with purple flashlights and the shifting of the light.) There is a large, comfy couch, a sitting chair, a bookcase, a large painting of a grim old man, and a knight in rusty armor holding an axe.
+Victorian furniture create a gloomy scene in this room, reminding you of a horror movie you watched about a murder in the 1800&quot;s. The fireplace lets off an ominous purple glow (obviously done with purple flashlights and the shifting of the light.)
+
+
+There is a large, comfy couch, a sitting chair, a bookcase, a large painting of a grim old man, and a knight in rusty armor holding an axe.
 
 
 The Black Room is to the East, and there is a door to the West.
@@ -1862,99 +1912,11 @@ The Black Room is to the East, and there is a door to the West.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="200">YES</temporary>
+    <temporary score="282">YES</temporary>
     <children>
       <child nodeId="node-0x6941550" />
       <child nodeId="node-0x69ec8f0" />
-      <child nodeId="node-0x74470d0" />
     </children>
-  </item>
-  <item nodeId="node-0x74470d0">
-    <command xml:space="preserve">x couch</command>
-    <result xml:space="preserve">A red, leather couch with large cushions that looks very inviting. People dressed as ghosts usually lounge on the couch and jump out at people passing by the room.
-
- Someone seems to have dropped a screwdriver on the couch.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="21">YES</temporary>
-    <children>
-      <child nodeId="node-0x74f8fd0" />
-    </children>
-  </item>
-  <item nodeId="node-0x74f8fd0">
-    <command xml:space="preserve">take screwdriver</command>
-    <result xml:space="preserve">[Your score has just gone up by one point.]
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="21">YES</temporary>
-    <children>
-      <child nodeId="node-0x74f64e0" />
-    </children>
-  </item>
-  <item nodeId="node-0x74f64e0">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
-Black Room
-The floor, ceiling, and walls are all black. A booming voice sounds from a speaker coming from the wall saying: &quot;How do you escape a room with NO WINDOWS, and NOOOO DOOORS. HA. HA. HA. HA. HA.&quot;
-
- Trying to calm yourself down, you notice a square section of the wall in front of you is an off black color.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="21">YES</temporary>
-    <children>
-      <child nodeId="node-0x181cb30" />
-    </children>
-  </item>
-  <item nodeId="node-0x181cb30">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
-Victorian Living Room
-Victorian furniture create a gloomy scene in this room, reminding you of a horror movie you watched about a murder in the 1800&quot;s. The fireplace lets off an ominous purple glow (obviously done with purple flashlights and the shifting of the light.) There is a large, comfy couch, a sitting chair, a bookcase, a large painting of a grim old man, and a knight in rusty armor holding an axe.
-
-
-The Black Room is to the East, and there is a door to the West.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="21">YES</temporary>
-    <children>
-      <child nodeId="node-0x742a8c0" />
-    </children>
-  </item>
-  <item nodeId="node-0x742a8c0">
-    <command xml:space="preserve">x couch</command>
-    <result xml:space="preserve">A red, leather couch with large cushions that looks very inviting. People dressed as ghosts usually lounge on the couch and jump out at people passing by the room.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="21">YES</temporary>
-    <children>
-      <child nodeId="node-0x6958670" />
-    </children>
-  </item>
-  <item nodeId="node-0x6958670">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
-Caged Rabid Animal Room
-As you open the door letting off a horrifying creak, you see animatronic rats scurrying out of the corner of your eye. This doesn&apos;t bother you that much, until you see what is in the room. Large cages with robot animals that have fake foam oozing from their jowls. When you step close to one of the cages, a sensor goes off, and the animals leap against the wall of their cage, growling and chomping at you. It looks like one of the cages is unlocked…
-
-
-The Living Room is in the East, and the Next Room is in the West.
-
-You can see an Unlocked Cage and a batteries here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="20">YES</temporary>
   </item>
   <item nodeId="node-0x69ec8f0">
     <command xml:space="preserve">take wrench</command>
@@ -2511,40 +2473,259 @@ You see a shadow of a little girl running out of the corner of your eye.
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Caged Rabid Animal Room
-As you open the door letting off a horrifying creak, you see animatronic rats scurrying out of the corner of your eye. This doesn&apos;t bother you that much, until you see what is in the room. Large cages with robot animals that have fake foam oozing from their jowls. When you step close to one of the cages, a sensor goes off, and the animals leap against the wall of their cage, growling and chomping at you. It looks like one of the cages is unlocked…
+As you open the door letting off a horrifying creak, you see animatronic rats scurrying out of the corner of your eye. This doesn&apos;t bother you that much, until you see what is in the room. Large cages with robot animals that have fake foam oozing from their jowls. When you step close to one of the cages, a sensor goes off, and the animals leap against the wall of their cage, growling and chomping at you.
+
+
+It looks like one of the cages is unlocked…
 
 
 The Living Room is in the East, and the Next Room is in the West.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="29">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="282">YES</temporary>
     <children>
-      <child nodeId="node-0x7426e00" />
+      <child nodeId="node-0x18a9aaa0" />
     </children>
   </item>
-  <item nodeId="node-0x7426e00">
-    <command xml:space="preserve">x unlocked cage</command>
-    <result xml:space="preserve">A cage door has been left open at the end of the room, and a broken looking robotic dog is looking down.
+  <item nodeId="node-0x18a9aaa0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Circus Room
+Great. A room devoted to the Circus. You&apos;ve always hated the Circus, especially clowns. Large robotic clowns loom over you and a demonic low-voiced laughter rings through the room as a waltzing, repetitive circus song plays in the background. There is another podium at the entrance where a worker dressed as a ringmaster is supposed to welcome the guests.
+
+
+The Cage Room is to the East.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="282">YES</temporary>
+    <children>
+      <child nodeId="node-0x18aac430" />
+      <child nodeId="node-0x10efa5d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x10efa5d0">
+    <command xml:space="preserve">push button</command>
+    <result xml:space="preserve">A door slides open in the North.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="29">YES</temporary>
+    <temporary score="282">YES</temporary>
     <children>
-      <child nodeId="node-0x1b11b20" />
+      <child nodeId="node-0x11b8e6f0" />
     </children>
   </item>
-  <item nodeId="node-0x1b11b20">
-    <command xml:space="preserve">x robotic dog</command>
-    <result xml:space="preserve">Someone must have been trying to fix him earlier, because most of the wiring has been ripped apart. Those probably power the red eyes.
- You can see a pair of batteries sticking out from the jowls. 
+  <item nodeId="node-0x11b8e6f0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="28">YES</temporary>
+    <temporary score="282">YES</temporary>
+    <children>
+      <child nodeId="node-0x11b63f50" />
+    </children>
+  </item>
+  <item nodeId="node-0x11b63f50">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="281">YES</temporary>
+  </item>
+  <item nodeId="node-0x18aac430">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="275">YES</temporary>
+    <children>
+      <child nodeId="node-0x1135ce80" />
+    </children>
+  </item>
+  <item nodeId="node-0x1135ce80">
+    <command xml:space="preserve">push button</command>
+    <result xml:space="preserve">A door slides open in the North.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="275">YES</temporary>
+    <children>
+      <child nodeId="node-0x13a1f710" />
+    </children>
+  </item>
+  <item nodeId="node-0x13a1f710">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="275">YES</temporary>
+    <children>
+      <child nodeId="node-0x18aac370" />
+    </children>
+  </item>
+  <item nodeId="node-0x18aac370">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="274">YES</temporary>
+  </item>
+  <item nodeId="node-0x1bb3270">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="216">YES</temporary>
+    <children>
+      <child nodeId="node-0x1bb32c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1bb32c0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Victorian Living Room
+Victorian furniture create a gloomy scene in this room, reminding you of a horror movie you watched about a murder in the 1800&quot;s. The fireplace lets off an ominous purple glow (obviously done with purple flashlights and the shifting of the light.) There is a large, comfy couch, a sitting chair, a bookcase, a large painting of a grim old man, and a knight in rusty armor holding an axe.
+
+
+The Black Room is to the East, and there is a door to the West.
+
+You can see a Leather Couch, a Sitting Chair, a Bookcase, a Large Painting, a Knight in Rusty Armor, and a Fireplace here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="216">YES</temporary>
+    <children>
+      <child nodeId="node-0x1bb3310" />
+    </children>
+  </item>
+  <item nodeId="node-0x1bb3310">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Caged Rabid Animal Room
+As you open the door letting off a horrifying creak, you see animatronic rats scurrying out of the corner of your eye. This doesn&apos;t bother you that much, until you see what is in the room. Large cages with robot animals that have fake foam oozing from their jowls. When you step close to one of the cages, a sensor goes off, and the animals leap against the wall of their cage, growling and chomping at you. It looks like one of the cages is unlocked…ﹱ
+
+
+The Living Room is in the East, and the Next Room is in the West.
+
+You can see an Animatronic Rats, a Cages, an Unlocked Cage, and a Broken Robotic Dog here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="216">YES</temporary>
+    <children>
+      <child nodeId="node-0x1bb3860" />
+    </children>
+  </item>
+  <item nodeId="node-0x1bb3860">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Circus Room
+Great. A room devoted to the Circus. You&apos;ve always hated the Circus, especially clowns. Large robotic clowns loom over you and a demonic low-voiced laughter rings through the room as a waltzing, repetitive circus song plays in the background. There is another podium at the entrance where a worker dressed as a ringmaster is supposed to welcome the guests.
+
+
+The Cage Room is to the East, and there is a sliding door to the North of the room.
+
+You can see a Red Podium and a Robot Clowns here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="216">YES</temporary>
+    <children>
+      <child nodeId="node-0x1bb38d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1bb38d0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Graveyard Room
+A large, very open room with the ceiling decorated to look like nighttime. The floor is littered with tombstones, but a large tombstone with a skeleton hugging the base of it really sticks out to you. The soundtrack to this room is howling wind and a wolf howling in the background.
+
+
+The Circus Room is in the South. There is a door to the West that looks like it was decorated to not stand out. A door with a large mirror in the front is to the East. A room with what looks like fog coming out from under the door is to the North.
+
+You can see a Tombstones, a Large Tombstone, and a Skeleton here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="216">YES</temporary>
+    <children>
+      <child nodeId="node-0x1bb3940" />
+    </children>
+  </item>
+  <item nodeId="node-0x1bb3940">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Staff Break Room
+FINALLY. A soundproof room with nothing scary in it. This is obviously a break room for the staff during their downtime. There&apos;s a mini fridge, an old TV, an old couch, and a desk.
+
+
+The entrance to the Graveyard is to the East, and there is a metal door to the North.
+
+You can see a Mini Fridge, an Old TV, an Old Couch, and a Desk here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="216">YES</temporary>
+    <children>
+      <child nodeId="node-0x1bb3a30" />
+    </children>
+  </item>
+  <item nodeId="node-0x1bb3a30">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Control Panel Room
+An old man is fumbling around with one of the boxes on the wall, cutting wires and reconnecting others. He must be the electrician, maybe he can help you find a way out! This seems to be the Control Panel room that has all the wires and switches causing the electricity to work. Someone must have forgotten to switch off the ride, since lights are flashing next to the switches labeled:
+
+ Lighting
+ Fog
+ Soundtracks
+
+
+You should turn off the fog and soundtracks, but leave the lighting on so you can see.
+
+
+The Staff Break Room is South.
+
+You can see a Switch for Lighting, a Switch for Fog, a Switch for Soundtracks, a Boxes, and an Old Electrician here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="216">YES</temporary>
+    <children>
+      <child nodeId="node-0x1bb3a80" />
+    </children>
+  </item>
+  <item nodeId="node-0x1bb3a80">
+    <command xml:space="preserve">x old electrician</command>
+    <result xml:space="preserve">An old man wearing a grey jumpsuit cutting and reconnecting wires. Whatever he&apos;s doing looks very confusing.  He is carrying the key to the exit. He looks annoyed.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="215">YES</temporary>
   </item>
   <item nodeId="node-0x113d1e90">
     <command xml:space="preserve">n</command>
@@ -3075,146 +3256,121 @@ You can see a Cobwebbed door here.
     <changed>YES</changed>
     <temporary score="233">YES</temporary>
   </item>
-  <item nodeId="node-0x1bb3270">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">You can&apos;t go that way.
+  <item nodeId="node-0x10022fc0">
+    <command xml:space="preserve">push sqaure</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
 
 &gt;</result>
     <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="216">YES</temporary>
+    <changed>YES</changed>
+    <temporary score="290">YES</temporary>
     <children>
-      <child nodeId="node-0x1bb32c0" />
+      <child nodeId="node-0xce1a9a0" />
     </children>
   </item>
-  <item nodeId="node-0x1bb32c0">
+  <item nodeId="node-0xce1a9a0">
+    <command xml:space="preserve">push square</command>
+    <result xml:space="preserve">A door has opened to the west.
+Another door has opened in the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="290">YES</temporary>
+    <children>
+      <child nodeId="node-0xce0ad20" />
+    </children>
+  </item>
+  <item nodeId="node-0xce0ad20">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Victorian Living Room
-Victorian furniture create a gloomy scene in this room, reminding you of a horror movie you watched about a murder in the 1800&quot;s. The fireplace lets off an ominous purple glow (obviously done with purple flashlights and the shifting of the light.) There is a large, comfy couch, a sitting chair, a bookcase, a large painting of a grim old man, and a knight in rusty armor holding an axe.
+Victorian furniture create a gloomy scene in this room, reminding you of a horror movie you watched about a murder in the 1800&quot;s. The fireplace lets off an ominous purple glow (obviously done with purple flashlights and the shifting of the light.)
+
+
+There is a large, comfy couch, a sitting chair, a bookcase, a large painting of a grim old man, and a knight in rusty armor holding an axe.
 
 
 The Black Room is to the East, and there is a door to the West.
 
-You can see a Leather Couch, a Sitting Chair, a Bookcase, a Large Painting, a Knight in Rusty Armor, and a Fireplace here.
-
 &gt;</result>
     <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="216">YES</temporary>
+    <changed>YES</changed>
+    <temporary score="290">YES</temporary>
     <children>
-      <child nodeId="node-0x1bb3310" />
+      <child nodeId="node-0x13ad8630" />
     </children>
   </item>
-  <item nodeId="node-0x1bb3310">
+  <item nodeId="node-0x13ad8630">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Caged Rabid Animal Room
-As you open the door letting off a horrifying creak, you see animatronic rats scurrying out of the corner of your eye. This doesn&apos;t bother you that much, until you see what is in the room. Large cages with robot animals that have fake foam oozing from their jowls. When you step close to one of the cages, a sensor goes off, and the animals leap against the wall of their cage, growling and chomping at you. It looks like one of the cages is unlocked…ﹱ
+As you open the door letting off a horrifying creak, you see animatronic rats scurrying out of the corner of your eye. This doesn&apos;t bother you that much, until you see what is in the room. Large cages with robot animals that have fake foam oozing from their jowls. When you step close to one of the cages, a sensor goes off, and the animals leap against the wall of their cage, growling and chomping at you.
+
+
+It looks like one of the cages is unlocked…
 
 
 The Living Room is in the East, and the Next Room is in the West.
 
-You can see an Animatronic Rats, a Cages, an Unlocked Cage, and a Broken Robotic Dog here.
+You see a shadow of a little girl running out of the corner of your eye.
 
 &gt;</result>
     <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="216">YES</temporary>
+    <changed>YES</changed>
+    <temporary score="290">YES</temporary>
     <children>
-      <child nodeId="node-0x1bb3860" />
+      <child nodeId="node-0x100cd520" />
     </children>
   </item>
-  <item nodeId="node-0x1bb3860">
+  <item nodeId="node-0x100cd520">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Circus Room
 Great. A room devoted to the Circus. You&apos;ve always hated the Circus, especially clowns. Large robotic clowns loom over you and a demonic low-voiced laughter rings through the room as a waltzing, repetitive circus song plays in the background. There is another podium at the entrance where a worker dressed as a ringmaster is supposed to welcome the guests.
 
 
-The Cage Room is to the East, and there is a sliding door to the North of the room.
-
-You can see a Red Podium and a Robot Clowns here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="216">YES</temporary>
-    <children>
-      <child nodeId="node-0x1bb38d0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1bb38d0">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-Graveyard Room
-A large, very open room with the ceiling decorated to look like nighttime. The floor is littered with tombstones, but a large tombstone with a skeleton hugging the base of it really sticks out to you. The soundtrack to this room is howling wind and a wolf howling in the background.
-
-
-The Circus Room is in the South. There is a door to the West that looks like it was decorated to not stand out. A door with a large mirror in the front is to the East. A room with what looks like fog coming out from under the door is to the North.
-
-You can see a Tombstones, a Large Tombstone, and a Skeleton here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="216">YES</temporary>
-    <children>
-      <child nodeId="node-0x1bb3940" />
-    </children>
-  </item>
-  <item nodeId="node-0x1bb3940">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
-Staff Break Room
-FINALLY. A soundproof room with nothing scary in it. This is obviously a break room for the staff during their downtime. There&apos;s a mini fridge, an old TV, an old couch, and a desk.
-
-
-The entrance to the Graveyard is to the East, and there is a metal door to the North.
-
-You can see a Mini Fridge, an Old TV, an Old Couch, and a Desk here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="216">YES</temporary>
-    <children>
-      <child nodeId="node-0x1bb3a30" />
-    </children>
-  </item>
-  <item nodeId="node-0x1bb3a30">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-Control Panel Room
-An old man is fumbling around with one of the boxes on the wall, cutting wires and reconnecting others. He must be the electrician, maybe he can help you find a way out! This seems to be the Control Panel room that has all the wires and switches causing the electricity to work. Someone must have forgotten to switch off the ride, since lights are flashing next to the switches labeled:
-
- Lighting
- Fog
- Soundtracks
-
-
-You should turn off the fog and soundtracks, but leave the lighting on so you can see.
-
-
-The Staff Break Room is South.
-
-You can see a Switch for Lighting, a Switch for Fog, a Switch for Soundtracks, a Boxes, and an Old Electrician here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="216">YES</temporary>
-    <children>
-      <child nodeId="node-0x1bb3a80" />
-    </children>
-  </item>
-  <item nodeId="node-0x1bb3a80">
-    <command xml:space="preserve">x old electrician</command>
-    <result xml:space="preserve">An old man wearing a grey jumpsuit cutting and reconnecting wires. Whatever he&apos;s doing looks very confusing.  He is carrying the key to the exit. He looks annoyed.
+The Cage Room is to the East.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="215">YES</temporary>
+    <temporary score="290">YES</temporary>
+    <children>
+      <child nodeId="node-0x100d5580" />
+    </children>
+  </item>
+  <item nodeId="node-0x100d5580">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="290">YES</temporary>
+    <children>
+      <child nodeId="node-0x18a986f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x18a986f0">
+    <command xml:space="preserve">push button</command>
+    <result xml:space="preserve">A door slides open in the North.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="290">YES</temporary>
+    <children>
+      <child nodeId="node-0x7447aa0" />
+    </children>
+  </item>
+  <item nodeId="node-0x7447aa0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="289">YES</temporary>
   </item>
 </Skein>

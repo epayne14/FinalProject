@@ -22,7 +22,10 @@ The Entrance to the Ride is a room. "The front door is barricaded from the outsi
 
 South is the first room of the ride."
 
-The Victorian Living Room is a room. It is east of the Caged Rabid Animal Room. "Victorian furniture create a gloomy scene in this room, reminding you of a horror movie you watched about a murder in the 1800’s. The fireplace lets off an ominous purple glow (obviously done with purple flashlights and the shifting of the light.) There is a large, comfy couch, a sitting chair, a bookcase, a large painting of a grim old man, and a knight in rusty armor holding an axe. 
+The Victorian Living Room is a room. It is east of the Caged Rabid Animal Room. "Victorian furniture create a gloomy scene in this room, reminding you of a horror movie you watched about a murder in the 1800’s. The fireplace lets off an ominous purple glow (obviously done with purple flashlights and the shifting of the light.) 
+
+
+There is a large, comfy couch, a sitting chair, a bookcase, a large painting of a grim old man, and a knight in rusty armor holding an axe. 
 
 
 The Black Room is to the East, and there is a door to the West."
@@ -33,11 +36,15 @@ It looks like one of the cages is unlocked…
 
 
 The Living Room is in the East, and the Next Room is in the West."
+
 The Circus Room is a room. It is west of the Caged Rabid Animal Room. "Great. A room devoted to the Circus. You’ve always hated the Circus, especially clowns. Large robotic clowns loom over you and a demonic low-voiced laughter rings through the room as a waltzing, repetitive circus song plays in the background. There is another podium at the entrance where a worker dressed as a ringmaster is supposed to welcome the guests.
 
 
-The Cage Room is to the East, and there is a sliding door to the North of the room."
-The Graveyard Room is a room. It is north of the Circus Room. "A large, very open room with the ceiling decorated to look like nighttime. The floor is littered with tombstones, but a large tombstone with a skeleton hugging the base of it really sticks out to you. The soundtrack to this room is howling wind and a wolf howling in the background.
+The Cage Room is to the East."
+
+The sliding door is a locked door.  The sliding door is north of the Circus Room and south of the Graveyard Room. The sliding door is scenery.
+ 
+The Graveyard Room is a room. It is south of the Meat Locker. "A large, very open room with the ceiling decorated to look like nighttime. The floor is littered with tombstones, but a large tombstone with a skeleton hugging the base of it really sticks out to you. The soundtrack to this room is howling wind and a wolf howling in the background.
 
 
 The Circus Room is in the South. There is a door to the West that looks like it was decorated to not stand out. A door with a large mirror in the front is to the East. A room with what looks like fog coming out from under the door is to the North."
@@ -136,19 +143,22 @@ An every turn rule:
 	[The Circus Room]
 	[a.] The Red Podium is scenery in the Circus Room. It is fixed in place. The description of the Red Podium is "Another podium, this time matching the color scheme of the room. Usually, a worker dressed as a clown ringmaster stands here to guide the guests to the exit.
 
-	There seems to be a button on the surface of the podium."
+
+	There seems to be a red button on the surface of the podium."
 	[b.] The Robot Clowns is scenery in the Circus Room. It is fixed in place. The description of the Robot Clowns is "Large clown faces loom over you waving their gloved hands and bearing their sharp teeth. I thought these guys were supposed to be funny.
 
 
 There seems to be a wrench that someone dropped underneath one of the more obese clowns."
 		Understand "clowns" as robot clowns.
 		Understand "clown" as robot clowns.
+	[c.] The Red Button is scenery in the Circus Room. The Red Button can be pushed. The Red Button can be pushed. The description of the Red Button is "It must open the locked door."
+		Understand "Button" as Red Button.
 	[The Graveyard Room]
 	[a.] The Tombstones is scenery in the Graveyard Room. It is fixed in place. The description of the Tombstones is "Just a bunch of plastic props. Workers in werewolf or skeleton costumes sometimes pop out from the larger ones."
-	[b.] The Large Tombstone is scenery in the Graveyard Room. It is fixed in place. The description of the Large Tombstone is "A large fake tombstone. Probably the biggest monster in this room hides behind here. A skeleton is hugging the foot of the tombstone."
+	[b.] The Large Tombstone is scenery in the Graveyard Room. It is fixed in place. The description of the Large Tombstone is "A large fake tombstone. Probably the biggest monster in this room hides behind here. An ominous skeleton is hugging the foot of the tombstone."
 		Understand "tombstone" as large tombstone.
 		Understand "headstone" as large tombstone.
-	[c.] The Skeleton is scenery in the Graveyard Room. It is fixed in place. The description of the Skeleton is "Just a normal skeleton. It seems to be holding wire cutters in it’s ivory left hand."
+	[c.] The Skeleton is scenery in the Graveyard Room. It is fixed in place. The description of the Skeleton is "Just a normal skeleton. It seems to be holding a wirecutter in it’s ivory left hand."
 	[The Staff Break Room]
 	[a] The Mini Fridge is scenery in the Staff Break Room. It is fixed in place. The description of the mini fridge is "A fridge where workers put their lunch when they check in for the morning. But there’s no time for snacking right now!"
 		Understand "fridge" as mini fridge.
@@ -291,6 +301,11 @@ Instead of pushing the Button for soundtracks:
 	
 	The room is silent.";
 	Say "You hear a clicking noise. It seems quieter outside, something must have happened."
+
+Instead pushing the Red Button for the first time:
+	Now the sliding door is open;
+	Say "A door slides open in the North."
+
 
 An every turn rule:
 	If the player is carrying the screwdriver for the first time,
