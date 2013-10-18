@@ -1,7 +1,7 @@
 "Haunted House of Hallucinations" by Erika Payne
 Disable take all.
 Use serial comma.
-The maximum score is 7.
+The maximum score is 10.
 
 When play begins: say "You got separated from your friends and older brother in a Haunted House Ride at the Local Theme Park. Unfortunately, the staff thought that the last of the guests had left, and all of the doors have been locked. Yet, all of the machines in the house are still strangely working. You fainted from fear at the last ghostly 'surprise,' and you wake up in an unfamiliar room."
 
@@ -299,7 +299,8 @@ Instead of pushing the Button for fog:
 
 
 	The Graveyard is South.";
-	Say "You hear a clicking noise. Something must have happened."
+	Say "You hear a clicking noise. Something must have happened.";
+	Increase score by 1.
 	
 Instead of pushing the Button for soundtracks:
 	Change the description of the circus room to "Large, robotic clowns loom over you as you walk by. There is another podium at the entrance where a worker dressed as a ringmaster is supposed to welcome the guests. The Cage Room is to the East, and there is a sliding door to the North of the room.
@@ -309,7 +310,8 @@ Instead of pushing the Button for soundtracks:
 	Change the description of the graveyard room to "A large, very open room with the ceiling decorated to look like nighttime. The floor is littered with tombstones, but a large tombstone with a skeleton hugging the base of it really sticks out to you. The Circus Room is in the South. There is a door to the West that looks like it was decorated to not stand out. A door with a large mirror in the front is to the East.
 	
 	The room is silent.";
-	Say "You hear a clicking noise. It seems quieter outside, something must have happened."
+	Say "You hear a clicking noise. It seems quieter outside, something must have happened.";
+	Increase score by 1.
 
 Instead pushing the Red Button for the first time:
 	Now the sliding door is open;
@@ -351,5 +353,8 @@ Every turn when a random chance of 1 in 3 succeeds:
 
 Every turn when a random chance of 1 in 20 succeeds:
 	Say "You see a shadow of a little girl running out of the corner of your eye."
+	
+After examining the Large Painting for the first time:
+	increase the score by 1.
 	
 
