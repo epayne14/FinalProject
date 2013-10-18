@@ -231,7 +231,7 @@ After taking the wirecutter for the first time:
 The batteries is a thing in the caged rabid animal room. The batteries is undescribed. The description of the batteries is "May come in handy."
 The Working Flashlight is an object. The description of the working flashlight is "The flashlight can now be turned on. May come in handy." The working flashlight is lit.
 
-[Combine Stuff]
+[Combine Stuff - Got from Tonic's Coding]
 
 Understand "combine [something] with [something]" as combining it with.
 Combining it with is an action applying to two things.
